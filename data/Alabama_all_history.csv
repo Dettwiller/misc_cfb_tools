@@ -1,0 +1,1190 @@
+,attendance,away_conference,away_line_scores,away_points,away_team,conference_game,home_conference,home_line_scores,home_points,home_team,id,neutral_site,season,season_type,start_date,venue,venue_id,week
+0,,,[],0,Birmingham High,,FBS Independents,[],57,Alabama,3324,False,1902,regular,1902-10-10T00:00:00.000Z,,,5
+1,,,[],0,Marion,,FBS Independents,[],81,Alabama,3365,False,1902,regular,1902-10-13T00:00:00.000Z,,,5
+2,,FBS Independents,[],0,Alabama,,FBS Independents,[],23,Auburn,3378,False,1902,regular,1902-10-18T00:00:00.000Z,,,6
+3,,FBS Independents,[],5,Georgia,,FBS Independents,[],0,Alabama,3476,False,1902,regular,1902-11-01T00:00:00.000Z,,,8
+4,,FBS Independents,[],0,Mississippi State,,FBS Independents,[],27,Alabama,3513,False,1902,regular,1902-11-08T00:00:00.000Z,,,9
+5,,FBS Independents,[],10,Texas,,FBS Independents,[],0,Alabama,3592,False,1902,regular,1902-11-19T00:00:00.000Z,,,11
+6,,FBS Independents,[],0,Georgia Tech,,FBS Independents,[],26,Alabama,3618,False,1902,regular,1902-11-27T00:00:00.000Z,,,12
+7,,FBS Independents,[],11,LSU,,FBS Independents,[],0,Alabama,3653,False,1902,regular,1902-11-29T00:00:00.000Z,,,12
+8,,FBS Independents,[],0,Alabama,,FBS Independents,[],30,Vanderbilt,3817,False,1903,regular,1903-10-10T00:00:00.000Z,,,5
+9,,FBS Independents,[],0,Alabama,,,[],11,Mississippi State,3837,False,1903,regular,1903-10-16T00:00:00.000Z,,,6
+10,,FBS Independents,[],6,Auburn,,FBS Independents,[],18,Alabama,3885,False,1903,regular,1903-10-23T00:00:00.000Z,,,7
+11,,FBS Independents,[],23,Sewanee Univ. of the South,,FBS Independents,[],0,Alabama,3961,False,1903,regular,1903-11-02T00:00:00.000Z,,,8
+12,,,[],0,LSU,,FBS Independents,[],18,Alabama,4005,False,1903,regular,1903-11-09T00:00:00.000Z,,,9
+13,,FBS Independents,[],44,Cumberland,,FBS Independents,[],0,Alabama,4019,False,1903,regular,1903-11-14T00:00:00.000Z,,,10
+14,,FBS Independents,[],0,Tennessee,,FBS Independents,[],24,Alabama,4084,False,1903,regular,1903-11-26T00:00:00.000Z,,,12
+15,,FBS Independents,[],0,Florida,,FBS Independents,[],29,Alabama,4219,False,1904,regular,1904-10-03T00:00:00.000Z,,,3
+16,,FBS Independents,[],18,Clemson,,FBS Independents,[],0,Alabama,4246,False,1904,regular,1904-10-08T00:00:00.000Z,,,4
+17,,FBS Independents,[],6,Alabama,,FBS Independents,[],0,Mississippi State,4293,False,1904,regular,1904-10-15T00:00:00.000Z,,,5
+18,,FBS Independents,[],0,Nashville,,FBS Independents,[],17,Alabama,4393,False,1904,regular,1904-10-24T00:00:00.000Z,,,6
+19,,FBS Independents,[],5,Georgia,,FBS Independents,[],16,Alabama,4441,False,1904,regular,1904-11-05T00:00:00.000Z,,,8
+20,,FBS Independents,[],5,Alabama,,FBS Independents,[],29,Auburn,4486,False,1904,regular,1904-11-12T00:00:00.000Z,,,9
+21,,FBS Independents,[],5,Tennessee,,FBS Independents,[],0,Alabama,4585,False,1904,regular,1904-11-24T00:00:00.000Z,,,11
+22,,FBS Independents,[],11,Alabama,,FBS Independents,[],0,LSU,4597,False,1904,regular,1904-12-02T00:00:00.000Z,,,12
+23,,FBS Independents,[],6,Alabama,,FBS Independents,[],0,Tulane,4598,False,1904,regular,1904-12-03T00:00:00.000Z,,,12
+24,,FBS Independents,[],10,Alabama,,,[],5,Pensacola A.C.,4601,False,1904,regular,1904-12-04T00:00:00.000Z,,,12
+25,,,[],0,Maryville TN,,FBS Independents,[],17,Alabama,4689,False,1905,regular,1905-10-03T00:00:00.000Z,,,4
+26,,FBS Independents,[],0,Alabama,,FBS Independents,[],34,Vanderbilt,4746,False,1905,regular,1905-10-07T00:00:00.000Z,,,4
+27,,,[],0,Mississippi State,,FBS Independents,[],34,Alabama,4768,False,1905,regular,1905-10-14T00:00:00.000Z,,,5
+28,,FBS Independents,[],5,Alabama,,FBS Independents,[],12,Georgia Tech,4827,False,1905,regular,1905-10-21T00:00:00.000Z,,,6
+29,,FBS Independents,[],0,Alabama,,FBS Independents,[],25,Clemson,4866,False,1905,regular,1905-10-25T00:00:00.000Z,,,7
+30,,FBS Independents,[],0,Georgia,,FBS Independents,[],36,Alabama,4920,False,1905,regular,1905-11-04T00:00:00.000Z,,,8
+31,,,[],0,Centre,,FBS Independents,[],21,Alabama,4965,False,1905,regular,1905-11-09T00:00:00.000Z,,,9
+32,,FBS Independents,[],0,Auburn,,FBS Independents,[],30,Alabama,5018,False,1905,regular,1905-11-18T00:00:00.000Z,,,10
+33,,FBS Independents,[],42,Sewanee Univ. of the South,,FBS Independents,[],6,Alabama,5066,False,1905,regular,1905-11-23T00:00:00.000Z,,,11
+34,,FBS Independents,[],0,Tennessee,,FBS Independents,[],29,Alabama,5097,False,1905,regular,1905-11-30T00:00:00.000Z,,,12
+35,,FBS Independents,[],0,Maryville TN,,FBS Independents,[],6,Alabama,5168,False,1906,regular,1906-10-06T00:00:00.000Z,,,3
+36,,,[],0,Samford,,FBS Independents,[],14,Alabama,5214,False,1906,regular,1906-10-13T00:00:00.000Z,,,4
+37,,FBS Independents,[],0,Alabama,,FBS Independents,[],78,Vanderbilt,5286,False,1906,regular,1906-10-20T00:00:00.000Z,,,5
+38,,FBS Independents,[],16,Alabama,,FBS Independents,[],4,Mississippi State,5328,False,1906,regular,1906-11-03T00:00:00.000Z,,,7
+39,,FBS Independents,[],0,Auburn,,FBS Independents,[],10,Alabama,5398,False,1906,regular,1906-11-17T00:00:00.000Z,,,9
+40,,FBS Independents,[],0,Tennessee,,FBS Independents,[],51,Alabama,5453,False,1906,regular,1906-11-29T00:00:00.000Z,,,11
+41,,FBS Independents,[],0,Maryville TN,,FBS Independents,[],17,Alabama,5520,False,1907,regular,1907-10-05T00:00:00.000Z,,,3
+42,,FBS Independents,[],20,Alabama,,FBS Independents,[],0,Ole Miss,5570,False,1907,regular,1907-10-12T00:00:00.000Z,,,4
+43,,FBS Independents,[],54,Sewanee Univ. of the South,,FBS Independents,[],4,Alabama,5653,False,1907,regular,1907-10-21T00:00:00.000Z,,,5
+44,,FBS Independents,[],0,Alabama,,FBS Independents,[],0,Georgia,5657,False,1907,regular,1907-10-25T00:00:00.000Z,,,6
+45,,,[],0,Centre,,FBS Independents,[],12,Alabama,5697,False,1907,regular,1907-11-02T00:00:00.000Z,,,7
+46,,FBS Independents,[],6,Alabama,,FBS Independents,[],6,Auburn,5775,False,1907,regular,1907-11-16T00:00:00.000Z,,,9
+47,,FBS Independents,[],4,LSU,,FBS Independents,[],6,Alabama,5811,False,1907,regular,1907-11-23T00:00:00.000Z,,,10
+48,,FBS Independents,[],0,Tennessee,,FBS Independents,[],5,Alabama,5832,False,1907,regular,1907-11-28T00:00:00.000Z,,,11
+49,,,[],0,Wetumpka,,FBS Independents,[],27,Alabama,5887,False,1908,regular,1908-10-03T00:00:00.000Z,,,3
+50,,FBS Independents,[],17,Alabama,,,[],0,Samford,5937,False,1908,regular,1908-10-10T00:00:00.000Z,,,4
+51,,,[],0,Cincinnati,,FBS Independents,[],16,Alabama,5989,False,1908,regular,1908-10-17T00:00:00.000Z,,,5
+52,,FBS Independents,[],6,Alabama,,FBS Independents,[],11,Georgia Tech,6043,False,1908,regular,1908-10-24T00:00:00.000Z,,,6
+53,,,[],6,Chattanooga,,FBS Independents,[],23,Alabama,6075,False,1908,regular,1908-10-31T00:00:00.000Z,,,7
+54,,FBS Independents,[],6,Alabama,,FBS Independents,[],6,Georgia,6166,False,1908,regular,1908-11-14T00:00:00.000Z,,,9
+55,,FBS Independents,[],8,Haskell,,FBS Independents,[],9,Alabama,6189,False,1908,regular,1908-11-20T00:00:00.000Z,,,10
+56,,FBS Independents,[],0,Tennessee,,FBS Independents,[],4,Alabama,6218,False,1908,regular,1908-11-26T00:00:00.000Z,,,11
+57,,,[],0,Union (Tennessee),,FBS Independents,[],16,Alabama,6276,False,1909,regular,1909-10-02T00:00:00.000Z,,,3
+58,,FBS Independents,[],0,Samford,,FBS Independents,[],14,Alabama,6327,False,1909,regular,1909-10-09T00:00:00.000Z,,,4
+59,,FBS Independents,[],0,Clemson,,FBS Independents,[],3,Alabama,6384,False,1909,regular,1909-10-16T00:00:00.000Z,,,5
+60,,FBS Independents,[],0,Ole Miss,,FBS Independents,[],0,Alabama,6434,False,1909,regular,1909-10-23T00:00:00.000Z,,,6
+61,,FBS Independents,[],14,Alabama,,FBS Independents,[],0,Georgia,6474,False,1909,regular,1909-10-30T00:00:00.000Z,,,7
+62,,FBS Independents,[],10,Alabama,,FBS Independents,[],0,Tennessee,6559,False,1909,regular,1909-11-13T00:00:00.000Z,,,9
+63,,FBS Independents,[],5,Tulane,,FBS Independents,[],5,Alabama,6601,False,1909,regular,1909-11-20T00:00:00.000Z,,,10
+64,,FBS Independents,[],12,LSU,,FBS Independents,[],6,Alabama,6640,False,1909,regular,1909-11-25T00:00:00.000Z,,,11
+65,,,[],0,Birmingham,,FBS Independents,[],25,Alabama,6682,False,1910,regular,1910-10-01T00:00:00.000Z,,,3
+66,,,[],0,Marion,,FBS Independents,[],26,Alabama,6733,False,1910,regular,1910-10-08T00:00:00.000Z,,,4
+67,,FBS Independents,[],22,Georgia,,FBS Independents,[],0,Alabama,6795,False,1910,regular,1910-10-15T00:00:00.000Z,,,5
+68,,FBS Independents,[],36,Georgia Tech,,FBS Independents,[],0,Alabama,6850,False,1910,regular,1910-10-22T00:00:00.000Z,,,6
+69,,FBS Independents,[],0,Alabama,,FBS Independents,[],16,Ole Miss,6942,False,1910,regular,1910-11-05T00:00:00.000Z,,,8
+70,,FBS Independents,[],30,Sewanee Univ. of the South,,FBS Independents,[],0,Alabama,6990,False,1910,regular,1910-11-12T00:00:00.000Z,,,9
+71,,FBS Independents,[],5,Alabama,,FBS Independents,[],3,Tulane,7005,False,1910,regular,1910-11-19T00:00:00.000Z,,,10
+72,,FBS Independents,[],0,Washington & Lee,,FBS Independents,[],9,Alabama,7029,False,1910,regular,1910-11-24T00:00:00.000Z,,,11
+73,,FBS Independents,[],0,Samford,,FBS Independents,[],24,Alabama,7073,False,1911,regular,1911-09-30T00:00:00.000Z,,,2
+74,,FBS Independents,[],47,Alabama,,,[],5,Birmingham,7109,False,1911,regular,1911-10-07T00:00:00.000Z,,,3
+75,,FBS Independents,[],11,Georgia,,FBS Independents,[],3,Alabama,7180,False,1911,regular,1911-10-14T00:00:00.000Z,,,4
+76,,FBS Independents,[],6,Mississippi State,,FBS Independents,[],6,Alabama,7215,False,1911,regular,1911-10-21T00:00:00.000Z,,,5
+77,,FBS Independents,[],0,Georgia Tech,,FBS Independents,[],0,Alabama,7294,False,1911,regular,1911-10-29T00:00:00.000Z,,,6
+78,,FBS Independents,[],35,Alabama,,,[],0,Marion,7301,False,1911,regular,1911-11-04T00:00:00.000Z,,,7
+79,,FBS Independents,[],0,Tulane,,FBS Independents,[],22,Alabama,7382,False,1911,regular,1911-11-18T00:00:00.000Z,,,9
+80,,FBS Independents,[],3,Sewanee Univ. of the South,,FBS Independents,[],0,Alabama,7434,False,1911,regular,1911-11-25T00:00:00.000Z,,,10
+81,,FBS Independents,[],6,Davidson,,FBS Independents,[],16,Alabama,7442,False,1911,regular,1911-11-30T00:00:00.000Z,,,11
+82,,,[],0,Marion,,FBS Independents,[],52,Alabama,7477,False,1912,regular,1912-09-28T00:00:00.000Z,,,2
+83,,,[],0,Birmingham,,FBS Independents,[],62,Alabama,7516,False,1912,regular,1912-10-05T00:00:00.000Z,,,3
+84,,FBS Independents,[],3,Alabama,,FBS Independents,[],20,Georgia Tech,7590,False,1912,regular,1912-10-12T00:00:00.000Z,,,4
+85,,FBS Independents,[],0,Alabama,,FBS Independents,[],7,Mississippi State,7621,False,1912,regular,1912-10-18T00:00:00.000Z,,,5
+86,,FBS Independents,[],9,Alabama,,FBS Independents,[],13,Georgia,7676,False,1912,regular,1912-10-26T00:00:00.000Z,,,6
+87,,FBS Independents,[],7,Alabama,,FBS Independents,[],0,Tulane,7711,False,1912,regular,1912-11-02T00:00:00.000Z,,,7
+88,,FBS Independents,[],9,Ole Miss,,FBS Independents,[],10,Alabama,7753,False,1912,regular,1912-11-09T00:00:00.000Z,,,8
+89,,FBS Independents,[],6,Alabama,,FBS Independents,[],6,Sewanee Univ. of the South,7821,False,1912,regular,1912-11-16T00:00:00.000Z,,,9
+90,,FBS Independents,[],0,Tennessee,,FBS Independents,[],7,Alabama,7863,False,1912,regular,1912-11-28T00:00:00.000Z,,,11
+91,,,[],0,Samford,,FBS Independents,[],27,Alabama,7897,False,1913,regular,1913-09-27T00:00:00.000Z,,,2
+92,,,[],0,Birmingham,,FBS Independents,[],81,Alabama,7933,False,1913,regular,1913-10-04T00:00:00.000Z,,,3
+93,,FBS Independents,[],0,Clemson,,FBS Independents,[],20,Alabama,7987,False,1913,regular,1913-10-11T00:00:00.000Z,,,4
+94,,FBS Independents,[],20,Georgia,,FBS Independents,[],0,Alabama,8051,False,1913,regular,1913-10-18T00:00:00.000Z,,,5
+95,,FBS Independents,[],26,Alabama,,FBS Independents,[],0,Tulane,8087,False,1913,regular,1913-10-25T00:00:00.000Z,,,6
+96,,FBS Independents,[],21,Alabama,,,[],3,Mississippi College,8130,False,1913,regular,1913-11-01T00:00:00.000Z,,,7
+97,,FBS Independents,[],10,Sewanee Univ. of the South,,FBS Independents,[],7,Alabama,8216,False,1913,regular,1913-11-09T00:00:00.000Z,,,8
+98,,FBS Independents,[],0,Tennessee,,FBS Independents,[],6,Alabama,8218,False,1913,regular,1913-11-14T00:00:00.000Z,,,9
+99,,FBS Independents,[],7,Mississippi State,,FBS Independents,[],0,Alabama,8297,False,1913,regular,1913-11-27T00:00:00.000Z,,,11
+100,,,[],0,Samford,,FBS Independents,[],13,Alabama,8356,False,1914,regular,1914-10-03T00:00:00.000Z,,,3
+101,,,[],0,Birmingham,,FBS Independents,[],54,Alabama,8419,False,1914,regular,1914-10-10T00:00:00.000Z,,,4
+102,,FBS Independents,[],0,Georgia Tech,,FBS Independents,[],13,Alabama,8477,False,1914,regular,1914-10-17T00:00:00.000Z,,,5
+103,,FBS Independents,[],7,Alabama,,FBS Independents,[],17,Tennessee,8566,False,1914,regular,1914-10-24T00:00:00.000Z,,,6
+104,,FBS Independents,[],0,Tulane,,FBS Independents,[],58,Alabama,8580,False,1914,regular,1914-10-31T00:00:00.000Z,,,7
+105,,FBS Independents,[],18,Sewanee Univ. of the South,,FBS Independents,[],0,Alabama,8658,False,1914,regular,1914-11-07T00:00:00.000Z,,,8
+106,,,[],0,Chattanooga,,FBS Independents,[],63,Alabama,8670,False,1914,regular,1914-11-13T00:00:00.000Z,,,9
+107,,FBS Independents,[],9,Mississippi State,,FBS Independents,[],0,Alabama,8753,False,1914,regular,1914-11-26T00:00:00.000Z,,,11
+108,,FBS Independents,[],20,Carlisle,,FBS Independents,[],3,Alabama,8778,False,1914,regular,1914-12-02T00:00:00.000Z,,,12
+109,,,[],0,Samford,,FBS Independents,[],44,Alabama,8822,False,1915,regular,1915-10-02T00:00:00.000Z,,,3
+110,,,[],0,Birmingham,,FBS Independents,[],67,Alabama,8880,False,1915,regular,1915-10-09T00:00:00.000Z,,,4
+111,,FBS Independents,[],0,Mississippi College,,FBS Independents,[],40,Alabama,8943,False,1915,regular,1915-10-16T00:00:00.000Z,,,5
+112,,FBS Independents,[],0,Tulane,,FBS Independents,[],16,Alabama,8994,False,1915,regular,1915-10-23T00:00:00.000Z,,,6
+113,,FBS Independents,[],10,Sewanee Univ. of the South,,FBS Independents,[],23,Alabama,9043,False,1915,regular,1915-10-30T00:00:00.000Z,,,7
+114,,FBS Independents,[],7,Alabama,,FBS Independents,[],21,Georgia Tech,9102,False,1915,regular,1915-11-06T00:00:00.000Z,,,8
+115,,FBS Independents,[],0,Alabama,,Southwest,[],20,Texas,9174,False,1915,regular,1915-11-13T00:00:00.000Z,,,9
+116,,FBS Independents,[],0,Ole Miss,,FBS Independents,[],53,Alabama,9215,False,1915,regular,1915-11-25T00:00:00.000Z,,,11
+117,,,[],0,Birmingham,,FBS Independents,[],13,Alabama,9264,False,1916,regular,1916-09-30T00:00:00.000Z,,,3
+118,,,[],0,Alabama Southern,,FBS Independents,[],80,Alabama,9317,False,1916,regular,1916-10-07T00:00:00.000Z,,,4
+119,,FBS Independents,[],7,Mississippi College,,FBS Independents,[],13,Alabama,9383,False,1916,regular,1916-10-14T00:00:00.000Z,,,5
+120,,FBS Independents,[],16,Alabama,,FBS Independents,[],0,Florida,9445,False,1916,regular,1916-10-21T00:00:00.000Z,,,6
+121,,FBS Independents,[],0,Ole Miss,,FBS Independents,[],27,Alabama,9498,False,1916,regular,1916-10-28T00:00:00.000Z,,,7
+122,,FBS Independents,[],6,Sewanee Univ. of the South,,FBS Independents,[],7,Alabama,9545,False,1916,regular,1916-11-04T00:00:00.000Z,,,8
+123,,FBS Independents,[],0,Alabama,,FBS Independents,[],13,Georgia Tech,9607,False,1916,regular,1916-11-11T00:00:00.000Z,,,9
+124,,FBS Independents,[],0,Alabama,,FBS Independents,[],33,Tulane,9681,False,1916,regular,1916-11-18T00:00:00.000Z,,,10
+125,,FBS Independents,[],3,Georgia,,FBS Independents,[],0,Alabama,9732,False,1916,regular,1916-11-30T00:00:00.000Z,,,12
+126,,,[],0,Ohio Am. Corp.,,FBS Independents,[],7,Alabama,9789,False,1917,regular,1917-10-03T00:00:00.000Z,,,4
+127,,,[],0,Marion,,FBS Independents,[],13,Alabama,9853,False,1917,regular,1917-10-12T00:00:00.000Z,,,5
+128,,,[],0,Mississippi College,,FBS Independents,[],46,Alabama,9917,False,1917,regular,1917-10-20T00:00:00.000Z,,,6
+129,,FBS Independents,[],0,Ole Miss,,FBS Independents,[],64,Alabama,9962,False,1917,regular,1917-10-27T00:00:00.000Z,,,7
+130,,FBS Independents,[],3,Alabama,,FBS Independents,[],3,Sewanee Univ. of the South,10051,False,1917,regular,1917-11-03T00:00:00.000Z,,,8
+131,,FBS Independents,[],7,Vanderbilt,,FBS Independents,[],2,Alabama,10110,False,1917,regular,1917-11-10T00:00:00.000Z,,,9
+132,,FBS Independents,[],27,Alabama,,FBS Independents,[],0,Kentucky,10117,False,1917,regular,1917-11-17T00:00:00.000Z,,,10
+133,,,[],19,Camp Gordon,,FBS Independents,[],6,Alabama,10195,False,1917,regular,1917-11-29T00:00:00.000Z,,,12
+134,,,[],0,Birmingham-Southern,,FBS Independents,[],27,Alabama,10564,False,1919,regular,1919-10-04T00:00:00.000Z,,,3
+135,,FBS Independents,[],0,Ole Miss,,FBS Independents,[],49,Alabama,10630,False,1919,regular,1919-10-11T00:00:00.000Z,,,4
+136,,FBS Independents,[],0,Samford,,FBS Independents,[],48,Alabama,10693,False,1919,regular,1919-10-18T00:00:00.000Z,,,5
+137,,,[],0,Marion,,FBS Independents,[],61,Alabama,10754,False,1919,regular,1919-10-24T00:00:00.000Z,,,6
+138,,FBS Independents,[],0,Sewanee Univ. of the South,,FBS Independents,[],40,Alabama,10814,False,1919,regular,1919-11-01T00:00:00.000Z,,,7
+139,,FBS Independents,[],12,Alabama,,FBS Independents,[],16,Vanderbilt,10914,False,1919,regular,1919-11-08T00:00:00.000Z,,,8
+140,,FBS Independents,[],23,Alabama,,FBS Independents,[],0,LSU,10923,False,1919,regular,1919-11-15T00:00:00.000Z,,,9
+141,,FBS Independents,[],6,Alabama,,FBS Independents,[],0,Georgia,10987,False,1919,regular,1919-11-22T00:00:00.000Z,,,10
+142,,FBS Independents,[],6,Mississippi State,,FBS Independents,[],14,Alabama,11019,False,1919,regular,1919-11-27T00:00:00.000Z,,,11
+143,,,[],0,Southern Military Academy,,FBS Independents,[],59,Alabama,11066,False,1920,regular,1920-09-25T00:00:00.000Z,,,1
+144,,,[],0,Marion,,FBS Independents,[],49,Alabama,11096,False,1920,regular,1920-10-02T00:00:00.000Z,,,2
+145,,FBS Independents,[],0,Birmingham-Southern,,FBS Independents,[],45,Alabama,11161,False,1920,regular,1920-10-09T00:00:00.000Z,,,3
+146,,FBS Independents,[],0,Mississippi College,,FBS Independents,[],57,Alabama,11228,False,1920,regular,1920-10-16T00:00:00.000Z,,,4
+147,,FBS Independents,[],0,Samford,,FBS Independents,[],33,Alabama,11287,False,1920,regular,1920-10-23T00:00:00.000Z,,,5
+148,,FBS Independents,[],0,Sewanee Univ. of the South,,FBS Independents,[],21,Alabama,11342,False,1920,regular,1920-10-30T00:00:00.000Z,,,6
+149,,FBS Independents,[],7,Vanderbilt,,FBS Independents,[],14,Alabama,11393,False,1920,regular,1920-11-06T00:00:00.000Z,,,7
+150,,FBS Independents,[],0,LSU,,FBS Independents,[],21,Alabama,11452,False,1920,regular,1920-11-13T00:00:00.000Z,,,8
+151,,FBS Independents,[],14,Alabama,,FBS Independents,[],21,Georgia,11512,False,1920,regular,1920-11-20T00:00:00.000Z,,,9
+152,,FBS Independents,[],7,Mississippi State,,FBS Independents,[],24,Alabama,11540,False,1920,regular,1920-11-25T00:00:00.000Z,,,10
+153,,FBS Independents,[],40,Alabama,,,[],0,Case,11571,False,1920,regular,1920-11-27T00:00:00.000Z,,,10
+154,,FBS Independents,[],14,Samford,,Southern,[],34,Alabama,11587,False,1921,regular,1921-09-24T00:00:00.000Z,,,2
+155,,FBS Independents,[],7,Spring Hill,,Southern,[],27,Alabama,11620,False,1921,regular,1921-10-01T00:00:00.000Z,,,3
+156,,,[],0,Marion,,Southern,[],55,Alabama,11693,False,1921,regular,1921-10-08T00:00:00.000Z,,,4
+157,,,[],0,Bryson,,Southern,[],95,Alabama,11760,False,1921,regular,1921-10-15T00:00:00.000Z,,,5
+158,,FBS Independents,[],17,Sewanee Univ. of the South,,Southern,[],0,Alabama,11867,False,1921,regular,1921-10-22T00:00:00.000Z,,,6
+159,,FBS Independents,[],7,LSU,,Southern,[],7,Alabama,11882,False,1921,regular,1921-10-29T00:00:00.000Z,,,7
+160,,FBS Independents,[],14,Vanderbilt,,Southern,[],0,Alabama,11985,False,1921,regular,1921-11-05T00:00:00.000Z,,,8
+161,,FBS Independents,[],9,Florida,,Southern,[],2,Alabama,11995,False,1921,regular,1921-11-11T00:00:00.000Z,,,9
+162,,Southern,[],0,Alabama,,Southern,[],22,Georgia,12065,False,1921,regular,1921-11-19T00:00:00.000Z,,,10
+163,,Southern,[],7,Alabama,,Southern,[],7,Mississippi State,12105,False,1921,regular,1921-11-24T00:00:00.000Z,,,11
+164,,Southern,[],14,Alabama,,FBS Independents,[],7,Tulane,12133,False,1921,regular,1921-12-03T00:00:00.000Z,,,12
+165,,,[],0,Marion,,Southern,[],110,Alabama,12165,False,1922,regular,1922-09-30T00:00:00.000Z,,,2
+166,,FBS Independents,[],0,Oglethorpe,,Southern,[],41,Alabama,12219,False,1922,regular,1922-10-07T00:00:00.000Z,,,3
+167,,Southern,[],7,Alabama,,Southern,[],33,Georgia Tech,12320,False,1922,regular,1922-10-14T00:00:00.000Z,,,4
+168,,Southern,[],7,Alabama,,Southern,[],7,Sewanee Univ. of the South,12418,False,1922,regular,1922-10-21T00:00:00.000Z,,,5
+169,,Southern,[],10,Alabama,,Southwest,[],19,Texas,12483,False,1922,regular,1922-10-28T00:00:00.000Z,,,6
+170,,Southern,[],9,Alabama,,,[],7,Pennsylvania,12501,False,1922,regular,1922-11-04T00:00:00.000Z,,,7
+171,,Southern,[],3,LSU,,Southern,[],47,Alabama,12562,False,1922,regular,1922-11-10T00:00:00.000Z,,,8
+172,,Southern,[],0,Alabama,,Southern,[],6,Kentucky,12648,False,1922,regular,1922-11-18T00:00:00.000Z,,,9
+173,,Southern,[],6,Georgia,,Southern,[],10,Alabama,12684,False,1922,regular,1922-11-25T00:00:00.000Z,,,10
+174,,Southern,[],0,Mississippi State,,Southern,[],59,Alabama,12717,False,1922,regular,1922-11-30T00:00:00.000Z,,,11
+175,,,[],0,Union (Tennessee),,Southern,[],12,Alabama,12774,False,1923,regular,1923-09-29T00:00:00.000Z,,,2
+176,,Southern,[],0,Ole Miss,,Southern,[],56,Alabama,12829,False,1923,regular,1923-10-06T00:00:00.000Z,,,3
+177,,Southern,[],0,Alabama,,FBS Independents,[],23,Syracuse,12961,False,1923,regular,1923-10-13T00:00:00.000Z,,,4
+178,,Southern,[],0,Sewanee Univ. of the South,,Southern,[],7,Alabama,12984,False,1923,regular,1923-10-20T00:00:00.000Z,,,5
+179,,Southern,[],59,Alabama,,,[],0,Spring Hill,13048,False,1923,regular,1923-10-27T00:00:00.000Z,,,6
+180,,Southern,[],0,Georgia Tech,,Southern,[],0,Alabama,13113,False,1923,regular,1923-11-03T00:00:00.000Z,,,7
+181,,Southern,[],8,Kentucky,,Southern,[],16,Alabama,13175,False,1923,regular,1923-11-10T00:00:00.000Z,,,8
+182,,Southern,[],3,LSU,,Southern,[],30,Alabama,13234,False,1923,regular,1923-11-16T00:00:00.000Z,,,9
+183,,Southern,[],0,Georgia,,Southern,[],36,Alabama,13294,False,1923,regular,1923-11-24T00:00:00.000Z,,,10
+184,,Southern,[],16,Florida,,Southern,[],6,Alabama,13342,False,1923,regular,1923-11-29T00:00:00.000Z,,,11
+185,,,[],0,Union (Tennessee),,Southern,[],55,Alabama,13383,False,1924,regular,1924-09-27T00:00:00.000Z,,,2
+186,,Southern,[],20,Alabama,,FBS Independents,[],0,Furman,13437,False,1924,regular,1924-10-04T00:00:00.000Z,,,3
+187,,FBS Independents,[],0,Mississippi College,,Southern,[],51,Alabama,13514,False,1924,regular,1924-10-11T00:00:00.000Z,,,4
+188,,Southern,[],0,Sewanee Univ. of the South,,Southern,[],14,Alabama,13592,False,1924,regular,1924-10-18T00:00:00.000Z,,,5
+189,,Southern,[],14,Alabama,,Southern,[],0,Georgia Tech,13649,False,1924,regular,1924-10-25T00:00:00.000Z,,,6
+190,,Southern,[],0,Ole Miss,,Southern,[],61,Alabama,13705,False,1924,regular,1924-11-01T00:00:00.000Z,,,7
+191,,Southern,[],7,Kentucky,,Southern,[],42,Alabama,13769,False,1924,regular,1924-11-08T00:00:00.000Z,,,8
+192,,FBS Independents,[],17,Centre,,Southern,[],0,Alabama,13839,False,1924,regular,1924-11-15T00:00:00.000Z,,,9
+193,,Southern,[],0,Georgia,,Southern,[],33,Alabama,13926,False,1924,regular,1924-11-27T00:00:00.000Z,,,11
+194,,,[],0,Union (Tennessee),,Southern,[],53,Alabama,13991,False,1925,regular,1925-09-26T00:00:00.000Z,,,2
+195,,,[],7,Birmingham-Southern,,Southern,[],50,Alabama,14042,False,1925,regular,1925-10-02T00:00:00.000Z,,,3
+196,,Southern,[],42,Alabama,,Southern,[],0,LSU,14121,False,1925,regular,1925-10-10T00:00:00.000Z,,,4
+197,,Southern,[],0,Sewanee Univ. of the South,,Southern,[],27,Alabama,14189,False,1925,regular,1925-10-17T00:00:00.000Z,,,5
+198,,Southern,[],7,Alabama,,Southern,[],0,Georgia Tech,14249,False,1925,regular,1925-10-24T00:00:00.000Z,,,6
+199,,Southern,[],0,Mississippi State,,Southern,[],6,Alabama,14310,False,1925,regular,1925-10-31T00:00:00.000Z,,,7
+200,,Southern,[],0,Kentucky,,Southern,[],31,Alabama,14366,False,1925,regular,1925-11-07T00:00:00.000Z,,,8
+201,,Southern,[],0,Florida,,Southern,[],34,Alabama,14429,False,1925,regular,1925-11-14T00:00:00.000Z,,,9
+202,,Southern,[],0,Georgia,,Southern,[],27,Alabama,14524,False,1925,regular,1925-11-26T00:00:00.000Z,,,11
+203,,,[],0,Millsaps,,Southern,[],54,Alabama,14581,False,1926,regular,1926-09-24T00:00:00.000Z,,,2
+204,,Southern,[],19,Alabama,,Southern,[],7,Vanderbilt,14633,False,1926,regular,1926-10-02T00:00:00.000Z,,,3
+205,,Southern,[],26,Alabama,,Southern,[],7,Mississippi State,14707,False,1926,regular,1926-10-09T00:00:00.000Z,,,4
+206,,Southern,[],21,Alabama,,Southern,[],0,Georgia Tech,14774,False,1926,regular,1926-10-16T00:00:00.000Z,,,5
+207,,Southern,[],0,Sewanee Univ. of the South,,Southern,[],2,Alabama,14825,False,1926,regular,1926-10-23T00:00:00.000Z,,,6
+208,,Southern,[],0,LSU,,Southern,[],24,Alabama,14879,False,1926,regular,1926-10-30T00:00:00.000Z,,,7
+209,,Southern,[],0,Kentucky,,Southern,[],14,Alabama,14930,False,1926,regular,1926-11-06T00:00:00.000Z,,,8
+210,,Southern,[],0,Florida,,Southern,[],49,Alabama,14989,False,1926,regular,1926-11-13T00:00:00.000Z,,,9
+211,,Southern,[],6,Georgia,,Southern,[],33,Alabama,15078,False,1926,regular,1926-11-25T00:00:00.000Z,,,11
+212,,,[],0,Millsaps,,Southern,[],46,Alabama,15123,False,1927,regular,1927-09-24T00:00:00.000Z,,,2
+213,,,[],0,Rhodes,,Southern,[],31,Alabama,15180,False,1927,regular,1927-09-30T00:00:00.000Z,,,3
+214,,Southern,[],0,Alabama,,Southern,[],0,LSU,15280,False,1927,regular,1927-10-08T00:00:00.000Z,,,4
+215,,Southern,[],0,Alabama,,Southern,[],13,Georgia Tech,15338,False,1927,regular,1927-10-15T00:00:00.000Z,,,5
+216,,Southern,[],0,Sewanee Univ. of the South,,Southern,[],24,Alabama,15374,False,1927,regular,1927-10-22T00:00:00.000Z,,,6
+217,,Southern,[],7,Mississippi State,,Southern,[],13,Alabama,15428,False,1927,regular,1927-10-29T00:00:00.000Z,,,7
+218,,Southern,[],6,Kentucky,,Southern,[],21,Alabama,15483,False,1927,regular,1927-11-05T00:00:00.000Z,,,8
+219,,Southern,[],13,Florida,,Southern,[],6,Alabama,15550,False,1927,regular,1927-11-12T00:00:00.000Z,,,9
+220,,Southern,[],20,Georgia,,Southern,[],6,Alabama,15666,False,1927,regular,1927-11-27T00:00:00.000Z,,,11
+221,,Southern,[],14,Vanderbilt,,Southern,[],7,Alabama,15671,False,1927,regular,1927-12-03T00:00:00.000Z,,,12
+222,,Southern,[],0,Ole Miss,,Southern,[],27,Alabama,15754,False,1928,regular,1928-10-06T00:00:00.000Z,,,5
+223,,Southern,[],46,Alabama,,Southern,[],0,Mississippi State,15832,False,1928,regular,1928-10-13T00:00:00.000Z,,,6
+224,,Southern,[],15,Tennessee,,Southern,[],13,Alabama,15939,False,1928,regular,1928-10-20T00:00:00.000Z,,,7
+225,,Southern,[],12,Sewanee Univ. of the South,,Southern,[],42,Alabama,15953,False,1928,regular,1928-10-27T00:00:00.000Z,,,8
+226,,Southern,[],0,Alabama,,Western,[],15,Wisconsin,16062,False,1928,regular,1928-11-03T00:00:00.000Z,,,9
+227,,Southern,[],0,Kentucky,,Southern,[],14,Alabama,16066,False,1928,regular,1928-11-10T00:00:00.000Z,,,10
+228,,Southern,[],13,Alabama,,Southern,[],33,Georgia Tech,16140,False,1928,regular,1928-11-17T00:00:00.000Z,,,11
+229,,Southern,[],0,Georgia,,Southern,[],19,Alabama,16205,False,1928,regular,1928-11-29T00:00:00.000Z,,,13
+230,,Southern,[],0,LSU,,Southern,[],13,Alabama,16243,False,1928,regular,1928-12-08T00:00:00.000Z,,,14
+231,,,[],0,Mississippi College,,Southern,[],55,Alabama,16271,False,1929,regular,1929-09-28T00:00:00.000Z,,,2
+232,,Southern,[],7,Ole Miss,,Southern,[],22,Alabama,16334,False,1929,regular,1929-10-05T00:00:00.000Z,,,3
+233,,,[],0,Chattanooga,,Southern,[],46,Alabama,16408,False,1929,regular,1929-10-12T00:00:00.000Z,,,4
+234,,Southern,[],0,Alabama,,Southern,[],6,Tennessee,16507,False,1929,regular,1929-10-19T00:00:00.000Z,,,5
+235,,Southern,[],7,Sewanee Univ. of the South,,Southern,[],35,Alabama,16522,False,1929,regular,1929-10-26T00:00:00.000Z,,,6
+236,,Southern,[],0,Alabama,,Southern,[],13,Vanderbilt,16630,False,1929,regular,1929-11-02T00:00:00.000Z,,,7
+237,,Southern,[],13,Kentucky,,Southern,[],24,Alabama,16639,False,1929,regular,1929-11-09T00:00:00.000Z,,,8
+238,,Southern,[],14,Alabama,,Southern,[],0,Georgia Tech,16690,False,1929,regular,1929-11-16T00:00:00.000Z,,,9
+239,,Southern,[],12,Georgia,,Southern,[],0,Alabama,16788,False,1929,regular,1929-11-28T00:00:00.000Z,,,11
+240,,,[],0,Samford,,Southern,[],43,Alabama,16853,False,1930,regular,1930-09-27T00:00:00.000Z,,,3
+241,,Southern,[],0,Ole Miss,,Southern,[],64,Alabama,16929,False,1930,regular,1930-10-04T00:00:00.000Z,,,4
+242,,Southern,[],0,Sewanee Univ. of the South,,Southern,[],25,Alabama,17004,False,1930,regular,1930-10-11T00:00:00.000Z,,,5
+243,,Southern,[],6,Tennessee,,Southern,[],18,Alabama,17066,False,1930,regular,1930-10-18T00:00:00.000Z,,,6
+244,,Southern,[],7,Vanderbilt,,Southern,[],12,Alabama,17126,False,1930,regular,1930-10-25T00:00:00.000Z,,,7
+245,,Southern,[],19,Alabama,,Southern,[],0,Kentucky,17185,False,1930,regular,1930-11-01T00:00:00.000Z,,,8
+246,,Southern,[],20,Alabama,,Southern,[],0,Florida,17241,False,1930,regular,1930-11-08T00:00:00.000Z,,,9
+247,,Southern,[],0,LSU,,Southern,[],33,Alabama,17303,False,1930,regular,1930-11-15T00:00:00.000Z,,,10
+248,,Southern,[],0,Georgia,,Southern,[],13,Alabama,17393,False,1930,regular,1930-11-27T00:00:00.000Z,,,12
+249,,,[],6,Samford,,Southern,[],42,Alabama,17476,False,1931,regular,1931-09-26T00:00:00.000Z,,,3
+250,,Southern,[],6,Ole Miss,,Southern,[],55,Alabama,17549,False,1931,regular,1931-10-03T00:00:00.000Z,,,4
+251,,Southern,[],53,Alabama,,Southern,[],0,Mississippi State,17626,False,1931,regular,1931-10-10T00:00:00.000Z,,,5
+252,,Southern,[],0,Alabama,,Southern,[],25,Tennessee,17728,False,1931,regular,1931-10-17T00:00:00.000Z,,,6
+253,,Southern,[],0,Sewanee Univ. of the South,,Southern,[],33,Alabama,17752,False,1931,regular,1931-10-24T00:00:00.000Z,,,7
+254,,Southern,[],7,Kentucky,,Southern,[],9,Alabama,17808,False,1931,regular,1931-10-31T00:00:00.000Z,,,8
+255,,Southern,[],0,Florida,,Southern,[],41,Alabama,17870,False,1931,regular,1931-11-07T00:00:00.000Z,,,9
+256,,Southern,[],7,Clemson,,Southern,[],74,Alabama,17931,False,1931,regular,1931-11-14T00:00:00.000Z,,,10
+257,,Southern,[],14,Alabama,,Southern,[],6,Vanderbilt,18031,False,1931,regular,1931-11-26T00:00:00.000Z,,,12
+258,,Southern,[],49,Alabama,,,[],0,Chattanooga,18072,False,1931,regular,1931-12-02T00:00:00.000Z,,,13
+259,,,[],6,Rhodes,,Southern,[],45,Alabama,18115,False,1932,regular,1932-09-24T00:00:00.000Z,,,2
+260,,Southern,[],0,Mississippi State,,Southern,[],53,Alabama,18167,False,1932,regular,1932-10-01T00:00:00.000Z,,,3
+261,,Southern,[],28,Alabama,,FBS Independents,[],6,George Washington,18250,False,1932,regular,1932-10-08T00:00:00.000Z,,,4
+262,,Southern,[],7,Tennessee,,Southern,[],3,Alabama,18372,False,1932,regular,1932-10-15T00:00:00.000Z,,,5
+263,,Southern,[],13,Ole Miss,,Southern,[],24,Alabama,18391,False,1932,regular,1932-10-22T00:00:00.000Z,,,6
+264,,Southern,[],12,Alabama,,Southern,[],7,Kentucky,18462,False,1932,regular,1932-10-29T00:00:00.000Z,,,7
+265,,Southern,[],6,Virginia Tech,,Southern,[],9,Alabama,18524,False,1932,regular,1932-11-05T00:00:00.000Z,,,8
+266,,Southern,[],0,Alabama,,Southern,[],6,Georgia Tech,18615,False,1932,regular,1932-11-12T00:00:00.000Z,,,9
+267,,Southern,[],0,Vanderbilt,,Southern,[],20,Alabama,18699,False,1932,regular,1932-11-24T00:00:00.000Z,,,11
+268,,Southern,[],6,Alabama,,FBS Independents,[],0,Saint Mary's (CA),18752,False,1932,regular,1932-12-05T00:00:00.000Z,,,12
+269,,,[],0,Oglethorpe,,SEC,[],34,Alabama,18813,False,1933,regular,1933-09-30T00:00:00.000Z,,,3
+270,,SEC,[],0,Alabama,,SEC,[],0,Ole Miss,18917,False,1933,regular,1933-10-07T00:00:00.000Z,,,4
+271,,SEC,[],0,Mississippi State,,SEC,[],18,Alabama,18954,False,1933,regular,1933-10-14T00:00:00.000Z,,,5
+272,,SEC,[],12,Alabama,,SEC,[],6,Tennessee,19028,False,1933,regular,1933-10-21T00:00:00.000Z,,,6
+273,,SEC,[],0,Alabama,,FBS Independents,[],2,Fordham,19111,False,1933,regular,1933-10-28T00:00:00.000Z,,,7
+274,,SEC,[],0,Kentucky,,SEC,[],20,Alabama,19154,False,1933,regular,1933-11-04T00:00:00.000Z,,,8
+275,,Southern,[],0,Virginia Tech,,SEC,[],27,Alabama,19223,False,1933,regular,1933-11-11T00:00:00.000Z,,,9
+276,,SEC,[],12,Alabama,,SEC,[],9,Georgia Tech,19294,False,1933,regular,1933-11-18T00:00:00.000Z,,,10
+277,,SEC,[],7,Alabama,,SEC,[],0,Vanderbilt,19402,False,1933,regular,1933-11-30T00:00:00.000Z,,,12
+278,,,[],0,Samford,,SEC,[],24,Alabama,19490,False,1934,regular,1934-09-29T00:00:00.000Z,,,3
+279,,SEC,[],6,Sewanee Univ. of the South,,SEC,[],35,Alabama,19562,False,1934,regular,1934-10-05T00:00:00.000Z,,,4
+280,,SEC,[],0,Mississippi State,,SEC,[],41,Alabama,19647,False,1934,regular,1934-10-13T00:00:00.000Z,,,5
+281,,SEC,[],6,Tennessee,,SEC,[],13,Alabama,19710,False,1934,regular,1934-10-20T00:00:00.000Z,,,6
+282,,SEC,[],6,Georgia,,SEC,[],26,Alabama,19781,False,1934,regular,1934-10-27T00:00:00.000Z,,,7
+283,,SEC,[],34,Alabama,,SEC,[],14,Kentucky,19842,False,1934,regular,1934-11-03T00:00:00.000Z,,,8
+284,,Southern,[],0,Clemson,,SEC,[],40,Alabama,19907,False,1934,regular,1934-11-10T00:00:00.000Z,,,9
+285,,SEC,[],40,Alabama,,SEC,[],0,Georgia Tech,19973,False,1934,regular,1934-11-17T00:00:00.000Z,,,10
+286,,SEC,[],0,Vanderbilt,,SEC,[],34,Alabama,20078,False,1934,regular,1934-11-29T00:00:00.000Z,,,12
+287,,SEC,[],7,Alabama,,,[],7,Samford,20225,False,1935,regular,1935-09-28T00:00:00.000Z,,,2
+288,,SEC,[],39,Alabama,,FBS Independents,[],0,George Washington,20254,False,1935,regular,1935-10-05T00:00:00.000Z,,,3
+289,,SEC,[],20,Mississippi State,,SEC,[],7,Alabama,20364,False,1935,regular,1935-10-12T00:00:00.000Z,,,4
+290,,SEC,[],25,Alabama,,SEC,[],0,Tennessee,20410,False,1935,regular,1935-10-19T00:00:00.000Z,,,5
+291,,SEC,[],17,Alabama,,SEC,[],7,Georgia,20474,False,1935,regular,1935-10-26T00:00:00.000Z,,,6
+292,,SEC,[],0,Kentucky,,SEC,[],13,Alabama,20540,False,1935,regular,1935-11-02T00:00:00.000Z,,,7
+293,,Southern,[],0,Clemson,,SEC,[],33,Alabama,20600,False,1935,regular,1935-11-09T00:00:00.000Z,,,8
+294,,SEC,[],7,Georgia Tech,,SEC,[],38,Alabama,20671,False,1935,regular,1935-11-16T00:00:00.000Z,,,9
+295,,SEC,[],6,Alabama,,SEC,[],14,Vanderbilt,20806,False,1935,regular,1935-11-28T00:00:00.000Z,,,11
+296,,,[],0,Samford,,SEC,[],34,Alabama,20889,False,1936,regular,1936-09-26T00:00:00.000Z,,,2
+297,,Southern,[],0,Clemson,,SEC,[],32,Alabama,20963,False,1936,regular,1936-10-03T00:00:00.000Z,,,3
+298,,SEC,[],0,Mississippi State,,SEC,[],7,Alabama,21043,False,1936,regular,1936-10-10T00:00:00.000Z,,,4
+299,,SEC,[],0,Alabama,,SEC,[],0,Tennessee,21163,False,1936,regular,1936-10-17T00:00:00.000Z,,,5
+300,,SEC,[],13,Alabama,,FBS Independents,[],6,Loyola (LA),21184,False,1936,regular,1936-10-24T00:00:00.000Z,,,6
+301,,SEC,[],14,Alabama,,SEC,[],0,Kentucky,21253,False,1936,regular,1936-10-31T00:00:00.000Z,,,7
+302,,SEC,[],7,Tulane,,SEC,[],34,Alabama,21322,False,1936,regular,1936-11-07T00:00:00.000Z,,,8
+303,,SEC,[],20,Alabama,,SEC,[],16,Georgia Tech,21388,False,1936,regular,1936-11-14T00:00:00.000Z,,,9
+304,,SEC,[],6,Vanderbilt,,SEC,[],14,Alabama,21503,False,1936,regular,1936-11-25T00:00:00.000Z,,,11
+305,,,[],0,Samford,,SEC,[],41,Alabama,21603,False,1937,regular,1937-09-25T00:00:00.000Z,,,2
+306,,SEC,[],0,Sewanee Univ. of the South,,SEC,[],65,Alabama,21672,False,1937,regular,1937-10-02T00:00:00.000Z,,,3
+307,,Southern,[],0,South Carolina,,SEC,[],20,Alabama,21744,False,1937,regular,1937-10-09T00:00:00.000Z,,,4
+308,,SEC,[],14,Alabama,,SEC,[],7,Tennessee,21816,False,1937,regular,1937-10-16T00:00:00.000Z,,,5
+309,,SEC,[],19,Alabama,,FBS Independents,[],0,George Washington,21880,False,1937,regular,1937-10-23T00:00:00.000Z,,,6
+310,,SEC,[],0,Kentucky,,SEC,[],41,Alabama,21951,False,1937,regular,1937-10-30T00:00:00.000Z,,,7
+311,,SEC,[],9,Alabama,,SEC,[],6,Tulane,22013,False,1937,regular,1937-11-06T00:00:00.000Z,,,8
+312,,SEC,[],0,Georgia Tech,,SEC,[],7,Alabama,22081,False,1937,regular,1937-11-13T00:00:00.000Z,,,9
+313,,SEC,[],9,Alabama,,SEC,[],7,Vanderbilt,22192,False,1937,regular,1937-11-25T00:00:00.000Z,,,11
+314,,SEC,[],19,Alabama,,Pacific,[],7,USC,22288,False,1938,regular,1938-09-24T00:00:00.000Z,,,2
+315,,,[],0,Samford,,SEC,[],34,Alabama,22346,False,1938,regular,1938-10-01T00:00:00.000Z,,,3
+316,,Southern,[],0,NC State,,SEC,[],14,Alabama,22419,False,1938,regular,1938-10-08T00:00:00.000Z,,,4
+317,,SEC,[],13,Tennessee,,SEC,[],0,Alabama,22533,False,1938,regular,1938-10-15T00:00:00.000Z,,,5
+318,,SEC,[],0,Sewanee Univ. of the South,,SEC,[],32,Alabama,22553,False,1938,regular,1938-10-22T00:00:00.000Z,,,6
+319,,SEC,[],26,Alabama,,SEC,[],6,Kentucky,22621,False,1938,regular,1938-10-29T00:00:00.000Z,,,7
+320,,SEC,[],0,Tulane,,SEC,[],3,Alabama,22683,False,1938,regular,1938-11-05T00:00:00.000Z,,,8
+321,,SEC,[],14,Georgia Tech,,SEC,[],14,Alabama,22755,False,1938,regular,1938-11-12T00:00:00.000Z,,,9
+322,,SEC,[],0,Vanderbilt,,SEC,[],7,Alabama,22860,False,1938,regular,1938-11-24T00:00:00.000Z,,,11
+323,,,[],0,Samford,,SEC,[],21,Alabama,22970,False,1939,regular,1939-09-30T00:00:00.000Z,,,3
+324,,SEC,[],7,Alabama,,FBS Independents,[],6,Fordham,23040,False,1939,regular,1939-10-07T00:00:00.000Z,,,4
+325,,,[],0,Mercer,,SEC,[],20,Alabama,23109,False,1939,regular,1939-10-14T00:00:00.000Z,,,5
+326,,SEC,[],0,Alabama,,SEC,[],21,Tennessee,23223,False,1939,regular,1939-10-21T00:00:00.000Z,,,6
+327,,SEC,[],0,Mississippi State,,SEC,[],7,Alabama,23244,False,1939,regular,1939-10-28T00:00:00.000Z,,,7
+328,,SEC,[],7,Alabama,,SEC,[],7,Kentucky,23329,False,1939,regular,1939-11-04T00:00:00.000Z,,,8
+329,,SEC,[],0,Alabama,,SEC,[],13,Tulane,23418,False,1939,regular,1939-11-11T00:00:00.000Z,,,9
+330,,SEC,[],6,Georgia Tech,,SEC,[],0,Alabama,23451,False,1939,regular,1939-11-18T00:00:00.000Z,,,10
+331,,SEC,[],39,Alabama,,SEC,[],0,Vanderbilt,23538,False,1939,regular,1939-11-30T00:00:00.000Z,,,12
+332,,SEC,[],26,Alabama,,,[],0,Spring Hill,23604,False,1940,regular,1940-09-27T00:00:00.000Z,,,3
+333,,,[],0,Mercer,,SEC,[],20,Alabama,23678,False,1940,regular,1940-10-05T00:00:00.000Z,,,4
+334,,,[],0,Samford,,SEC,[],31,Alabama,23755,False,1940,regular,1940-10-12T00:00:00.000Z,,,5
+335,,SEC,[],27,Tennessee,,SEC,[],12,Alabama,23860,False,1940,regular,1940-10-19T00:00:00.000Z,,,6
+336,,SEC,[],25,Alabama,,SEC,[],0,Kentucky,23946,False,1940,regular,1940-11-02T00:00:00.000Z,,,8
+337,,SEC,[],6,Tulane,,SEC,[],13,Alabama,24003,False,1940,regular,1940-11-09T00:00:00.000Z,,,9
+338,,SEC,[],14,Alabama,,SEC,[],13,Georgia Tech,24067,False,1940,regular,1940-11-16T00:00:00.000Z,,,10
+339,,SEC,[],21,Vanderbilt,,SEC,[],25,Alabama,24138,False,1940,regular,1940-11-23T00:00:00.000Z,,,11
+340,,SEC,[],13,Mississippi State,,SEC,[],0,Alabama,24201,False,1940,regular,1940-11-30T00:00:00.000Z,,,12
+341,,,[],6,Louisiana,,SEC,[],47,Alabama,24271,False,1941,regular,1941-09-27T00:00:00.000Z,,,2
+342,,SEC,[],14,Mississippi State,,SEC,[],0,Alabama,24349,False,1941,regular,1941-10-04T00:00:00.000Z,,,3
+343,,SEC,[],61,Alabama,,,[],0,Samford,24395,False,1941,regular,1941-10-11T00:00:00.000Z,,,4
+344,,SEC,[],9,Alabama,,SEC,[],2,Tennessee,24450,False,1941,regular,1941-10-18T00:00:00.000Z,,,5
+345,,SEC,[],14,Georgia,,SEC,[],27,Alabama,24514,False,1941,regular,1941-10-25T00:00:00.000Z,,,6
+346,,SEC,[],0,Kentucky,,SEC,[],30,Alabama,24577,False,1941,regular,1941-11-01T00:00:00.000Z,,,7
+347,,SEC,[],19,Alabama,,SEC,[],14,Tulane,24636,False,1941,regular,1941-11-08T00:00:00.000Z,,,8
+348,,SEC,[],0,Georgia Tech,,SEC,[],20,Alabama,24696,False,1941,regular,1941-11-15T00:00:00.000Z,,,9
+349,,SEC,[],0,Alabama,,SEC,[],7,Vanderbilt,24807,False,1941,regular,1941-11-22T00:00:00.000Z,,,10
+350,,SEC,[],21,Alabama,,FBS Independents,[],7,Miami,24815,False,1941,regular,1941-11-28T00:00:00.000Z,,,11
+351,,,[],0,Louisiana,,SEC,[],54,Alabama,24885,False,1942,regular,1942-09-25T00:00:00.000Z,,,3
+352,,SEC,[],6,Mississippi State,,SEC,[],21,Alabama,24963,False,1942,regular,1942-10-03T00:00:00.000Z,,,4
+353,,,[],0,Pensacola NAS,,SEC,[],27,Alabama,25032,False,1942,regular,1942-10-10T00:00:00.000Z,,,5
+354,,SEC,[],0,Tennessee,,SEC,[],8,Alabama,25104,False,1942,regular,1942-10-17T00:00:00.000Z,,,6
+355,,SEC,[],14,Alabama,,SEC,[],0,Kentucky,25167,False,1942,regular,1942-10-24T00:00:00.000Z,,,7
+356,,SEC,[],10,Alabama,,SEC,[],21,Georgia,25238,False,1942,regular,1942-10-31T00:00:00.000Z,,,8
+357,,Southern,[],0,South Carolina,,SEC,[],29,Alabama,25286,False,1942,regular,1942-11-07T00:00:00.000Z,,,9
+358,,SEC,[],0,Alabama,,SEC,[],7,Georgia Tech,25364,False,1942,regular,1942-11-14T00:00:00.000Z,,,10
+359,,SEC,[],7,Vanderbilt,,SEC,[],27,Alabama,25410,False,1942,regular,1942-11-21T00:00:00.000Z,,,11
+360,,FBS Independents,[],35,Georgia Pre-Flight,,SEC,[],19,Alabama,25480,False,1942,regular,1942-11-28T00:00:00.000Z,,,12
+361,,SEC,[],27,LSU,,SEC,[],27,Alabama,25973,False,1944,regular,1944-09-30T00:00:00.000Z,,,6
+362,,SEC,[],63,Alabama,,,[],7,Samford,26024,False,1944,regular,1944-10-07T00:00:00.000Z,,,7
+363,,,[],0,Millsaps,,SEC,[],55,Alabama,26078,False,1944,regular,1944-10-14T00:00:00.000Z,,,8
+364,,SEC,[],0,Tennessee,,SEC,[],0,Alabama,26133,False,1944,regular,1944-10-21T00:00:00.000Z,,,9
+365,,SEC,[],0,Kentucky,,SEC,[],41,Alabama,26177,False,1944,regular,1944-10-27T00:00:00.000Z,,,10
+366,,SEC,[],14,Georgia,,SEC,[],7,Alabama,26239,False,1944,regular,1944-11-04T00:00:00.000Z,,,11
+367,,SEC,[],6,Ole Miss,,SEC,[],34,Alabama,26277,False,1944,regular,1944-11-11T00:00:00.000Z,,,12
+368,,SEC,[],0,Mississippi State,,SEC,[],19,Alabama,26328,False,1944,regular,1944-11-18T00:00:00.000Z,,,13
+369,,SEC,[],21,Alabama,,,[],0,Keesler Field,26480,False,1945,regular,1945-09-29T00:00:00.000Z,,,4
+370,,SEC,[],26,Alabama,,SEC,[],7,LSU,26540,False,1945,regular,1945-10-06T00:00:00.000Z,,,5
+371,,Southern,[],0,South Carolina,,SEC,[],55,Alabama,26598,False,1945,regular,1945-10-13T00:00:00.000Z,,,6
+372,,SEC,[],7,Tennessee,,SEC,[],25,Alabama,26649,False,1945,regular,1945-10-20T00:00:00.000Z,,,7
+373,,SEC,[],14,Georgia,,SEC,[],28,Alabama,26698,False,1945,regular,1945-10-27T00:00:00.000Z,,,8
+374,,SEC,[],60,Alabama,,SEC,[],19,Kentucky,26745,False,1945,regular,1945-11-03T00:00:00.000Z,,,9
+375,,SEC,[],71,Alabama,,SEC,[],0,Vanderbilt,26846,False,1945,regular,1945-11-17T00:00:00.000Z,,,11
+376,,,[],6,Pensacola NAS,,SEC,[],55,Alabama,26902,False,1945,regular,1945-11-24T00:00:00.000Z,,,12
+377,,SEC,[],13,Mississippi State,,SEC,[],55,Alabama,26939,False,1945,regular,1945-12-01T00:00:00.000Z,,,13
+378,,Southern,[],7,Furman,,SEC,[],26,Alabama,26966,False,1946,regular,1946-09-20T00:00:00.000Z,,,2
+379,,SEC,[],7,Alabama,,SEC,[],6,Tulane,27008,False,1946,regular,1946-09-28T00:00:00.000Z,,,3
+380,,SEC,[],14,Alabama,,Southern,[],6,South Carolina,27073,False,1946,regular,1946-10-05T00:00:00.000Z,,,4
+381,,,[],0,Louisiana,,SEC,[],54,Alabama,27138,False,1946,regular,1946-10-12T00:00:00.000Z,,,5
+382,,SEC,[],0,Alabama,,SEC,[],12,Tennessee,27244,False,1946,regular,1946-10-19T00:00:00.000Z,,,6
+383,,SEC,[],7,Kentucky,,SEC,[],21,Alabama,27262,False,1946,regular,1946-10-26T00:00:00.000Z,,,7
+384,,SEC,[],0,Alabama,,SEC,[],14,Georgia,27335,False,1946,regular,1946-11-02T00:00:00.000Z,,,8
+385,,SEC,[],21,Alabama,,SEC,[],31,LSU,27399,False,1946,regular,1946-11-09T00:00:00.000Z,,,9
+386,,SEC,[],7,Vanderbilt,,SEC,[],12,Alabama,27443,False,1946,regular,1946-11-16T00:00:00.000Z,,,10
+387,,SEC,[],7,Alabama,,FBS Independents,[],13,Boston College,27503,False,1946,regular,1946-11-23T00:00:00.000Z,,,11
+388,,SEC,[],7,Mississippi State,,SEC,[],24,Alabama,27562,False,1946,regular,1946-11-30T00:00:00.000Z,,,12
+389,,,[],7,Southern Mississippi,,SEC,[],34,Alabama,27608,False,1947,regular,1947-09-20T00:00:00.000Z,,,2
+390,,SEC,[],20,Alabama,,SEC,[],21,Tulane,27690,False,1947,regular,1947-09-27T00:00:00.000Z,,,3
+391,,SEC,[],7,Alabama,,SEC,[],14,Vanderbilt,27759,False,1947,regular,1947-10-04T00:00:00.000Z,,,4
+392,,FBS Independents,[],0,Duquesne,,SEC,[],26,Alabama,27775,False,1947,regular,1947-10-11T00:00:00.000Z,,,5
+393,,SEC,[],0,Tennessee,,SEC,[],10,Alabama,27841,False,1947,regular,1947-10-18T00:00:00.000Z,,,6
+394,,SEC,[],17,Alabama,,SEC,[],7,Georgia,27908,False,1947,regular,1947-10-25T00:00:00.000Z,,,7
+395,,SEC,[],13,Alabama,,SEC,[],0,Kentucky,27967,False,1947,regular,1947-11-01T00:00:00.000Z,,,8
+396,,SEC,[],7,Georgia Tech,,SEC,[],14,Alabama,28083,False,1947,regular,1947-11-15T00:00:00.000Z,,,10
+397,,SEC,[],12,LSU,,SEC,[],41,Alabama,28142,False,1947,regular,1947-11-22T00:00:00.000Z,,,11
+398,,SEC,[],21,Alabama,,FBS Independents,[],6,Miami,28199,False,1947,regular,1947-11-29T00:00:00.000Z,,,12
+399,,SEC,[],14,Alabama,,SEC,[],21,Tulane,28326,False,1948,regular,1948-09-25T00:00:00.000Z,,,3
+400,,SEC,[],14,Alabama,,SEC,[],14,Vanderbilt,28392,False,1948,regular,1948-10-02T00:00:00.000Z,,,4
+401,,FBS Independents,[],6,Duquesne,,SEC,[],48,Alabama,28405,False,1948,regular,1948-10-08T00:00:00.000Z,,,5
+402,,SEC,[],6,Alabama,,SEC,[],21,Tennessee,28512,False,1948,regular,1948-10-16T00:00:00.000Z,,,6
+403,,SEC,[],10,Alabama,,SEC,[],7,Mississippi State,28533,False,1948,regular,1948-10-23T00:00:00.000Z,,,7
+404,,SEC,[],35,Georgia,,SEC,[],0,Alabama,28609,False,1948,regular,1948-10-30T00:00:00.000Z,,,8
+405,,,[],0,Southern Mississippi,,SEC,[],27,Alabama,28657,False,1948,regular,1948-11-06T00:00:00.000Z,,,9
+406,,SEC,[],14,Alabama,,SEC,[],12,Georgia Tech,28721,False,1948,regular,1948-11-13T00:00:00.000Z,,,10
+407,,SEC,[],6,Alabama,,SEC,[],26,LSU,28796,False,1948,regular,1948-11-20T00:00:00.000Z,,,11
+408,,SEC,[],28,Florida,,SEC,[],34,Alabama,28840,False,1948,regular,1948-11-27T00:00:00.000Z,,,12
+409,,SEC,[],0,Auburn,,SEC,[],55,Alabama,28868,False,1948,regular,1948-12-04T00:00:00.000Z,,,13
+410,,SEC,[],28,Tulane,,SEC,[],14,Alabama,28986,False,1949,regular,1949-09-24T00:00:00.000Z,,,3
+411,,SEC,[],7,Alabama,,SEC,[],14,Vanderbilt,29052,False,1949,regular,1949-10-01T00:00:00.000Z,,,4
+412,,FBS Independents,[],8,Duquesne,,SEC,[],48,Alabama,29062,False,1949,regular,1949-10-07T00:00:00.000Z,,,5
+413,,SEC,[],7,Alabama,,SEC,[],7,Tennessee,29178,False,1949,regular,1949-10-15T00:00:00.000Z,,,6
+414,,SEC,[],6,Mississippi State,,SEC,[],35,Alabama,29195,False,1949,regular,1949-10-22T00:00:00.000Z,,,7
+415,,SEC,[],14,Alabama,,SEC,[],7,Georgia,29254,False,1949,regular,1949-10-29T00:00:00.000Z,,,8
+416,,SEC,[],7,Georgia Tech,,SEC,[],20,Alabama,29380,False,1949,regular,1949-11-12T00:00:00.000Z,,,10
+417,,,[],26,Southern Mississippi,,SEC,[],34,Alabama,29439,False,1949,regular,1949-11-19T00:00:00.000Z,,,11
+418,,SEC,[],35,Alabama,,SEC,[],13,Florida,29497,False,1949,regular,1949-11-26T00:00:00.000Z,,,12
+419,,SEC,[],13,Alabama,,SEC,[],14,Auburn,29526,False,1949,regular,1949-12-03T00:00:00.000Z,,,13
+420,,,[],0,Chattanooga,,SEC,[],27,Alabama,29559,False,1950,regular,1950-09-23T00:00:00.000Z,,,2
+421,,SEC,[],26,Alabama,,SEC,[],14,Tulane,29612,False,1950,regular,1950-09-30T00:00:00.000Z,,,3
+422,,SEC,[],27,Vanderbilt,,SEC,[],22,Alabama,29720,False,1950,regular,1950-10-07T00:00:00.000Z,,,4
+423,,Southern,[],6,Furman,,SEC,[],34,Alabama,29731,False,1950,regular,1950-10-13T00:00:00.000Z,,,5
+424,,SEC,[],9,Alabama,,SEC,[],14,Tennessee,29840,False,1950,regular,1950-10-21T00:00:00.000Z,,,6
+425,,SEC,[],7,Mississippi State,,SEC,[],14,Alabama,29859,False,1950,regular,1950-10-28T00:00:00.000Z,,,7
+426,,SEC,[],7,Georgia,,SEC,[],14,Alabama,29923,False,1950,regular,1950-11-04T00:00:00.000Z,,,8
+427,,,[],0,Southern Mississippi,,SEC,[],53,Alabama,29982,False,1950,regular,1950-11-11T00:00:00.000Z,,,9
+428,,SEC,[],54,Alabama,,SEC,[],19,Georgia Tech,30045,False,1950,regular,1950-11-18T00:00:00.000Z,,,10
+429,,SEC,[],41,Alabama,,SEC,[],13,Florida,30115,False,1950,regular,1950-11-25T00:00:00.000Z,,,11
+430,,SEC,[],0,Auburn,,SEC,[],34,Alabama,30156,False,1950,regular,1950-12-02T00:00:00.000Z,,,12
+431,,,[],0,Delta State,,SEC,[],89,Alabama,30203,False,1951,regular,1951-09-21T00:00:00.000Z,,,2
+432,,SEC,[],13,LSU,,SEC,[],7,Alabama,30279,False,1951,regular,1951-09-29T00:00:00.000Z,,,3
+433,,SEC,[],20,Alabama,,SEC,[],22,Vanderbilt,30371,False,1951,regular,1951-10-06T00:00:00.000Z,,,4
+434,,FBS Independents,[],41,Villanova,,SEC,[],18,Alabama,30388,False,1951,regular,1951-10-12T00:00:00.000Z,,,5
+435,,SEC,[],27,Tennessee,,SEC,[],13,Alabama,30489,False,1951,regular,1951-10-20T00:00:00.000Z,,,6
+436,,SEC,[],7,Alabama,,SEC,[],0,Mississippi State,30507,False,1951,regular,1951-10-27T00:00:00.000Z,,,7
+437,,SEC,[],16,Alabama,,SEC,[],14,Georgia,30565,False,1951,regular,1951-11-03T00:00:00.000Z,,,8
+438,,,[],7,Southern Mississippi,,SEC,[],40,Alabama,30624,False,1951,regular,1951-11-10T00:00:00.000Z,,,9
+439,,SEC,[],27,Georgia Tech,,SEC,[],7,Alabama,30690,False,1951,regular,1951-11-17T00:00:00.000Z,,,10
+440,,SEC,[],30,Florida,,SEC,[],21,Alabama,30750,False,1951,regular,1951-11-24T00:00:00.000Z,,,11
+441,,SEC,[],7,Auburn,,SEC,[],25,Alabama,30803,False,1951,regular,1951-12-02T00:00:00.000Z,,,12
+442,,,[],6,Southern Mississippi,,SEC,[],20,Alabama,30816,False,1952,regular,1952-09-19T00:00:00.000Z,,,2
+443,,SEC,[],21,Alabama,,SEC,[],20,LSU,30865,False,1952,regular,1952-09-27T00:00:00.000Z,,,3
+444,,SEC,[],21,Alabama,,FBS Independents,[],7,Miami,30919,False,1952,regular,1952-10-03T00:00:00.000Z,,,4
+445,,Southern,[],0,Virginia Tech,,SEC,[],33,Alabama,30985,False,1952,regular,1952-10-11T00:00:00.000Z,,,5
+446,,SEC,[],0,Alabama,,SEC,[],20,Tennessee,31083,False,1952,regular,1952-10-18T00:00:00.000Z,,,6
+447,,SEC,[],19,Mississippi State,,SEC,[],42,Alabama,31102,False,1952,regular,1952-10-25T00:00:00.000Z,,,7
+448,,SEC,[],19,Georgia,,SEC,[],34,Alabama,31158,False,1952,regular,1952-11-01T00:00:00.000Z,,,8
+449,,,[],28,Chattanooga,,SEC,[],42,Alabama,31216,False,1952,regular,1952-11-08T00:00:00.000Z,,,9
+450,,SEC,[],3,Alabama,,SEC,[],7,Georgia Tech,31287,False,1952,regular,1952-11-15T00:00:00.000Z,,,10
+451,,FBS Independents,[],7,Maryland,,SEC,[],27,Alabama,31329,False,1952,regular,1952-11-22T00:00:00.000Z,,,11
+452,,SEC,[],0,Auburn,,SEC,[],21,Alabama,31382,False,1952,regular,1952-11-29T00:00:00.000Z,,,12
+453,,,[],25,Southern Mississippi,,SEC,[],19,Alabama,31420,False,1953,regular,1953-09-18T00:00:00.000Z,,,1
+454,,SEC,[],7,Alabama,,SEC,[],7,LSU,31477,False,1953,regular,1953-09-26T00:00:00.000Z,,,2
+455,,SEC,[],21,Alabama,,SEC,[],12,Vanderbilt,31517,False,1953,regular,1953-10-03T00:00:00.000Z,,,3
+456,,Missouri Valley,[],13,Tulsa,,SEC,[],41,Alabama,31575,False,1953,regular,1953-10-10T00:00:00.000Z,,,4
+457,,SEC,[],0,Alabama,,SEC,[],0,Tennessee,31667,False,1953,regular,1953-10-17T00:00:00.000Z,,,5
+458,,SEC,[],7,Alabama,,SEC,[],7,Mississippi State,31710,False,1953,regular,1953-10-24T00:00:00.000Z,,,6
+459,,SEC,[],33,Alabama,,SEC,[],12,Georgia,31740,False,1953,regular,1953-10-31T00:00:00.000Z,,,7
+460,,,[],14,Chattanooga,,SEC,[],21,Alabama,31795,False,1953,regular,1953-11-07T00:00:00.000Z,,,8
+461,,SEC,[],6,Georgia Tech,,SEC,[],13,Alabama,31851,False,1953,regular,1953-11-14T00:00:00.000Z,,,9
+462,,SEC,[],0,Alabama,,ACC,[],21,Maryland,31928,False,1953,regular,1953-11-21T00:00:00.000Z,,,10
+463,,SEC,[],7,Auburn,,SEC,[],10,Alabama,31959,False,1953,regular,1953-11-28T00:00:00.000Z,,,11
+464,,,[],7,Southern Mississippi,,SEC,[],2,Alabama,31993,False,1954,regular,1954-09-17T00:00:00.000Z,,,1
+465,,SEC,[],12,Alabama,,SEC,[],0,LSU,32033,False,1954,regular,1954-09-25T00:00:00.000Z,,,2
+466,,SEC,[],14,Vanderbilt,,SEC,[],28,Alabama,32091,False,1954,regular,1954-10-02T00:00:00.000Z,,,3
+467,,Missouri Valley,[],0,Tulsa,,SEC,[],40,Alabama,32150,False,1954,regular,1954-10-09T00:00:00.000Z,,,4
+468,,SEC,[],27,Alabama,,SEC,[],0,Tennessee,32205,False,1954,regular,1954-10-16T00:00:00.000Z,,,5
+469,,SEC,[],12,Mississippi State,,SEC,[],7,Alabama,32288,False,1954,regular,1954-10-23T00:00:00.000Z,,,6
+470,,SEC,[],0,Alabama,,SEC,[],0,Georgia,32337,False,1954,regular,1954-10-30T00:00:00.000Z,,,7
+471,,SEC,[],0,Tulane,,SEC,[],0,Alabama,32374,False,1954,regular,1954-11-06T00:00:00.000Z,,,8
+472,,SEC,[],0,Alabama,,SEC,[],20,Georgia Tech,32443,False,1954,regular,1954-11-13T00:00:00.000Z,,,9
+473,,SEC,[],7,Alabama,,FBS Independents,[],23,Miami,32487,False,1954,regular,1954-11-19T00:00:00.000Z,,,10
+474,,SEC,[],0,Alabama,,SEC,[],28,Auburn,32545,False,1954,regular,1954-11-27T00:00:00.000Z,,,11
+475,,SEC,[],0,Alabama,,Southwest,[],20,Rice,32654,False,1955,regular,1955-09-24T00:00:00.000Z,,,2
+476,,SEC,[],6,Alabama,,SEC,[],21,Vanderbilt,32716,False,1955,regular,1955-10-01T00:00:00.000Z,,,3
+477,,Southwest,[],21,TCU,,SEC,[],0,Alabama,32769,False,1955,regular,1955-10-08T00:00:00.000Z,,,4
+478,,SEC,[],20,Tennessee,,SEC,[],0,Alabama,32823,False,1955,regular,1955-10-15T00:00:00.000Z,,,5
+479,,SEC,[],26,Mississippi State,,SEC,[],7,Alabama,32865,False,1955,regular,1955-10-22T00:00:00.000Z,,,6
+480,,SEC,[],14,Alabama,,SEC,[],35,Georgia,32907,False,1955,regular,1955-10-29T00:00:00.000Z,,,7
+481,,SEC,[],27,Tulane,,SEC,[],7,Alabama,32998,False,1955,regular,1955-11-05T00:00:00.000Z,,,8
+482,,SEC,[],26,Georgia Tech,,SEC,[],2,Alabama,33022,False,1955,regular,1955-11-12T00:00:00.000Z,,,9
+483,,SEC,[],12,Alabama,,FBS Independents,[],34,Miami,33064,False,1955,regular,1955-11-18T00:00:00.000Z,,,10
+484,,SEC,[],0,Alabama,,SEC,[],26,Auburn,33121,False,1955,regular,1955-11-26T00:00:00.000Z,,,11
+485,,SEC,[],13,Alabama,,Southwest,[],20,Rice,33185,False,1956,regular,1956-09-22T00:00:00.000Z,,,2
+486,,SEC,[],32,Vanderbilt,,SEC,[],7,Alabama,33308,False,1956,regular,1956-10-06T00:00:00.000Z,,,4
+487,,Southwest,[],23,TCU,,SEC,[],6,Alabama,33361,False,1956,regular,1956-10-13T00:00:00.000Z,,,5
+488,,SEC,[],0,Alabama,,SEC,[],24,Tennessee,33418,False,1956,regular,1956-10-20T00:00:00.000Z,,,6
+489,,SEC,[],12,Mississippi State,,SEC,[],13,Alabama,33438,False,1956,regular,1956-10-27T00:00:00.000Z,,,7
+490,,SEC,[],16,Georgia,,SEC,[],13,Alabama,33504,False,1956,regular,1956-11-03T00:00:00.000Z,,,8
+491,,SEC,[],13,Alabama,,SEC,[],7,Tulane,33550,False,1956,regular,1956-11-10T00:00:00.000Z,,,9
+492,,SEC,[],0,Alabama,,SEC,[],27,Georgia Tech,33619,False,1956,regular,1956-11-17T00:00:00.000Z,,,10
+493,,SEC,[],13,Alabama,,,[],13,Southern Mississippi,33701,False,1956,regular,1956-11-24T00:00:00.000Z,,,11
+494,,SEC,[],7,Alabama,,SEC,[],34,Auburn,33712,False,1956,regular,1956-12-01T00:00:00.000Z,,,12
+495,,SEC,[],0,Alabama,,SEC,[],28,LSU,33810,False,1957,regular,1957-09-28T00:00:00.000Z,,,3
+496,,SEC,[],6,Vanderbilt,,SEC,[],6,Alabama,33846,False,1957,regular,1957-10-05T00:00:00.000Z,,,4
+497,,SEC,[],0,Alabama,,Southwest,[],28,TCU,33946,False,1957,regular,1957-10-12T00:00:00.000Z,,,5
+498,,SEC,[],14,Tennessee,,SEC,[],0,Alabama,34005,False,1957,regular,1957-10-19T00:00:00.000Z,,,6
+499,,SEC,[],25,Mississippi State,,SEC,[],13,Alabama,34042,False,1957,regular,1957-10-26T00:00:00.000Z,,,7
+500,,SEC,[],14,Alabama,,SEC,[],13,Georgia,34076,False,1957,regular,1957-11-02T00:00:00.000Z,,,8
+501,,SEC,[],7,Tulane,,SEC,[],0,Alabama,34176,False,1957,regular,1957-11-09T00:00:00.000Z,,,9
+502,,SEC,[],10,Georgia Tech,,SEC,[],7,Alabama,34206,False,1957,regular,1957-11-16T00:00:00.000Z,,,10
+503,,,[],2,Southern Mississippi,,SEC,[],29,Alabama,34248,False,1957,regular,1957-11-23T00:00:00.000Z,,,11
+504,,SEC,[],0,Alabama,,SEC,[],40,Auburn,34299,False,1957,regular,1957-11-30T00:00:00.000Z,,,12
+505,,SEC,[],13,LSU,,SEC,[],3,Alabama,34397,False,1958,regular,1958-09-27T00:00:00.000Z,,,3
+506,,SEC,[],0,Alabama,,SEC,[],0,Vanderbilt,34481,False,1958,regular,1958-10-04T00:00:00.000Z,,,4
+507,,Southern,[],6,Furman,,SEC,[],29,Alabama,34492,False,1958,regular,1958-10-11T00:00:00.000Z,,,5
+508,,SEC,[],7,Alabama,,SEC,[],14,Tennessee,34588,False,1958,regular,1958-10-18T00:00:00.000Z,,,6
+509,,SEC,[],9,Alabama,,SEC,[],7,Mississippi State,34606,False,1958,regular,1958-10-25T00:00:00.000Z,,,7
+510,,SEC,[],0,Georgia,,SEC,[],12,Alabama,34665,False,1958,regular,1958-11-01T00:00:00.000Z,,,8
+511,,SEC,[],7,Alabama,,SEC,[],13,Tulane,34720,False,1958,regular,1958-11-07T00:00:00.000Z,,,9
+512,,SEC,[],17,Alabama,,SEC,[],8,Georgia Tech,34779,False,1958,regular,1958-11-15T00:00:00.000Z,,,10
+513,,,[],0,Memphis,,SEC,[],14,Alabama,34836,False,1958,regular,1958-11-22T00:00:00.000Z,,,11
+514,,SEC,[],8,Alabama,,SEC,[],14,Auburn,34895,False,1958,regular,1958-11-29T00:00:00.000Z,,,12
+515,,SEC,[],3,Alabama,,SEC,[],17,Georgia,34935,False,1959,regular,1959-09-19T00:00:00.000Z,,,2
+516,,SEC,[],3,Alabama,,Missouri Valley,[],0,Houston,34969,False,1959,regular,1959-09-26T00:00:00.000Z,,,3
+517,,SEC,[],7,Vanderbilt,,SEC,[],7,Alabama,35025,False,1959,regular,1959-10-03T00:00:00.000Z,,,4
+518,,,[],0,Chattanooga,,SEC,[],13,Alabama,35089,False,1959,regular,1959-10-10T00:00:00.000Z,,,5
+519,,SEC,[],7,Alabama,,SEC,[],7,Tennessee,35180,False,1959,regular,1959-10-17T00:00:00.000Z,,,6
+520,,SEC,[],0,Mississippi State,,SEC,[],10,Alabama,35260,False,1959,regular,1959-10-31T00:00:00.000Z,,,8
+521,,SEC,[],7,Tulane,,SEC,[],19,Alabama,35313,False,1959,regular,1959-11-07T00:00:00.000Z,,,9
+522,,SEC,[],7,Georgia Tech,,SEC,[],9,Alabama,35376,False,1959,regular,1959-11-14T00:00:00.000Z,,,10
+523,,,[],7,Memphis,,SEC,[],14,Alabama,35433,False,1959,regular,1959-11-21T00:00:00.000Z,,,11
+524,,SEC,[],0,Auburn,,SEC,[],10,Alabama,35484,False,1959,regular,1959-11-28T00:00:00.000Z,,,12
+525,,SEC,[],6,Georgia,,SEC,[],21,Alabama,35519,False,1960,regular,1960-09-17T00:00:00.000Z,,,2
+526,,SEC,[],6,Tulane,,SEC,[],6,Alabama,35564,False,1960,regular,1960-09-24T00:00:00.000Z,,,3
+527,,SEC,[],0,Vanderbilt,,SEC,[],21,Alabama,35619,False,1960,regular,1960-10-01T00:00:00.000Z,,,4
+528,,SEC,[],7,Alabama,,SEC,[],20,Tennessee,35777,False,1960,regular,1960-10-15T00:00:00.000Z,,,6
+529,,FBS Independents,[],0,Houston,,SEC,[],14,Alabama,35791,False,1960,regular,1960-10-22T00:00:00.000Z,,,7
+530,,SEC,[],7,Alabama,,SEC,[],0,Mississippi State,35853,False,1960,regular,1960-10-29T00:00:00.000Z,,,8
+531,,Southern,[],0,Furman,,SEC,[],51,Alabama,35912,False,1960,regular,1960-11-05T00:00:00.000Z,,,9
+532,,SEC,[],16,Alabama,,SEC,[],15,Georgia Tech,35971,False,1960,regular,1960-11-12T00:00:00.000Z,,,10
+533,,,[],6,Tampa,,SEC,[],34,Alabama,36030,False,1960,regular,1960-11-19T00:00:00.000Z,,,11
+534,,SEC,[],0,Auburn,,SEC,[],3,Alabama,36085,False,1960,regular,1960-11-26T00:00:00.000Z,,,12
+535,,SEC,[],32,Alabama,,SEC,[],6,Georgia,36141,False,1961,regular,1961-09-23T00:00:00.000Z,,,2
+536,,SEC,[],0,Tulane,,SEC,[],9,Alabama,36187,False,1961,regular,1961-09-30T00:00:00.000Z,,,3
+537,,SEC,[],35,Alabama,,SEC,[],6,Vanderbilt,36242,False,1961,regular,1961-10-07T00:00:00.000Z,,,4
+538,,ACC,[],7,NC State,,SEC,[],26,Alabama,36301,False,1961,regular,1961-10-14T00:00:00.000Z,,,5
+539,,SEC,[],3,Tennessee,,SEC,[],34,Alabama,36359,False,1961,regular,1961-10-21T00:00:00.000Z,,,6
+540,,SEC,[],17,Alabama,,FBS Independents,[],0,Houston,36416,False,1961,regular,1961-10-28T00:00:00.000Z,,,7
+541,,SEC,[],0,Mississippi State,,SEC,[],24,Alabama,36473,False,1961,regular,1961-11-04T00:00:00.000Z,,,8
+542,,Southern,[],0,Richmond,,SEC,[],66,Alabama,36532,False,1961,regular,1961-11-11T00:00:00.000Z,,,9
+543,,SEC,[],0,Georgia Tech,,SEC,[],10,Alabama,36591,False,1961,regular,1961-11-18T00:00:00.000Z,,,10
+544,,SEC,[],0,Auburn,,SEC,[],34,Alabama,36683,False,1961,regular,1961-12-02T00:00:00.000Z,,,12
+545,,SEC,[],0,Georgia,,SEC,[],35,Alabama,36733,False,1962,regular,1962-09-22T00:00:00.000Z,,,2
+546,,SEC,[],44,Alabama,,SEC,[],6,Tulane,36782,False,1962,regular,1962-09-28T00:00:00.000Z,,,3
+547,,SEC,[],7,Vanderbilt,,SEC,[],17,Alabama,36846,False,1962,regular,1962-10-06T00:00:00.000Z,,,4
+548,,FBS Independents,[],3,Houston,,SEC,[],14,Alabama,36907,False,1962,regular,1962-10-13T00:00:00.000Z,,,5
+549,,SEC,[],27,Alabama,,SEC,[],7,Tennessee,36963,False,1962,regular,1962-10-20T00:00:00.000Z,,,6
+550,,Missouri Valley,[],6,Tulsa,,SEC,[],35,Alabama,37026,False,1962,regular,1962-10-27T00:00:00.000Z,,,7
+551,,SEC,[],20,Alabama,,SEC,[],0,Mississippi State,37090,False,1962,regular,1962-11-03T00:00:00.000Z,,,8
+552,,FBS Independents,[],3,Miami,,SEC,[],36,Alabama,37150,False,1962,regular,1962-11-10T00:00:00.000Z,,,9
+553,,SEC,[],6,Alabama,,SEC,[],7,Georgia Tech,37229,False,1962,regular,1962-11-17T00:00:00.000Z,,,10
+554,,SEC,[],0,Auburn,,SEC,[],38,Alabama,37315,False,1962,regular,1962-12-01T00:00:00.000Z,,,12
+555,,SEC,[],32,Alabama,,SEC,[],7,Georgia,37351,False,1963,regular,1963-09-21T00:00:00.000Z,,,2
+556,,SEC,[],0,Tulane,,SEC,[],28,Alabama,37399,False,1963,regular,1963-09-28T00:00:00.000Z,,,3
+557,,SEC,[],21,Alabama,,SEC,[],6,Vanderbilt,37463,False,1963,regular,1963-10-05T00:00:00.000Z,,,4
+558,,SEC,[],10,Florida,,SEC,[],6,Alabama,37536,False,1963,regular,1963-10-12T00:00:00.000Z,,,5
+559,,SEC,[],0,Tennessee,,SEC,[],35,Alabama,37579,False,1963,regular,1963-10-19T00:00:00.000Z,,,6
+560,,FBS Independents,[],13,Houston,,SEC,[],21,Alabama,37643,False,1963,regular,1963-10-26T00:00:00.000Z,,,7
+561,,SEC,[],19,Mississippi State,,SEC,[],20,Alabama,37702,False,1963,regular,1963-11-02T00:00:00.000Z,,,8
+562,,SEC,[],11,Georgia Tech,,SEC,[],27,Alabama,37827,False,1963,regular,1963-11-16T00:00:00.000Z,,,10
+563,,SEC,[],8,Alabama,,SEC,[],10,Auburn,37917,False,1963,regular,1963-11-30T00:00:00.000Z,,,12
+564,,SEC,[],17,Alabama,,FBS Independents,[],12,Miami,37943,False,1963,regular,1963-12-07T00:00:00.000Z,,,13
+565,,SEC,[],3,Georgia,,SEC,[],31,Alabama,37966,False,1964,regular,1964-09-19T00:00:00.000Z,,,2
+566,,SEC,[],6,Tulane,,SEC,[],36,Alabama,38016,False,1964,regular,1964-09-26T00:00:00.000Z,,,3
+567,,SEC,[],0,Vanderbilt,,SEC,[],24,Alabama,38081,False,1964,regular,1964-10-03T00:00:00.000Z,,,4
+568,,ACC,[],0,NC State,,SEC,[],21,Alabama,38139,False,1964,regular,1964-10-10T00:00:00.000Z,,,5
+569,,SEC,[],19,Alabama,,SEC,[],8,Tennessee,38198,False,1964,regular,1964-10-17T00:00:00.000Z,,,6
+570,,SEC,[],14,Florida,,SEC,[],17,Alabama,38262,False,1964,regular,1964-10-24T00:00:00.000Z,,,7
+571,,SEC,[],23,Alabama,,SEC,[],6,Mississippi State,38325,False,1964,regular,1964-10-31T00:00:00.000Z,,,8
+572,,SEC,[],9,LSU,,SEC,[],17,Alabama,38386,False,1964,regular,1964-11-07T00:00:00.000Z,,,9
+573,,SEC,[],24,Alabama,,FBS Independents,[],7,Georgia Tech,38448,False,1964,regular,1964-11-14T00:00:00.000Z,,,10
+574,,SEC,[],14,Auburn,,SEC,[],21,Alabama,38563,False,1964,regular,1964-11-26T00:00:00.000Z,,,12
+575,,SEC,[],17,Alabama,,SEC,[],18,Georgia,38616,False,1965,regular,1965-09-18T00:00:00.000Z,,,2
+576,,SEC,[],0,Tulane,,SEC,[],27,Alabama,38655,False,1965,regular,1965-09-25T00:00:00.000Z,,,3
+577,,SEC,[],16,Ole Miss,,SEC,[],17,Alabama,38720,False,1965,regular,1965-10-02T00:00:00.000Z,,,4
+578,,SEC,[],22,Alabama,,SEC,[],7,Vanderbilt,38780,False,1965,regular,1965-10-09T00:00:00.000Z,,,5
+579,,SEC,[],7,Alabama,,SEC,[],7,Tennessee,38887,False,1965,regular,1965-10-16T00:00:00.000Z,,,6
+580,,FBS Independents,[],0,Florida State,,SEC,[],21,Alabama,38903,False,1965,regular,1965-10-23T00:00:00.000Z,,,7
+581,,SEC,[],10,Alabama,,SEC,[],7,Mississippi State,38964,False,1965,regular,1965-10-30T00:00:00.000Z,,,8
+582,,SEC,[],31,Alabama,,SEC,[],7,LSU,39027,False,1965,regular,1965-11-06T00:00:00.000Z,,,9
+583,,ACC,[],14,South Carolina,,SEC,[],35,Alabama,39089,False,1965,regular,1965-11-13T00:00:00.000Z,,,10
+584,,SEC,[],3,Auburn,,SEC,[],30,Alabama,39212,False,1965,regular,1965-11-27T00:00:00.000Z,,,12
+585,,,[],0,Louisiana Tech,,SEC,[],34,Alabama,39295,False,1966,regular,1966-09-24T00:00:00.000Z,,,3
+586,,SEC,[],17,Alabama,,SEC,[],7,Ole Miss,39361,False,1966,regular,1966-10-01T00:00:00.000Z,,,4
+587,,ACC,[],0,Clemson,,SEC,[],26,Alabama,39420,False,1966,regular,1966-10-08T00:00:00.000Z,,,5
+588,,SEC,[],11,Alabama,,SEC,[],10,Tennessee,39480,False,1966,regular,1966-10-15T00:00:00.000Z,,,6
+589,,SEC,[],6,Vanderbilt,,SEC,[],42,Alabama,39542,False,1966,regular,1966-10-22T00:00:00.000Z,,,7
+590,,SEC,[],14,Mississippi State,,SEC,[],27,Alabama,39603,False,1966,regular,1966-10-29T00:00:00.000Z,,,8
+591,,SEC,[],0,LSU,,SEC,[],21,Alabama,39662,False,1966,regular,1966-11-05T00:00:00.000Z,,,9
+592,,ACC,[],0,South Carolina,,SEC,[],24,Alabama,39724,False,1966,regular,1966-11-12T00:00:00.000Z,,,10
+593,,FBS Independents,[],0,Southern Mississippi,,SEC,[],34,Alabama,39844,False,1966,regular,1966-11-26T00:00:00.000Z,,,12
+594,,SEC,[],0,Auburn,,SEC,[],31,Alabama,39865,False,1966,regular,1966-12-03T00:00:00.000Z,,,13
+595,,SEC,[],37,Alabama,,FBS Independents,[],37,Florida State,39930,False,1967,regular,1967-09-23T00:00:00.000Z,,,3
+596,,FBS Independents,[],3,Southern Mississippi,,SEC,[],25,Alabama,39973,False,1967,regular,1967-09-30T00:00:00.000Z,,,4
+597,,SEC,[],7,Ole Miss,,SEC,[],21,Alabama,40031,False,1967,regular,1967-10-07T00:00:00.000Z,,,5
+598,,SEC,[],35,Alabama,,SEC,[],21,Vanderbilt,40094,False,1967,regular,1967-10-14T00:00:00.000Z,,,6
+599,,SEC,[],24,Tennessee,,SEC,[],13,Alabama,40198,False,1967,regular,1967-10-21T00:00:00.000Z,,,7
+600,,SEC,[],13,Alabama,,ACC,[],10,Clemson,40213,False,1967,regular,1967-10-28T00:00:00.000Z,,,8
+601,,SEC,[],0,Mississippi State,,SEC,[],13,Alabama,40271,False,1967,regular,1967-11-04T00:00:00.000Z,,,9
+602,,SEC,[],7,Alabama,,SEC,[],6,LSU,40333,False,1967,regular,1967-11-11T00:00:00.000Z,,,10
+603,,ACC,[],0,South Carolina,,SEC,[],17,Alabama,40394,False,1967,regular,1967-11-18T00:00:00.000Z,,,11
+604,,SEC,[],3,Auburn,,SEC,[],7,Alabama,40492,False,1967,regular,1967-12-02T00:00:00.000Z,,,13
+605,,FBS Independents,[],7,Virginia Tech,,SEC,[],14,Alabama,40533,False,1968,regular,1968-09-21T00:00:00.000Z,,,2
+606,,FBS Independents,[],14,Southern Mississippi,,SEC,[],17,Alabama,40590,False,1968,regular,1968-09-28T00:00:00.000Z,,,3
+607,,SEC,[],8,Alabama,,SEC,[],10,Ole Miss,40684,False,1968,regular,1968-10-05T00:00:00.000Z,,,4
+608,,SEC,[],7,Vanderbilt,,SEC,[],31,Alabama,40718,False,1968,regular,1968-10-12T00:00:00.000Z,,,5
+609,,SEC,[],9,Alabama,,SEC,[],10,Tennessee,40820,False,1968,regular,1968-10-19T00:00:00.000Z,,,6
+610,,ACC,[],14,Clemson,,SEC,[],21,Alabama,40834,False,1968,regular,1968-10-26T00:00:00.000Z,,,7
+611,,SEC,[],13,Mississippi State,,SEC,[],20,Alabama,40894,False,1968,regular,1968-11-02T00:00:00.000Z,,,8
+612,,SEC,[],7,LSU,,SEC,[],16,Alabama,40952,False,1968,regular,1968-11-09T00:00:00.000Z,,,9
+613,,SEC,[],14,Alabama,,FBS Independents,[],6,Miami,41015,False,1968,regular,1968-11-16T00:00:00.000Z,,,10
+614,,SEC,[],16,Auburn,,SEC,[],24,Alabama,41129,False,1968,regular,1968-11-30T00:00:00.000Z,,,12
+615,,SEC,[],17,Alabama,,FBS Independents,[],13,Virginia Tech,41170,False,1969,regular,1969-09-20T00:00:00.000Z,,,2
+616,,FBS Independents,[],14,Southern Mississippi,,SEC,[],63,Alabama,41232,False,1969,regular,1969-09-27T00:00:00.000Z,,,3
+617,,SEC,[],32,Ole Miss,,SEC,[],33,Alabama,41301,False,1969,regular,1969-10-04T00:00:00.000Z,,,4
+618,,SEC,[],10,Alabama,,SEC,[],14,Vanderbilt,41413,False,1969,regular,1969-10-11T00:00:00.000Z,,,5
+619,,SEC,[],41,Tennessee,,SEC,[],14,Alabama,41473,False,1969,regular,1969-10-18T00:00:00.000Z,,,6
+620,,SEC,[],38,Alabama,,ACC,[],13,Clemson,41487,False,1969,regular,1969-10-25T00:00:00.000Z,,,7
+621,,SEC,[],23,Alabama,,SEC,[],19,Mississippi State,41545,False,1969,regular,1969-11-01T00:00:00.000Z,,,8
+622,,SEC,[],15,Alabama,,SEC,[],20,LSU,41631,False,1969,regular,1969-11-08T00:00:00.000Z,,,9
+623,,FBS Independents,[],6,Miami,,SEC,[],42,Alabama,41667,False,1969,regular,1969-11-15T00:00:00.000Z,,,10
+624,,SEC,[],26,Alabama,,SEC,[],49,Auburn,41792,False,1969,regular,1969-11-29T00:00:00.000Z,,,12
+625,,Pac-8,[],42,USC,,SEC,[],21,Alabama,41844,False,1970,regular,1970-09-12T00:00:00.000Z,,,3
+626,,FBS Independents,[],18,Virginia Tech,,SEC,[],51,Alabama,41861,False,1970,regular,1970-09-19T00:00:00.000Z,,,4
+627,,SEC,[],15,Florida,,SEC,[],46,Alabama,41922,False,1970,regular,1970-09-26T00:00:00.000Z,,,5
+628,,SEC,[],23,Alabama,,SEC,[],48,Ole Miss,42016,False,1970,regular,1970-10-03T00:00:00.000Z,,,6
+629,,SEC,[],11,Vanderbilt,,SEC,[],35,Alabama,42053,False,1970,regular,1970-10-10T00:00:00.000Z,,,7
+630,,SEC,[],0,Alabama,,SEC,[],24,Tennessee,42165,False,1970,regular,1970-10-17T00:00:00.000Z,,,8
+631,,SEC,[],30,Alabama,,FBS Independents,[],21,Houston,42178,False,1970,regular,1970-10-24T00:00:00.000Z,,,9
+632,,SEC,[],6,Mississippi State,,SEC,[],35,Alabama,42243,False,1970,regular,1970-10-31T00:00:00.000Z,,,10
+633,,SEC,[],14,LSU,,SEC,[],9,Alabama,42323,False,1970,regular,1970-11-07T00:00:00.000Z,,,11
+634,,SEC,[],32,Alabama,,FBS Independents,[],8,Miami,42366,False,1970,regular,1970-11-14T00:00:00.000Z,,,12
+635,,SEC,[],28,Alabama,,SEC,[],33,Auburn,42486,False,1970,regular,1970-11-28T00:00:00.000Z,,,14
+636,,SEC,[],17,Alabama,,Pac-8,[],10,USC,42523,False,1971,regular,1971-09-10T00:00:00.000Z,,,1
+637,,FBS Independents,[],6,Southern Mississippi,,SEC,[],42,Alabama,42569,False,1971,regular,1971-09-18T00:00:00.000Z,,,2
+638,,SEC,[],38,Alabama,,SEC,[],0,Florida,42631,False,1971,regular,1971-09-25T00:00:00.000Z,,,3
+639,,SEC,[],6,Ole Miss,,SEC,[],40,Alabama,42700,False,1971,regular,1971-10-02T00:00:00.000Z,,,4
+640,,SEC,[],42,Alabama,,SEC,[],0,Vanderbilt,42769,False,1971,regular,1971-10-09T00:00:00.000Z,,,5
+641,,SEC,[],15,Tennessee,,SEC,[],32,Alabama,42836,False,1971,regular,1971-10-16T00:00:00.000Z,,,6
+642,,FBS Independents,[],20,Houston,,SEC,[],34,Alabama,42902,False,1971,regular,1971-10-23T00:00:00.000Z,,,7
+643,,SEC,[],41,Alabama,,SEC,[],10,Mississippi State,42966,False,1971,regular,1971-10-30T00:00:00.000Z,,,8
+644,,SEC,[],14,Alabama,,SEC,[],7,LSU,43034,False,1971,regular,1971-11-06T00:00:00.000Z,,,9
+645,,FBS Independents,[],3,Miami,,SEC,[],31,Alabama,43101,False,1971,regular,1971-11-13T00:00:00.000Z,,,10
+646,,SEC,[],7,Auburn,,SEC,[],31,Alabama,43229,False,1971,regular,1971-11-27T00:00:00.000Z,,,12
+647,,ACC,[],12,Duke,,SEC,[],35,Alabama,43272,False,1972,regular,1972-09-09T00:00:00.000Z,,,1
+648,,SEC,[],0,Kentucky,,SEC,[],35,Alabama,43367,False,1972,regular,1972-09-23T00:00:00.000Z,,,3
+649,,SEC,[],21,Vanderbilt,,SEC,[],48,Alabama,43431,False,1972,regular,1972-09-30T00:00:00.000Z,,,4
+650,,SEC,[],25,Alabama,,SEC,[],7,Georgia,43495,False,1972,regular,1972-10-07T00:00:00.000Z,,,5
+651,,SEC,[],7,Florida,,SEC,[],24,Alabama,43558,False,1972,regular,1972-10-14T00:00:00.000Z,,,6
+652,,SEC,[],17,Alabama,,SEC,[],10,Tennessee,43621,False,1972,regular,1972-10-21T00:00:00.000Z,,,7
+653,,FBS Independents,[],11,Southern Mississippi,,SEC,[],48,Alabama,43686,False,1972,regular,1972-10-28T00:00:00.000Z,,,8
+654,,SEC,[],14,Mississippi State,,SEC,[],58,Alabama,43749,False,1972,regular,1972-11-04T00:00:00.000Z,,,9
+655,,SEC,[],21,LSU,,SEC,[],35,Alabama,43816,False,1972,regular,1972-11-11T00:00:00.000Z,,,10
+656,,FBS Independents,[],13,Virginia Tech,,SEC,[],52,Alabama,43881,False,1972,regular,1972-11-18T00:00:00.000Z,,,11
+657,,SEC,[],16,Alabama,,SEC,[],17,Auburn,43988,False,1972,regular,1972-12-02T00:00:00.000Z,,,13
+658,,Pac-8,[],0,California,,SEC,[],66,Alabama,44041,False,1973,regular,1973-09-15T00:00:00.000Z,,,3
+659,,SEC,[],28,Alabama,,SEC,[],14,Kentucky,44102,False,1973,regular,1973-09-22T00:00:00.000Z,,,4
+660,,SEC,[],44,Alabama,,SEC,[],0,Vanderbilt,44167,False,1973,regular,1973-09-29T00:00:00.000Z,,,5
+661,,SEC,[],14,Georgia,,SEC,[],28,Alabama,44233,False,1973,regular,1973-10-06T00:00:00.000Z,,,6
+662,,SEC,[],35,Alabama,,SEC,[],14,Florida,44302,False,1973,regular,1973-10-13T00:00:00.000Z,,,7
+663,,SEC,[],21,Tennessee,,SEC,[],42,Alabama,44367,False,1973,regular,1973-10-20T00:00:00.000Z,,,8
+664,,FBS Independents,[],6,Virginia Tech,,SEC,[],77,Alabama,44432,False,1973,regular,1973-10-27T00:00:00.000Z,,,9
+665,,SEC,[],35,Alabama,,SEC,[],0,Mississippi State,44502,False,1973,regular,1973-11-03T00:00:00.000Z,,,10
+666,,FBS Independents,[],13,Miami,,SEC,[],43,Alabama,44631,False,1973,regular,1973-11-17T00:00:00.000Z,,,12
+667,,SEC,[],21,Alabama,,SEC,[],7,LSU,44694,False,1973,regular,1973-11-22T00:00:00.000Z,,,13
+668,,SEC,[],0,Auburn,,SEC,[],35,Alabama,44750,False,1973,regular,1973-12-01T00:00:00.000Z,,,14
+669,,SEC,[],21,Alabama,,ACC,[],16,Maryland,44797,False,1974,regular,1974-09-14T00:00:00.000Z,,,2
+670,,FBS Independents,[],0,Southern Mississippi,,SEC,[],52,Alabama,44854,False,1974,regular,1974-09-21T00:00:00.000Z,,,3
+671,,SEC,[],10,Vanderbilt,,SEC,[],23,Alabama,44919,False,1974,regular,1974-09-28T00:00:00.000Z,,,4
+672,,SEC,[],35,Alabama,,SEC,[],21,Ole Miss,44987,False,1974,regular,1974-10-05T00:00:00.000Z,,,5
+673,,FBS Independents,[],7,Florida State,,SEC,[],8,Alabama,45050,False,1974,regular,1974-10-12T00:00:00.000Z,,,6
+674,,SEC,[],28,Alabama,,SEC,[],6,Tennessee,45117,False,1974,regular,1974-10-19T00:00:00.000Z,,,7
+675,,Southwest,[],3,TCU,,SEC,[],41,Alabama,45184,False,1974,regular,1974-10-26T00:00:00.000Z,,,8
+676,,SEC,[],0,Mississippi State,,SEC,[],35,Alabama,45251,False,1974,regular,1974-11-02T00:00:00.000Z,,,9
+677,,SEC,[],0,LSU,,SEC,[],30,Alabama,45318,False,1974,regular,1974-11-09T00:00:00.000Z,,,10
+678,,SEC,[],28,Alabama,,FBS Independents,[],7,Miami,45385,False,1974,regular,1974-11-16T00:00:00.000Z,,,11
+679,,SEC,[],13,Auburn,,SEC,[],17,Alabama,45511,False,1974,regular,1974-11-29T00:00:00.000Z,,,13
+680,,Big 8,[],20,Missouri,,SEC,[],7,Alabama,45564,False,1975,regular,1975-09-08T00:00:00.000Z,,,1
+681,,ACC,[],0,Clemson,,SEC,[],56,Alabama,45630,False,1975,regular,1975-09-20T00:00:00.000Z,,,3
+682,,SEC,[],40,Alabama,,SEC,[],7,Vanderbilt,45700,False,1975,regular,1975-09-27T00:00:00.000Z,,,4
+683,,SEC,[],6,Ole Miss,,SEC,[],32,Alabama,45769,False,1975,regular,1975-10-04T00:00:00.000Z,,,5
+684,,Pac-8,[],0,Washington,,SEC,[],52,Alabama,45841,False,1975,regular,1975-10-11T00:00:00.000Z,,,6
+685,,SEC,[],7,Tennessee,,SEC,[],30,Alabama,45908,False,1975,regular,1975-10-18T00:00:00.000Z,,,7
+686,,Southwest,[],0,TCU,,SEC,[],45,Alabama,45980,False,1975,regular,1975-10-25T00:00:00.000Z,,,8
+687,,SEC,[],21,Alabama,,SEC,[],10,Mississippi State,46049,False,1975,regular,1975-11-01T00:00:00.000Z,,,9
+688,,SEC,[],23,Alabama,,SEC,[],10,LSU,46117,False,1975,regular,1975-11-08T00:00:00.000Z,,,10
+689,,FBS Independents,[],6,Southern Mississippi,,SEC,[],27,Alabama,46186,False,1975,regular,1975-11-15T00:00:00.000Z,,,11
+690,,SEC,[],0,Auburn,,SEC,[],28,Alabama,46317,False,1975,regular,1975-11-29T00:00:00.000Z,,,13
+691,,SEC,[],7,Alabama,,SEC,[],10,Ole Miss,46399,False,1976,regular,1976-09-11T00:00:00.000Z,,,2
+692,,Southwest,[],3,SMU,,SEC,[],56,Alabama,46428,False,1976,regular,1976-09-18T00:00:00.000Z,,,3
+693,,SEC,[],14,Vanderbilt,,SEC,[],42,Alabama,46501,False,1976,regular,1976-09-25T00:00:00.000Z,,,4
+694,,SEC,[],0,Alabama,,SEC,[],21,Georgia,46593,False,1976,regular,1976-10-02T00:00:00.000Z,,,5
+695,,FBS Independents,[],8,Southern Mississippi,,SEC,[],24,Alabama,46642,False,1976,regular,1976-10-09T00:00:00.000Z,,,6
+696,,SEC,[],20,Alabama,,SEC,[],13,Tennessee,46709,False,1976,regular,1976-10-16T00:00:00.000Z,,,7
+697,,FBS Independents,[],3,Louisville,,SEC,[],24,Alabama,46778,False,1976,regular,1976-10-23T00:00:00.000Z,,,8
+698,,SEC,[],17,Mississippi State,,SEC,[],34,Alabama,46845,False,1976,regular,1976-10-30T00:00:00.000Z,,,9
+699,,SEC,[],17,LSU,,SEC,[],28,Alabama,46914,False,1976,regular,1976-11-06T00:00:00.000Z,,,10
+700,,SEC,[],18,Alabama,,FBS Independents,[],21,Notre Dame,47019,False,1976,regular,1976-11-13T00:00:00.000Z,,,11
+701,,SEC,[],7,Auburn,,SEC,[],38,Alabama,47115,False,1976,regular,1976-11-27T00:00:00.000Z,,,13
+702,,SEC,[],13,Ole Miss,,SEC,[],34,Alabama,47174,False,1977,regular,1977-09-10T00:00:00.000Z,,,2
+703,,SEC,[],24,Alabama,,Big 8,[],31,Nebraska,47280,False,1977,regular,1977-09-17T00:00:00.000Z,,,3
+704,,SEC,[],24,Alabama,,SEC,[],12,Vanderbilt,47320,False,1977,regular,1977-09-24T00:00:00.000Z,,,4
+705,,SEC,[],10,Georgia,,SEC,[],18,Alabama,47397,False,1977,regular,1977-10-01T00:00:00.000Z,,,5
+706,,SEC,[],21,Alabama,,Pac-8,[],20,USC,47472,False,1977,regular,1977-10-08T00:00:00.000Z,,,6
+707,,SEC,[],10,Tennessee,,SEC,[],24,Alabama,47545,False,1977,regular,1977-10-15T00:00:00.000Z,,,7
+708,,FBS Independents,[],6,Louisville,,SEC,[],55,Alabama,47617,False,1977,regular,1977-10-22T00:00:00.000Z,,,8
+709,,SEC,[],37,Alabama,,SEC,[],7,Mississippi State,47692,False,1977,regular,1977-10-29T00:00:00.000Z,,,9
+710,,SEC,[],24,Alabama,,SEC,[],3,LSU,47768,False,1977,regular,1977-11-05T00:00:00.000Z,,,10
+711,,FBS Independents,[],0,Miami,,SEC,[],36,Alabama,47844,False,1977,regular,1977-11-12T00:00:00.000Z,,,11
+712,,SEC,[],21,Auburn,,SEC,[],48,Alabama,47980,False,1977,regular,1977-11-26T00:00:00.000Z,,,13
+713,,Big 8,[],3,Nebraska,,SEC,[],20,Alabama,48020,False,1978,regular,1978-09-02T00:00:00.000Z,,,1
+714,,SEC,[],38,Alabama,,Big 8,[],20,Missouri,48082,False,1978,regular,1978-09-16T00:00:00.000Z,,,3
+715,,Pac-10,[],24,USC,,SEC,[],14,Alabama,48202,False,1978,regular,1978-09-23T00:00:00.000Z,,,4
+716,,SEC,[],28,Vanderbilt,,SEC,[],51,Alabama,48222,False,1978,regular,1978-09-30T00:00:00.000Z,,,5
+717,,SEC,[],20,Alabama,,Pac-10,[],17,Washington,48292,False,1978,regular,1978-10-07T00:00:00.000Z,,,6
+718,,SEC,[],12,Florida,,SEC,[],23,Alabama,48361,False,1978,regular,1978-10-14T00:00:00.000Z,,,7
+719,,SEC,[],30,Alabama,,SEC,[],17,Tennessee,48431,False,1978,regular,1978-10-21T00:00:00.000Z,,,8
+720,,FBS Independents,[],0,Virginia Tech,,SEC,[],35,Alabama,48499,False,1978,regular,1978-10-28T00:00:00.000Z,,,9
+721,,SEC,[],14,Mississippi State,,SEC,[],35,Alabama,48565,False,1978,regular,1978-11-04T00:00:00.000Z,,,10
+722,,SEC,[],10,LSU,,SEC,[],31,Alabama,48633,False,1978,regular,1978-11-11T00:00:00.000Z,,,11
+723,,SEC,[],16,Auburn,,SEC,[],34,Alabama,48805,False,1978,regular,1978-12-02T00:00:00.000Z,,,14
+724,,SEC,[],30,Alabama,,FBS Independents,[],6,Georgia Tech,48846,False,1979,regular,1979-09-08T00:00:00.000Z,,,2
+725,,Southwest,[],0,Baylor,,SEC,[],45,Alabama,48969,False,1979,regular,1979-09-22T00:00:00.000Z,,,4
+726,,SEC,[],66,Alabama,,SEC,[],3,Vanderbilt,49041,False,1979,regular,1979-09-29T00:00:00.000Z,,,5
+727,,Missouri Valley,[],0,Wichita State,,SEC,[],38,Alabama,49114,False,1979,regular,1979-10-06T00:00:00.000Z,,,6
+728,,SEC,[],40,Alabama,,SEC,[],0,Florida,49186,False,1979,regular,1979-10-13T00:00:00.000Z,,,7
+729,,SEC,[],17,Tennessee,,SEC,[],27,Alabama,49258,False,1979,regular,1979-10-20T00:00:00.000Z,,,8
+730,,FBS Independents,[],7,Virginia Tech,,SEC,[],31,Alabama,49328,False,1979,regular,1979-10-27T00:00:00.000Z,,,9
+731,,SEC,[],7,Mississippi State,,SEC,[],24,Alabama,49398,False,1979,regular,1979-11-03T00:00:00.000Z,,,10
+732,,SEC,[],3,Alabama,,SEC,[],0,LSU,49466,False,1979,regular,1979-11-10T00:00:00.000Z,,,11
+733,,FBS Independents,[],0,Miami,,SEC,[],30,Alabama,49535,False,1979,regular,1979-11-17T00:00:00.000Z,,,12
+734,,SEC,[],18,Auburn,,SEC,[],25,Alabama,49636,False,1979,regular,1979-12-01T00:00:00.000Z,,,14
+735,,FBS Independents,[],3,Georgia Tech,,SEC,[],26,Alabama,49662,False,1980,regular,1980-09-06T00:00:00.000Z,,,2
+736,,SEC,[],59,Alabama,,SEC,[],35,Ole Miss,49769,False,1980,regular,1980-09-20T00:00:00.000Z,,,4
+737,,SEC,[],0,Vanderbilt,,SEC,[],41,Alabama,49841,False,1980,regular,1980-09-27T00:00:00.000Z,,,5
+738,,SEC,[],0,Kentucky,,SEC,[],45,Alabama,49910,False,1980,regular,1980-10-03T00:00:00.000Z,,,6
+739,,SEC,[],17,Alabama,,FBS Independents,[],13,Rutgers,49979,False,1980,regular,1980-10-11T00:00:00.000Z,,,7
+740,,SEC,[],27,Alabama,,SEC,[],0,Tennessee,50044,False,1980,regular,1980-10-18T00:00:00.000Z,,,8
+741,,FBS Independents,[],7,Southern Mississippi,,SEC,[],42,Alabama,50113,False,1980,regular,1980-10-25T00:00:00.000Z,,,9
+742,,SEC,[],3,Alabama,,SEC,[],6,Mississippi State,50217,False,1980,regular,1980-11-01T00:00:00.000Z,,,10
+743,,SEC,[],7,LSU,,SEC,[],28,Alabama,50251,False,1980,regular,1980-11-08T00:00:00.000Z,,,11
+744,,FBS Independents,[],7,Notre Dame,,SEC,[],0,Alabama,50356,False,1980,regular,1980-11-15T00:00:00.000Z,,,12
+745,,SEC,[],18,Auburn,,SEC,[],34,Alabama,50443,False,1980,regular,1980-11-29T00:00:00.000Z,,,14
+746,,SEC,[],24,Alabama,,SEC,[],7,LSU,50476,False,1981,regular,1981-09-05T00:00:00.000Z,,,1
+747,,FBS Independents,[],24,Georgia Tech,,SEC,[],21,Alabama,50528,False,1981,regular,1981-09-12T00:00:00.000Z,,,2
+748,,SEC,[],19,Alabama,,SEC,[],10,Kentucky,50576,False,1981,regular,1981-09-19T00:00:00.000Z,,,3
+749,,SEC,[],28,Alabama,,SEC,[],7,Vanderbilt,50648,False,1981,regular,1981-09-26T00:00:00.000Z,,,4
+750,,SEC,[],7,Ole Miss,,SEC,[],38,Alabama,50716,False,1981,regular,1981-10-03T00:00:00.000Z,,,5
+751,,SEC,[],13,Alabama,,FBS Independents,[],13,Southern Mississippi,50828,False,1981,regular,1981-10-10T00:00:00.000Z,,,6
+752,,SEC,[],19,Tennessee,,SEC,[],38,Alabama,50845,False,1981,regular,1981-10-17T00:00:00.000Z,,,7
+753,,FBS Independents,[],7,Rutgers,,SEC,[],31,Alabama,50914,False,1981,regular,1981-10-24T00:00:00.000Z,,,8
+754,,SEC,[],10,Mississippi State,,SEC,[],13,Alabama,50983,False,1981,regular,1981-10-31T00:00:00.000Z,,,9
+755,,SEC,[],31,Alabama,,FBS Independents,[],16,Penn State,51115,False,1981,regular,1981-11-14T00:00:00.000Z,,,11
+756,,SEC,[],17,Auburn,,SEC,[],28,Alabama,51247,False,1981,regular,1981-11-28T00:00:00.000Z,,,13
+757,,SEC,[],45,Alabama,,FBS Independents,[],7,Georgia Tech,51318,False,1982,regular,1982-09-11T00:00:00.000Z,,,2
+758,,SEC,[],42,Alabama,,SEC,[],14,Ole Miss,51370,False,1982,regular,1982-09-18T00:00:00.000Z,,,3
+759,,SEC,[],21,Vanderbilt,,SEC,[],24,Alabama,51430,False,1982,regular,1982-09-25T00:00:00.000Z,,,4
+760,,,[],7,Arkansas State,,SEC,[],34,Alabama,51489,False,1982,regular,1982-10-02T00:00:00.000Z,,,5
+761,,FBS Independents,[],21,Penn State,,SEC,[],42,Alabama,51543,False,1982,regular,1982-10-09T00:00:00.000Z,,,6
+762,,SEC,[],28,Alabama,,SEC,[],35,Tennessee,51640,False,1982,regular,1982-10-16T00:00:00.000Z,,,7
+763,,FBS Independents,[],3,Cincinnati,,SEC,[],21,Alabama,51654,False,1982,regular,1982-10-23T00:00:00.000Z,,,8
+764,,SEC,[],20,Alabama,,SEC,[],12,Mississippi State,51710,False,1982,regular,1982-10-30T00:00:00.000Z,,,9
+765,,SEC,[],20,LSU,,SEC,[],10,Alabama,51788,False,1982,regular,1982-11-06T00:00:00.000Z,,,10
+766,,FBS Independents,[],38,Southern Mississippi,,SEC,[],29,Alabama,51865,False,1982,regular,1982-11-13T00:00:00.000Z,,,11
+767,,SEC,[],22,Alabama,,SEC,[],23,Auburn,51933,False,1982,regular,1982-11-27T00:00:00.000Z,,,13
+768,,ACC,[],7,Georgia Tech,,SEC,[],20,Alabama,52010,False,1983,regular,1983-09-10T00:00:00.000Z,,,3
+769,,SEC,[],0,Ole Miss,,SEC,[],40,Alabama,52070,False,1983,regular,1983-09-17T00:00:00.000Z,,,4
+770,,SEC,[],44,Alabama,,SEC,[],24,Vanderbilt,52130,False,1983,regular,1983-09-24T00:00:00.000Z,,,5
+771,,FBS Independents,[],13,Memphis,,SEC,[],44,Alabama,52186,False,1983,regular,1983-10-01T00:00:00.000Z,,,6
+772,,SEC,[],28,Alabama,,FBS Independents,[],34,Penn State,52277,False,1983,regular,1983-10-08T00:00:00.000Z,,,7
+773,,SEC,[],41,Tennessee,,SEC,[],34,Alabama,52339,False,1983,regular,1983-10-15T00:00:00.000Z,,,8
+774,,SEC,[],18,Mississippi State,,SEC,[],35,Alabama,52412,False,1983,regular,1983-10-29T00:00:00.000Z,,,10
+775,,SEC,[],32,Alabama,,SEC,[],26,LSU,52470,False,1983,regular,1983-11-05T00:00:00.000Z,,,11
+776,,FBS Independents,[],16,Southern Mississippi,,SEC,[],28,Alabama,52526,False,1983,regular,1983-11-12T00:00:00.000Z,,,12
+777,,SEC,[],13,Alabama,,FBS Independents,[],20,Boston College,52626,False,1983,regular,1983-11-25T00:00:00.000Z,,,14
+778,,SEC,[],20,Alabama,,SEC,[],23,Auburn,52641,False,1983,regular,1983-12-03T00:00:00.000Z,,,15
+779,,FBS Independents,[],38,Boston College,,SEC,[],31,Alabama,52695,False,1984,regular,1984-09-08T00:00:00.000Z,,,3
+780,,SEC,[],6,Alabama,,ACC,[],16,Georgia Tech,52756,False,1984,regular,1984-09-15T00:00:00.000Z,,,4
+781,,FBS Independents,[],14,Louisiana,,SEC,[],37,Alabama,52798,False,1984,regular,1984-09-22T00:00:00.000Z,,,5
+782,,SEC,[],30,Vanderbilt,,SEC,[],21,Alabama,52903,False,1984,regular,1984-09-29T00:00:00.000Z,,,6
+783,,SEC,[],24,Georgia,,SEC,[],14,Alabama,52924,False,1984,regular,1984-10-06T00:00:00.000Z,,,7
+784,,FBS Independents,[],0,Penn State,,SEC,[],6,Alabama,52967,False,1984,regular,1984-10-13T00:00:00.000Z,,,8
+785,,SEC,[],27,Alabama,,SEC,[],28,Tennessee,53064,False,1984,regular,1984-10-20T00:00:00.000Z,,,9
+786,,SEC,[],24,Alabama,,SEC,[],20,Mississippi State,53130,False,1984,regular,1984-11-03T00:00:00.000Z,,,11
+787,,SEC,[],16,LSU,,SEC,[],14,Alabama,53200,False,1984,regular,1984-11-10T00:00:00.000Z,,,12
+788,,SEC,[],29,Alabama,,FBS Independents,[],7,Cincinnati,53237,False,1984,regular,1984-11-17T00:00:00.000Z,,,13
+789,,SEC,[],15,Auburn,,SEC,[],17,Alabama,53310,False,1984,regular,1984-12-01T00:00:00.000Z,,,15
+790,,SEC,[],20,Alabama,,SEC,[],16,Georgia,53351,False,1985,regular,1985-09-02T00:00:00.000Z,,,1
+791,,Southwest,[],10,Texas A&M,,SEC,[],23,Alabama,53397,False,1985,regular,1985-09-14T00:00:00.000Z,,,3
+792,,FBS Independents,[],10,Cincinnati,,SEC,[],45,Alabama,53454,False,1985,regular,1985-09-21T00:00:00.000Z,,,4
+793,,SEC,[],40,Alabama,,SEC,[],20,Vanderbilt,53506,False,1985,regular,1985-09-28T00:00:00.000Z,,,5
+794,,SEC,[],17,Alabama,,FBS Independents,[],19,Penn State,53653,False,1985,regular,1985-10-12T00:00:00.000Z,,,7
+795,,SEC,[],16,Tennessee,,SEC,[],14,Alabama,53713,False,1985,regular,1985-10-19T00:00:00.000Z,,,8
+796,,SEC,[],28,Alabama,,FBS Independents,[],9,Memphis,53724,False,1985,regular,1985-10-26T00:00:00.000Z,,,9
+797,,SEC,[],28,Mississippi State,,SEC,[],44,Alabama,53776,False,1985,regular,1985-11-02T00:00:00.000Z,,,10
+798,,SEC,[],14,LSU,,SEC,[],14,Alabama,53831,False,1985,regular,1985-11-09T00:00:00.000Z,,,11
+799,,FBS Independents,[],13,Southern Mississippi,,SEC,[],24,Alabama,53882,False,1985,regular,1985-11-16T00:00:00.000Z,,,12
+800,,SEC,[],23,Auburn,,SEC,[],25,Alabama,53977,False,1985,regular,1985-11-30T00:00:00.000Z,,,14
+801,,Big Ten,[],10,Ohio State,,SEC,[],16,Alabama,54012,False,1986,regular,1986-08-27T00:00:00.000Z,,,1
+802,,SEC,[],10,Vanderbilt,,SEC,[],42,Alabama,54025,False,1986,regular,1986-09-06T00:00:00.000Z,,,2
+803,,FBS Independents,[],17,Southern Mississippi,,SEC,[],31,Alabama,54065,False,1986,regular,1986-09-13T00:00:00.000Z,,,3
+804,,SEC,[],21,Alabama,,SEC,[],7,Florida,54117,False,1986,regular,1986-09-20T00:00:00.000Z,,,4
+805,,FBS Independents,[],10,Notre Dame,,SEC,[],28,Alabama,54224,False,1986,regular,1986-10-04T00:00:00.000Z,,,6
+806,,FBS Independents,[],0,Memphis,,SEC,[],37,Alabama,54274,False,1986,regular,1986-10-11T00:00:00.000Z,,,7
+807,,SEC,[],56,Alabama,,SEC,[],28,Tennessee,54321,False,1986,regular,1986-10-18T00:00:00.000Z,,,8
+808,,FBS Independents,[],23,Penn State,,SEC,[],3,Alabama,54407,False,1986,regular,1986-10-25T00:00:00.000Z,,,9
+809,,SEC,[],38,Alabama,,SEC,[],3,Mississippi State,54423,False,1986,regular,1986-11-01T00:00:00.000Z,,,10
+810,,SEC,[],14,LSU,,SEC,[],10,Alabama,54495,False,1986,regular,1986-11-08T00:00:00.000Z,,,11
+811,,FBS Independents,[],14,Temple,,SEC,[],24,Alabama,54524,False,1986,regular,1986-11-15T00:00:00.000Z,,,12
+812,,SEC,[],17,Alabama,,SEC,[],21,Auburn,54615,False,1986,regular,1986-11-29T00:00:00.000Z,,,14
+813,,FBS Independents,[],6,Southern Mississippi,,SEC,[],38,Alabama,54651,False,1987,regular,1987-09-05T00:00:00.000Z,,,2
+814,,SEC,[],24,Alabama,,FBS Independents,[],13,Penn State,54693,False,1987,regular,1987-09-12T00:00:00.000Z,,,3
+815,,SEC,[],23,Florida,,SEC,[],14,Alabama,54759,False,1987,regular,1987-09-19T00:00:00.000Z,,,4
+816,,SEC,[],30,Alabama,,SEC,[],23,Vanderbilt,54795,False,1987,regular,1987-09-26T00:00:00.000Z,,,5
+817,,FBS Independents,[],10,Louisiana,,SEC,[],38,Alabama,54850,False,1987,regular,1987-10-03T00:00:00.000Z,,,6
+818,,SEC,[],10,Alabama,,FBS Independents,[],13,Memphis,54922,False,1987,regular,1987-10-10T00:00:00.000Z,,,7
+819,,SEC,[],22,Tennessee,,SEC,[],41,Alabama,54950,False,1987,regular,1987-10-17T00:00:00.000Z,,,8
+820,,SEC,[],18,Mississippi State,,SEC,[],21,Alabama,55050,False,1987,regular,1987-10-31T00:00:00.000Z,,,10
+821,,SEC,[],22,Alabama,,SEC,[],10,LSU,55103,False,1987,regular,1987-11-07T00:00:00.000Z,,,11
+822,,SEC,[],6,Alabama,,FBS Independents,[],37,Notre Dame,55178,False,1987,regular,1987-11-14T00:00:00.000Z,,,12
+823,,SEC,[],0,Alabama,,SEC,[],10,Auburn,55247,False,1987,regular,1987-11-27T00:00:00.000Z,,,14
+824,,SEC,[],37,Alabama,,FBS Independents,[],0,Temple,55328,False,1988,regular,1988-09-10T00:00:00.000Z,,,3
+825,,SEC,[],10,Vanderbilt,,SEC,[],44,Alabama,55431,False,1988,regular,1988-09-24T00:00:00.000Z,,,5
+826,,SEC,[],31,Alabama,,SEC,[],27,Kentucky,55481,False,1988,regular,1988-10-01T00:00:00.000Z,,,6
+827,,SEC,[],22,Ole Miss,,SEC,[],12,Alabama,55554,False,1988,regular,1988-10-08T00:00:00.000Z,,,7
+828,,SEC,[],28,Alabama,,SEC,[],20,Tennessee,55583,False,1988,regular,1988-10-15T00:00:00.000Z,,,8
+829,,FBS Independents,[],3,Penn State,,SEC,[],8,Alabama,55634,False,1988,regular,1988-10-22T00:00:00.000Z,,,9
+830,,SEC,[],53,Alabama,,SEC,[],34,Mississippi State,55683,False,1988,regular,1988-10-29T00:00:00.000Z,,,10
+831,,SEC,[],19,LSU,,SEC,[],18,Alabama,55754,False,1988,regular,1988-11-05T00:00:00.000Z,,,11
+832,,FBS Independents,[],0,Louisiana,,SEC,[],17,Alabama,55783,False,1988,regular,1988-11-12T00:00:00.000Z,,,12
+833,,SEC,[],10,Alabama,,SEC,[],15,Auburn,55881,False,1988,regular,1988-11-25T00:00:00.000Z,,,14
+834,,SEC,[],30,Alabama,,Southwest,[],10,Texas A&M,55895,False,1988,regular,1988-12-01T00:00:00.000Z,,,15
+835,,FBS Independents,[],7,Memphis,,SEC,[],35,Alabama,55999,False,1989,regular,1989-09-16T00:00:00.000Z,,,3
+836,,SEC,[],3,Kentucky,,SEC,[],15,Alabama,56048,False,1989,regular,1989-09-23T00:00:00.000Z,,,4
+837,,SEC,[],20,Alabama,,SEC,[],14,Vanderbilt,56099,False,1989,regular,1989-09-30T00:00:00.000Z,,,5
+838,,SEC,[],62,Alabama,,SEC,[],27,Ole Miss,56148,False,1989,regular,1989-10-07T00:00:00.000Z,,,6
+839,,FBS Independents,[],17,Louisiana,,SEC,[],24,Alabama,56198,False,1989,regular,1989-10-14T00:00:00.000Z,,,7
+840,,SEC,[],30,Tennessee,,SEC,[],47,Alabama,56248,False,1989,regular,1989-10-21T00:00:00.000Z,,,8
+841,,SEC,[],17,Alabama,,FBS Independents,[],16,Penn State,56302,False,1989,regular,1989-10-28T00:00:00.000Z,,,9
+842,,SEC,[],10,Mississippi State,,SEC,[],23,Alabama,56353,False,1989,regular,1989-11-04T00:00:00.000Z,,,10
+843,,SEC,[],32,Alabama,,SEC,[],16,LSU,56401,False,1989,regular,1989-11-11T00:00:00.000Z,,,11
+844,,FBS Independents,[],14,Southern Mississippi,,SEC,[],37,Alabama,56452,False,1989,regular,1989-11-18T00:00:00.000Z,,,12
+845,,SEC,[],20,Alabama,,SEC,[],30,Auburn,56522,False,1989,regular,1989-12-02T00:00:00.000Z,,,14
+846,,FBS Independents,[],27,Southern Mississippi,,SEC,[],24,Alabama,56622,False,1990,regular,1990-09-08T00:00:00.000Z,,,3
+847,,SEC,[],17,Florida,,SEC,[],13,Alabama,56649,False,1990,regular,1990-09-15T00:00:00.000Z,,,4
+848,,SEC,[],16,Alabama,,SEC,[],17,Georgia,56701,False,1990,regular,1990-09-22T00:00:00.000Z,,,5
+849,,SEC,[],28,Vanderbilt,,SEC,[],59,Alabama,56742,False,1990,regular,1990-09-29T00:00:00.000Z,,,6
+850,,SEC,[],25,Alabama,,FBS Independents,[],6,Louisiana,56793,False,1990,regular,1990-10-06T00:00:00.000Z,,,7
+851,,SEC,[],9,Alabama,,SEC,[],6,Tennessee,56892,False,1990,regular,1990-10-20T00:00:00.000Z,,,9
+852,,FBS Independents,[],9,Penn State,,SEC,[],0,Alabama,56978,False,1990,regular,1990-10-27T00:00:00.000Z,,,10
+853,,SEC,[],22,Alabama,,SEC,[],0,Mississippi State,56996,False,1990,regular,1990-11-03T00:00:00.000Z,,,11
+854,,SEC,[],3,LSU,,SEC,[],24,Alabama,57047,False,1990,regular,1990-11-10T00:00:00.000Z,,,12
+855,,FBS Independents,[],7,Cincinnati,,SEC,[],45,Alabama,57098,False,1990,regular,1990-11-17T00:00:00.000Z,,,13
+856,,SEC,[],7,Auburn,,SEC,[],16,Alabama,57168,False,1990,regular,1990-12-01T00:00:00.000Z,,,15
+857,,Big East,[],3,Temple,,SEC,[],41,Alabama,57225,False,1991,regular,1991-09-07T00:00:00.000Z,,,2
+858,,SEC,[],0,Alabama,,SEC,[],35,Florida,57279,False,1991,regular,1991-09-14T00:00:00.000Z,,,3
+859,,SEC,[],0,Georgia,,SEC,[],10,Alabama,57320,False,1991,regular,1991-09-21T00:00:00.000Z,,,4
+860,,SEC,[],48,Alabama,,SEC,[],17,Vanderbilt,57370,False,1991,regular,1991-09-28T00:00:00.000Z,,,5
+861,,,[],7,Chattanooga,,SEC,[],53,Alabama,57418,False,1991,regular,1991-10-05T00:00:00.000Z,,,6
+862,,FBS Independents,[],0,Tulane,,SEC,[],62,Alabama,57469,False,1991,regular,1991-10-12T00:00:00.000Z,,,7
+863,,SEC,[],19,Tennessee,,SEC,[],24,Alabama,57520,False,1991,regular,1991-10-19T00:00:00.000Z,,,8
+864,,SEC,[],7,Mississippi State,,SEC,[],13,Alabama,57617,False,1991,regular,1991-11-02T00:00:00.000Z,,,10
+865,,SEC,[],20,Alabama,,SEC,[],17,LSU,57667,False,1991,regular,1991-11-09T00:00:00.000Z,,,11
+866,,SEC,[],10,Alabama,,FBS Independents,[],7,Memphis,57718,False,1991,regular,1991-11-16T00:00:00.000Z,,,12
+867,,SEC,[],6,Auburn,,SEC,[],13,Alabama,57807,False,1991,regular,1991-11-30T00:00:00.000Z,,,14
+868,,SEC,[],8,Vanderbilt,,SEC,[],25,Alabama,57841,False,1992,regular,1992-09-05T00:00:00.000Z,,,2
+869,,FBS Independents,[],10,Southern Mississippi,,SEC,[],17,Alabama,57889,False,1992,regular,1992-09-12T00:00:00.000Z,,,3
+870,,SEC,[],38,Alabama,,SEC,[],11,Arkansas,57944,False,1992,regular,1992-09-19T00:00:00.000Z,,,4
+871,,FBS Independents,[],0,Louisiana Tech,,SEC,[],13,Alabama,57995,False,1992,regular,1992-09-26T00:00:00.000Z,,,5
+872,,SEC,[],7,South Carolina,,SEC,[],48,Alabama,58048,False,1992,regular,1992-10-03T00:00:00.000Z,,,6
+873,,SEC,[],37,Alabama,,FBS Independents,[],0,Tulane,58096,False,1992,regular,1992-10-10T00:00:00.000Z,,,7
+874,,SEC,[],17,Alabama,,SEC,[],10,Tennessee,58145,False,1992,regular,1992-10-17T00:00:00.000Z,,,8
+875,,SEC,[],10,Ole Miss,,SEC,[],31,Alabama,58194,False,1992,regular,1992-10-24T00:00:00.000Z,,,9
+876,,SEC,[],31,Alabama,,SEC,[],11,LSU,58297,False,1992,regular,1992-11-07T00:00:00.000Z,,,11
+877,,SEC,[],30,Alabama,,SEC,[],21,Mississippi State,58345,False,1992,regular,1992-11-14T00:00:00.000Z,,,12
+878,,SEC,[],0,Auburn,,SEC,[],17,Alabama,58436,False,1992,regular,1992-11-26T00:00:00.000Z,,,14
+879,,FBS Independents,[],17,Tulane,,SEC,[],31,Alabama,58479,False,1993,regular,1993-09-04T00:00:00.000Z,,,2
+880,,SEC,[],17,Alabama,,SEC,[],6,Vanderbilt,58529,False,1993,regular,1993-09-11T00:00:00.000Z,,,3
+881,,SEC,[],3,Arkansas,,SEC,[],43,Alabama,58581,False,1993,regular,1993-09-18T00:00:00.000Z,,,4
+882,,Big West,[],3,Louisiana Tech,,SEC,[],56,Alabama,58631,False,1993,regular,1993-09-25T00:00:00.000Z,,,5
+883,,SEC,[],17,Alabama,,SEC,[],6,South Carolina,58679,False,1993,regular,1993-10-02T00:00:00.000Z,,,6
+884,,SEC,[],17,Alabama,,SEC,[],17,Tennessee,58812,False,1993,regular,1993-10-16T00:00:00.000Z,,,8
+885,,SEC,[],19,Alabama,,SEC,[],14,Ole Miss,58825,False,1993,regular,1993-10-23T00:00:00.000Z,,,9
+886,,FBS Independents,[],0,Southern Mississippi,,SEC,[],40,Alabama,58872,False,1993,regular,1993-10-30T00:00:00.000Z,,,10
+887,,SEC,[],17,LSU,,SEC,[],13,Alabama,58939,False,1993,regular,1993-11-06T00:00:00.000Z,,,11
+888,,SEC,[],25,Mississippi State,,SEC,[],36,Alabama,58969,False,1993,regular,1993-11-13T00:00:00.000Z,,,12
+889,,SEC,[],14,Alabama,,SEC,[],22,Auburn,59020,False,1993,regular,1993-11-20T00:00:00.000Z,,,13
+890,,,[],13,Chattanooga,,SEC,[],42,Alabama,59111,False,1994,regular,1994-09-03T00:00:00.000Z,,,2
+891,,SEC,[],7,Vanderbilt,,SEC,[],17,Alabama,59160,False,1994,regular,1994-09-10T00:00:00.000Z,,,3
+892,,SEC,[],13,Alabama,,SEC,[],6,Arkansas,59212,False,1994,regular,1994-09-17T00:00:00.000Z,,,4
+893,,FBS Independents,[],10,Tulane,,SEC,[],20,Alabama,59264,False,1994,regular,1994-09-24T00:00:00.000Z,,,5
+894,,SEC,[],28,Georgia,,SEC,[],29,Alabama,59313,False,1994,regular,1994-10-01T00:00:00.000Z,,,6
+895,,FBS Independents,[],6,Southern Mississippi,,SEC,[],14,Alabama,59360,False,1994,regular,1994-10-08T00:00:00.000Z,,,7
+896,,SEC,[],17,Alabama,,SEC,[],13,Tennessee,59407,False,1994,regular,1994-10-15T00:00:00.000Z,,,8
+897,,SEC,[],10,Ole Miss,,SEC,[],21,Alabama,59459,False,1994,regular,1994-10-22T00:00:00.000Z,,,9
+898,,SEC,[],35,Alabama,,SEC,[],17,LSU,59557,False,1994,regular,1994-11-05T00:00:00.000Z,,,11
+899,,SEC,[],29,Alabama,,SEC,[],25,Mississippi State,59603,False,1994,regular,1994-11-12T00:00:00.000Z,,,12
+900,,SEC,[],14,Auburn,,SEC,[],21,Alabama,59656,False,1994,regular,1994-11-19T00:00:00.000Z,,,13
+901,,SEC,[],33,Alabama,,SEC,[],25,Vanderbilt,59751,False,1995,regular,1995-09-02T00:00:00.000Z,,,2
+902,,FBS Independents,[],20,Southern Mississippi,,SEC,[],24,Alabama,59795,False,1995,regular,1995-09-09T00:00:00.000Z,,,3
+903,,SEC,[],20,Arkansas,,SEC,[],19,Alabama,59848,False,1995,regular,1995-09-16T00:00:00.000Z,,,4
+904,,SEC,[],31,Alabama,,SEC,[],0,Georgia,59949,False,1995,regular,1995-09-30T00:00:00.000Z,,,6
+905,,ACC,[],11,NC State,,SEC,[],27,Alabama,59992,False,1995,regular,1995-10-07T00:00:00.000Z,,,7
+906,,SEC,[],41,Tennessee,,SEC,[],14,Alabama,60073,False,1995,regular,1995-10-14T00:00:00.000Z,,,8
+907,,SEC,[],23,Alabama,,SEC,[],9,Ole Miss,60088,False,1995,regular,1995-10-21T00:00:00.000Z,,,9
+908,,FBS Independents,[],19,North Texas,,SEC,[],38,Alabama,60138,False,1995,regular,1995-10-28T00:00:00.000Z,,,10
+909,,SEC,[],3,LSU,,SEC,[],10,Alabama,60187,False,1995,regular,1995-11-04T00:00:00.000Z,,,11
+910,,SEC,[],9,Mississippi State,,SEC,[],14,Alabama,60237,False,1995,regular,1995-11-11T00:00:00.000Z,,,12
+911,,SEC,[],27,Alabama,,SEC,[],31,Auburn,60289,False,1995,regular,1995-11-18T00:00:00.000Z,,,13
+912,,Mid-American,[],7,Bowling Green,,SEC,[],21,Alabama,60391,False,1996,regular,1996-08-31T00:00:00.000Z,,,2
+913,,Conference USA,[],10,Southern Mississippi,,SEC,[],20,Alabama,60424,False,1996,regular,1996-09-07T00:00:00.000Z,,,3
+914,,SEC,[],26,Vanderbilt,,SEC,[],36,Alabama,60478,False,1996,regular,1996-09-14T00:00:00.000Z,,,4
+915,,SEC,[],17,Alabama,,SEC,[],7,Arkansas,60525,False,1996,regular,1996-09-21T00:00:00.000Z,,,5
+916,,SEC,[],7,Kentucky,,SEC,[],35,Alabama,60623,False,1996,regular,1996-10-05T00:00:00.000Z,,,7
+917,,SEC,[],24,Alabama,,ACC,[],19,NC State,60673,False,1996,regular,1996-10-12T00:00:00.000Z,,,8
+918,,SEC,[],0,Ole Miss,,SEC,[],37,Alabama,60721,False,1996,regular,1996-10-19T00:00:00.000Z,,,9
+919,,SEC,[],13,Alabama,,SEC,[],20,Tennessee,60809,False,1996,regular,1996-10-26T00:00:00.000Z,,,10
+920,,SEC,[],26,Alabama,,SEC,[],0,LSU,60869,False,1996,regular,1996-11-09T00:00:00.000Z,,,12
+921,,SEC,[],16,Alabama,,SEC,[],17,Mississippi State,60940,False,1996,regular,1996-11-16T00:00:00.000Z,,,13
+922,,SEC,[],23,Auburn,,SEC,[],24,Alabama,60969,False,1996,regular,1996-11-23T00:00:00.000Z,,,14
+923,,Conference USA,[],17,Houston,,SEC,[],42,Alabama,61051,False,1997,regular,1997-08-30T00:00:00.000Z,,,2
+924,,SEC,[],20,Alabama,,SEC,[],0,Vanderbilt,61129,False,1997,regular,1997-09-11T00:00:00.000Z,,,4
+925,,SEC,[],17,Arkansas,,SEC,[],16,Alabama,61185,False,1997,regular,1997-09-20T00:00:00.000Z,,,5
+926,,Conference USA,[],13,Southern Mississippi,,SEC,[],27,Alabama,61236,False,1997,regular,1997-09-27T00:00:00.000Z,,,6
+927,,SEC,[],34,Alabama,,SEC,[],40,Kentucky,61295,False,1997,regular,1997-10-04T00:00:00.000Z,,,7
+928,,SEC,[],38,Tennessee,,SEC,[],21,Alabama,61421,False,1997,regular,1997-10-18T00:00:00.000Z,,,9
+929,,SEC,[],29,Alabama,,SEC,[],20,Ole Miss,61432,False,1997,regular,1997-10-25T00:00:00.000Z,,,10
+930,,FBS Independents,[],26,Louisiana Tech,,SEC,[],20,Alabama,61501,False,1997,regular,1997-11-01T00:00:00.000Z,,,11
+931,,SEC,[],27,LSU,,SEC,[],0,Alabama,61550,False,1997,regular,1997-11-08T00:00:00.000Z,,,12
+932,,SEC,[],32,Mississippi State,,SEC,[],20,Alabama,61603,False,1997,regular,1997-11-15T00:00:00.000Z,,,13
+933,,SEC,[],17,Alabama,,SEC,[],18,Auburn,61635,False,1997,regular,1997-11-22T00:00:00.000Z,,,14
+934,,Western Athletic,[],31,BYU,,SEC,[],38,Alabama,61718,False,1998,regular,1998-09-05T00:00:00.000Z,,,2
+935,,SEC,[],7,Vanderbilt,,SEC,[],32,Alabama,61772,False,1998,regular,1998-09-12T00:00:00.000Z,,,3
+936,,SEC,[],6,Alabama,,SEC,[],42,Arkansas,61879,False,1998,regular,1998-09-26T00:00:00.000Z,,,5
+937,,SEC,[],16,Florida,,SEC,[],10,Alabama,61939,False,1998,regular,1998-10-03T00:00:00.000Z,,,6
+938,,SEC,[],17,Ole Miss,,SEC,[],20,Alabama,61983,False,1998,regular,1998-10-10T00:00:00.000Z,,,7
+939,,Conference USA,[],22,East Carolina,,SEC,[],23,Alabama,62032,False,1998,regular,1998-10-17T00:00:00.000Z,,,8
+940,,SEC,[],18,Alabama,,SEC,[],35,Tennessee,62121,False,1998,regular,1998-10-24T00:00:00.000Z,,,9
+941,,Conference USA,[],20,Southern Mississippi,,SEC,[],30,Alabama,62135,False,1998,regular,1998-10-31T00:00:00.000Z,,,10
+942,,SEC,[],22,Alabama,,SEC,[],16,LSU,62188,False,1998,regular,1998-11-07T00:00:00.000Z,,,11
+943,,SEC,[],14,Alabama,,SEC,[],26,Mississippi State,62260,False,1998,regular,1998-11-14T00:00:00.000Z,,,12
+944,,SEC,[],17,Auburn,,SEC,[],31,Alabama,62289,False,1998,regular,1998-11-21T00:00:00.000Z,,,13
+945,,SEC,[],28,Alabama,,SEC,[],17,Vanderbilt,62397,False,1999,regular,1999-09-04T00:00:00.000Z,,,2
+946,,Conference USA,[],10,Houston,,SEC,[],37,Alabama,62447,False,1999,regular,1999-09-11T00:00:00.000Z,,,3
+947,,FBS Independents,[],29,Louisiana Tech,,SEC,[],28,Alabama,62526,False,1999,regular,1999-09-18T00:00:00.000Z,,,4
+948,,SEC,[],28,Arkansas,,SEC,[],35,Alabama,62561,False,1999,regular,1999-09-25T00:00:00.000Z,,,5
+949,,SEC,[],40,Alabama,,SEC,[],39,Florida,62614,False,1999,regular,1999-10-02T00:00:00.000Z,,,6
+950,,SEC,[],30,Alabama,,SEC,[],24,Ole Miss,62721,False,1999,regular,1999-10-16T00:00:00.000Z,,,8
+951,,SEC,[],21,Tennessee,,SEC,[],7,Alabama,62804,False,1999,regular,1999-10-23T00:00:00.000Z,,,9
+952,,Conference USA,[],14,Southern Mississippi,,SEC,[],35,Alabama,62815,False,1999,regular,1999-10-30T00:00:00.000Z,,,10
+953,,SEC,[],17,LSU,,SEC,[],23,Alabama,62870,False,1999,regular,1999-11-06T00:00:00.000Z,,,11
+954,,SEC,[],7,Mississippi State,,SEC,[],19,Alabama,62921,False,1999,regular,1999-11-13T00:00:00.000Z,,,12
+955,,SEC,[],28,Alabama,,SEC,[],17,Auburn,62973,False,1999,regular,1999-11-20T00:00:00.000Z,,,13
+956,,SEC,[],24,Alabama,,Pac-10,[],35,UCLA,63126,False,2000,regular,2000-09-02T00:00:00.000Z,,,2
+957,,SEC,[],10,Vanderbilt,,SEC,[],28,Alabama,63134,False,2000,regular,2000-09-09T00:00:00.000Z,,,3
+958,,Conference USA,[],21,Southern Mississippi,,SEC,[],0,Alabama,63225,False,2000,regular,2000-09-16T00:00:00.000Z,,,4
+959,,SEC,[],21,Alabama,,SEC,[],28,Arkansas,63249,False,2000,regular,2000-09-23T00:00:00.000Z,,,5
+960,,SEC,[],17,South Carolina,,SEC,[],27,Alabama,63301,False,2000,regular,2000-09-30T00:00:00.000Z,,,6
+961,,SEC,[],7,Ole Miss,,SEC,[],45,Alabama,63408,False,2000,regular,2000-10-14T00:00:00.000Z,,,8
+962,,SEC,[],10,Alabama,,SEC,[],20,Tennessee,63500,False,2000,regular,2000-10-21T00:00:00.000Z,,,9
+963,,FBS Independents,[],40,UCF,,SEC,[],38,Alabama,63516,False,2000,regular,2000-10-28T00:00:00.000Z,,,10
+964,,SEC,[],28,Alabama,,SEC,[],30,LSU,63576,False,2000,regular,2000-11-04T00:00:00.000Z,,,11
+965,,SEC,[],7,Alabama,,SEC,[],29,Mississippi State,63637,False,2000,regular,2000-11-11T00:00:00.000Z,,,12
+966,,SEC,[],9,Auburn,,SEC,[],0,Alabama,63672,False,2000,regular,2000-11-18T00:00:00.000Z,,,13
+967,83818.0,Pac-10,"[0, 7, 13, 0]",20,UCLA,False,SEC,"[7, 3, 0, 7]",17,Alabama,212440333,False,2001,regular,2001-09-01T19:45:00.000Z,Bryant Denny Stadium,3657.0,2
+968,37318.0,SEC,"[0, 6, 3, 3]",12,Alabama,True,SEC,"[3, 3, 0, 3]",9,Vanderbilt,212510238,False,2001,regular,2001-09-08T12:30:00.000Z,Vanderbilt Stadium,3973.0,3
+969,83818.0,SEC,"[3, 7, 0, 0]",10,Arkansas,True,SEC,"[7, 7, 10, 7]",31,Alabama,212650333,False,2001,regular,2001-09-22T15:30:00.000Z,Bryant Denny Stadium,3657.0,5
+970,84100.0,SEC,"[6, 17, 6, 7]",36,Alabama,True,SEC,"[0, 10, 14, 13]",37,South Carolina,212722579,False,2001,regular,2001-09-29T12:30:00.000Z,Williams-Brice Stadium,3994.0,6
+971,77146.0,Western Athletic,"[0, 0, 0, 7]",7,UTEP,False,SEC,"[21, 21, 7, 7]",56,Alabama,212790333,False,2001,regular,2001-10-06T15:00:00.000Z,Legion Field,3803.0,7
+972,47110.0,SEC,"[7, 10, 7, 0]",24,Alabama,True,SEC,"[0, 14, 0, 13]",27,Ole Miss,212860145,False,2001,regular,2001-10-13T12:30:00.000Z,Vaught-Hemingway Stadium,3974.0,8
+973,,SEC,[],35,Tennessee,,SEC,[],24,Alabama,63816,False,2001,regular,2001-10-20T00:00:00.000Z,,,8
+974,83818.0,SEC,"[14, 0, 14, 7]",35,LSU,True,SEC,"[0, 10, 11, 0]",21,Alabama,213070333,False,2001,regular,2001-11-03T16:30:00.000Z,Bryant Denny Stadium,3657.0,11
+975,83818.0,SEC,"[0, 7, 10, 0]",17,Mississippi State,True,SEC,"[7, 3, 0, 14]",24,Alabama,213140333,False,2001,regular,2001-11-10T12:30:00.000Z,Bryant Denny Stadium,3657.0,12
+976,86063.0,SEC,"[0, 14, 7, 10]",31,Alabama,True,SEC,"[0, 7, 0, 0]",7,Auburn,213210002,False,2001,regular,2001-11-17T15:30:00.000Z,Jordan-Hare Stadium,3785.0,13
+977,79947.0,Conference USA,"[0, 6, 9, 0]",15,Southern Mississippi,False,SEC,"[0, 7, 15, 6]",28,Alabama,213330333,False,2001,regular,2001-11-29T19:00:00.000Z,Bryant Denny Stadium,3657.0,15
+978,80091,Sun Belt,"[0, 11, 3, 20]",34,Middle Tennessee,False,SEC,"[22, 0, 7, 10]",39,Alabama,222430333,False,2002,regular,2002-08-31T12:30:00.000Z,Bryant Denny Stadium,3657,2
+979,75564,SEC,"[3, 0, 14, 10]",27,Alabama,False,Big 12,"[9, 14, 0, 14]",37,Oklahoma,222500201,False,2002,regular,2002-09-07T15:30:00.000Z,Gaylord Family Oklahoma Memorial Stadium,3835,3
+980,79818,Sun Belt,"[0, 7, 0, 0]",7,North Texas,False,SEC,"[3, 16, 7, 7]",33,Alabama,222570333,False,2002,regular,2002-09-14T19:00:00.000Z,Bryant Denny Stadium,3657,4
+981,83818,Conference USA,"[0, 0, 7, 0]",7,Southern Mississippi,False,SEC,"[7, 7, 0, 6]",20,Alabama,222640333,False,2002,regular,2002-09-21T19:00:00.000Z,Bryant Denny Stadium,3657,5
+982,73551,SEC,"[14, 3, 3, 10]",30,Alabama,True,SEC,"[0, 7, 3, 2]",12,Arkansas,222710008,False,2002,regular,2002-09-28T19:45:00.000Z,Donald W. Reynolds Razorback Stadium Frank Broyles Field,3887,6
+983,83818,SEC,"[7, 7, 3, 10]",27,Georgia,True,SEC,"[3, 6, 3, 13]",25,Alabama,222780333,False,2002,regular,2002-10-05T15:30:00.000Z,Bryant Denny Stadium,3657,7
+984,83818,SEC,"[7, 0, 0, 0]",7,Ole Miss,True,SEC,"[14, 7, 7, 14]",42,Alabama,222920333,False,2002,regular,2002-10-19T15:30:00.000Z,Bryant Denny Stadium,3657,9
+985,107722,SEC,"[7, 7, 10, 10]",34,Alabama,True,SEC,"[0, 7, 7, 0]",14,Tennessee,222992633,False,2002,regular,2002-10-26T19:45:00.000Z,Neyland Stadium,3853,10
+986,36407,SEC,"[7, 6, 7, 10]",30,Alabama,True,SEC,"[0, 0, 0, 8]",8,Vanderbilt,223060238,False,2002,regular,2002-11-02T15:00:00.000Z,Vanderbilt Stadium,3973,11
+987,83818,SEC,"[3, 11, 0, 0]",14,Mississippi State,True,SEC,"[14, 7, 7, 0]",28,Alabama,223130333,False,2002,regular,2002-11-09T14:00:00.000Z,Bryant Denny Stadium,3657,12
+988,92012,SEC,"[0, 14, 0, 17]",31,Alabama,True,SEC,"[0, 0, 0, 0]",0,LSU,223200099,False,2002,regular,2002-11-16T21:00:00.000Z,Tiger Stadium,3958,13
+989,84818,SEC,"[14, 3, 0, 0]",17,Auburn,True,SEC,"[0, 0, 7, 0]",7,Alabama,223270333,False,2002,regular,2002-11-23T15:30:00.000Z,Bryant Denny Stadium,3657,14
+990,50000,SEC,"[0, 14, 0, 7]",21,Alabama,False,Western Athletic,"[0, 0, 3, 13]",16,Hawai'i,223340062,False,2002,regular,2002-11-30T19:45:00.000Z,Aloha Stadium,3610,15
+991,76780,Conference USA,"[7, 10, 0, 0]",17,South Florida,False,SEC,"[7, 10, 16, 7]",40,Alabama,232420333,False,2003,regular,2003-08-30T19:45:00.000Z,Legion Field,3803,2
+992,83818,Big 12,"[6, 7, 7, 0]",20,Oklahoma,False,SEC,"[0, 3, 7, 3]",13,Alabama,232490333,False,2003,regular,2003-09-06T19:45:00.000Z,Bryant Denny Stadium,3657,3
+993,83018,SEC,"[0, 7, 3, 7]",17,Kentucky,True,SEC,"[7, 3, 3, 14]",27,Alabama,232560333,False,2003,regular,2003-09-13T19:45:00.000Z,Bryant Denny Stadium,3657,4
+994,83018,Mid-American,"[2, 3, 7, 7]",19,Northern Illinois,False,SEC,"[6, 3, 0, 7]",16,Alabama,232630333,False,2003,regular,2003-09-20T19:00:00.000Z,Bryant Denny Stadium,3657,5
+995,82818,SEC,"[7, 3, 7, 14, 0, 3]",34,Arkansas,True,SEC,"[7, 3, 21, 0, 0, 0]",31,Alabama,232700333,False,2003,regular,2003-09-27T15:30:00.000Z,Bryant Denny Stadium,3657,6
+996,92058,SEC,"[3, 7, 6, 7]",23,Alabama,True,SEC,"[6, 31, 0, 0]",37,Georgia,232770061,False,2003,regular,2003-10-04T15:30:00.000Z,Sanford Stadium,3917,7
+997,82818,Conference USA,"[0, 3, 0, 0]",3,Southern Mississippi,False,SEC,"[7, 3, 0, 7]",17,Alabama,232840333,False,2003,regular,2003-10-11T15:00:00.000Z,Bryant Denny Stadium,3657,8
+998,60825,SEC,"[0, 10, 6, 12]",28,Alabama,True,SEC,"[24, 7, 7, 5]",43,Ole Miss,232910145,False,2003,regular,2003-10-18T12:30:00.000Z,Vaught-Hemingway Stadium,3974,9
+999,83018,SEC,"[0, 3, 10, 7, 31]",51,Tennessee,True,SEC,"[3, 3, 7, 7, 23]",43,Alabama,232980333,False,2003,regular,2003-10-25T15:30:00.000Z,Bryant Denny Stadium,3657,10
+1000,48242,SEC,"[14, 10, 0, 14]",38,Alabama,True,SEC,"[0, 0, 0, 0]",0,Mississippi State,233120344,False,2003,regular,2003-11-08T12:30:00.000Z,Davis Wade Stadium,3693,12
+1001,83818,SEC,"[10, 7, 7, 3]",27,LSU,True,SEC,"[0, 0, 0, 3]",3,Alabama,233190333,False,2003,regular,2003-11-15T19:45:00.000Z,Bryant Denny Stadium,3657,13
+1002,86063,SEC,"[2, 0, 14, 7]",23,Alabama,True,SEC,"[18, 0, 3, 7]",28,Auburn,233260002,False,2003,regular,2003-11-22T19:45:00.000Z,Jordan-Hare Stadium,3785,14
+1003,43477,SEC,"[7, 7, 7, 8]",29,Alabama,False,Western Athletic,"[0, 14, 2, 21]",37,Hawai'i,233330062,False,2003,regular,2003-11-29T19:45:00.000Z,Aloha Stadium,3610,15
+1004,0,Sun Belt,"[7, 3, 7, 0]",17,Utah State,False,SEC,"[10, 7, 17, 14]",48,Alabama,242480333,False,2004,regular,2004-09-04T19:00:00.000Z,Bryant Denny Stadium,3657,2
+1005,0,SEC,"[0, 0, 0, 7]",7,Ole Miss,True,SEC,"[0, 14, 7, 7]",28,Alabama,242550333,False,2004,regular,2004-09-11T21:00:00.000Z,Bryant Denny Stadium,3657,3
+1006,77306,,"[0, 0, 0, 0]",0,Western Carolina,False,SEC,"[14, 17, 7, 14]",52,Alabama,242620333,False,2004,regular,2004-09-18T19:00:00.000Z,Bryant Denny Stadium,3657,4
+1007,0,SEC,"[0, 10, 0, 0]",10,Alabama,True,SEC,"[7, 7, 0, 13]",27,Arkansas,242690008,False,2004,regular,2004-09-25T15:30:00.000Z,Donald W. Reynolds Razorback Stadium Frank Broyles Field,3887,5
+1008,0,SEC,"[3, 3, 14, 0]",20,South Carolina,True,SEC,"[0, 3, 0, 0]",3,Alabama,242760333,False,2004,regular,2004-10-02T18:00:00.000Z,Bryant Denny Stadium,3657,6
+1009,0,SEC,"[7, 10, 14, 14]",45,Alabama,True,SEC,"[0, 7, 7, 3]",17,Kentucky,242830096,False,2004,regular,2004-10-09T12:30:00.000Z,Commonwealth Stadium,3683,7
+1010,0,Conference USA,"[0, 3, 0, 0]",3,Southern Mississippi,False,SEC,"[10, 3, 0, 14]",27,Alabama,242900333,False,2004,regular,2004-10-16T15:30:00.000Z,Bryant Denny Stadium,3657,8
+1011,0,SEC,"[7, 3, 0, 3]",13,Alabama,True,SEC,"[7, 7, 3, 0]",17,Tennessee,242972633,False,2004,regular,2004-10-23T15:30:00.000Z,Neyland Stadium,3853,9
+1012,0,SEC,"[7, 0, 7, 0]",14,Mississippi State,True,SEC,"[0, 17, 3, 10]",30,Alabama,243110333,False,2004,regular,2004-11-06T19:30:00.000Z,Bryant Denny Stadium,3657,11
+1013,0,SEC,"[7, 3, 0, 0]",10,Alabama,True,SEC,"[0, 6, 7, 13]",26,LSU,243180099,False,2004,regular,2004-11-13T19:45:00.000Z,Tiger Stadium,3958,12
+1014,0,SEC,"[0, 0, 14, 7]",21,Auburn,True,SEC,"[3, 3, 0, 7]",13,Alabama,243250333,False,2004,regular,2004-11-20T15:30:00.000Z,Bryant Denny Stadium,3657,13
+1015,0,Sun Belt,"[0, 7, 0, 0]",7,Middle Tennessee,False,SEC,"[2, 7, 14, 3]",26,Alabama,252460333,False,2005,regular,2005-09-03T19:00:00.000Z,Bryant Denny Stadium,3657,1
+1016,0,Conference USA,"[14, 7, 0, 0]",21,Southern Mississippi,False,SEC,"[10, 7, 6, 7]",30,Alabama,252530333,False,2005,regular,2005-09-10T19:45:00.000Z,Bryant Denny Stadium,3657,2
+1017,0,SEC,"[14, 6, 10, 7]",37,Alabama,True,SEC,"[7, 0, 0, 7]",14,South Carolina,252602579,False,2005,regular,2005-09-17T15:30:00.000Z,Williams-Brice Stadium,3994,3
+1018,0,SEC,"[0, 3, 0, 10]",13,Arkansas,True,SEC,"[0, 7, 3, 14]",24,Alabama,252670333,False,2005,regular,2005-09-24T12:30:00.000Z,Bryant Denny Stadium,3657,4
+1019,0,SEC,"[0, 3, 0, 0]",3,Florida,True,SEC,"[17, 7, 7, 0]",31,Alabama,252740333,False,2005,regular,2005-10-01T15:30:00.000Z,Bryant Denny Stadium,3657,5
+1020,0,SEC,"[0, 3, 7, 3]",13,Alabama,True,SEC,"[7, 0, 0, 3]",10,Ole Miss,252880145,False,2005,regular,2005-10-15T12:00:00.000Z,Vaught-Hemingway Stadium,3974,7
+1021,0,SEC,"[0, 0, 0, 3]",3,Tennessee,True,SEC,"[0, 0, 3, 3]",6,Alabama,252950333,False,2005,regular,2005-10-22T15:30:00.000Z,Bryant Denny Stadium,3657,8
+1022,0,Western Athletic,"[0, 0, 3, 0]",3,Utah State,False,SEC,"[14, 7, 7, 7]",35,Alabama,253020333,False,2005,regular,2005-10-29T15:00:00.000Z,Bryant Denny Stadium,3657,9
+1023,0,SEC,"[0, 3, 14, 0]",17,Alabama,True,SEC,"[0, 0, 0, 0]",0,Mississippi State,253090344,False,2005,regular,2005-11-05T16:30:00.000Z,Davis Wade Stadium,3693,10
+1024,0,SEC,"[0, 0, 10, 0, 6]",16,LSU,True,SEC,"[3, 7, 0, 0, 3]",13,Alabama,253160333,False,2005,regular,2005-11-12T15:30:00.000Z,Bryant Denny Stadium,3657,11
+1025,0,SEC,"[0, 7, 3, 8]",18,Alabama,True,SEC,"[21, 7, 0, 0]",28,Auburn,253230002,False,2005,regular,2005-11-19T15:30:00.000Z,Jordan-Hare Stadium,3785,12
+1026,92138,Western Athletic,"[3, 0, 7, 7]",17,Hawai'i,False,SEC,"[3, 12, 7, 3]",25,Alabama,262450333,False,2006,regular,2006-09-02T19:00:00.000Z,Bryant Denny Stadium,3657,1
+1027,92138,SEC,"[0, 10, 0, 0]",10,Vanderbilt,True,SEC,"[3, 0, 7, 3]",13,Alabama,262520333,False,2006,regular,2006-09-09T15:30:00.000Z,Bryant Denny Stadium,3657,2
+1028,92138,Sun Belt,"[7, 0, 0, 0]",7,Louisiana Monroe,False,SEC,"[10, 7, 10, 14]",41,Alabama,262590333,False,2006,regular,2006-09-16T19:07:00.000Z,Bryant Denny Stadium,3657,3
+1029,74687,SEC,"[0, 10, 0, 7, 6]",23,Alabama,True,SEC,"[3, 0, 14, 0, 7]",24,Arkansas,262660008,False,2006,regular,2006-09-23T15:30:00.000Z,Donald W. Reynolds Razorback Stadium Frank Broyles Field,3887,4
+1030,90671,SEC,"[7, 3, 0, 3]",13,Alabama,True,SEC,"[0, 7, 7, 14]",28,Florida,262730057,False,2006,regular,2006-09-30T15:30:00.000Z,Ben Hill Griffin Stadium,3634,5
+1031,92138,ACC,"[0, 14, 0, 0]",14,Duke,False,SEC,"[3, 7, 6, 14]",30,Alabama,262800333,False,2006,regular,2006-10-07T19:07:00.000Z,Bryant Denny Stadium,3657,6
+1032,92138,SEC,"[7, 6, 0, 7, 3]",23,Ole Miss,True,SEC,"[7, 3, 3, 7, 6]",26,Alabama,262870333,False,2006,regular,2006-10-14T15:30:00.000Z,Bryant Denny Stadium,3657,7
+1033,106695,SEC,"[3, 3, 7, 0]",13,Alabama,True,SEC,"[0, 3, 3, 10]",16,Tennessee,262942633,False,2006,regular,2006-10-21T15:30:00.000Z,Neyland Stadium,3853,8
+1034,92138,Sun Belt,"[3, 0, 0, 0]",3,Florida International,False,SEC,"[0, 10, 14, 14]",38,Alabama,263010333,False,2006,regular,2006-10-28T15:07:00.000Z,Bryant Denny Stadium,3657,9
+1035,92138,SEC,"[7, 17, 0, 0]",24,Mississippi State,True,SEC,"[3, 7, 6, 0]",16,Alabama,263080333,False,2006,regular,2006-11-04T13:30:00.000Z,Bryant Denny Stadium,3657,10
+1036,92588,SEC,"[7, 7, 0, 0]",14,Alabama,True,SEC,"[14, 7, 7, 0]",28,LSU,263150099,False,2006,regular,2006-11-11T19:45:00.000Z,Tiger Stadium,3958,11
+1037,92138,SEC,"[0, 14, 8, 0]",22,Auburn,True,SEC,"[3, 6, 6, 0]",15,Alabama,263220333,False,2006,regular,2006-11-18T15:34:00.000Z,Bryant Denny Stadium,3657,12
+1038,92138,,"[0, 3, 0, 3]",6,Western Carolina,False,SEC,"[14, 24, 0, 14]",52,Alabama,272440333,False,2007,regular,2007-09-01T19:07:00.000Z,Bryant Denny Stadium,3657,1
+1039,39773,SEC,"[10, 6, 0, 8]",24,Alabama,True,SEC,"[3, 0, 0, 7]",10,Vanderbilt,272510238,False,2007,regular,2007-09-08T12:34:00.000Z,Vanderbilt Stadium,3973,2
+1040,92138,SEC,"[0, 10, 7, 21]",38,Arkansas,True,SEC,"[21, 0, 10, 10]",41,Alabama,272580333,False,2007,regular,2007-09-15T18:45:00.000Z,Bryant Denny Stadium,3657,3
+1041,92138,SEC,"[7, 3, 7, 3, 6]",26,Georgia,True,SEC,"[0, 3, 7, 10, 3]",23,Alabama,272650333,False,2007,regular,2007-09-22T19:45:00.000Z,Bryant Denny Stadium,3657,4
+1042,85412,SEC,"[0, 0, 0, 14]",14,Alabama,False,ACC,"[0, 0, 7, 14]",21,Florida State,272720052,False,2007,regular,2007-09-29T17:00:00.000Z,Municipal Stadium,3850,5
+1043,92138,Conference USA,"[0, 7, 3, 14]",24,Houston,False,SEC,"[23, 0, 7, 0]",30,Alabama,272790333,False,2007,regular,2007-10-06T15:00:00.000Z,Bryant Denny Stadium,3657,6
+1044,59791,SEC,"[3, 14, 0, 10]",27,Alabama,True,SEC,"[7, 3, 14, 0]",24,Ole Miss,272860145,False,2007,regular,2007-10-13T12:30:00.000Z,Vaught-Hemingway Stadium,3974,7
+1045,92138,SEC,"[7, 10, 0, 0]",17,Tennessee,True,SEC,"[10, 14, 6, 11]",41,Alabama,272930333,False,2007,regular,2007-10-20T12:30:00.000Z,Bryant Denny Stadium,3657,8
+1046,92138,SEC,"[10, 7, 7, 17]",41,LSU,True,SEC,"[3, 17, 7, 7]",34,Alabama,273070333,False,2007,regular,2007-11-03T17:00:00.000Z,Bryant Denny Stadium,3657,10
+1047,56188,SEC,"[6, 3, 0, 3]",12,Alabama,True,SEC,"[0, 10, 7, 0]",17,Mississippi State,273140344,False,2007,regular,2007-11-10T12:30:00.000Z,Davis Wade Stadium,3693,11
+1048,92138,Sun Belt,"[0, 14, 7, 0]",21,Louisiana Monroe,False,SEC,"[7, 7, 0, 0]",14,Alabama,273210333,False,2007,regular,2007-11-17T14:30:00.000Z,Bryant Denny Stadium,3657,12
+1049,87451,SEC,"[0, 7, 0, 3]",10,Alabama,True,SEC,"[10, 0, 0, 7]",17,Auburn,273280002,False,2007,regular,2007-11-24T20:00:00.000Z,Jordan-Hare Stadium,3785,13
+1050,70097,SEC,"[13, 10, 8, 3]",34,Alabama,False,ACC,"[0, 3, 7, 0]",10,Clemson,282430228,True,2008,regular,2008-08-30T20:00:00.000Z,Georgia Dome,3495,1
+1051,92138,Conference USA,"[0, 3, 0, 3]",6,Tulane,False,SEC,"[13, 0, 7, 0]",20,Alabama,282500333,False,2008,regular,2008-09-06T19:00:00.000Z,Bryant Denny Stadium,3657,2
+1052,92138,FBS Independents,"[0, 7, 0, 0]",7,Western Kentucky,False,SEC,"[17, 14, 10, 0]",41,Alabama,282570333,False,2008,regular,2008-09-13T19:00:00.000Z,Bryant Denny Stadium,3657,3
+1053,72315,SEC,"[21, 14, 7, 7]",49,Alabama,True,SEC,"[0, 7, 0, 7]",14,Arkansas,282640008,False,2008,regular,2008-09-20T12:30:00.000Z,Donald W. Reynolds Razorback Stadium Frank Broyles Field,3887,4
+1054,92746,SEC,"[10, 21, 0, 10]",41,Alabama,True,SEC,"[0, 0, 10, 20]",30,Georgia,282710061,False,2008,regular,2008-09-27T19:45:00.000Z,Sanford Stadium,3917,5
+1055,92138,SEC,"[0, 0, 7, 7]",14,Kentucky,True,SEC,"[14, 0, 0, 3]",17,Alabama,282780333,False,2008,regular,2008-10-04T15:30:00.000Z,Bryant Denny Stadium,3657,6
+1056,92138,SEC,"[3, 0, 7, 10]",20,Ole Miss,True,SEC,"[7, 17, 0, 0]",24,Alabama,282920333,False,2008,regular,2008-10-18T15:30:00.000Z,Bryant Denny Stadium,3657,8
+1057,106138,SEC,"[6, 7, 9, 7]",29,Alabama,True,SEC,"[3, 0, 0, 6]",9,Tennessee,282992633,False,2008,regular,2008-10-25T19:45:00.000Z,Neyland Stadium,3853,9
+1058,92138,Sun Belt,"[0, 0, 0, 0]",0,Arkansas State,False,SEC,"[7, 7, 14, 7]",35,Alabama,283060333,False,2008,regular,2008-11-01T15:00:00.000Z,Bryant Denny Stadium,3657,10
+1059,93039,SEC,"[7, 7, 7, 0, 6]",27,Alabama,True,SEC,"[14, 0, 0, 7, 0]",21,LSU,283130099,False,2008,regular,2008-11-08T15:30:00.000Z,Tiger Stadium,3958,11
+1060,92138,SEC,"[0, 7, 0, 0]",7,Mississippi State,True,SEC,"[5, 7, 10, 10]",32,Alabama,283200333,False,2008,regular,2008-11-15T19:45:00.000Z,Bryant Denny Stadium,3657,12
+1061,92138,SEC,"[0, 0, 0, 0]",0,Auburn,True,SEC,"[3, 7, 19, 7]",36,Alabama,283340333,False,2008,regular,2008-11-29T15:30:00.000Z,Bryant Denny Stadium,3657,14
+1062,75892,SEC,"[10, 0, 10, 0]",20,Alabama,True,SEC,"[7, 10, 0, 14]",31,Florida,283410057,True,2008,regular,2008-12-06T16:00:00.000Z,Georgia Dome,3495,15
+1063,0,SEC,"[9, 7, 0, 18]",34,Alabama,False,ACC,"[7, 10, 0, 7]",24,Virginia Tech,292480259,True,2009,regular,2009-09-05T20:00:00.000Z,Georgia Dome,3495,1
+1064,0,Sun Belt,"[7, 7, 0, 0]",14,Florida International,False,SEC,"[10, 10, 6, 14]",40,Alabama,292550333,False,2009,regular,2009-09-12T19:00:00.000Z,Bryant Denny Stadium,3657,2
+1065,0,Sun Belt,"[0, 0, 7, 0]",7,North Texas,False,SEC,"[14, 16, 14, 9]",53,Alabama,292620333,False,2009,regular,2009-09-19T12:20:00.000Z,Bryant Denny Stadium,3657,3
+1066,0,SEC,"[0, 0, 7, 0]",7,Arkansas,True,SEC,"[0, 14, 14, 7]",35,Alabama,292690333,False,2009,regular,2009-09-26T15:30:00.000Z,Bryant Denny Stadium,3657,4
+1067,0,SEC,"[7, 14, 17, 0]",38,Alabama,True,SEC,"[6, 0, 7, 7]",20,Kentucky,292760096,False,2009,regular,2009-10-03T12:21:00.000Z,Commonwealth Stadium,3683,5
+1068,0,SEC,"[3, 13, 3, 3]",22,Alabama,True,SEC,"[0, 0, 3, 0]",3,Ole Miss,292830145,False,2009,regular,2009-10-10T15:30:00.000Z,Vaught-Hemingway Stadium,3974,6
+1069,0,SEC,"[0, 6, 0, 0]",6,South Carolina,True,SEC,"[10, 3, 0, 7]",20,Alabama,292900333,False,2009,regular,2009-10-17T19:45:00.000Z,Bryant Denny Stadium,3657,7
+1070,0,SEC,"[0, 3, 0, 7]",10,Tennessee,True,SEC,"[3, 6, 0, 3]",12,Alabama,292970333,False,2009,regular,2009-10-24T15:30:00.000Z,Bryant Denny Stadium,3657,8
+1071,0,SEC,"[0, 7, 8, 0]",15,LSU,True,SEC,"[0, 3, 7, 14]",24,Alabama,293110333,False,2009,regular,2009-11-07T15:30:00.000Z,Bryant Denny Stadium,3657,10
+1072,0,SEC,"[0, 14, 3, 14]",31,Alabama,True,SEC,"[0, 0, 0, 3]",3,Mississippi State,293180344,False,2009,regular,2009-11-14T19:00:00.000Z,Davis Wade Stadium,3693,11
+1073,0,,"[0, 0, 0, 0]",0,Chattanooga,False,SEC,"[21, 14, 3, 7]",45,Alabama,293250333,False,2009,regular,2009-11-21T12:21:00.000Z,Bryant Denny Stadium,3657,12
+1074,0,SEC,"[0, 14, 6, 6]",26,Alabama,True,SEC,"[14, 0, 7, 0]",21,Auburn,293310002,False,2009,regular,2009-11-27T14:30:00.000Z,Jordan-Hare Stadium,3785,13
+1075,0,SEC,"[3, 10, 0, 0]",13,Florida,True,SEC,"[9, 10, 7, 6]",32,Alabama,293390333,True,2009,regular,2009-12-05T16:00:00.000Z,Georgia Dome,3495,14
+1076,0,Western Athletic,"[3, 0, 0, 0]",3,San José State,False,SEC,"[14, 17, 10, 7]",48,Alabama,302470333,False,2010,regular,2010-09-04T19:00:00.000Z,Bryant Denny Stadium,3657,1
+1077,0,Big Ten,"[0, 0, 0, 3]",3,Penn State,False,SEC,"[7, 10, 0, 7]",24,Alabama,302540333,False,2010,regular,2010-09-11T19:00:00.000Z,Bryant Denny Stadium,3657,2
+1078,0,SEC,"[28, 17, 10, 7]",62,Alabama,False,ACC,"[3, 10, 0, 0]",13,Duke,302610150,False,2010,regular,2010-09-18T15:30:00.000Z,Wallace Wade Stadium,3982,3
+1079,0,SEC,"[7, 0, 7, 10]",24,Alabama,True,SEC,"[10, 7, 3, 0]",20,Arkansas,302680008,False,2010,regular,2010-09-25T15:30:00.000Z,Donald W. Reynolds Razorback Stadium Frank Broyles Field,3887,4
+1080,0,SEC,"[0, 3, 3, 0]",6,Florida,True,SEC,"[3, 21, 7, 0]",31,Alabama,302750333,False,2010,regular,2010-10-02T20:00:00.000Z,Bryant Denny Stadium,3657,5
+1081,0,SEC,"[3, 6, 5, 7]",21,Alabama,True,SEC,"[14, 7, 7, 7]",35,South Carolina,302822579,False,2010,regular,2010-10-09T15:30:00.000Z,Williams-Brice Stadium,3994,6
+1082,0,SEC,"[0, 3, 7, 0]",10,Ole Miss,True,SEC,"[10, 6, 7, 0]",23,Alabama,302890333,False,2010,regular,2010-10-16T21:00:00.000Z,Bryant Denny Stadium,3657,7
+1083,0,SEC,"[3, 10, 21, 7]",41,Alabama,True,SEC,"[7, 3, 0, 0]",10,Tennessee,302962633,False,2010,regular,2010-10-23T19:00:00.000Z,Neyland Stadium,3853,8
+1084,0,SEC,"[0, 7, 7, 7]",21,Alabama,True,SEC,"[3, 0, 7, 14]",24,LSU,303100099,False,2010,regular,2010-11-06T15:30:00.000Z,Tiger Stadium,3958,10
+1085,0,SEC,"[3, 0, 0, 7]",10,Mississippi State,True,SEC,"[6, 14, 7, 3]",30,Alabama,303170333,False,2010,regular,2010-11-13T19:15:00.000Z,Bryant Denny Stadium,3657,11
+1086,0,,"[0, 7, 0, 0]",7,Georgia State,False,SEC,"[14, 28, 14, 7]",63,Alabama,303220333,False,2010,regular,2010-11-18T19:30:00.000Z,Bryant Denny Stadium,3657,12
+1087,0,SEC,"[0, 7, 14, 7]",28,Auburn,True,SEC,"[21, 3, 3, 0]",27,Alabama,303300333,False,2010,regular,2010-11-26T14:30:00.000Z,Bryant Denny Stadium,3657,13
+1088,0,Mid-American,"[0, 0, 7, 0]",7,Kent State,False,SEC,"[21, 3, 14, 10]",48,Alabama,312460333,False,2011,regular,2011-09-03T12:20:00.000Z,Bryant Denny Stadium,3657,1
+1089,0,SEC,"[7, 10, 3, 7]",27,Alabama,False,Big Ten,"[3, 0, 0, 8]",11,Penn State,312530213,False,2011,regular,2011-09-10T15:30:00.000Z,Beaver Stadium,3632,2
+1090,0,Sun Belt,"[0, 0, 0, 0]",0,North Texas,False,SEC,"[10, 10, 7, 14]",41,Alabama,312600333,False,2011,regular,2011-09-17T19:30:00.000Z,Bryant Denny Stadium,3657,3
+1091,0,SEC,"[7, 0, 7, 0]",14,Arkansas,True,SEC,"[7, 10, 21, 0]",38,Alabama,312670333,False,2011,regular,2011-09-24T15:30:00.000Z,Bryant Denny Stadium,3657,4
+1092,0,SEC,"[10, 14, 0, 14]",38,Alabama,True,SEC,"[10, 0, 0, 0]",10,Florida,312740057,False,2011,regular,2011-10-01T20:00:00.000Z,Ben Hill Griffin Stadium,3634,5
+1093,0,SEC,"[0, 0, 0, 0]",0,Vanderbilt,True,SEC,"[7, 7, 13, 7]",34,Alabama,312810333,False,2011,regular,2011-10-08T19:00:00.000Z,Bryant Denny Stadium,3657,6
+1094,0,SEC,"[7, 10, 28, 7]",52,Alabama,True,SEC,"[7, 0, 0, 0]",7,Ole Miss,312880145,False,2011,regular,2011-10-15T18:00:00.000Z,Vaught-Hemingway Stadium,3974,7
+1095,0,SEC,"[3, 3, 0, 0]",6,Tennessee,True,SEC,"[3, 3, 21, 10]",37,Alabama,312950333,False,2011,regular,2011-10-22T19:15:00.000Z,Bryant Denny Stadium,3657,8
+1096,0,SEC,"[0, 3, 0, 3, 3]",9,LSU,True,SEC,"[0, 3, 3, 0, 0]",6,Alabama,313090333,False,2011,regular,2011-11-05T20:00:00.000Z,Bryant Denny Stadium,3657,10
+1097,0,SEC,"[0, 7, 3, 14]",24,Alabama,True,SEC,"[0, 0, 0, 7]",7,Mississippi State,313160344,False,2011,regular,2011-11-12T19:45:00.000Z,Davis Wade Stadium,3693,11
+1098,0,,"[0, 14, 7, 0]",21,Georgia Southern,False,SEC,"[10, 14, 14, 7]",45,Alabama,313230333,False,2011,regular,2011-11-19T14:00:00.000Z,Bryant Denny Stadium,3657,12
+1099,0,SEC,"[14, 10, 3, 15]",42,Alabama,True,SEC,"[7, 0, 7, 0]",14,Auburn,313300002,False,2011,regular,2011-11-26T15:30:00.000Z,Jordan-Hare Stadium,3785,13
+1100,90413,Big Ten,"[0, 7, 7, 0]",14,Michigan,False,SEC,"[21, 10, 3, 7]",41,Alabama,322450333,True,2012,regular,2012-09-01T20:00:00.000Z,,,1
+1101,101821,Sun Belt,"[0, 0, 0, 0]",0,Western Kentucky,False,SEC,"[14, 7, 7, 7]",35,Alabama,322520333,False,2012,regular,2012-09-08T15:30:00.000Z,Bryant Denny Stadium,3657.0,2
+1102,74617,SEC,"[7, 17, 14, 14]",52,Alabama,True,SEC,"[0, 0, 0, 0]",0,Arkansas,322590008,False,2012,regular,2012-09-15T15:30:00.000Z,Donald W. Reynolds Razorback Stadium Frank Broyles Field,3887.0,3
+1103,101821,Sun Belt,"[0, 0, 0, 7]",7,Florida Atlantic,False,SEC,"[14, 16, 3, 7]",40,Alabama,322660333,False,2012,regular,2012-09-22T17:00:00.000Z,Bryant Denny Stadium,3657.0,4
+1104,101821,SEC,"[0, 7, 7, 0]",14,Ole Miss,True,SEC,"[6, 21, 0, 6]",33,Alabama,322730333,False,2012,regular,2012-09-29T21:15:00.000Z,Bryant Denny Stadium,3657.0,5
+1105,71004,SEC,"[21, 7, 0, 14]",42,Alabama,True,SEC,"[0, 7, 3, 0]",10,Missouri,322870142,False,2012,regular,2012-10-13T15:30:00.000Z,Faurot Field,3838.0,7
+1106,102455,SEC,"[7, 16, 7, 14]",44,Alabama,True,SEC,"[3, 7, 0, 3]",13,Tennessee,322942633,False,2012,regular,2012-10-20T19:00:00.000Z,Neyland Stadium,3853.0,8
+1107,101821,SEC,"[0, 0, 0, 7]",7,Mississippi State,True,SEC,"[14, 10, 0, 14]",38,Alabama,323010333,False,2012,regular,2012-10-27T20:30:00.000Z,Bryant Denny Stadium,3657.0,9
+1108,93374,SEC,"[0, 14, 0, 7]",21,Alabama,True,SEC,"[3, 0, 7, 7]",17,LSU,323080099,False,2012,regular,2012-11-03T20:00:00.000Z,Tiger Stadium,3958.0,10
+1109,101821,SEC,"[20, 0, 0, 9]",29,Texas A&M,True,SEC,"[0, 14, 3, 7]",24,Alabama,323150333,False,2012,regular,2012-11-10T15:30:00.000Z,Bryant Denny Stadium,3657.0,11
+1110,101126,,"[0, 0, 0, 0]",0,Western Carolina,False,SEC,"[21, 21, 7, 0]",49,Alabama,323220333,False,2012,regular,2012-11-17T12:21:00.000Z,Bryant Denny Stadium,3657.0,12
+1111,101821,SEC,"[0, 0, 0, 0]",0,Auburn,True,SEC,"[14, 28, 7, 0]",49,Alabama,323290333,False,2012,regular,2012-11-24T15:30:00.000Z,Bryant Denny Stadium,3657.0,13
+1112,75624,SEC,"[0, 10, 8, 14]",32,Alabama,True,SEC,"[0, 7, 14, 7]",28,Georgia,323360061,True,2012,regular,2012-12-01T16:00:00.000Z,Georgia Dome,3495.0,14
+1113,73114,SEC,"[14, 14, 7, 0]",35,Alabama,False,ACC,"[7, 3, 0, 0]",10,Virginia Tech,332430259,True,2013,regular,2013-08-31T17:30:00.000Z,Georgia Dome,3495,1
+1114,87596,SEC,"[7, 21, 14, 7]",49,Alabama,True,SEC,"[14, 0, 7, 21]",42,Texas A&M,332570245,False,2013,regular,2013-09-14T15:30:00.000Z,Kyle Field,3795,3
+1115,101821,Mountain West,"[0, 0, 6, 0]",6,Colorado State,False,SEC,"[7, 10, 0, 14]",31,Alabama,332640333,False,2013,regular,2013-09-21T19:00:00.000Z,Bryant Denny Stadium,3657,4
+1116,101821,SEC,"[0, 0, 0, 0]",0,Ole Miss,True,SEC,"[3, 6, 7, 9]",25,Alabama,332710333,False,2013,regular,2013-09-28T18:30:00.000Z,Bryant Denny Stadium,3657,5
+1117,101254,Sun Belt,"[0, 0, 3, 0]",3,Georgia State,False,SEC,"[21, 17, 7, 0]",45,Alabama,332780333,False,2013,regular,2013-10-05T12:21:00.000Z,Bryant Denny Stadium,3657,6
+1118,69873,SEC,"[0, 24, 10, 14]",48,Alabama,True,SEC,"[0, 0, 7, 0]",7,Kentucky,332850096,False,2013,regular,2013-10-12T19:00:00.000Z,Commonwealth Stadium,3683,7
+1119,101821,SEC,"[0, 0, 0, 0]",0,Arkansas,True,SEC,"[14, 14, 17, 7]",52,Alabama,332920333,False,2013,regular,2013-10-19T19:00:00.000Z,Bryant Denny Stadium,3657,8
+1120,101821,SEC,"[0, 0, 3, 7]",10,Tennessee,True,SEC,"[21, 14, 7, 3]",45,Alabama,332990333,False,2013,regular,2013-10-26T15:30:00.000Z,Bryant Denny Stadium,3657,9
+1121,101821,SEC,"[0, 14, 3, 0]",17,LSU,True,SEC,"[3, 14, 7, 14]",38,Alabama,333130333,False,2013,regular,2013-11-09T20:00:00.000Z,Bryant Denny Stadium,3657,11
+1122,57211,SEC,"[3, 7, 7, 3]",20,Alabama,True,SEC,"[0, 0, 7, 0]",7,Mississippi State,333200344,False,2013,regular,2013-11-16T19:45:00.000Z,Davis Wade Stadium,3693,12
+1123,100179,,"[0, 0, 0, 0]",0,Chattanooga,False,SEC,"[7, 21, 14, 7]",49,Alabama,333270333,False,2013,regular,2013-11-23T14:00:00.000Z,Bryant Denny Stadium,3657,13
+1124,87451,SEC,"[0, 21, 0, 7]",28,Alabama,True,SEC,"[7, 7, 7, 13]",34,Auburn,333340002,False,2013,regular,2013-11-30T15:30:00.000Z,Jordan-Hare Stadium,3785,14
+1125,70502,Big 12,"[3, 14, 3, 3]",23,West Virginia,False,SEC,"[3, 17, 10, 3]",33,Alabama,400547835,True,2014,regular,2014-08-30T15:30:00.000Z,Georgia Dome,3495,1
+1126,100306,Conference USA,"[0, 0, 0, 0]",0,Florida Atlantic,False,SEC,"[21, 10, 7, 3]",41,Alabama,400548013,False,2014,regular,2014-09-06T12:00:00.000Z,Bryant Denny Stadium,3657,2
+1127,101821,Conference USA,"[3, 3, 3, 3]",12,Southern Mississippi,False,SEC,"[7, 14, 14, 17]",52,Alabama,400548024,False,2014,regular,2014-09-13T18:00:00.000Z,Bryant Denny Stadium,3657,3
+1128,101821,SEC,"[14, 0, 7, 0]",21,Florida,True,SEC,"[14, 7, 14, 7]",42,Alabama,400548384,False,2014,regular,2014-09-20T15:30:00.000Z,Bryant Denny Stadium,3657,4
+1129,61826,SEC,"[0, 14, 3, 0]",17,Alabama,True,SEC,"[3, 0, 7, 13]",23,Ole Miss,400548374,False,2014,regular,2014-10-04T15:30:00.000Z,Vaught-Hemingway Stadium,3974,6
+1130,72337,SEC,"[0, 7, 0, 7]",14,Alabama,True,SEC,"[0, 6, 7, 0]",13,Arkansas,400548365,False,2014,regular,2014-10-11T18:00:00.000Z,Donald W. Reynolds Razorback Stadium Frank Broyles Field,3887,7
+1131,101821,SEC,"[0, 0, 0, 0]",0,Texas A&M,True,SEC,"[10, 35, 7, 7]",59,Alabama,400548364,False,2014,regular,2014-10-18T15:30:00.000Z,Bryant Denny Stadium,3657,8
+1132,102455,SEC,"[20, 7, 7, 0]",34,Alabama,True,SEC,"[0, 10, 7, 3]",20,Tennessee,400548357,False,2014,regular,2014-10-25T19:30:00.000Z,Neyland Stadium,3853,9
+1133,102321,SEC,"[0, 10, 0, 3, 7]",20,Alabama,True,SEC,"[7, 0, 3, 3, 0]",13,LSU,400548342,False,2014,regular,2014-11-08T20:00:00.000Z,Tiger Stadium,3958,11
+1134,101821,SEC,"[0, 3, 3, 14]",20,Mississippi State,True,SEC,"[5, 14, 0, 6]",25,Alabama,400548338,False,2014,regular,2014-11-15T15:30:00.000Z,Bryant Denny Stadium,3657,12
+1135,101325,,"[7, 7, 0, 0]",14,Western Carolina,False,SEC,"[10, 28, 10, 0]",48,Alabama,400548328,False,2014,regular,2014-11-22T16:00:00.000Z,Bryant Denny Stadium,3657,13
+1136,101821,SEC,"[6, 20, 10, 8]",44,Auburn,True,SEC,"[14, 7, 13, 21]",55,Alabama,400548323,False,2014,regular,2014-11-29T19:45:00.000Z,Bryant Denny Stadium,3657,14
+1137,73526,SEC,"[7, 14, 0, 21]",42,Alabama,True,SEC,"[0, 3, 10, 0]",13,Missouri,400609098,True,2014,regular,2014-12-06T16:00:00.000Z,Georgia Dome,3495,15
+1138,64279,Big Ten,"[0, 7, 3, 7]",17,Wisconsin,False,SEC,"[7, 7, 14, 7]",35,Alabama,400603827,True,2015,regular,2015-09-05T20:00:00.000Z,AT&T Stadium,3687,1
+1139,98568,Conference USA,"[0, 3, 0, 7]",10,Middle Tennessee,False,SEC,"[7, 16, 14, 0]",37,Alabama,400603860,False,2015,regular,2015-09-12T16:00:00.000Z,Bryant Denny Stadium,3657,2
+1140,101821,SEC,"[3, 14, 13, 13]",43,Ole Miss,True,SEC,"[0, 10, 7, 20]",37,Alabama,400603850,False,2015,regular,2015-09-19T21:15:00.000Z,Bryant Denny Stadium,3657,3
+1141,101323,Sun Belt,"[0, 0, 0, 0]",0,Louisiana Monroe,False,SEC,"[7, 7, 10, 10]",34,Alabama,400603841,False,2015,regular,2015-09-26T16:00:00.000Z,Bryant Denny Stadium,3657,4
+1142,92746,SEC,"[3, 21, 14, 0]",38,Alabama,True,SEC,"[0, 3, 7, 0]",10,Georgia,400603879,False,2015,regular,2015-10-03T15:30:00.000Z,Sanford Stadium,3917,5
+1143,101821,SEC,"[0, 7, 0, 7]",14,Arkansas,True,SEC,"[3, 0, 7, 17]",27,Alabama,400603899,False,2015,regular,2015-10-10T19:00:00.000Z,Bryant Denny Stadium,3657,6
+1144,105733,SEC,"[14, 14, 3, 10]",41,Alabama,True,SEC,"[3, 10, 7, 3]",23,Texas A&M,400603897,False,2015,regular,2015-10-17T15:30:00.000Z,Kyle Field,3795,7
+1145,101821,SEC,"[7, 0, 0, 7]",14,Tennessee,True,SEC,"[7, 0, 3, 9]",19,Alabama,400603886,False,2015,regular,2015-10-24T15:30:00.000Z,Bryant Denny Stadium,3657,8
+1146,101821,SEC,"[0, 10, 0, 6]",16,LSU,True,SEC,"[0, 13, 14, 3]",30,Alabama,400603905,False,2015,regular,2015-11-07T20:00:00.000Z,Bryant Denny Stadium,3657,10
+1147,62435,SEC,"[0, 21, 3, 7]",31,Alabama,True,SEC,"[0, 3, 3, 0]",6,Mississippi State,400603933,False,2015,regular,2015-11-14T15:30:00.000Z,Davis Wade Stadium,3693,11
+1148,100611,,"[0, 0, 0, 6]",6,Charleston Southern,False,SEC,"[28, 21, 0, 7]",56,Alabama,400603921,False,2015,regular,2015-11-21T16:00:00.000Z,Bryant Denny Stadium,3657,12
+1149,87451,SEC,"[3, 9, 7, 10]",29,Alabama,True,SEC,"[6, 0, 7, 0]",13,Auburn,400603913,False,2015,regular,2015-11-28T15:30:00.000Z,Jordan-Hare Stadium,3785,13
+1150,75320,SEC,"[0, 7, 0, 8]",15,Florida,True,SEC,"[2, 10, 10, 7]",29,Alabama,400852681,True,2015,regular,2015-12-05T16:00:00.000Z,Georgia Dome,3495,14
+1151,0,Pac-12,"[3, 0, 3, 0]",6,USC,False,SEC,"[0, 17, 21, 14]",52,Alabama,400868969,True,2016,regular,2016-09-03T20:00:00.000Z,AT&T Stadium,3687,1
+1152,101821,Conference USA,"[3, 0, 0, 7]",10,Western Kentucky,False,SEC,"[10, 7, 7, 14]",38,Alabama,400868980,False,2016,regular,2016-09-10T15:30:00.000Z,Bryant Denny Stadium,3657,2
+1153,66176,SEC,"[3, 14, 17, 14]",48,Alabama,True,SEC,"[7, 17, 3, 16]",43,Ole Miss,400868997,False,2016,regular,2016-09-17T15:30:00.000Z,Vaught-Hemingway Stadium,3974,3
+1154,101821,Mid-American,"[0, 0, 0, 0]",0,Kent State,False,SEC,"[21, 20, 7, 0]",48,Alabama,400869002,False,2016,regular,2016-09-24T12:00:00.000Z,Bryant Denny Stadium,3657,4
+1155,101821,SEC,"[3, 0, 0, 3]",6,Kentucky,True,SEC,"[3, 14, 14, 3]",34,Alabama,400869010,False,2016,regular,2016-10-01T19:00:00.000Z,Bryant Denny Stadium,3657,5
+1156,75459,SEC,"[14, 21, 7, 7]",49,Alabama,True,SEC,"[7, 10, 7, 6]",30,Arkansas,400869018,False,2016,regular,2016-10-08T19:00:00.000Z,Donald W. Reynolds Razorback Stadium Frank Broyles Field,3887,6
+1157,102455,SEC,"[14, 7, 14, 14]",49,Alabama,True,SEC,"[0, 7, 3, 0]",10,Tennessee,400869028,False,2016,regular,2016-10-15T15:30:00.000Z,Neyland Stadium,3853,7
+1158,101821,SEC,"[0, 7, 7, 0]",14,Texas A&M,True,SEC,"[6, 7, 13, 7]",33,Alabama,400869029,False,2016,regular,2016-10-22T15:30:00.000Z,Bryant Denny Stadium,3657,8
+1159,102321,SEC,"[0, 0, 0, 10]",10,Alabama,True,SEC,"[0, 0, 0, 0]",0,LSU,400869044,False,2016,regular,2016-11-05T20:00:00.000Z,Tiger Stadium,3958,10
+1160,101821,SEC,"[0, 0, 3, 0]",3,Mississippi State,True,SEC,"[10, 20, 14, 7]",51,Alabama,400869049,False,2016,regular,2016-11-12T12:00:00.000Z,Bryant Denny Stadium,3657,11
+1161,101821,,"[3, 0, 0, 0]",3,Chattanooga,False,SEC,"[0, 14, 7, 10]",31,Alabama,400869056,False,2016,regular,2016-11-19T19:00:00.000Z,Bryant Denny Stadium,3657,12
+1162,101821,SEC,"[3, 6, 3, 0]",12,Auburn,True,SEC,"[10, 3, 14, 3]",30,Alabama,400869068,False,2016,regular,2016-11-26T15:30:00.000Z,Bryant Denny Stadium,3657,13
+1163,74632,SEC,"[16, 17, 7, 14]",54,Alabama,True,SEC,"[9, 7, 0, 0]",16,Florida,400926943,True,2016,regular,2016-12-03T16:00:00.000Z,Georgia Dome,3495,14
+1164,76330,ACC,"[0, 7, 0, 0]",7,Florida State,False,SEC,"[3, 7, 11, 3]",24,Alabama,400933827,True,2017,regular,2017-09-02T20:00:00.000Z,Mercedes-Benz Stadium,5348,1
+1165,101127,Mountain West,"[3, 0, 0, 7]",10,Fresno State,False,SEC,"[14, 14, 3, 10]",41,Alabama,400933841,False,2017,regular,2017-09-09T15:30:00.000Z,Bryant Denny Stadium,3657,2
+1166,101821,Mountain West,"[0, 10, 0, 13]",23,Colorado State,False,SEC,"[17, 7, 14, 3]",41,Alabama,400933854,False,2017,regular,2017-09-16T19:00:00.000Z,Bryant Denny Stadium,3657,3
+1167,40350,SEC,"[21, 10, 21, 7]",59,Alabama,True,SEC,"[0, 0, 0, 0]",0,Vanderbilt,400933871,False,2017,regular,2017-09-23T15:30:00.000Z,Vanderbilt Stadium,3973,4
+1168,101821,SEC,"[3, 0, 0, 0]",3,Ole Miss,True,SEC,"[21, 14, 24, 7]",66,Alabama,400933872,False,2017,regular,2017-09-30T21:00:00.000Z,Bryant Denny Stadium,3657,5
+1169,101058,SEC,"[7, 10, 7, 3]",27,Alabama,True,SEC,"[3, 0, 7, 9]",19,Texas A&M,400933884,False,2017,regular,2017-10-07T19:15:00.000Z,Kyle Field,3795,6
+1170,101821,SEC,"[0, 0, 3, 6]",9,Arkansas,True,SEC,"[17, 7, 7, 10]",41,Alabama,400933886,False,2017,regular,2017-10-14T19:15:00.000Z,Bryant Denny Stadium,3657,7
+1171,101821,SEC,"[0, 0, 7, 0]",7,Tennessee,True,SEC,"[7, 14, 10, 14]",45,Alabama,400933893,False,2017,regular,2017-10-21T15:30:00.000Z,Bryant Denny Stadium,3657,8
+1172,101821,SEC,"[0, 3, 7, 0]",10,LSU,True,SEC,"[7, 7, 7, 3]",24,Alabama,400933904,False,2017,regular,2017-11-04T20:00:00.000Z,Bryant Denny Stadium,3657,10
+1173,0,SEC,"[7, 7, 3, 14]",31,Alabama,True,SEC,"[7, 7, 7, 3]",24,Mississippi State,400933916,False,2017,regular,2017-11-11T19:00:00.000Z,Davis Wade Stadium,3693,11
+1174,101821,,"[0, 0, 0, 0]",0,Mercer,False,SEC,"[14, 21, 14, 7]",56,Alabama,400933921,False,2017,regular,2017-11-18T12:00:00.000Z,Bryant Denny Stadium,3657,12
+1175,87451,SEC,"[0, 7, 7, 0]",14,Alabama,True,SEC,"[7, 3, 10, 6]",26,Auburn,400933932,False,2017,regular,2017-11-25T15:30:00.000Z,Jordan-Hare Stadium,3785,13
+1176,57280,ACC,"[0, 0, 7, 7]",14,Louisville,False,SEC,"[14, 14, 16, 7]",51,Alabama,401012246,True,2018,regular,2018-09-02T00:00:00.000Z,Camping World Stadium,4013,1
+1177,0,Sun Belt,"[0, 0, 7, 0]",7,Arkansas State,False,SEC,"[19, 21, 10, 7]",57,Alabama,401012260,False,2018,regular,2018-09-08T19:30:00.000Z,Bryant Denny Stadium,3657,2
+1178,0,SEC,"[28, 21, 10, 3]",62,Alabama,True,SEC,"[7, 0, 0, 0]",7,Ole Miss,401012277,False,2018,regular,2018-09-15T23:00:00.000Z,Vaught-Hemingway Stadium,3974,3
+1179,0,SEC,"[7, 6, 3, 7]",23,Texas A&M,True,SEC,"[14, 17, 14, 0]",45,Alabama,401012284,False,2018,regular,2018-09-22T19:30:00.000Z,Bryant Denny Stadium,3657,4
+1180,0,Sun Belt,"[0, 0, 0, 14]",14,Louisiana,False,SEC,"[28, 21, 7, 0]",56,Alabama,401012292,False,2018,regular,2018-09-29T16:00:00.000Z,Bryant Denny Stadium,3657,5
+1181,0,SEC,"[21, 20, 7, 17]",65,Alabama,True,SEC,"[7, 7, 3, 14]",31,Arkansas,401012300,False,2018,regular,2018-10-06T16:00:00.000Z,Donald W. Reynolds Razorback Stadium Frank Broyles Field,3887,6
+1182,0,SEC,"[10, 0, 0, 0]",10,Missouri,True,SEC,"[13, 17, 2, 7]",39,Alabama,401012307,False,2018,regular,2018-10-13T23:00:00.000Z,Bryant Denny Stadium,3657,7
+1183,97087,SEC,"[28, 14, 16, 0]",58,Alabama,True,SEC,"[0, 14, 7, 0]",21,Tennessee,401012318,False,2018,regular,2018-10-20T19:30:00.000Z,Neyland Stadium,3853,8
+1184,0,SEC,"[6, 10, 6, 7]",29,Alabama,True,SEC,"[0, 0, 0, 0]",0,LSU,401012327,False,2018,regular,2018-11-04T00:00:00.000Z,Tiger Stadium,3958,10
+1185,0,SEC,"[0, 0, 0, 0]",0,Mississippi State,True,SEC,"[14, 7, 0, 3]",24,Alabama,401012331,False,2018,regular,2018-11-10T20:30:00.000Z,Bryant Denny Stadium,3657,11
+1186,0,,"[0, 10, 0, 7]",17,The Citadel,False,SEC,"[7, 3, 27, 13]",50,Alabama,401012338,False,2018,regular,2018-11-17T17:00:00.000Z,Bryant Denny Stadium,3657,12
+1187,0,SEC,"[7, 7, 7, 0]",21,Auburn,True,SEC,"[7, 10, 21, 14]",52,Alabama,401012350,False,2018,regular,2018-11-24T20:30:00.000Z,Bryant Denny Stadium,3657,13
+1188,0,SEC,"[0, 14, 7, 14]",35,Alabama,True,SEC,"[7, 14, 7, 0]",28,Georgia,401056705,True,2018,regular,2018-12-01T21:00:00.000Z,Mercedes-Benz Stadium,5348,14
