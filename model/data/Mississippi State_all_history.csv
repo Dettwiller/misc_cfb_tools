@@ -1,0 +1,1138 @@
+,attendance,away_conference,away_line_scores,away_points,away_team,conference_game,home_conference,home_line_scores,home_points,home_team,id,neutral_site,season,season_type,start_date,venue,venue_id,week
+0,,,[],15,Cumberland,,FBS Independents,[],6,Mississippi State,3376,False,1902,regular,1902-10-17T00:00:00.000Z,,,6
+1,,FBS Independents,[],21,Ole Miss,,FBS Independents,[],0,Mississippi State,3447,False,1902,regular,1902-10-25T00:00:00.000Z,,,7
+2,,FBS Independents,[],11,Tulane,,FBS Independents,[],11,Mississippi State,3486,False,1902,regular,1902-11-01T00:00:00.000Z,,,8
+3,,FBS Independents,[],0,Mississippi State,,FBS Independents,[],27,Alabama,3513,False,1902,regular,1902-11-08T00:00:00.000Z,,,9
+4,,FBS Independents,[],26,Mississippi State,,,[],0,Samford,3575,False,1902,regular,1902-11-15T00:00:00.000Z,,,10
+5,,FBS Independents,[],6,LSU,,FBS Independents,[],0,Mississippi State,3634,False,1902,regular,1902-11-27T00:00:00.000Z,,,12
+6,,FBS Independents,[],0,Alabama,,,[],11,Mississippi State,3837,False,1903,regular,1903-10-16T00:00:00.000Z,,,6
+7,,FBS Independents,[],61,Vanderbilt,,FBS Independents,[],0,Mississippi State,4214,False,1904,regular,1904-10-01T00:00:00.000Z,,,3
+8,,FBS Independents,[],6,Alabama,,FBS Independents,[],0,Mississippi State,4293,False,1904,regular,1904-10-15T00:00:00.000Z,,,5
+9,,FBS Independents,[],5,Mississippi State,,FBS Independents,[],17,Ole Miss,4373,False,1904,regular,1904-10-22T00:00:00.000Z,,,6
+10,,FBS Independents,[],0,Mississippi State,,FBS Independents,[],10,Tulane,4434,False,1904,regular,1904-10-29T00:00:00.000Z,,,7
+11,,FBS Independents,[],0,Tennessee Medical College,,FBS Independents,[],59,Mississippi State,4484,False,1904,regular,1904-11-11T00:00:00.000Z,,,9
+12,,,[],27,Cumberland,,FBS Independents,[],5,Mississippi State,4531,False,1904,regular,1904-11-18T00:00:00.000Z,,,10
+13,,,[],5,Louisiana Tech,,FBS Independents,[],32,Mississippi State,4593,False,1904,regular,1904-11-25T00:00:00.000Z,,,11
+14,,,[],0,Mississippi State,,FBS Independents,[],34,Alabama,4768,False,1905,regular,1905-10-14T00:00:00.000Z,,,5
+15,,FBS Independents,[],18,Auburn,,,[],0,Mississippi State,4870,False,1905,regular,1905-10-27T00:00:00.000Z,,,7
+16,,,[],0,Samford,,FBS Independents,[],30,Mississippi State,5146,False,1906,regular,1906-09-29T00:00:00.000Z,,,2
+17,,,[],0,Marion,,FBS Independents,[],62,Mississippi State,5234,False,1906,regular,1906-10-13T00:00:00.000Z,,,4
+18,,FBS Independents,[],0,Mississippi State,,FBS Independents,[],0,LSU,5309,False,1906,regular,1906-10-27T00:00:00.000Z,,,6
+19,,FBS Independents,[],16,Alabama,,FBS Independents,[],4,Mississippi State,5328,False,1906,regular,1906-11-03T00:00:00.000Z,,,7
+20,,FBS Independents,[],5,Mississippi State,,FBS Independents,[],29,Ole Miss,5464,False,1906,regular,1906-11-29T00:00:00.000Z,,,11
+21,,,[],0,Rhodes,,FBS Independents,[],7,Mississippi State,5512,False,1907,regular,1907-10-02T00:00:00.000Z,,,3
+22,,FBS Independents,[],0,Mississippi State,,FBS Independents,[],38,Sewanee Univ. of the South,5568,False,1907,regular,1907-10-10T00:00:00.000Z,,,4
+23,,FBS Independents,[],12,Mississippi State,,FBS Independents,[],5,Samford,5590,False,1907,regular,1907-10-12T00:00:00.000Z,,,4
+24,,,[],0,Union (Tennessee),,FBS Independents,[],80,Mississippi State,5631,False,1907,regular,1907-10-19T00:00:00.000Z,,,5
+25,,,[],0,Mercer,,FBS Independents,[],75,Mississippi State,5656,False,1907,regular,1907-10-24T00:00:00.000Z,,,6
+26,,FBS Independents,[],0,Drury,,FBS Independents,[],6,Mississippi State,5693,False,1907,regular,1907-10-30T00:00:00.000Z,,,7
+27,,FBS Independents,[],11,Mississippi State,,FBS Independents,[],23,LSU,5749,False,1907,regular,1907-11-09T00:00:00.000Z,,,8
+28,,FBS Independents,[],4,Mississippi State,,FBS Independents,[],11,Tennessee,5798,False,1907,regular,1907-11-16T00:00:00.000Z,,,9
+29,,FBS Independents,[],0,Ole Miss,,FBS Independents,[],15,Mississippi State,5840,False,1907,regular,1907-11-28T00:00:00.000Z,,,11
+30,,,[],0,Louisiana Tech,,FBS Independents,[],47,Mississippi State,5962,False,1908,regular,1908-10-10T00:00:00.000Z,,,4
+31,,FBS Independents,[],0,Mississippi State,,FBS Independents,[],23,Georgia Tech,6001,False,1908,regular,1908-10-17T00:00:00.000Z,,,5
+32,,,[],6,Louisiana,,FBS Independents,[],5,Mississippi State,6032,False,1908,regular,1908-10-23T00:00:00.000Z,,,6
+33,,,[],5,Transylvania,,FBS Independents,[],12,Mississippi State,6093,False,1908,regular,1908-10-31T00:00:00.000Z,,,7
+34,,FBS Independents,[],0,Mississippi State,,FBS Independents,[],50,LSU,6128,False,1908,regular,1908-11-07T00:00:00.000Z,,,8
+35,,FBS Independents,[],0,Mississippi State,,FBS Independents,[],23,Tulane,6181,False,1908,regular,1908-11-14T00:00:00.000Z,,,9
+36,,FBS Independents,[],6,Ole Miss,,FBS Independents,[],44,Mississippi State,6233,False,1908,regular,1908-11-26T00:00:00.000Z,,,11
+37,,,[],0,Birmingham,,FBS Independents,[],21,Mississippi State,6303,False,1909,regular,1909-10-02T00:00:00.000Z,,,3
+38,,,[],6,Cumberland,,FBS Independents,[],34,Mississippi State,6353,False,1909,regular,1909-10-09T00:00:00.000Z,,,4
+39,,FBS Independents,[],0,Mississippi State,,FBS Independents,[],15,LSU,6409,False,1909,regular,1909-10-16T00:00:00.000Z,,,5
+40,,,[],0,Rhodes,,FBS Independents,[],31,Mississippi State,6430,False,1909,regular,1909-10-22T00:00:00.000Z,,,6
+41,,FBS Independents,[],0,Mississippi State,,FBS Independents,[],2,Tulane,6501,False,1909,regular,1909-10-30T00:00:00.000Z,,,7
+42,,,[],0,Union (Tennessee),,FBS Independents,[],25,Mississippi State,6515,False,1909,regular,1909-11-02T00:00:00.000Z,,,8
+43,,FBS Independents,[],0,Mississippi State,,FBS Independents,[],6,Samford,6554,False,1909,regular,1909-11-08T00:00:00.000Z,,,8
+44,,FBS Independents,[],6,Chattanooga,,FBS Independents,[],37,Mississippi State,6579,False,1909,regular,1909-11-13T00:00:00.000Z,,,9
+45,,FBS Independents,[],5,Mississippi State,,FBS Independents,[],9,Ole Miss,6641,False,1909,regular,1909-11-25T00:00:00.000Z,,,11
+46,,,[],0,Mississippi College,,FBS Independents,[],24,Mississippi State,6709,False,1910,regular,1910-10-01T00:00:00.000Z,,,3
+47,,FBS Independents,[],0,Mississippi State,,FBS Independents,[],6,Auburn,6735,False,1910,regular,1910-10-08T00:00:00.000Z,,,4
+48,,,[],0,Tennessee-Memphis,,FBS Independents,[],6,Mississippi State,6809,False,1910,regular,1910-10-15T00:00:00.000Z,,,5
+49,,FBS Independents,[],0,LSU,,FBS Independents,[],3,Mississippi State,6832,False,1910,regular,1910-10-21T00:00:00.000Z,,,6
+50,,FBS Independents,[],0,Tennessee,,FBS Independents,[],48,Mississippi State,6919,False,1910,regular,1910-10-31T00:00:00.000Z,,,7
+51,,FBS Independents,[],10,Mississippi State,,FBS Independents,[],0,Tulane,6943,False,1910,regular,1910-11-05T00:00:00.000Z,,,8
+52,,,[],0,Birmingham,,FBS Independents,[],46,Mississippi State,6982,False,1910,regular,1910-11-12T00:00:00.000Z,,,9
+53,,FBS Independents,[],0,Samford,,FBS Independents,[],82,Mississippi State,7004,False,1910,regular,1910-11-18T00:00:00.000Z,,,10
+54,,FBS Independents,[],0,Mississippi State,,FBS Independents,[],30,Ole Miss,7043,False,1910,regular,1910-11-24T00:00:00.000Z,,,11
+55,,FBS Independents,[],6,Mississippi College,,FBS Independents,[],27,Mississippi State,7072,False,1911,regular,1911-09-29T00:00:00.000Z,,,2
+56,,,[],0,Rhodes,,FBS Independents,[],30,Mississippi State,7137,False,1911,regular,1911-10-07T00:00:00.000Z,,,3
+57,,FBS Independents,[],0,Samford,,FBS Independents,[],48,Mississippi State,7190,False,1911,regular,1911-10-14T00:00:00.000Z,,,4
+58,,FBS Independents,[],6,Mississippi State,,FBS Independents,[],6,Alabama,7215,False,1911,regular,1911-10-21T00:00:00.000Z,,,5
+59,,FBS Independents,[],5,Mississippi State,,FBS Independents,[],11,Auburn,7259,False,1911,regular,1911-10-28T00:00:00.000Z,,,6
+60,,,[],0,Birmingham,,FBS Independents,[],62,Mississippi State,7300,False,1911,regular,1911-11-03T00:00:00.000Z,,,7
+61,,FBS Independents,[],0,LSU,,FBS Independents,[],6,Mississippi State,7377,False,1911,regular,1911-11-12T00:00:00.000Z,,,8
+62,,FBS Independents,[],5,Tulane,,FBS Independents,[],4,Mississippi State,7417,False,1911,regular,1911-11-20T00:00:00.000Z,,,9
+63,,FBS Independents,[],0,Ole Miss,,FBS Independents,[],6,Mississippi State,7454,False,1911,regular,1911-11-30T00:00:00.000Z,,,11
+64,,FBS Independents,[],12,Mississippi State,,,[],0,Havana A.C.,7468,False,1911,regular,1912-01-01T00:00:00.000Z,,,13
+65,,FBS Independents,[],0,Mississippi College,,FBS Independents,[],19,Mississippi State,7515,False,1912,regular,1912-10-04T00:00:00.000Z,,,3
+66,,,[],0,Tennessee Medical College,,FBS Independents,[],32,Mississippi State,7599,False,1912,regular,1912-10-12T00:00:00.000Z,,,4
+67,,FBS Independents,[],0,Alabama,,FBS Independents,[],7,Mississippi State,7621,False,1912,regular,1912-10-18T00:00:00.000Z,,,5
+68,,FBS Independents,[],0,Mississippi State,,FBS Independents,[],7,Auburn,7667,False,1912,regular,1912-10-26T00:00:00.000Z,,,6
+69,,FBS Independents,[],7,Mississippi State,,FBS Independents,[],0,LSU,7730,False,1912,regular,1912-11-02T00:00:00.000Z,,,7
+70,,FBS Independents,[],24,Mississippi State,,FBS Independents,[],27,Tulane,7784,False,1912,regular,1912-11-09T00:00:00.000Z,,,8
+71,,FBS Independents,[],7,Mississippi State,,FBS Independents,[],41,Texas A&M,7825,False,1912,regular,1912-11-16T00:00:00.000Z,,,9
+72,,,[],0,Samford,,FBS Independents,[],66,Mississippi State,7958,False,1913,regular,1913-10-04T00:00:00.000Z,,,3
+73,,,[],13,Mississippi College,,FBS Independents,[],14,Mississippi State,7985,False,1913,regular,1913-10-10T00:00:00.000Z,,,4
+74,,,[],0,Transylvania,,FBS Independents,[],31,Mississippi State,8039,False,1913,regular,1913-10-17T00:00:00.000Z,,,5
+75,,FBS Independents,[],0,Mississippi State,,FBS Independents,[],34,Auburn,8090,False,1913,regular,1913-10-25T00:00:00.000Z,,,6
+76,,FBS Independents,[],6,Mississippi State,,FBS Independents,[],0,Texas A&M,8156,False,1913,regular,1913-11-01T00:00:00.000Z,,,7
+77,,FBS Independents,[],0,Tulane,,FBS Independents,[],32,Mississippi State,8197,False,1913,regular,1913-11-08T00:00:00.000Z,,,8
+78,,FBS Independents,[],0,Mississippi State,,FBS Independents,[],0,LSU,8237,False,1913,regular,1913-11-15T00:00:00.000Z,,,9
+79,,FBS Independents,[],7,Mississippi State,,FBS Independents,[],0,Alabama,8297,False,1913,regular,1913-11-27T00:00:00.000Z,,,11
+80,,,[],0,Marion,,FBS Independents,[],54,Mississippi State,8383,False,1914,regular,1914-10-03T00:00:00.000Z,,,3
+81,,,[],0,Cumberland,,FBS Independents,[],77,Mississippi State,8446,False,1914,regular,1914-10-10T00:00:00.000Z,,,4
+82,,FBS Independents,[],13,Mississippi State,,,[],19,Kentucky,8497,False,1914,regular,1914-10-17T00:00:00.000Z,,,5
+83,,FBS Independents,[],0,Mississippi State,,FBS Independents,[],19,Auburn,8533,False,1914,regular,1914-10-24T00:00:00.000Z,,,6
+84,,FBS Independents,[],9,Mississippi State,,FBS Independents,[],0,Georgia,8596,False,1914,regular,1914-10-31T00:00:00.000Z,,,7
+85,,,[],0,Mercer,,FBS Independents,[],66,Mississippi State,8650,False,1914,regular,1914-11-07T00:00:00.000Z,,,8
+86,,FBS Independents,[],0,Tulane,,FBS Independents,[],61,Mississippi State,8695,False,1914,regular,1914-11-14T00:00:00.000Z,,,9
+87,,FBS Independents,[],9,Mississippi State,,FBS Independents,[],0,Alabama,8753,False,1914,regular,1914-11-26T00:00:00.000Z,,,11
+88,,FBS Independents,[],0,Mississippi College,,FBS Independents,[],12,Mississippi State,8845,False,1915,regular,1915-10-02T00:00:00.000Z,,,3
+89,,FBS Independents,[],0,Mississippi State,,,[],0,Transylvania,8923,False,1915,regular,1915-10-09T00:00:00.000Z,,,4
+90,,FBS Independents,[],0,Kentucky,,FBS Independents,[],12,Mississippi State,8966,False,1915,regular,1915-10-16T00:00:00.000Z,,,5
+91,,FBS Independents,[],0,Mississippi State,,FBS Independents,[],26,Auburn,8997,False,1915,regular,1915-10-23T00:00:00.000Z,,,6
+92,,FBS Independents,[],0,Mississippi State,,FBS Independents,[],10,LSU,9062,False,1915,regular,1915-10-30T00:00:00.000Z,,,7
+93,,FBS Independents,[],0,Ole Miss,,FBS Independents,[],65,Mississippi State,9111,False,1915,regular,1915-11-06T00:00:00.000Z,,,8
+94,,FBS Independents,[],0,Tennessee,,FBS Independents,[],14,Mississippi State,9161,False,1915,regular,1915-11-13T00:00:00.000Z,,,9
+95,,FBS Independents,[],7,Mississippi State,,Southwest,[],0,Texas A&M,9231,False,1915,regular,1915-11-25T00:00:00.000Z,,,11
+96,,FBS Independents,[],6,Mississippi State,,FBS Independents,[],13,Mississippi College,9316,False,1916,regular,1916-10-06T00:00:00.000Z,,,4
+97,,FBS Independents,[],33,Mississippi State,,,[],0,Chattanooga,9410,False,1916,regular,1916-10-14T00:00:00.000Z,,,5
+98,,,[],0,Transylvania,,FBS Independents,[],13,Mississippi State,9469,False,1916,regular,1916-10-21T00:00:00.000Z,,,6
+99,,FBS Independents,[],3,Mississippi State,,FBS Independents,[],7,Auburn,9500,False,1916,regular,1916-10-28T00:00:00.000Z,,,7
+100,,FBS Independents,[],0,Ole Miss,,FBS Independents,[],36,Mississippi State,9544,False,1916,regular,1916-11-03T00:00:00.000Z,,,8
+101,,FBS Independents,[],13,LSU,,FBS Independents,[],3,Mississippi State,9615,False,1916,regular,1916-11-11T00:00:00.000Z,,,9
+102,,FBS Independents,[],3,Mississippi State,,FBS Independents,[],13,Kentucky,9662,False,1916,regular,1916-11-18T00:00:00.000Z,,,10
+103,,,[],7,Maryville TN,,FBS Independents,[],7,Mississippi State,9692,False,1916,regular,1916-11-20T00:00:00.000Z,,,10
+104,,Southwest,[],7,Arkansas,,FBS Independents,[],20,Mississippi State,9738,False,1916,regular,1916-11-30T00:00:00.000Z,,,12
+105,,,[],6,Marion,,FBS Independents,[],18,Mississippi State,9791,False,1917,regular,1917-10-05T00:00:00.000Z,,,4
+106,,,[],0,Mississippi College,,FBS Independents,[],68,Mississippi State,9883,False,1917,regular,1917-10-13T00:00:00.000Z,,,5
+107,,FBS Independents,[],6,Mississippi State,,FBS Independents,[],13,Auburn,9965,False,1917,regular,1917-10-27T00:00:00.000Z,,,7
+108,,FBS Independents,[],14,Ole Miss,,FBS Independents,[],41,Mississippi State,10038,False,1917,regular,1917-11-03T00:00:00.000Z,,,8
+109,,FBS Independents,[],0,Kentucky,,FBS Independents,[],14,Mississippi State,10087,False,1917,regular,1917-11-10T00:00:00.000Z,,,9
+110,,FBS Independents,[],9,Mississippi State,,FBS Independents,[],0,LSU,10136,False,1917,regular,1917-11-17T00:00:00.000Z,,,10
+111,,,[],6,Haskell,,FBS Independents,[],7,Mississippi State,10208,False,1917,regular,1917-11-29T00:00:00.000Z,,,12
+112,,,[],7,Payne Field,,FBS Independents,[],6,Mississippi State,10343,False,1918,regular,1918-11-02T00:00:00.000Z,,,6
+113,,,[],0,Camp Shelby,,FBS Independents,[],12,Mississippi State,10380,False,1918,regular,1918-11-09T00:00:00.000Z,,,7
+114,,,[],6,Park Field,,FBS Independents,[],0,Mississippi State,10430,False,1918,regular,1918-11-16T00:00:00.000Z,,,8
+115,,FBS Independents,[],0,Ole Miss,,FBS Independents,[],34,Mississippi State,10488,False,1918,regular,1918-11-28T00:00:00.000Z,,,10
+116,,FBS Independents,[],13,Mississippi State,,FBS Independents,[],0,Ole Miss,10519,False,1918,regular,1918-12-07T00:00:00.000Z,,,11
+117,,FBS Independents,[],6,Spring Hill,,FBS Independents,[],12,Mississippi State,10595,False,1919,regular,1919-10-04T00:00:00.000Z,,,3
+118,,FBS Independents,[],7,Mississippi College,,FBS Independents,[],56,Mississippi State,10656,False,1919,regular,1919-10-11T00:00:00.000Z,,,4
+119,,FBS Independents,[],6,Mississippi State,,FBS Independents,[],0,Tennessee,10724,False,1919,regular,1919-10-18T00:00:00.000Z,,,5
+120,,FBS Independents,[],0,Samford,,FBS Independents,[],39,Mississippi State,10777,False,1919,regular,1919-10-25T00:00:00.000Z,,,6
+121,,FBS Independents,[],0,LSU,,FBS Independents,[],6,Mississippi State,10838,False,1919,regular,1919-11-01T00:00:00.000Z,,,7
+122,,FBS Independents,[],0,Ole Miss,,FBS Independents,[],33,Mississippi State,10892,False,1919,regular,1919-11-08T00:00:00.000Z,,,8
+123,,FBS Independents,[],0,Mississippi State,,FBS Independents,[],7,Auburn,10926,False,1919,regular,1919-11-15T00:00:00.000Z,,,9
+124,,FBS Independents,[],6,Mississippi State,,FBS Independents,[],14,Alabama,11019,False,1919,regular,1919-11-27T00:00:00.000Z,,,11
+125,,FBS Independents,[],0,Mississippi College,,FBS Independents,[],27,Mississippi State,11124,False,1920,regular,1920-10-02T00:00:00.000Z,,,2
+126,,FBS Independents,[],0,Mississippi State,,Western,[],24,Indiana,11178,False,1920,regular,1920-10-09T00:00:00.000Z,,,3
+127,,,[],0,Southern Military Academy,,FBS Independents,[],33,Mississippi State,11252,False,1920,regular,1920-10-16T00:00:00.000Z,,,4
+128,,FBS Independents,[],12,Mississippi State,,FBS Independents,[],7,LSU,11310,False,1920,regular,1920-10-23T00:00:00.000Z,,,5
+129,,FBS Independents,[],7,Tennessee,,FBS Independents,[],13,Mississippi State,11364,False,1920,regular,1920-10-30T00:00:00.000Z,,,6
+130,,,[],0,Ole Miss,,FBS Independents,[],20,Mississippi State,11417,False,1920,regular,1920-11-06T00:00:00.000Z,,,7
+131,,FBS Independents,[],0,Mississippi State,,FBS Independents,[],6,Tulane,11491,False,1920,regular,1920-11-13T00:00:00.000Z,,,8
+132,,FBS Independents,[],7,Mississippi State,,FBS Independents,[],24,Alabama,11540,False,1920,regular,1920-11-25T00:00:00.000Z,,,10
+133,,FBS Independents,[],7,Birmingham-Southern,,Southern,[],20,Mississippi State,11655,False,1921,regular,1921-10-01T00:00:00.000Z,,,3
+134,,,[],6,Ouachita,,Southern,[],21,Mississippi State,11723,False,1921,regular,1921-10-08T00:00:00.000Z,,,4
+135,,FBS Independents,[],13,Mississippi College,,Southern,[],14,Mississippi State,11785,False,1921,regular,1921-10-15T00:00:00.000Z,,,5
+136,,Southern,[],0,Mississippi State,,FBS Independents,[],7,Tulane,11872,False,1921,regular,1921-10-22T00:00:00.000Z,,,6
+137,,FBS Independents,[],0,Ole Miss,,Southern,[],21,Mississippi State,11903,False,1921,regular,1921-10-29T00:00:00.000Z,,,7
+138,,Southern,[],7,Mississippi State,,Southern,[],14,Tennessee,11980,False,1921,regular,1921-11-05T00:00:00.000Z,,,8
+139,,Southern,[],7,Mississippi State,,Southwest,[],54,Texas,11998,False,1921,regular,1921-11-11T00:00:00.000Z,,,9
+140,,Southern,[],7,Alabama,,Southern,[],7,Mississippi State,12105,False,1921,regular,1921-11-24T00:00:00.000Z,,,11
+141,,FBS Independents,[],17,LSU,,Southern,[],14,Mississippi State,12136,False,1921,regular,1921-12-03T00:00:00.000Z,,,12
+142,,FBS Independents,[],0,Birmingham-Southern,,Southern,[],14,Mississippi State,12260,False,1922,regular,1922-10-07T00:00:00.000Z,,,3
+143,,Southern,[],0,Mississippi State,,FBS Independents,[],0,Samford,12347,False,1922,regular,1922-10-14T00:00:00.000Z,,,4
+144,,Southern,[],13,Ole Miss,,Southern,[],19,Mississippi State,12406,False,1922,regular,1922-10-21T00:00:00.000Z,,,5
+145,,Southern,[],0,Mississippi State,,Southern,[],26,Tulane,12485,False,1922,regular,1922-10-28T00:00:00.000Z,,,6
+146,,Southern,[],7,Mississippi State,,,[],7,Ouachita,12534,False,1922,regular,1922-11-04T00:00:00.000Z,,,7
+147,,Southern,[],3,Mississippi State,,Southern,[],31,Tennessee,12612,False,1922,regular,1922-11-11T00:00:00.000Z,,,8
+148,,Southern,[],7,Mississippi State,,Southern,[],0,LSU,12654,False,1922,regular,1922-11-18T00:00:00.000Z,,,9
+149,,Missouri Valley,[],48,Drake,,Southern,[],6,Mississippi State,12692,False,1922,regular,1922-11-25T00:00:00.000Z,,,10
+150,,Southern,[],0,Mississippi State,,Southern,[],59,Alabama,12717,False,1922,regular,1922-11-30T00:00:00.000Z,,,11
+151,,,[],6,Millsaps,,Southern,[],28,Mississippi State,12868,False,1923,regular,1923-10-06T00:00:00.000Z,,,3
+152,,,[],0,Ouachita,,Southern,[],6,Mississippi State,12947,False,1923,regular,1923-10-13T00:00:00.000Z,,,4
+153,,Southern,[],6,Ole Miss,,Southern,[],13,Mississippi State,13012,False,1923,regular,1923-10-20T00:00:00.000Z,,,5
+154,,Southern,[],3,Mississippi State,,Southern,[],7,Tennessee,13095,False,1923,regular,1923-10-27T00:00:00.000Z,,,6
+155,,Southern,[],0,Vanderbilt,,Southern,[],0,Mississippi State,13137,False,1923,regular,1923-11-03T00:00:00.000Z,,,7
+156,,,[],0,Union (Tennessee),,Southern,[],6,Mississippi State,13202,False,1923,regular,1923-11-10T00:00:00.000Z,,,8
+157,,Southern,[],0,Mississippi State,,Western,[],27,Illinois,13253,False,1923,regular,1923-11-17T00:00:00.000Z,,,9
+158,,Southern,[],13,Florida,,Southern,[],13,Mississippi State,13317,False,1923,regular,1923-11-24T00:00:00.000Z,,,10
+159,,Southern,[],7,LSU,,Southern,[],14,Mississippi State,13369,False,1923,regular,1923-12-01T00:00:00.000Z,,,11
+160,,FBS Independents,[],7,Millsaps,,Southern,[],28,Mississippi State,13477,False,1924,regular,1924-10-04T00:00:00.000Z,,,3
+161,,,[],12,Ouachita,,Southern,[],0,Mississippi State,13562,False,1924,regular,1924-10-11T00:00:00.000Z,,,4
+162,,Southern,[],0,Ole Miss,,Southern,[],20,Mississippi State,13615,False,1924,regular,1924-10-18T00:00:00.000Z,,,5
+163,,Southern,[],2,Tennessee,,Southern,[],7,Mississippi State,13674,False,1924,regular,1924-10-25T00:00:00.000Z,,,6
+164,,Southern,[],14,Mississippi State,,Southern,[],6,Tulane,13736,False,1924,regular,1924-11-01T00:00:00.000Z,,,7
+165,,Southern,[],0,Mississippi State,,Southern,[],18,Vanderbilt,13819,False,1924,regular,1924-11-08T00:00:00.000Z,,,8
+166,,FBS Independents,[],6,Mississippi College,,Southern,[],7,Mississippi State,13860,False,1924,regular,1924-11-15T00:00:00.000Z,,,9
+167,,Southern,[],0,Mississippi State,,Southern,[],27,Florida,13898,False,1924,regular,1924-11-22T00:00:00.000Z,,,10
+168,,Southern,[],6,Mississippi State,,Missouri Valley,[],12,Washington (MO),13952,False,1924,regular,1924-11-27T00:00:00.000Z,,,11
+169,,,[],0,Millsaps,,Southern,[],34,Mississippi State,14075,False,1925,regular,1925-10-03T00:00:00.000Z,,,3
+170,,Southern,[],3,Mississippi State,,,[],3,Ouachita,14161,False,1925,regular,1925-10-10T00:00:00.000Z,,,4
+171,,Southern,[],3,Mississippi State,,Southern,[],25,Tulane,14237,False,1925,regular,1925-10-17T00:00:00.000Z,,,5
+172,,Southern,[],0,Ole Miss,,Southern,[],6,Mississippi State,14273,False,1925,regular,1925-10-24T00:00:00.000Z,,,6
+173,,Southern,[],0,Mississippi State,,Southern,[],6,Alabama,14310,False,1925,regular,1925-10-31T00:00:00.000Z,,,7
+174,,,[],0,Mississippi College,,Southern,[],46,Mississippi State,14390,False,1925,regular,1925-11-07T00:00:00.000Z,,,8
+175,,Southern,[],9,Mississippi State,,Southern,[],14,Tennessee,14468,False,1925,regular,1925-11-14T00:00:00.000Z,,,9
+176,,Southern,[],0,Mississippi State,,Southern,[],12,Florida,14498,False,1925,regular,1925-11-21T00:00:00.000Z,,,10
+177,,Southern,[],19,Mississippi State,,,[],7,Birmingham-Southern,14602,False,1926,regular,1926-09-25T00:00:00.000Z,,,2
+178,,,[],0,Mississippi College,,Southern,[],41,Mississippi State,14669,False,1926,regular,1926-10-02T00:00:00.000Z,,,3
+179,,Southern,[],26,Alabama,,Southern,[],7,Mississippi State,14707,False,1926,regular,1926-10-09T00:00:00.000Z,,,4
+180,,,[],0,Millsaps,,Southern,[],34,Mississippi State,14792,False,1926,regular,1926-10-16T00:00:00.000Z,,,5
+181,,Southern,[],6,LSU,,Southern,[],7,Mississippi State,14849,False,1926,regular,1926-10-23T00:00:00.000Z,,,6
+182,,Southern,[],33,Tennessee,,Southern,[],0,Mississippi State,14919,False,1926,regular,1926-10-30T00:00:00.000Z,,,7
+183,,Southern,[],14,Mississippi State,,Southern,[],0,Tulane,14955,False,1926,regular,1926-11-06T00:00:00.000Z,,,8
+184,,Southern,[],6,Mississippi State,,Western,[],19,Indiana,15002,False,1926,regular,1926-11-13T00:00:00.000Z,,,9
+185,,Southern,[],7,Ole Miss,,Southern,[],6,Mississippi State,15087,False,1926,regular,1926-11-25T00:00:00.000Z,,,11
+186,,,[],0,Birmingham-Southern,,Southern,[],27,Mississippi State,15218,False,1927,regular,1927-10-01T00:00:00.000Z,,,3
+187,,,[],0,Louisiana Tech,,Southern,[],14,Mississippi State,15283,False,1927,regular,1927-10-08T00:00:00.000Z,,,4
+188,,Southern,[],13,Mississippi State,,Southern,[],6,Tulane,15349,False,1927,regular,1927-10-15T00:00:00.000Z,,,5
+189,,Southern,[],9,LSU,,Southern,[],7,Mississippi State,15394,False,1927,regular,1927-10-22T00:00:00.000Z,,,6
+190,,Southern,[],7,Mississippi State,,Southern,[],13,Alabama,15428,False,1927,regular,1927-10-29T00:00:00.000Z,,,7
+191,,Southern,[],7,Mississippi State,,Southern,[],6,Auburn,15565,False,1927,regular,1927-11-12T00:00:00.000Z,,,9
+192,,,[],0,Millsaps,,Southern,[],6,Mississippi State,15589,False,1927,regular,1927-11-18T00:00:00.000Z,,,10
+193,,Southern,[],12,Mississippi State,,Southern,[],20,Ole Miss,15637,False,1927,regular,1927-11-24T00:00:00.000Z,,,11
+194,,,[],6,Ouachita,,Southern,[],20,Mississippi State,15716,False,1928,regular,1928-09-29T00:00:00.000Z,,,4
+195,,Southern,[],51,Tulane,,Southern,[],6,Mississippi State,15812,False,1928,regular,1928-10-06T00:00:00.000Z,,,5
+196,,Southern,[],46,Alabama,,Southern,[],0,Mississippi State,15832,False,1928,regular,1928-10-13T00:00:00.000Z,,,6
+197,,Southern,[],31,LSU,,Southern,[],0,Mississippi State,15918,False,1928,regular,1928-10-20T00:00:00.000Z,,,7
+198,,FBS Independents,[],6,Michigan State,,Southern,[],6,Mississippi State,16033,False,1928,regular,1928-11-03T00:00:00.000Z,,,9
+199,,Southern,[],6,Mississippi State,,,[],6,Centenary (LA),16070,False,1928,regular,1928-11-10T00:00:00.000Z,,,10
+200,,Southern,[],13,Mississippi State,,Southern,[],0,Auburn,16153,False,1928,regular,1928-11-17T00:00:00.000Z,,,11
+201,,Southern,[],20,Ole Miss,,Southern,[],19,Mississippi State,16220,False,1928,regular,1928-11-29T00:00:00.000Z,,,13
+202,,,[],7,Henderson State,,Southern,[],0,Mississippi State,16266,False,1929,regular,1929-09-27T00:00:00.000Z,,,2
+203,,Southern,[],13,Mississippi State,,Southern,[],27,Georgia Tech,16355,False,1929,regular,1929-10-05T00:00:00.000Z,,,3
+204,,Southern,[],0,Mississippi State,,Southern,[],34,Tulane,16459,False,1929,regular,1929-10-12T00:00:00.000Z,,,4
+205,,Southern,[],31,LSU,,Southern,[],6,Mississippi State,16488,False,1929,regular,1929-10-19T00:00:00.000Z,,,5
+206,,,[],0,Mississippi College,,Southern,[],6,Mississippi State,16606,False,1929,regular,1929-11-02T00:00:00.000Z,,,7
+207,,FBS Independents,[],33,Michigan State,,Southern,[],19,Mississippi State,16661,False,1929,regular,1929-11-09T00:00:00.000Z,,,8
+208,,Southern,[],0,Mississippi State,,,[],0,Millsaps,16718,False,1929,regular,1929-11-16T00:00:00.000Z,,,9
+209,,Southern,[],7,Ole Miss,,Southern,[],7,Mississippi State,16791,False,1929,regular,1929-11-28T00:00:00.000Z,,,11
+210,,,[],14,Rhodes,,Southern,[],0,Mississippi State,16894,False,1930,regular,1930-09-27T00:00:00.000Z,,,3
+211,,Southern,[],12,Mississippi State,,,[],13,Mississippi College,16959,False,1930,regular,1930-10-04T00:00:00.000Z,,,4
+212,,,[],19,Millsaps,,Southern,[],13,Mississippi State,17031,False,1930,regular,1930-10-11T00:00:00.000Z,,,5
+213,,Southern,[],6,LSU,,Southern,[],8,Mississippi State,17092,False,1930,regular,1930-10-18T00:00:00.000Z,,,6
+214,,Southern,[],0,Mississippi State,,Southern,[],14,NC State,17154,False,1930,regular,1930-10-25T00:00:00.000Z,,,7
+215,,Southern,[],0,Mississippi State,,Southern,[],53,Tulane,17229,False,1930,regular,1930-11-01T00:00:00.000Z,,,8
+216,,,[],25,Henderson State,,Southern,[],7,Mississippi State,17261,False,1930,regular,1930-11-08T00:00:00.000Z,,,9
+217,,Southern,[],7,Mississippi State,,Southern,[],6,Auburn,17327,False,1930,regular,1930-11-15T00:00:00.000Z,,,10
+218,,Southern,[],20,Ole Miss,,Southern,[],0,Mississippi State,17404,False,1930,regular,1930-11-27T00:00:00.000Z,,,12
+219,,Southern,[],10,Mississippi State,,,[],7,Millsaps,17503,False,1931,regular,1931-09-26T00:00:00.000Z,,,3
+220,,,[],6,Mississippi College,,Southern,[],2,Mississippi State,17586,False,1931,regular,1931-10-03T00:00:00.000Z,,,4
+221,,Southern,[],53,Alabama,,Southern,[],0,Mississippi State,17626,False,1931,regular,1931-10-10T00:00:00.000Z,,,5
+222,,Southern,[],0,Mississippi State,,Southern,[],31,LSU,17710,False,1931,regular,1931-10-17T00:00:00.000Z,,,6
+223,,Southern,[],7,Mississippi State,,Southern,[],59,Tulane,17859,False,1931,regular,1931-10-31T00:00:00.000Z,,,8
+224,,Southern,[],6,NC State,,Southern,[],0,Mississippi State,17899,False,1931,regular,1931-11-07T00:00:00.000Z,,,9
+225,,,[],0,Rhodes,,Southern,[],14,Mississippi State,17954,False,1931,regular,1931-11-14T00:00:00.000Z,,,10
+226,,Southern,[],14,Mississippi State,,Southern,[],25,Ole Miss,18040,False,1931,regular,1931-11-26T00:00:00.000Z,,,12
+227,,Southern,[],0,Mississippi State,,Southern,[],53,Alabama,18167,False,1932,regular,1932-10-01T00:00:00.000Z,,,3
+228,,,[],7,Mississippi College,,Southern,[],18,Mississippi State,18282,False,1932,regular,1932-10-08T00:00:00.000Z,,,4
+229,,Southern,[],0,Mississippi State,,Southern,[],24,LSU,18348,False,1932,regular,1932-10-15T00:00:00.000Z,,,5
+230,,,[],8,Millsaps,,Southern,[],9,Mississippi State,18419,False,1932,regular,1932-10-22T00:00:00.000Z,,,6
+231,,Southern,[],0,Mississippi State,,Western,[],19,Indiana,18456,False,1932,regular,1932-10-27T00:00:00.000Z,,,7
+232,,Southern,[],0,Mississippi State,,Southern,[],31,Tennessee,18575,False,1932,regular,1932-11-05T00:00:00.000Z,,,8
+233,,,[],0,Rhodes,,Southern,[],6,Mississippi State,18624,False,1932,regular,1932-11-12T00:00:00.000Z,,,9
+234,,Southern,[],13,Ole Miss,,Southern,[],0,Mississippi State,18708,False,1932,regular,1932-11-24T00:00:00.000Z,,,11
+235,,,[],0,Millsaps,,SEC,[],12,Mississippi State,18846,False,1933,regular,1933-09-30T00:00:00.000Z,,,3
+236,,SEC,[],0,Mississippi State,,SEC,[],20,Tennessee,18933,False,1933,regular,1933-10-07T00:00:00.000Z,,,4
+237,,SEC,[],0,Mississippi State,,SEC,[],18,Alabama,18954,False,1933,regular,1933-10-14T00:00:00.000Z,,,5
+238,,SEC,[],7,Vanderbilt,,SEC,[],7,Mississippi State,19056,False,1933,regular,1933-10-21T00:00:00.000Z,,,6
+239,,SEC,[],0,Mississippi State,,,[],6,Rhodes,19092,False,1933,regular,1933-10-27T00:00:00.000Z,,,7
+240,,,[],0,Mississippi College,,SEC,[],18,Mississippi State,19184,False,1933,regular,1933-11-04T00:00:00.000Z,,,8
+241,,SEC,[],0,Mississippi State,,SEC,[],33,Tulane,19280,False,1933,regular,1933-11-11T00:00:00.000Z,,,9
+242,,SEC,[],13,Sewanee Univ. of the South,,SEC,[],26,Mississippi State,19325,False,1933,regular,1933-11-18T00:00:00.000Z,,,10
+243,,SEC,[],6,Mississippi State,,SEC,[],21,LSU,19378,False,1933,regular,1933-11-25T00:00:00.000Z,,,11
+244,,SEC,[],0,Mississippi State,,SEC,[],31,Ole Miss,19431,False,1933,regular,1933-12-02T00:00:00.000Z,,,12
+245,,SEC,[],13,Mississippi State,,,[],7,Samford,19452,False,1934,regular,1934-09-21T00:00:00.000Z,,,2
+246,,SEC,[],0,Mississippi State,,SEC,[],7,Vanderbilt,19551,False,1934,regular,1934-09-29T00:00:00.000Z,,,3
+247,,,[],7,Millsaps,,SEC,[],6,Mississippi State,19568,False,1934,regular,1934-10-05T00:00:00.000Z,,,4
+248,,SEC,[],0,Mississippi State,,SEC,[],41,Alabama,19647,False,1934,regular,1934-10-13T00:00:00.000Z,,,5
+249,,SEC,[],21,Mississippi State,,,[],6,Rhodes,19737,False,1934,regular,1934-10-20T00:00:00.000Z,,,6
+250,,,[],6,Mississippi College,,SEC,[],13,Mississippi State,19779,False,1934,regular,1934-10-26T00:00:00.000Z,,,7
+251,,SEC,[],3,Mississippi State,,SEC,[],25,LSU,19870,False,1934,regular,1934-11-03T00:00:00.000Z,,,8
+252,,SEC,[],0,Mississippi State,,SEC,[],14,Tennessee,19958,False,1934,regular,1934-11-10T00:00:00.000Z,,,9
+253,,SEC,[],20,Mississippi State,,FBS Independents,[],6,Loyola (LA),20003,False,1934,regular,1934-11-17T00:00:00.000Z,,,10
+254,,SEC,[],3,Mississippi State,,SEC,[],7,Ole Miss,20112,False,1934,regular,1934-12-01T00:00:00.000Z,,,12
+255,,,[],7,Samford,,SEC,[],20,Mississippi State,20138,False,1935,regular,1935-09-20T00:00:00.000Z,,,1
+256,,SEC,[],9,Mississippi State,,SEC,[],14,Vanderbilt,20239,False,1935,regular,1935-09-28T00:00:00.000Z,,,2
+257,,,[],0,Millsaps,,SEC,[],45,Mississippi State,20250,False,1935,regular,1935-10-04T00:00:00.000Z,,,3
+258,,SEC,[],20,Mississippi State,,SEC,[],7,Alabama,20364,False,1935,regular,1935-10-12T00:00:00.000Z,,,4
+259,,SEC,[],6,Mississippi State,,FBS Independents,[],0,Loyola (LA),20406,False,1935,regular,1935-10-18T00:00:00.000Z,,,5
+260,,SEC,[],7,Mississippi State,,FBS Independents,[],0,Xavier,20505,False,1935,regular,1935-10-26T00:00:00.000Z,,,6
+261,,SEC,[],13,Mississippi State,,FBS Independents,[],7,Army,20566,False,1935,regular,1935-11-02T00:00:00.000Z,,,7
+262,,SEC,[],13,Mississippi State,,SEC,[],28,LSU,20625,False,1935,regular,1935-11-09T00:00:00.000Z,,,8
+263,,SEC,[],27,Mississippi State,,,[],0,Southern Mississippi,20667,False,1935,regular,1935-11-15T00:00:00.000Z,,,9
+264,,SEC,[],0,Sewanee Univ. of the South,,SEC,[],25,Mississippi State,20760,False,1935,regular,1935-11-23T00:00:00.000Z,,,10
+265,,SEC,[],6,Mississippi State,,SEC,[],14,Ole Miss,20823,False,1935,regular,1935-11-30T00:00:00.000Z,,,11
+266,,,[],0,Millsaps,,SEC,[],20,Mississippi State,20918,False,1936,regular,1936-09-26T00:00:00.000Z,,,2
+267,,,[],0,Samford,,SEC,[],35,Mississippi State,20994,False,1936,regular,1936-10-03T00:00:00.000Z,,,3
+268,,SEC,[],0,Mississippi State,,SEC,[],7,Alabama,21043,False,1936,regular,1936-10-10T00:00:00.000Z,,,4
+269,,FBS Independents,[],0,Loyola (LA),,SEC,[],32,Mississippi State,21142,False,1936,regular,1936-10-17T00:00:00.000Z,,,5
+270,,Southwest,[],0,TCU,,SEC,[],0,Mississippi State,21212,False,1936,regular,1936-10-24T00:00:00.000Z,,,6
+271,,SEC,[],0,Sewanee Univ. of the South,,SEC,[],68,Mississippi State,21280,False,1936,regular,1936-10-31T00:00:00.000Z,,,7
+272,,SEC,[],0,Mississippi State,,SEC,[],12,LSU,21350,False,1936,regular,1936-11-07T00:00:00.000Z,,,8
+273,,SEC,[],6,Ole Miss,,SEC,[],26,Mississippi State,21480,False,1936,regular,1936-11-21T00:00:00.000Z,,,10
+274,,FBS Independents,[],0,Mercer,,SEC,[],32,Mississippi State,21545,False,1936,regular,1936-11-28T00:00:00.000Z,,,11
+275,,SEC,[],7,Mississippi State,,SEC,[],0,Florida,21557,False,1936,regular,1936-12-05T00:00:00.000Z,,,12
+276,,,[],0,Delta State,,SEC,[],39,Mississippi State,21630,False,1937,regular,1937-09-25T00:00:00.000Z,,,2
+277,,,[],0,Samford,,SEC,[],38,Mississippi State,21698,False,1937,regular,1937-10-02T00:00:00.000Z,,,3
+278,,SEC,[],0,Mississippi State,,Southwest,[],14,Texas A&M,21796,False,1937,regular,1937-10-09T00:00:00.000Z,,,4
+279,,SEC,[],7,Mississippi State,,SEC,[],33,Auburn,21818,False,1937,regular,1937-10-16T00:00:00.000Z,,,5
+280,,SEC,[],13,Florida,,SEC,[],14,Mississippi State,21911,False,1937,regular,1937-10-23T00:00:00.000Z,,,6
+281,,FBS Independents,[],0,Centenary (LA),,SEC,[],0,Mississippi State,21975,False,1937,regular,1937-10-30T00:00:00.000Z,,,7
+282,,SEC,[],0,Mississippi State,,SEC,[],41,LSU,22036,False,1937,regular,1937-11-06T00:00:00.000Z,,,8
+283,,SEC,[],0,Sewanee Univ. of the South,,SEC,[],12,Mississippi State,22079,False,1937,regular,1937-11-12T00:00:00.000Z,,,9
+284,,SEC,[],9,Mississippi State,,SEC,[],7,Ole Miss,22203,False,1937,regular,1937-11-25T00:00:00.000Z,,,11
+285,,FBS Independents,[],9,Duquesne,,SEC,[],0,Mississippi State,22244,False,1937,regular,1937-12-04T00:00:00.000Z,,,12
+286,,,[],0,Samford,,SEC,[],19,Mississippi State,22331,False,1938,regular,1938-09-25T00:00:00.000Z,,,2
+287,,SEC,[],0,Florida,,SEC,[],22,Mississippi State,22375,False,1938,regular,1938-10-01T00:00:00.000Z,,,3
+288,,,[],0,Louisiana Tech,,SEC,[],48,Mississippi State,22452,False,1938,regular,1938-10-08T00:00:00.000Z,,,4
+289,,SEC,[],6,Mississippi State,,SEC,[],20,Auburn,22486,False,1938,regular,1938-10-14T00:00:00.000Z,,,5
+290,,SEC,[],12,Mississippi State,,FBS Independents,[],7,Duquesne,22551,False,1938,regular,1938-10-21T00:00:00.000Z,,,6
+291,,SEC,[],0,Mississippi State,,SEC,[],27,Tulane,22667,False,1938,regular,1938-10-29T00:00:00.000Z,,,7
+292,,SEC,[],7,Mississippi State,,SEC,[],32,LSU,22707,False,1938,regular,1938-11-05T00:00:00.000Z,,,8
+293,,FBS Independents,[],19,Centenary (LA),,SEC,[],0,Mississippi State,22760,False,1938,regular,1938-11-12T00:00:00.000Z,,,9
+294,,SEC,[],3,Mississippi State,,,[],7,Rhodes,22845,False,1938,regular,1938-11-19T00:00:00.000Z,,,10
+295,,SEC,[],19,Ole Miss,,SEC,[],6,Mississippi State,22893,False,1938,regular,1938-11-26T00:00:00.000Z,,,11
+296,,,[],0,Samford,,SEC,[],45,Mississippi State,22943,False,1939,regular,1939-09-23T00:00:00.000Z,,,2
+297,,Southwest,[],0,Arkansas,,SEC,[],19,Mississippi State,23000,False,1939,regular,1939-09-30T00:00:00.000Z,,,3
+298,,SEC,[],14,Mississippi State,,SEC,[],0,Florida,23069,False,1939,regular,1939-10-07T00:00:00.000Z,,,4
+299,,SEC,[],0,Mississippi State,,SEC,[],7,Auburn,23113,False,1939,regular,1939-10-14T00:00:00.000Z,,,5
+300,,FBS Independents,[],0,Rhodes,,SEC,[],37,Mississippi State,23203,False,1939,regular,1939-10-21T00:00:00.000Z,,,6
+301,,SEC,[],0,Mississippi State,,SEC,[],7,Alabama,23244,False,1939,regular,1939-10-28T00:00:00.000Z,,,7
+302,,,[],0,Birmingham-Southern,,SEC,[],28,Mississippi State,23333,False,1939,regular,1939-11-04T00:00:00.000Z,,,8
+303,,SEC,[],15,Mississippi State,,SEC,[],12,LSU,23396,False,1939,regular,1939-11-11T00:00:00.000Z,,,9
+304,,,[],0,Millsaps,,SEC,[],40,Mississippi State,23462,False,1939,regular,1939-11-18T00:00:00.000Z,,,10
+305,,SEC,[],18,Mississippi State,,SEC,[],6,Ole Miss,23513,False,1939,regular,1939-11-25T00:00:00.000Z,,,11
+306,,SEC,[],27,Mississippi State,,SEC,[],7,Florida,23642,False,1940,regular,1940-09-28T00:00:00.000Z,,,3
+307,,,[],0,Louisiana,,SEC,[],20,Mississippi State,23712,False,1940,regular,1940-10-05T00:00:00.000Z,,,4
+308,,SEC,[],7,Auburn,,SEC,[],7,Mississippi State,23779,False,1940,regular,1940-10-12T00:00:00.000Z,,,5
+309,,,[],7,Samford,,SEC,[],41,Mississippi State,23842,False,1940,regular,1940-10-19T00:00:00.000Z,,,6
+310,,SEC,[],26,Mississippi State,,Southern,[],10,NC State,23907,False,1940,regular,1940-10-26T00:00:00.000Z,,,7
+311,,SEC,[],13,Mississippi State,,,[],0,Rhodes,23972,False,1940,regular,1940-11-02T00:00:00.000Z,,,8
+312,,SEC,[],22,Mississippi State,,SEC,[],7,LSU,24030,False,1940,regular,1940-11-09T00:00:00.000Z,,,9
+313,,,[],13,Millsaps,,SEC,[],46,Mississippi State,24094,False,1940,regular,1940-11-16T00:00:00.000Z,,,10
+314,,SEC,[],0,Ole Miss,,SEC,[],19,Mississippi State,24162,False,1940,regular,1940-11-23T00:00:00.000Z,,,11
+315,,SEC,[],13,Mississippi State,,SEC,[],0,Alabama,24201,False,1940,regular,1940-11-30T00:00:00.000Z,,,12
+316,,SEC,[],0,Florida,,SEC,[],6,Mississippi State,24295,False,1941,regular,1941-09-27T00:00:00.000Z,,,2
+317,,SEC,[],14,Mississippi State,,SEC,[],0,Alabama,24349,False,1941,regular,1941-10-04T00:00:00.000Z,,,3
+318,,SEC,[],0,LSU,,SEC,[],0,Mississippi State,24414,False,1941,regular,1941-10-11T00:00:00.000Z,,,4
+319,,,[],7,Union (Tennessee),,SEC,[],56,Mississippi State,24541,False,1941,regular,1941-10-25T00:00:00.000Z,,,6
+320,,SEC,[],20,Mississippi State,,,[],6,Rhodes,24602,False,1941,regular,1941-11-01T00:00:00.000Z,,,7
+321,,SEC,[],14,Mississippi State,,SEC,[],7,Auburn,24660,False,1941,regular,1941-11-08T00:00:00.000Z,,,8
+322,,SEC,[],0,Mississippi State,,FBS Independents,[],16,Duquesne,24709,False,1941,regular,1941-11-15T00:00:00.000Z,,,9
+323,,,[],6,Millsaps,,SEC,[],49,Mississippi State,24783,False,1941,regular,1941-11-22T00:00:00.000Z,,,10
+324,,SEC,[],6,Mississippi State,,SEC,[],0,Ole Miss,24828,False,1941,regular,1941-11-29T00:00:00.000Z,,,11
+325,,SEC,[],26,Mississippi State,,FBS Independents,[],13,San Francisco,24849,False,1941,regular,1941-12-06T00:00:00.000Z,,,12
+326,,,[],2,Union (Tennessee),,SEC,[],35,Mississippi State,24923,False,1942,regular,1942-09-26T00:00:00.000Z,,,3
+327,,SEC,[],6,Mississippi State,,SEC,[],21,Alabama,24963,False,1942,regular,1942-10-03T00:00:00.000Z,,,4
+328,,SEC,[],6,Mississippi State,,SEC,[],16,LSU,25057,False,1942,regular,1942-10-10T00:00:00.000Z,,,5
+329,,SEC,[],33,Mississippi State,,SEC,[],0,Vanderbilt,25130,False,1942,regular,1942-10-17T00:00:00.000Z,,,6
+330,,SEC,[],26,Mississippi State,,SEC,[],12,Florida,25190,False,1942,regular,1942-10-24T00:00:00.000Z,,,7
+331,,SEC,[],6,Mississippi State,,SEC,[],0,Auburn,25252,False,1942,regular,1942-10-31T00:00:00.000Z,,,8
+332,,SEC,[],7,Mississippi State,,SEC,[],0,Tulane,25311,False,1942,regular,1942-11-07T00:00:00.000Z,,,9
+333,,FBS Independents,[],6,Duquesne,,SEC,[],28,Mississippi State,25376,False,1942,regular,1942-11-14T00:00:00.000Z,,,10
+334,,SEC,[],13,Ole Miss,,SEC,[],34,Mississippi State,25488,False,1942,regular,1942-11-28T00:00:00.000Z,,,12
+335,,FBS Independents,[],7,San Francisco,,SEC,[],19,Mississippi State,25510,False,1942,regular,1942-12-05T00:00:00.000Z,,,13
+336,,,[],0,Jackson Field,,SEC,[],41,Mississippi State,25993,False,1944,regular,1944-09-30T00:00:00.000Z,,,6
+337,,,[],0,Millsaps,,SEC,[],56,Mississippi State,26047,False,1944,regular,1944-10-07T00:00:00.000Z,,,7
+338,,,[],20,Arkansas-Monticello,,SEC,[],49,Mississippi State,26098,False,1944,regular,1944-10-14T00:00:00.000Z,,,8
+339,,SEC,[],13,Mississippi State,,SEC,[],6,LSU,26148,False,1944,regular,1944-10-21T00:00:00.000Z,,,9
+340,,SEC,[],0,Kentucky,,SEC,[],26,Mississippi State,26248,False,1944,regular,1944-11-04T00:00:00.000Z,,,11
+341,,SEC,[],26,Mississippi State,,SEC,[],21,Auburn,26298,False,1944,regular,1944-11-11T00:00:00.000Z,,,12
+342,,SEC,[],0,Mississippi State,,SEC,[],19,Alabama,26328,False,1944,regular,1944-11-18T00:00:00.000Z,,,13
+343,,SEC,[],8,Mississippi State,,SEC,[],13,Ole Miss,26386,False,1944,regular,1944-11-25T00:00:00.000Z,,,14
+344,,,[],0,Louisiana,,SEC,[],31,Mississippi State,26506,False,1945,regular,1945-09-29T00:00:00.000Z,,,4
+345,,SEC,[],20,Mississippi State,,SEC,[],0,Auburn,26563,False,1945,regular,1945-10-06T00:00:00.000Z,,,5
+346,,FBS Independents,[],6,Detroit Mercy,,SEC,[],41,Mississippi State,26620,False,1945,regular,1945-10-13T00:00:00.000Z,,,6
+347,,,[],6,Maxwell Field,,SEC,[],16,Mississippi State,26666,False,1945,regular,1945-10-20T00:00:00.000Z,,,7
+348,,SEC,[],13,Mississippi State,,SEC,[],14,Tulane,26779,False,1945,regular,1945-11-03T00:00:00.000Z,,,9
+349,,SEC,[],27,Mississippi State,,SEC,[],20,LSU,26817,False,1945,regular,1945-11-10T00:00:00.000Z,,,10
+350,,,[],0,Northwestern State,,SEC,[],54,Mississippi State,26869,False,1945,regular,1945-11-17T00:00:00.000Z,,,11
+351,,SEC,[],7,Ole Miss,,SEC,[],6,Mississippi State,26917,False,1945,regular,1945-11-24T00:00:00.000Z,,,12
+352,,SEC,[],13,Mississippi State,,SEC,[],55,Alabama,26939,False,1945,regular,1945-12-01T00:00:00.000Z,,,13
+353,,FBS Independents,[],7,Chattanooga,,SEC,[],41,Mississippi State,27061,False,1946,regular,1946-09-29T00:00:00.000Z,,,3
+354,,SEC,[],6,Mississippi State,,SEC,[],13,LSU,27094,False,1946,regular,1946-10-05T00:00:00.000Z,,,4
+355,,SEC,[],6,Mississippi State,,FBS Independents,[],0,Michigan State,27160,False,1946,regular,1946-10-12T00:00:00.000Z,,,5
+356,,FBS Independents,[],20,San Francisco,,SEC,[],48,Mississippi State,27220,False,1946,regular,1946-10-19T00:00:00.000Z,,,6
+357,,SEC,[],14,Mississippi State,,SEC,[],7,Tulane,27283,False,1946,regular,1946-10-26T00:00:00.000Z,,,7
+358,,,[],0,Murray State,,SEC,[],69,Mississippi State,27347,False,1946,regular,1946-11-02T00:00:00.000Z,,,8
+359,,SEC,[],33,Mississippi State,,SEC,[],0,Auburn,27403,False,1946,regular,1946-11-09T00:00:00.000Z,,,9
+360,,,[],0,Northwestern State,,SEC,[],27,Mississippi State,27467,False,1946,regular,1946-11-16T00:00:00.000Z,,,10
+361,,SEC,[],20,Mississippi State,,SEC,[],0,Ole Miss,27520,False,1946,regular,1946-11-23T00:00:00.000Z,,,11
+362,,SEC,[],7,Mississippi State,,SEC,[],24,Alabama,27562,False,1946,regular,1946-11-30T00:00:00.000Z,,,12
+363,,FBS Independents,[],0,Chattanooga,,SEC,[],19,Mississippi State,27643,False,1947,regular,1947-09-26T00:00:00.000Z,,,3
+364,,SEC,[],0,Mississippi State,,FBS Independents,[],7,Michigan State,27732,False,1947,regular,1947-10-04T00:00:00.000Z,,,4
+365,,SEC,[],21,Mississippi State,,FBS Independents,[],14,San Francisco,27798,False,1947,regular,1947-10-11T00:00:00.000Z,,,5
+366,,FBS Independents,[],0,Duquesne,,SEC,[],34,Mississippi State,27869,False,1947,regular,1947-10-18T00:00:00.000Z,,,6
+367,,Border,[],7,Hardin-Simmons,,SEC,[],27,Mississippi State,27927,False,1947,regular,1947-10-25T00:00:00.000Z,,,7
+368,,SEC,[],20,Mississippi State,,SEC,[],0,Tulane,27987,False,1947,regular,1947-11-01T00:00:00.000Z,,,8
+369,,SEC,[],14,Mississippi State,,SEC,[],0,Auburn,28047,False,1947,regular,1947-11-08T00:00:00.000Z,,,9
+370,,SEC,[],6,Mississippi State,,SEC,[],21,LSU,28108,False,1947,regular,1947-11-15T00:00:00.000Z,,,10
+371,,,[],7,Southern Mississippi,,SEC,[],14,Mississippi State,28161,False,1947,regular,1947-11-22T00:00:00.000Z,,,11
+372,,SEC,[],33,Ole Miss,,SEC,[],14,Mississippi State,28207,False,1947,regular,1947-11-29T00:00:00.000Z,,,12
+373,,SEC,[],21,Mississippi State,,SEC,[],6,Tennessee,28310,False,1948,regular,1948-09-25T00:00:00.000Z,,,3
+374,,SEC,[],7,Mississippi State,,Southwest,[],7,Baylor,28348,False,1948,regular,1948-10-02T00:00:00.000Z,,,4
+375,,Southern,[],21,Clemson,,SEC,[],7,Mississippi State,28419,False,1948,regular,1948-10-09T00:00:00.000Z,,,5
+376,,,[],0,Cincinnati,,SEC,[],27,Mississippi State,28495,False,1948,regular,1948-10-16T00:00:00.000Z,,,6
+377,,SEC,[],10,Alabama,,SEC,[],7,Mississippi State,28533,False,1948,regular,1948-10-23T00:00:00.000Z,,,7
+378,,SEC,[],0,Mississippi State,,SEC,[],9,Tulane,28640,False,1948,regular,1948-10-30T00:00:00.000Z,,,8
+379,,SEC,[],20,Mississippi State,,SEC,[],0,Auburn,28681,False,1948,regular,1948-11-06T00:00:00.000Z,,,9
+380,,SEC,[],7,Mississippi State,,SEC,[],0,LSU,28742,False,1948,regular,1948-11-13T00:00:00.000Z,,,10
+381,,SEC,[],7,Mississippi State,,SEC,[],34,Ole Miss,28850,False,1948,regular,1948-11-27T00:00:00.000Z,,,12
+382,,SEC,[],0,Mississippi State,,SEC,[],10,Tennessee,28982,False,1949,regular,1949-09-24T00:00:00.000Z,,,3
+383,,Southwest,[],14,Baylor,,SEC,[],6,Mississippi State,29008,False,1949,regular,1949-10-01T00:00:00.000Z,,,4
+384,,Southern,[],7,Clemson,,SEC,[],7,Mississippi State,29093,False,1949,regular,1949-10-08T00:00:00.000Z,,,5
+385,,SEC,[],0,Mississippi State,,,[],19,Cincinnati,29140,False,1949,regular,1949-10-15T00:00:00.000Z,,,6
+386,,SEC,[],6,Mississippi State,,SEC,[],35,Alabama,29195,False,1949,regular,1949-10-22T00:00:00.000Z,,,7
+387,,SEC,[],6,Mississippi State,,SEC,[],54,Tulane,29304,False,1949,regular,1949-10-29T00:00:00.000Z,,,8
+388,,SEC,[],6,Mississippi State,,SEC,[],25,Auburn,29320,False,1949,regular,1949-11-05T00:00:00.000Z,,,9
+389,,SEC,[],7,Mississippi State,,SEC,[],34,LSU,29398,False,1949,regular,1949-11-12T00:00:00.000Z,,,10
+390,,SEC,[],26,Ole Miss,,SEC,[],0,Mississippi State,29510,False,1949,regular,1949-11-26T00:00:00.000Z,,,12
+391,,,[],0,Arkansas State,,SEC,[],67,Mississippi State,29575,False,1950,regular,1950-09-23T00:00:00.000Z,,,2
+392,,SEC,[],0,Tennessee,,SEC,[],7,Mississippi State,29638,False,1950,regular,1950-09-30T00:00:00.000Z,,,3
+393,,SEC,[],7,Mississippi State,,Southwest,[],14,Baylor,29675,False,1950,regular,1950-10-07T00:00:00.000Z,,,4
+394,,SEC,[],0,Mississippi State,,SEC,[],27,Georgia,29749,False,1950,regular,1950-10-14T00:00:00.000Z,,,5
+395,,SEC,[],7,Mississippi State,,SEC,[],14,Alabama,29859,False,1950,regular,1950-10-28T00:00:00.000Z,,,7
+396,,SEC,[],0,Auburn,,SEC,[],27,Mississippi State,29948,False,1950,regular,1950-11-04T00:00:00.000Z,,,8
+397,,SEC,[],48,Kentucky,,SEC,[],21,Mississippi State,30001,False,1950,regular,1950-11-11T00:00:00.000Z,,,9
+398,,SEC,[],13,Mississippi State,,SEC,[],7,LSU,30073,False,1950,regular,1950-11-18T00:00:00.000Z,,,10
+399,,SEC,[],20,Mississippi State,,SEC,[],27,Ole Miss,30166,False,1950,regular,1950-12-02T00:00:00.000Z,,,12
+400,,,[],0,Arkansas State,,SEC,[],32,Mississippi State,30233,False,1951,regular,1951-09-22T00:00:00.000Z,,,2
+401,,SEC,[],0,Mississippi State,,SEC,[],14,Tennessee,30301,False,1951,regular,1951-09-29T00:00:00.000Z,,,3
+402,,SEC,[],0,Georgia,,SEC,[],6,Mississippi State,30347,False,1951,regular,1951-10-06T00:00:00.000Z,,,4
+403,,SEC,[],0,Mississippi State,,SEC,[],27,Kentucky,30411,False,1951,regular,1951-10-13T00:00:00.000Z,,,5
+404,,SEC,[],7,Alabama,,SEC,[],0,Mississippi State,30507,False,1951,regular,1951-10-27T00:00:00.000Z,,,7
+405,,SEC,[],10,Mississippi State,,SEC,[],7,Tulane,30590,False,1951,regular,1951-11-03T00:00:00.000Z,,,8
+406,,SEC,[],27,Mississippi State,,,[],20,Memphis,30650,False,1951,regular,1951-11-10T00:00:00.000Z,,,9
+407,,SEC,[],0,Mississippi State,,SEC,[],3,LSU,30697,False,1951,regular,1951-11-17T00:00:00.000Z,,,10
+408,,SEC,[],49,Ole Miss,,SEC,[],7,Mississippi State,30794,False,1951,regular,1951-12-01T00:00:00.000Z,,,12
+409,,SEC,[],7,Mississippi State,,SEC,[],14,Tennessee,30903,False,1952,regular,1952-09-27T00:00:00.000Z,,,3
+410,,,[],14,Arkansas State,,SEC,[],41,Mississippi State,30947,False,1952,regular,1952-10-04T00:00:00.000Z,,,4
+411,,,[],0,North Texas,,SEC,[],14,Mississippi State,31011,False,1952,regular,1952-10-11T00:00:00.000Z,,,5
+412,,SEC,[],14,Kentucky,,SEC,[],27,Mississippi State,31068,False,1952,regular,1952-10-18T00:00:00.000Z,,,6
+413,,SEC,[],19,Mississippi State,,SEC,[],42,Alabama,31102,False,1952,regular,1952-10-25T00:00:00.000Z,,,7
+414,,SEC,[],21,Mississippi State,,SEC,[],34,Tulane,31199,False,1952,regular,1952-11-01T00:00:00.000Z,,,8
+415,,SEC,[],49,Mississippi State,,SEC,[],34,Auburn,31238,False,1952,regular,1952-11-08T00:00:00.000Z,,,9
+416,,SEC,[],33,Mississippi State,,SEC,[],14,LSU,31298,False,1952,regular,1952-11-15T00:00:00.000Z,,,10
+417,,SEC,[],14,Mississippi State,,SEC,[],20,Ole Miss,31391,False,1952,regular,1952-11-29T00:00:00.000Z,,,12
+418,,SEC,[],34,Mississippi State,,,[],6,Memphis,31436,False,1953,regular,1953-09-19T00:00:00.000Z,,,1
+419,,SEC,[],26,Mississippi State,,SEC,[],0,Tennessee,31484,False,1953,regular,1953-09-26T00:00:00.000Z,,,2
+420,,FBS Independents,[],6,North Texas,,SEC,[],21,Mississippi State,31540,False,1953,regular,1953-10-03T00:00:00.000Z,,,3
+421,,SEC,[],21,Mississippi State,,SEC,[],21,Auburn,31579,False,1953,regular,1953-10-10T00:00:00.000Z,,,4
+422,,SEC,[],13,Mississippi State,,SEC,[],32,Kentucky,31645,False,1953,regular,1953-10-17T00:00:00.000Z,,,5
+423,,SEC,[],7,Alabama,,SEC,[],7,Mississippi State,31710,False,1953,regular,1953-10-24T00:00:00.000Z,,,6
+424,,Border,[],27,Texas Tech,,SEC,[],20,Mississippi State,31783,False,1953,regular,1953-10-31T00:00:00.000Z,,,7
+425,,SEC,[],21,Mississippi State,,SEC,[],0,Tulane,31819,False,1953,regular,1953-11-07T00:00:00.000Z,,,8
+426,,SEC,[],26,Mississippi State,,SEC,[],13,LSU,31873,False,1953,regular,1953-11-14T00:00:00.000Z,,,9
+427,,SEC,[],7,Mississippi State,,SEC,[],7,Ole Miss,31971,False,1953,regular,1953-11-28T00:00:00.000Z,,,11
+428,,,[],7,Memphis,,SEC,[],27,Mississippi State,32010,False,1954,regular,1954-09-18T00:00:00.000Z,,,1
+429,,SEC,[],7,Mississippi State,,SEC,[],19,Tennessee,32075,False,1954,regular,1954-09-25T00:00:00.000Z,,,2
+430,,,[],13,Arkansas State,,SEC,[],46,Mississippi State,32115,False,1954,regular,1954-10-02T00:00:00.000Z,,,3
+431,,SEC,[],14,Mississippi State,,SEC,[],0,Tulane,32177,False,1954,regular,1954-10-09T00:00:00.000Z,,,4
+432,,SEC,[],13,Mississippi State,,FBS Independents,[],27,Miami,32204,False,1954,regular,1954-10-15T00:00:00.000Z,,,5
+433,,SEC,[],12,Mississippi State,,SEC,[],7,Alabama,32288,False,1954,regular,1954-10-23T00:00:00.000Z,,,6
+434,,SEC,[],0,Mississippi State,,SEC,[],7,Florida,32334,False,1954,regular,1954-10-30T00:00:00.000Z,,,7
+435,,FBS Independents,[],26,North Texas,,SEC,[],48,Mississippi State,32405,False,1954,regular,1954-11-06T00:00:00.000Z,,,8
+436,,SEC,[],25,Mississippi State,,SEC,[],0,LSU,32455,False,1954,regular,1954-11-13T00:00:00.000Z,,,9
+437,,SEC,[],0,Mississippi State,,SEC,[],14,Ole Miss,32553,False,1954,regular,1954-11-27T00:00:00.000Z,,,11
+438,,SEC,[],14,Mississippi State,,SEC,[],20,Florida,32587,False,1955,regular,1955-09-17T00:00:00.000Z,,,1
+439,,SEC,[],13,Mississippi State,,SEC,[],7,Tennessee,32642,False,1955,regular,1955-09-24T00:00:00.000Z,,,2
+440,,,[],0,Memphis,,SEC,[],33,Mississippi State,32697,False,1955,regular,1955-10-01T00:00:00.000Z,,,3
+441,,SEC,[],0,Tulane,,SEC,[],14,Mississippi State,32753,False,1955,regular,1955-10-08T00:00:00.000Z,,,4
+442,,SEC,[],20,Mississippi State,,SEC,[],14,Kentucky,32810,False,1955,regular,1955-10-15T00:00:00.000Z,,,5
+443,,SEC,[],26,Mississippi State,,SEC,[],7,Alabama,32865,False,1955,regular,1955-10-22T00:00:00.000Z,,,6
+444,,FBS Independents,[],7,North Texas,,SEC,[],20,Mississippi State,32917,False,1955,regular,1955-10-29T00:00:00.000Z,,,7
+445,,SEC,[],26,Mississippi State,,SEC,[],27,Auburn,32955,False,1955,regular,1955-11-05T00:00:00.000Z,,,8
+446,,SEC,[],7,Mississippi State,,SEC,[],34,LSU,33028,False,1955,regular,1955-11-12T00:00:00.000Z,,,9
+447,,SEC,[],26,Ole Miss,,SEC,[],0,Mississippi State,33129,False,1955,regular,1955-11-26T00:00:00.000Z,,,11
+448,,SEC,[],26,Florida,,SEC,[],0,Mississippi State,33170,False,1956,regular,1956-09-22T00:00:00.000Z,,,2
+449,,SEC,[],7,Mississippi State,,Missouri Valley,[],18,Houston,33226,False,1956,regular,1956-09-29T00:00:00.000Z,,,3
+450,,SEC,[],19,Mississippi State,,SEC,[],7,Georgia,33284,False,1956,regular,1956-10-06T00:00:00.000Z,,,4
+451,,,[],6,Trinity (Texas),,SEC,[],18,Mississippi State,33344,False,1956,regular,1956-10-13T00:00:00.000Z,,,5
+452,,,[],9,Arkansas State,,SEC,[],19,Mississippi State,33397,False,1956,regular,1956-10-20T00:00:00.000Z,,,6
+453,,SEC,[],12,Mississippi State,,SEC,[],13,Alabama,33438,False,1956,regular,1956-10-27T00:00:00.000Z,,,7
+454,,SEC,[],14,Mississippi State,,SEC,[],20,Tulane,33539,False,1956,regular,1956-11-03T00:00:00.000Z,,,8
+455,,SEC,[],20,Mississippi State,,SEC,[],27,Auburn,33553,False,1956,regular,1956-11-10T00:00:00.000Z,,,9
+456,,SEC,[],32,Mississippi State,,SEC,[],13,LSU,33627,False,1956,regular,1956-11-17T00:00:00.000Z,,,10
+457,,SEC,[],7,Mississippi State,,SEC,[],13,Ole Miss,33722,False,1956,regular,1956-12-01T00:00:00.000Z,,,12
+458,,,[],6,Memphis,,SEC,[],10,Mississippi State,33815,False,1957,regular,1957-09-28T00:00:00.000Z,,,3
+459,,SEC,[],9,Mississippi State,,SEC,[],14,Tennessee,33890,False,1957,regular,1957-10-05T00:00:00.000Z,,,4
+460,,,[],13,Arkansas State,,SEC,[],47,Mississippi State,33928,False,1957,regular,1957-10-12T00:00:00.000Z,,,5
+461,,SEC,[],29,Mississippi State,,SEC,[],20,Florida,33990,False,1957,regular,1957-10-19T00:00:00.000Z,,,6
+462,,SEC,[],25,Mississippi State,,SEC,[],13,Alabama,34042,False,1957,regular,1957-10-26T00:00:00.000Z,,,7
+463,,SEC,[],6,Tulane,,SEC,[],27,Mississippi State,34100,False,1957,regular,1957-11-02T00:00:00.000Z,,,8
+464,,SEC,[],7,Mississippi State,,SEC,[],15,Auburn,34131,False,1957,regular,1957-11-09T00:00:00.000Z,,,9
+465,,SEC,[],14,Mississippi State,,SEC,[],6,LSU,34215,False,1957,regular,1957-11-16T00:00:00.000Z,,,10
+466,,SEC,[],7,Mississippi State,,SEC,[],7,Ole Miss,34308,False,1957,regular,1957-11-30T00:00:00.000Z,,,12
+467,,SEC,[],14,Mississippi State,,SEC,[],7,Florida,34402,False,1958,regular,1958-09-27T00:00:00.000Z,,,3
+468,,SEC,[],8,Mississippi State,,SEC,[],13,Tennessee,34475,False,1958,regular,1958-10-04T00:00:00.000Z,,,4
+469,,,[],6,Memphis,,SEC,[],28,Mississippi State,34516,False,1958,regular,1958-10-11T00:00:00.000Z,,,5
+470,,,[],0,Arkansas State,,SEC,[],38,Mississippi State,34568,False,1958,regular,1958-10-18T00:00:00.000Z,,,6
+471,,SEC,[],9,Alabama,,SEC,[],7,Mississippi State,34606,False,1958,regular,1958-10-25T00:00:00.000Z,,,7
+472,,SEC,[],12,Mississippi State,,SEC,[],33,Kentucky,34688,False,1958,regular,1958-11-01T00:00:00.000Z,,,8
+473,,SEC,[],14,Mississippi State,,SEC,[],33,Auburn,34726,False,1958,regular,1958-11-08T00:00:00.000Z,,,9
+474,,SEC,[],7,LSU,,SEC,[],6,Mississippi State,34800,False,1958,regular,1958-11-15T00:00:00.000Z,,,10
+475,,SEC,[],0,Mississippi State,,SEC,[],21,Ole Miss,34901,False,1958,regular,1958-11-29T00:00:00.000Z,,,12
+476,,SEC,[],13,Mississippi State,,SEC,[],14,Florida,34981,False,1959,regular,1959-09-26T00:00:00.000Z,,,3
+477,,SEC,[],6,Mississippi State,,SEC,[],22,Tennessee,35070,False,1959,regular,1959-10-03T00:00:00.000Z,,,4
+478,,,[],14,Arkansas State,,SEC,[],49,Mississippi State,35112,False,1959,regular,1959-10-10T00:00:00.000Z,,,5
+479,,SEC,[],0,Mississippi State,,SEC,[],15,Georgia,35150,False,1959,regular,1959-10-17T00:00:00.000Z,,,6
+480,,,[],23,Memphis,,SEC,[],28,Mississippi State,35219,False,1959,regular,1959-10-24T00:00:00.000Z,,,7
+481,,SEC,[],0,Mississippi State,,SEC,[],10,Alabama,35260,False,1959,regular,1959-10-31T00:00:00.000Z,,,8
+482,,SEC,[],0,Mississippi State,,SEC,[],31,Auburn,35318,False,1959,regular,1959-11-07T00:00:00.000Z,,,9
+483,,SEC,[],0,Mississippi State,,SEC,[],27,LSU,35394,False,1959,regular,1959-11-14T00:00:00.000Z,,,10
+484,,SEC,[],42,Ole Miss,,SEC,[],0,Mississippi State,35492,False,1959,regular,1959-11-28T00:00:00.000Z,,,12
+485,,FBS Independents,[],14,Houston,,SEC,[],10,Mississippi State,35581,False,1960,regular,1960-09-24T00:00:00.000Z,,,3
+486,,SEC,[],0,Mississippi State,,SEC,[],0,Tennessee,35663,False,1960,regular,1960-10-01T00:00:00.000Z,,,4
+487,,,[],9,Arkansas State,,SEC,[],29,Mississippi State,35698,False,1960,regular,1960-10-08T00:00:00.000Z,,,5
+488,,SEC,[],17,Mississippi State,,SEC,[],20,Georgia,35743,False,1960,regular,1960-10-15T00:00:00.000Z,,,6
+489,,FBS Independents,[],0,Memphis,,SEC,[],21,Mississippi State,35816,False,1960,regular,1960-10-22T00:00:00.000Z,,,7
+490,,SEC,[],7,Alabama,,SEC,[],0,Mississippi State,35853,False,1960,regular,1960-10-29T00:00:00.000Z,,,8
+491,,SEC,[],12,Mississippi State,,SEC,[],27,Auburn,35917,False,1960,regular,1960-11-05T00:00:00.000Z,,,9
+492,,SEC,[],3,Mississippi State,,SEC,[],7,LSU,35995,False,1960,regular,1960-11-12T00:00:00.000Z,,,10
+493,,SEC,[],9,Mississippi State,,SEC,[],35,Ole Miss,36094,False,1960,regular,1960-11-26T00:00:00.000Z,,,12
+494,,Southwest,[],0,Texas Tech,,SEC,[],6,Mississippi State,36161,False,1961,regular,1961-09-23T00:00:00.000Z,,,2
+495,,SEC,[],10,Mississippi State,,FBS Independents,[],7,Houston,36214,False,1961,regular,1961-09-30T00:00:00.000Z,,,3
+496,,SEC,[],3,Mississippi State,,SEC,[],17,Tennessee,36284,False,1961,regular,1961-10-07T00:00:00.000Z,,,4
+497,,,[],0,Arkansas State,,SEC,[],38,Mississippi State,36325,False,1961,regular,1961-10-14T00:00:00.000Z,,,5
+498,,SEC,[],7,Mississippi State,,SEC,[],10,Georgia,36372,False,1961,regular,1961-10-21T00:00:00.000Z,,,6
+499,,SEC,[],23,Mississippi State,,FBS Independents,[],16,Memphis,36437,False,1961,regular,1961-10-28T00:00:00.000Z,,,7
+500,,SEC,[],0,Mississippi State,,SEC,[],24,Alabama,36473,False,1961,regular,1961-11-04T00:00:00.000Z,,,8
+501,,SEC,[],11,Mississippi State,,SEC,[],10,Auburn,36560,False,1961,regular,1961-11-11T00:00:00.000Z,,,9
+502,,SEC,[],6,Mississippi State,,SEC,[],14,LSU,36612,False,1961,regular,1961-11-18T00:00:00.000Z,,,10
+503,,SEC,[],37,Ole Miss,,SEC,[],7,Mississippi State,36690,False,1961,regular,1961-12-02T00:00:00.000Z,,,12
+504,,SEC,[],19,Florida,,SEC,[],9,Mississippi State,36744,False,1962,regular,1962-09-22T00:00:00.000Z,,,2
+505,,SEC,[],6,Tennessee,,SEC,[],7,Mississippi State,36870,False,1962,regular,1962-10-06T00:00:00.000Z,,,4
+506,,SEC,[],35,Mississippi State,,SEC,[],6,Tulane,36903,False,1962,regular,1962-10-12T00:00:00.000Z,,,5
+507,,SEC,[],9,Mississippi State,,FBS Independents,[],3,Houston,36986,False,1962,regular,1962-10-20T00:00:00.000Z,,,6
+508,,FBS Independents,[],28,Memphis,,SEC,[],7,Mississippi State,37048,False,1962,regular,1962-10-27T00:00:00.000Z,,,7
+509,,SEC,[],20,Alabama,,SEC,[],0,Mississippi State,37090,False,1962,regular,1962-11-03T00:00:00.000Z,,,8
+510,,SEC,[],3,Mississippi State,,SEC,[],9,Auburn,37154,False,1962,regular,1962-11-10T00:00:00.000Z,,,9
+511,,SEC,[],28,LSU,,SEC,[],0,Mississippi State,37234,False,1962,regular,1962-11-17T00:00:00.000Z,,,10
+512,,SEC,[],6,Mississippi State,,SEC,[],13,Ole Miss,37321,False,1962,regular,1962-12-01T00:00:00.000Z,,,12
+513,,,[],0,Samford,,SEC,[],43,Mississippi State,37370,False,1963,regular,1963-09-21T00:00:00.000Z,,,2
+514,,SEC,[],9,Florida,,SEC,[],9,Mississippi State,37429,False,1963,regular,1963-09-28T00:00:00.000Z,,,3
+515,,SEC,[],7,Mississippi State,,SEC,[],0,Tennessee,37490,False,1963,regular,1963-10-05T00:00:00.000Z,,,4
+516,,SEC,[],10,Tulane,,SEC,[],31,Mississippi State,37553,False,1963,regular,1963-10-12T00:00:00.000Z,,,5
+517,,FBS Independents,[],0,Houston,,SEC,[],20,Mississippi State,37606,False,1963,regular,1963-10-19T00:00:00.000Z,,,6
+518,,SEC,[],10,Mississippi State,,FBS Independents,[],17,Memphis,37667,False,1963,regular,1963-10-26T00:00:00.000Z,,,7
+519,,SEC,[],19,Mississippi State,,SEC,[],20,Alabama,37702,False,1963,regular,1963-11-02T00:00:00.000Z,,,8
+520,,SEC,[],10,Auburn,,SEC,[],13,Mississippi State,37794,False,1963,regular,1963-11-09T00:00:00.000Z,,,9
+521,,SEC,[],6,LSU,,SEC,[],7,Mississippi State,37854,False,1963,regular,1963-11-16T00:00:00.000Z,,,10
+522,,SEC,[],10,Mississippi State,,SEC,[],10,Ole Miss,37925,False,1963,regular,1963-11-30T00:00:00.000Z,,,12
+523,,SEC,[],7,Mississippi State,,Southwest,[],21,Texas Tech,38000,False,1964,regular,1964-09-19T00:00:00.000Z,,,2
+524,,SEC,[],16,Florida,,SEC,[],13,Mississippi State,38033,False,1964,regular,1964-09-26T00:00:00.000Z,,,3
+525,,SEC,[],13,Mississippi State,,SEC,[],14,Tennessee,38124,False,1964,regular,1964-10-03T00:00:00.000Z,,,4
+526,,SEC,[],6,Tulane,,SEC,[],17,Mississippi State,38162,False,1964,regular,1964-10-10T00:00:00.000Z,,,5
+527,,FBS Independents,[],7,Southern Mississippi,,SEC,[],48,Mississippi State,38228,False,1964,regular,1964-10-17T00:00:00.000Z,,,6
+528,,FBS Independents,[],13,Houston,,SEC,[],18,Mississippi State,38290,False,1964,regular,1964-10-24T00:00:00.000Z,,,7
+529,,SEC,[],23,Alabama,,SEC,[],6,Mississippi State,38325,False,1964,regular,1964-10-31T00:00:00.000Z,,,8
+530,,SEC,[],3,Mississippi State,,SEC,[],12,Auburn,38390,False,1964,regular,1964-11-07T00:00:00.000Z,,,9
+531,,SEC,[],10,Mississippi State,,SEC,[],14,LSU,38473,False,1964,regular,1964-11-14T00:00:00.000Z,,,10
+532,,SEC,[],20,Mississippi State,,SEC,[],17,Ole Miss,38585,False,1964,regular,1964-12-05T00:00:00.000Z,,,13
+533,,SEC,[],36,Mississippi State,,FBS Independents,[],0,Houston,38626,False,1965,regular,1965-09-18T00:00:00.000Z,,,2
+534,,SEC,[],18,Mississippi State,,SEC,[],13,Florida,38687,False,1965,regular,1965-09-25T00:00:00.000Z,,,3
+535,,,[],7,Tampa,,SEC,[],48,Mississippi State,38748,False,1965,regular,1965-10-02T00:00:00.000Z,,,4
+536,,FBS Independents,[],9,Southern Mississippi,,SEC,[],27,Mississippi State,38805,False,1965,regular,1965-10-09T00:00:00.000Z,,,5
+537,,SEC,[],13,Mississippi State,,FBS Independents,[],33,Memphis,38863,False,1965,regular,1965-10-16T00:00:00.000Z,,,6
+538,,SEC,[],15,Mississippi State,,SEC,[],17,Tulane,38901,False,1965,regular,1965-10-22T00:00:00.000Z,,,7
+539,,SEC,[],10,Alabama,,SEC,[],7,Mississippi State,38964,False,1965,regular,1965-10-30T00:00:00.000Z,,,8
+540,,SEC,[],18,Mississippi State,,SEC,[],25,Auburn,39030,False,1965,regular,1965-11-06T00:00:00.000Z,,,9
+541,,SEC,[],20,Mississippi State,,SEC,[],37,LSU,39117,False,1965,regular,1965-11-13T00:00:00.000Z,,,10
+542,,SEC,[],21,Ole Miss,,SEC,[],0,Mississippi State,39219,False,1965,regular,1965-11-27T00:00:00.000Z,,,12
+543,,SEC,[],20,Georgia,,SEC,[],17,Mississippi State,39253,False,1966,regular,1966-09-17T00:00:00.000Z,,,2
+544,,SEC,[],7,Mississippi State,,SEC,[],28,Florida,39310,False,1966,regular,1966-09-24T00:00:00.000Z,,,3
+545,,Southern,[],0,Richmond,,SEC,[],20,Mississippi State,39388,False,1966,regular,1966-10-01T00:00:00.000Z,,,4
+546,,FBS Independents,[],9,Southern Mississippi,,SEC,[],10,Mississippi State,39444,False,1966,regular,1966-10-08T00:00:00.000Z,,,5
+547,,SEC,[],0,Mississippi State,,FBS Independents,[],28,Houston,39499,False,1966,regular,1966-10-15T00:00:00.000Z,,,6
+548,,SEC,[],0,Mississippi State,,FBS Independents,[],10,Florida State,39555,False,1966,regular,1966-10-22T00:00:00.000Z,,,7
+549,,SEC,[],14,Mississippi State,,SEC,[],27,Alabama,39603,False,1966,regular,1966-10-29T00:00:00.000Z,,,8
+550,,SEC,[],13,Auburn,,SEC,[],0,Mississippi State,39665,False,1966,regular,1966-11-05T00:00:00.000Z,,,9
+551,,SEC,[],7,Mississippi State,,SEC,[],17,LSU,39751,False,1966,regular,1966-11-12T00:00:00.000Z,,,10
+552,,SEC,[],0,Mississippi State,,SEC,[],24,Ole Miss,39858,False,1966,regular,1966-11-26T00:00:00.000Z,,,12
+553,,SEC,[],0,Mississippi State,,SEC,[],30,Georgia,39931,False,1967,regular,1967-09-23T00:00:00.000Z,,,3
+554,,SEC,[],24,Florida,,SEC,[],7,Mississippi State,39984,False,1967,regular,1967-09-30T00:00:00.000Z,,,4
+555,,SEC,[],7,Mississippi State,,Southwest,[],3,Texas Tech,40056,False,1967,regular,1967-10-07T00:00:00.000Z,,,5
+556,,FBS Independents,[],21,Southern Mississippi,,SEC,[],14,Mississippi State,40132,False,1967,regular,1967-10-14T00:00:00.000Z,,,6
+557,,FBS Independents,[],43,Houston,,SEC,[],6,Mississippi State,40169,False,1967,regular,1967-10-21T00:00:00.000Z,,,7
+558,,SEC,[],12,Mississippi State,,FBS Independents,[],24,Florida State,40226,False,1967,regular,1967-10-28T00:00:00.000Z,,,8
+559,,SEC,[],0,Mississippi State,,SEC,[],13,Alabama,40271,False,1967,regular,1967-11-04T00:00:00.000Z,,,9
+560,,SEC,[],0,Mississippi State,,SEC,[],36,Auburn,40336,False,1967,regular,1967-11-11T00:00:00.000Z,,,10
+561,,SEC,[],0,Mississippi State,,SEC,[],55,LSU,40415,False,1967,regular,1967-11-18T00:00:00.000Z,,,11
+562,,SEC,[],10,Ole Miss,,SEC,[],3,Mississippi State,40494,False,1967,regular,1967-12-02T00:00:00.000Z,,,13
+563,,,[],20,Louisiana Tech,,SEC,[],13,Mississippi State,40560,False,1968,regular,1968-09-21T00:00:00.000Z,,,2
+564,,SEC,[],26,Auburn,,SEC,[],0,Mississippi State,40594,False,1968,regular,1968-09-28T00:00:00.000Z,,,3
+565,,SEC,[],14,Mississippi State,,SEC,[],31,Florida,40667,False,1968,regular,1968-10-05T00:00:00.000Z,,,4
+566,,FBS Independents,[],47,Southern Mississippi,,SEC,[],14,Mississippi State,40762,False,1968,regular,1968-10-12T00:00:00.000Z,,,5
+567,,SEC,[],28,Mississippi State,,Southwest,[],28,Texas Tech,40823,False,1968,regular,1968-10-19T00:00:00.000Z,,,6
+568,,SEC,[],17,Mississippi State,,FBS Independents,[],24,Tampa,40876,False,1968,regular,1968-10-26T00:00:00.000Z,,,7
+569,,SEC,[],13,Mississippi State,,SEC,[],20,Alabama,40894,False,1968,regular,1968-11-02T00:00:00.000Z,,,8
+570,,FBS Independents,[],27,Florida State,,SEC,[],14,Mississippi State,40964,False,1968,regular,1968-11-09T00:00:00.000Z,,,9
+571,,SEC,[],16,Mississippi State,,SEC,[],20,LSU,41039,False,1968,regular,1968-11-16T00:00:00.000Z,,,10
+572,,SEC,[],17,Ole Miss,,SEC,[],17,Mississippi State,41139,False,1968,regular,1968-11-30T00:00:00.000Z,,,12
+573,,Southern,[],14,Richmond,,SEC,[],17,Mississippi State,41199,False,1969,regular,1969-09-20T00:00:00.000Z,,,2
+574,,SEC,[],47,Florida,,SEC,[],35,Mississippi State,41247,False,1969,regular,1969-09-27T00:00:00.000Z,,,3
+575,,SEC,[],0,Mississippi State,,FBS Independents,[],74,Houston,41322,False,1969,regular,1969-10-04T00:00:00.000Z,,,4
+576,,FBS Independents,[],20,Southern Mississippi,,SEC,[],34,Mississippi State,41387,False,1969,regular,1969-10-11T00:00:00.000Z,,,5
+577,,SEC,[],30,Mississippi State,,Southwest,[],26,Texas Tech,41452,False,1969,regular,1969-10-18T00:00:00.000Z,,,6
+578,,SEC,[],17,Mississippi State,,FBS Independents,[],20,Florida State,41501,False,1969,regular,1969-10-25T00:00:00.000Z,,,7
+579,,SEC,[],23,Alabama,,SEC,[],19,Mississippi State,41545,False,1969,regular,1969-11-01T00:00:00.000Z,,,8
+580,,SEC,[],13,Mississippi State,,SEC,[],52,Auburn,41611,False,1969,regular,1969-11-08T00:00:00.000Z,,,9
+581,,SEC,[],6,Mississippi State,,SEC,[],61,LSU,41687,False,1969,regular,1969-11-15T00:00:00.000Z,,,10
+582,,SEC,[],48,Ole Miss,,SEC,[],22,Mississippi State,41785,False,1969,regular,1969-11-27T00:00:00.000Z,,,12
+583,,Big 8,[],13,Oklahoma State,,SEC,[],14,Mississippi State,41834,False,1970,regular,1970-09-12T00:00:00.000Z,,,3
+584,,SEC,[],13,Mississippi State,,SEC,[],34,Florida,41875,False,1970,regular,1970-09-19T00:00:00.000Z,,,4
+585,,SEC,[],6,Vanderbilt,,SEC,[],20,Mississippi State,41955,False,1970,regular,1970-09-26T00:00:00.000Z,,,5
+586,,SEC,[],6,Georgia,,SEC,[],7,Mississippi State,42017,False,1970,regular,1970-10-03T00:00:00.000Z,,,6
+587,,FBS Independents,[],31,Houston,,SEC,[],14,Mississippi State,42072,False,1970,regular,1970-10-10T00:00:00.000Z,,,7
+588,,Southwest,[],16,Texas Tech,,SEC,[],20,Mississippi State,42142,False,1970,regular,1970-10-17T00:00:00.000Z,,,8
+589,,FBS Independents,[],15,Southern Mississippi,,SEC,[],51,Mississippi State,42207,False,1970,regular,1970-10-24T00:00:00.000Z,,,9
+590,,SEC,[],6,Mississippi State,,SEC,[],35,Alabama,42243,False,1970,regular,1970-10-31T00:00:00.000Z,,,10
+591,,SEC,[],0,Mississippi State,,SEC,[],56,Auburn,42303,False,1970,regular,1970-11-07T00:00:00.000Z,,,11
+592,,SEC,[],7,Mississippi State,,SEC,[],38,LSU,42386,False,1970,regular,1970-11-14T00:00:00.000Z,,,12
+593,,SEC,[],19,Mississippi State,,SEC,[],14,Ole Miss,42483,False,1970,regular,1970-11-26T00:00:00.000Z,,,14
+594,,SEC,[],7,Mississippi State,,Big 8,[],26,Oklahoma State,42550,False,1971,regular,1971-09-11T00:00:00.000Z,,,1
+595,,SEC,[],10,Florida,,SEC,[],13,Mississippi State,42600,False,1971,regular,1971-09-18T00:00:00.000Z,,,2
+596,,SEC,[],49,Vanderbilt,,SEC,[],19,Mississippi State,42688,False,1971,regular,1971-09-25T00:00:00.000Z,,,3
+597,,SEC,[],7,Mississippi State,,SEC,[],35,Georgia,42723,False,1971,regular,1971-10-02T00:00:00.000Z,,,4
+598,,SEC,[],9,Mississippi State,,FBS Independents,[],27,Florida State,42784,False,1971,regular,1971-10-09T00:00:00.000Z,,,5
+599,,,[],7,Lamar,,SEC,[],24,Mississippi State,42865,False,1971,regular,1971-10-16T00:00:00.000Z,,,6
+600,,SEC,[],7,Mississippi State,,SEC,[],10,Tennessee,42952,False,1971,regular,1971-10-23T00:00:00.000Z,,,7
+601,,SEC,[],41,Alabama,,SEC,[],10,Mississippi State,42966,False,1971,regular,1971-10-30T00:00:00.000Z,,,8
+602,,SEC,[],21,Mississippi State,,SEC,[],30,Auburn,43039,False,1971,regular,1971-11-06T00:00:00.000Z,,,9
+603,,SEC,[],28,LSU,,SEC,[],3,Mississippi State,43132,False,1971,regular,1971-11-13T00:00:00.000Z,,,10
+604,,SEC,[],48,Ole Miss,,SEC,[],0,Mississippi State,43226,False,1971,regular,1971-11-25T00:00:00.000Z,,,12
+605,,SEC,[],14,Auburn,,SEC,[],3,Mississippi State,43275,False,1972,regular,1972-09-09T00:00:00.000Z,,,1
+606,,,[],7,Louisiana Monroe,,SEC,[],42,Mississippi State,43338,False,1972,regular,1972-09-16T00:00:00.000Z,,,2
+607,,SEC,[],10,Mississippi State,,SEC,[],6,Vanderbilt,43395,False,1972,regular,1972-09-23T00:00:00.000Z,,,3
+608,,SEC,[],13,Mississippi State,,SEC,[],28,Florida,43442,False,1972,regular,1972-09-30T00:00:00.000Z,,,4
+609,,SEC,[],13,Mississippi State,,SEC,[],17,Kentucky,43520,False,1972,regular,1972-10-07T00:00:00.000Z,,,5
+610,,FBS Independents,[],25,Florida State,,SEC,[],21,Mississippi State,43572,False,1972,regular,1972-10-14T00:00:00.000Z,,,6
+611,,FBS Independents,[],7,Southern Mississippi,,SEC,[],26,Mississippi State,43648,False,1972,regular,1972-10-21T00:00:00.000Z,,,7
+612,,FBS Independents,[],13,Houston,,SEC,[],27,Mississippi State,43716,False,1972,regular,1972-10-28T00:00:00.000Z,,,8
+613,,SEC,[],14,Mississippi State,,SEC,[],58,Alabama,43749,False,1972,regular,1972-11-04T00:00:00.000Z,,,9
+614,,SEC,[],14,Mississippi State,,SEC,[],28,LSU,43903,False,1972,regular,1972-11-18T00:00:00.000Z,,,11
+615,,SEC,[],14,Mississippi State,,SEC,[],51,Ole Miss,43970,False,1972,regular,1972-11-25T00:00:00.000Z,,,12
+616,,SEC,[],21,Mississippi State,,,[],21,Louisiana Monroe,44064,False,1973,regular,1973-09-15T00:00:00.000Z,,,3
+617,,SEC,[],21,Vanderbilt,,SEC,[],52,Mississippi State,44135,False,1973,regular,1973-09-22T00:00:00.000Z,,,4
+618,,SEC,[],12,Florida,,SEC,[],33,Mississippi State,44198,False,1973,regular,1973-09-29T00:00:00.000Z,,,5
+619,,SEC,[],42,Kentucky,,SEC,[],14,Mississippi State,44256,False,1973,regular,1973-10-06T00:00:00.000Z,,,6
+620,,SEC,[],37,Mississippi State,,FBS Independents,[],12,Florida State,44330,False,1973,regular,1973-10-13T00:00:00.000Z,,,7
+621,,SEC,[],18,Mississippi State,,Missouri Valley,[],7,Louisville,44392,False,1973,regular,1973-10-20T00:00:00.000Z,,,8
+622,,SEC,[],10,Mississippi State,,FBS Independents,[],10,Southern Mississippi,44483,False,1973,regular,1973-10-27T00:00:00.000Z,,,9
+623,,SEC,[],35,Alabama,,SEC,[],0,Mississippi State,44502,False,1973,regular,1973-11-03T00:00:00.000Z,,,10
+624,,SEC,[],17,Mississippi State,,SEC,[],31,Auburn,44571,False,1973,regular,1973-11-10T00:00:00.000Z,,,11
+625,,SEC,[],7,Mississippi State,,SEC,[],26,LSU,44650,False,1973,regular,1973-11-17T00:00:00.000Z,,,12
+626,,SEC,[],10,Mississippi State,,SEC,[],38,Ole Miss,44724,False,1973,regular,1973-11-24T00:00:00.000Z,,,13
+627,,Southern,[],7,William & Mary,,SEC,[],49,Mississippi State,44785,False,1974,regular,1974-09-07T00:00:00.000Z,,,1
+628,,SEC,[],14,Georgia,,SEC,[],38,Mississippi State,44885,False,1974,regular,1974-09-21T00:00:00.000Z,,,3
+629,,SEC,[],13,Mississippi State,,SEC,[],29,Florida,44935,False,1974,regular,1974-09-28T00:00:00.000Z,,,4
+630,,Big 8,[],16,Kansas State,,SEC,[],21,Mississippi State,45017,False,1974,regular,1974-10-05T00:00:00.000Z,,,5
+631,,SEC,[],37,Mississippi State,,FBS Independents,[],21,Lamar,45081,False,1974,regular,1974-10-12T00:00:00.000Z,,,6
+632,,SEC,[],29,Mississippi State,,FBS Independents,[],28,Memphis,45146,False,1974,regular,1974-10-19T00:00:00.000Z,,,7
+633,,Missouri Valley,[],7,Louisville,,SEC,[],56,Mississippi State,45215,False,1974,regular,1974-10-26T00:00:00.000Z,,,8
+634,,SEC,[],0,Mississippi State,,SEC,[],35,Alabama,45251,False,1974,regular,1974-11-02T00:00:00.000Z,,,9
+635,,SEC,[],24,Auburn,,SEC,[],20,Mississippi State,45322,False,1974,regular,1974-11-09T00:00:00.000Z,,,10
+636,,SEC,[],6,LSU,,SEC,[],7,Mississippi State,45419,False,1974,regular,1974-11-16T00:00:00.000Z,,,11
+637,,SEC,[],13,Ole Miss,,SEC,[],31,Mississippi State,45482,False,1974,regular,1974-11-23T00:00:00.000Z,,,12
+638,,SEC,[],17,Mississippi State,,FBS Independents,[],7,Memphis,45552,False,1975,regular,1975-09-06T00:00:00.000Z,,,1
+639,,SEC,[],6,Mississippi State,,SEC,[],28,Georgia,45650,False,1975,regular,1975-09-20T00:00:00.000Z,,,3
+640,,SEC,[],27,Florida,,SEC,[],10,Mississippi State,45719,False,1975,regular,1975-09-27T00:00:00.000Z,,,4
+641,,FBS Independents,[],3,Southern Mississippi,,SEC,[],7,Mississippi State,45806,False,1975,regular,1975-10-04T00:00:00.000Z,,,5
+642,,SEC,[],28,Mississippi State,,Southwest,[],14,Rice,45876,False,1975,regular,1975-10-11T00:00:00.000Z,,,6
+643,,FBS Independents,[],12,North Texas,,SEC,[],15,Mississippi State,45944,False,1975,regular,1975-10-18T00:00:00.000Z,,,7
+644,,SEC,[],28,Mississippi State,,FBS Independents,[],14,Louisville,46012,False,1975,regular,1975-10-25T00:00:00.000Z,,,8
+645,,SEC,[],21,Alabama,,SEC,[],10,Mississippi State,46049,False,1975,regular,1975-11-01T00:00:00.000Z,,,9
+646,,SEC,[],21,Auburn,,SEC,[],21,Mississippi State,46155,False,1975,regular,1975-11-08T00:00:00.000Z,,,10
+647,,SEC,[],16,Mississippi State,,SEC,[],6,LSU,46223,False,1975,regular,1975-11-15T00:00:00.000Z,,,11
+648,,SEC,[],7,Mississippi State,,SEC,[],13,Ole Miss,46287,False,1975,regular,1975-11-22T00:00:00.000Z,,,12
+649,,FBS Independents,[],0,North Texas,,SEC,[],7,Mississippi State,46353,False,1976,regular,1976-09-04T00:00:00.000Z,,,1
+650,,FBS Independents,[],21,Louisville,,SEC,[],30,Mississippi State,46465,False,1976,regular,1976-09-18T00:00:00.000Z,,,3
+651,,SEC,[],30,Mississippi State,,SEC,[],34,Florida,46523,False,1976,regular,1976-09-25T00:00:00.000Z,,,4
+652,,,[],0,Cal Poly-Pomona,,SEC,[],38,Mississippi State,46608,False,1976,regular,1976-10-02T00:00:00.000Z,,,5
+653,,SEC,[],7,Kentucky,,SEC,[],14,Mississippi State,46676,False,1976,regular,1976-10-09T00:00:00.000Z,,,6
+654,,SEC,[],42,Mississippi State,,FBS Independents,[],33,Memphis,46746,False,1976,regular,1976-10-16T00:00:00.000Z,,,7
+655,,SEC,[],14,Mississippi State,,FBS Independents,[],6,Southern Mississippi,46811,False,1976,regular,1976-10-23T00:00:00.000Z,,,8
+656,,SEC,[],17,Mississippi State,,SEC,[],34,Alabama,46845,False,1976,regular,1976-10-30T00:00:00.000Z,,,9
+657,,SEC,[],19,Auburn,,SEC,[],28,Mississippi State,46945,False,1976,regular,1976-11-06T00:00:00.000Z,,,10
+658,,SEC,[],13,LSU,,SEC,[],21,Mississippi State,47013,False,1976,regular,1976-11-13T00:00:00.000Z,,,11
+659,,SEC,[],11,Ole Miss,,SEC,[],28,Mississippi State,47082,False,1976,regular,1976-11-20T00:00:00.000Z,,,12
+660,,FBS Independents,[],15,North Texas,,SEC,[],17,Mississippi State,47162,False,1977,regular,1977-09-03T00:00:00.000Z,,,1
+661,,SEC,[],27,Mississippi State,,Pac-8,[],18,Washington,47207,False,1977,regular,1977-09-10T00:00:00.000Z,,,2
+662,,SEC,[],24,Florida,,SEC,[],22,Mississippi State,47342,False,1977,regular,1977-09-24T00:00:00.000Z,,,4
+663,,SEC,[],24,Mississippi State,,Big 8,[],21,Kansas State,47437,False,1977,regular,1977-10-01T00:00:00.000Z,,,5
+664,,SEC,[],7,Mississippi State,,SEC,[],23,Kentucky,47503,False,1977,regular,1977-10-08T00:00:00.000Z,,,6
+665,,SEC,[],13,Mississippi State,,FBS Independents,[],21,Memphis,47577,False,1977,regular,1977-10-15T00:00:00.000Z,,,7
+666,,FBS Independents,[],14,Southern Mississippi,,SEC,[],7,Mississippi State,47676,False,1977,regular,1977-10-22T00:00:00.000Z,,,8
+667,,SEC,[],37,Alabama,,SEC,[],7,Mississippi State,47692,False,1977,regular,1977-10-29T00:00:00.000Z,,,9
+668,,SEC,[],27,Mississippi State,,SEC,[],13,Auburn,47808,False,1977,regular,1977-11-05T00:00:00.000Z,,,10
+669,,SEC,[],24,Mississippi State,,SEC,[],27,LSU,47869,False,1977,regular,1977-11-12T00:00:00.000Z,,,11
+670,,SEC,[],14,Ole Miss,,SEC,[],18,Mississippi State,47948,False,1977,regular,1977-11-19T00:00:00.000Z,,,12
+671,,Missouri Valley,[],0,West Texas A&M,,SEC,[],28,Mississippi State,48023,False,1978,regular,1978-09-02T00:00:00.000Z,,,1
+672,,SEC,[],17,Mississippi State,,FBS Independents,[],5,North Texas,48053,False,1978,regular,1978-09-09T00:00:00.000Z,,,2
+673,,SEC,[],44,Mississippi State,,FBS Independents,[],14,Memphis,48187,False,1978,regular,1978-09-23T00:00:00.000Z,,,4
+674,,SEC,[],0,Mississippi State,,SEC,[],34,Florida,48239,False,1978,regular,1978-09-30T00:00:00.000Z,,,5
+675,,SEC,[],17,Mississippi State,,FBS Independents,[],22,Southern Mississippi,48347,False,1978,regular,1978-10-07T00:00:00.000Z,,,6
+676,,FBS Independents,[],27,Florida State,,SEC,[],55,Mississippi State,48396,False,1978,regular,1978-10-14T00:00:00.000Z,,,7
+677,,SEC,[],21,Tennessee,,SEC,[],34,Mississippi State,48532,False,1978,regular,1978-10-28T00:00:00.000Z,,,9
+678,,SEC,[],14,Mississippi State,,SEC,[],35,Alabama,48565,False,1978,regular,1978-11-04T00:00:00.000Z,,,10
+679,,SEC,[],6,Auburn,,SEC,[],0,Mississippi State,48638,False,1978,regular,1978-11-11T00:00:00.000Z,,,11
+680,,SEC,[],14,LSU,,SEC,[],16,Mississippi State,48737,False,1978,regular,1978-11-18T00:00:00.000Z,,,12
+681,,SEC,[],7,Mississippi State,,SEC,[],27,Ole Miss,48789,False,1978,regular,1978-11-25T00:00:00.000Z,,,13
+682,,FBS Independents,[],14,Memphis,,SEC,[],13,Mississippi State,48867,False,1979,regular,1979-09-08T00:00:00.000Z,,,2
+683,,SEC,[],14,Mississippi State,,ACC,[],35,Maryland,49003,False,1979,regular,1979-09-22T00:00:00.000Z,,,4
+684,,SEC,[],10,Florida,,SEC,[],24,Mississippi State,49079,False,1979,regular,1979-09-29T00:00:00.000Z,,,5
+685,,SEC,[],9,Tennessee,,SEC,[],28,Mississippi State,49144,False,1979,regular,1979-10-06T00:00:00.000Z,,,6
+686,,SEC,[],6,Mississippi State,,FBS Independents,[],17,Florida State,49208,False,1979,regular,1979-10-13T00:00:00.000Z,,,7
+687,,Southern,[],0,Marshall,,SEC,[],48,Mississippi State,49291,False,1979,regular,1979-10-20T00:00:00.000Z,,,8
+688,,FBS Independents,[],21,Southern Mississippi,,SEC,[],7,Mississippi State,49382,False,1979,regular,1979-10-27T00:00:00.000Z,,,9
+689,,SEC,[],7,Mississippi State,,SEC,[],24,Alabama,49398,False,1979,regular,1979-11-03T00:00:00.000Z,,,10
+690,,SEC,[],3,Mississippi State,,SEC,[],14,Auburn,49468,False,1979,regular,1979-11-10T00:00:00.000Z,,,11
+691,,SEC,[],3,Mississippi State,,SEC,[],21,LSU,49565,False,1979,regular,1979-11-17T00:00:00.000Z,,,12
+692,,SEC,[],9,Mississippi State,,SEC,[],14,Ole Miss,49616,False,1979,regular,1979-11-24T00:00:00.000Z,,,13
+693,,SEC,[],34,Mississippi State,,FBS Independents,[],7,Memphis,49684,False,1980,regular,1980-09-06T00:00:00.000Z,,,2
+694,,Southland,[],11,Louisiana Tech,,SEC,[],31,Mississippi State,49737,False,1980,regular,1980-09-13T00:00:00.000Z,,,3
+695,,SEC,[],24,Mississippi State,,SEC,[],14,Vanderbilt,49804,False,1980,regular,1980-09-20T00:00:00.000Z,,,4
+696,,SEC,[],15,Mississippi State,,SEC,[],21,Florida,49853,False,1980,regular,1980-09-27T00:00:00.000Z,,,5
+697,,SEC,[],28,Mississippi State,,Big Ten,[],21,Illinois,49940,False,1980,regular,1980-10-04T00:00:00.000Z,,,6
+698,,FBS Independents,[],42,Southern Mississippi,,SEC,[],14,Mississippi State,50030,False,1980,regular,1980-10-11T00:00:00.000Z,,,7
+699,,SEC,[],34,Mississippi State,,FBS Independents,[],31,Miami,50079,False,1980,regular,1980-10-18T00:00:00.000Z,,,8
+700,,SEC,[],21,Auburn,,SEC,[],24,Mississippi State,50146,False,1980,regular,1980-10-25T00:00:00.000Z,,,9
+701,,SEC,[],3,Alabama,,SEC,[],6,Mississippi State,50217,False,1980,regular,1980-11-01T00:00:00.000Z,,,10
+702,,SEC,[],31,LSU,,SEC,[],55,Mississippi State,50350,False,1980,regular,1980-11-15T00:00:00.000Z,,,12
+703,,SEC,[],14,Ole Miss,,SEC,[],19,Mississippi State,50412,False,1980,regular,1980-11-22T00:00:00.000Z,,,13
+704,,FBS Independents,[],3,Memphis,,SEC,[],20,Mississippi State,50496,False,1981,regular,1981-09-05T00:00:00.000Z,,,1
+705,,SEC,[],9,Vanderbilt,,SEC,[],29,Mississippi State,50610,False,1981,regular,1981-09-19T00:00:00.000Z,,,3
+706,,SEC,[],7,Florida,,SEC,[],28,Mississippi State,50683,False,1981,regular,1981-09-26T00:00:00.000Z,,,4
+707,,Big 8,[],14,Missouri,,SEC,[],3,Mississippi State,50744,False,1981,regular,1981-10-03T00:00:00.000Z,,,5
+708,,SEC,[],37,Mississippi State,,Western Athletic,[],27,Colorado State,50809,False,1981,regular,1981-10-10T00:00:00.000Z,,,6
+709,,FBS Independents,[],10,Miami,,SEC,[],14,Mississippi State,50879,False,1981,regular,1981-10-17T00:00:00.000Z,,,7
+710,,SEC,[],21,Mississippi State,,SEC,[],17,Auburn,50945,False,1981,regular,1981-10-24T00:00:00.000Z,,,8
+711,,SEC,[],10,Mississippi State,,SEC,[],13,Alabama,50983,False,1981,regular,1981-10-31T00:00:00.000Z,,,9
+712,,SEC,[],6,Mississippi State,,FBS Independents,[],7,Southern Mississippi,51097,False,1981,regular,1981-11-07T00:00:00.000Z,,,10
+713,,SEC,[],17,Mississippi State,,SEC,[],9,LSU,51147,False,1981,regular,1981-11-14T00:00:00.000Z,,,11
+714,,SEC,[],17,Mississippi State,,SEC,[],21,Ole Miss,51209,False,1981,regular,1981-11-21T00:00:00.000Z,,,12
+715,,SEC,[],30,Mississippi State,,FBS Independents,[],21,Tulane,51297,False,1982,regular,1982-09-04T00:00:00.000Z,,,1
+716,,,[],10,Arkansas State,,SEC,[],31,Mississippi State,51345,False,1982,regular,1982-09-11T00:00:00.000Z,,,2
+717,,SEC,[],41,Mississippi State,,FBS Independents,[],17,Memphis,51398,False,1982,regular,1982-09-18T00:00:00.000Z,,,3
+718,,SEC,[],17,Mississippi State,,SEC,[],27,Florida,51443,False,1982,regular,1982-09-25T00:00:00.000Z,,,4
+719,,SEC,[],29,Georgia,,SEC,[],22,Mississippi State,51502,False,1982,regular,1982-10-02T00:00:00.000Z,,,5
+720,,SEC,[],14,Mississippi State,,FBS Independents,[],20,Southern Mississippi,51581,False,1982,regular,1982-10-09T00:00:00.000Z,,,6
+721,,SEC,[],14,Mississippi State,,FBS Independents,[],31,Miami,51622,False,1982,regular,1982-10-16T00:00:00.000Z,,,7
+722,,SEC,[],35,Auburn,,SEC,[],17,Mississippi State,51657,False,1982,regular,1982-10-23T00:00:00.000Z,,,8
+723,,SEC,[],20,Alabama,,SEC,[],12,Mississippi State,51710,False,1982,regular,1982-10-30T00:00:00.000Z,,,9
+724,,SEC,[],24,LSU,,SEC,[],27,Mississippi State,51848,False,1982,regular,1982-11-13T00:00:00.000Z,,,11
+725,,SEC,[],10,Ole Miss,,SEC,[],27,Mississippi State,51900,False,1982,regular,1982-11-20T00:00:00.000Z,,,12
+726,,FBS Independents,[],9,Tulane,,SEC,[],14,Mississippi State,51988,False,1983,regular,1983-09-03T00:00:00.000Z,,,2
+727,,FBS Independents,[],10,Navy,,SEC,[],38,Mississippi State,52100,False,1983,regular,1983-09-17T00:00:00.000Z,,,4
+728,,SEC,[],35,Florida,,SEC,[],12,Mississippi State,52140,False,1983,regular,1983-09-24T00:00:00.000Z,,,5
+729,,SEC,[],7,Mississippi State,,SEC,[],20,Georgia,52202,False,1983,regular,1983-10-01T00:00:00.000Z,,,6
+730,,SEC,[],6,Mississippi State,,FBS Independents,[],31,Southern Mississippi,52283,False,1983,regular,1983-10-08T00:00:00.000Z,,,7
+731,,FBS Independents,[],31,Miami,,SEC,[],7,Mississippi State,52322,False,1983,regular,1983-10-15T00:00:00.000Z,,,8
+732,,SEC,[],13,Mississippi State,,SEC,[],28,Auburn,52357,False,1983,regular,1983-10-22T00:00:00.000Z,,,9
+733,,SEC,[],18,Mississippi State,,SEC,[],35,Alabama,52412,False,1983,regular,1983-10-29T00:00:00.000Z,,,10
+734,,FBS Independents,[],30,Memphis,,SEC,[],13,Mississippi State,52492,False,1983,regular,1983-11-05T00:00:00.000Z,,,11
+735,,SEC,[],45,Mississippi State,,SEC,[],26,LSU,52551,False,1983,regular,1983-11-12T00:00:00.000Z,,,12
+736,,SEC,[],23,Mississippi State,,SEC,[],24,Ole Miss,52602,False,1983,regular,1983-11-19T00:00:00.000Z,,,13
+737,,SEC,[],30,Mississippi State,,FBS Independents,[],3,Tulane,52680,False,1984,regular,1984-09-01T00:00:00.000Z,,,2
+738,,Western Athletic,[],9,Colorado State,,SEC,[],14,Mississippi State,52716,False,1984,regular,1984-09-08T00:00:00.000Z,,,3
+739,,SEC,[],30,Mississippi State,,Big 8,[],47,Missouri,52823,False,1984,regular,1984-09-22T00:00:00.000Z,,,5
+740,,SEC,[],12,Mississippi State,,SEC,[],27,Florida,52867,False,1984,regular,1984-09-29T00:00:00.000Z,,,6
+741,,FBS Independents,[],18,Southern Mississippi,,SEC,[],27,Mississippi State,52939,False,1984,regular,1984-10-06T00:00:00.000Z,,,7
+742,,SEC,[],17,Kentucky,,SEC,[],13,Mississippi State,52987,False,1984,regular,1984-10-13T00:00:00.000Z,,,8
+743,,SEC,[],12,Mississippi State,,FBS Independents,[],23,Memphis,53047,False,1984,regular,1984-10-20T00:00:00.000Z,,,9
+744,,SEC,[],24,Auburn,,SEC,[],21,Mississippi State,53081,False,1984,regular,1984-10-27T00:00:00.000Z,,,10
+745,,SEC,[],24,Alabama,,SEC,[],20,Mississippi State,53130,False,1984,regular,1984-11-03T00:00:00.000Z,,,11
+746,,SEC,[],14,LSU,,SEC,[],16,Mississippi State,53259,False,1984,regular,1984-11-17T00:00:00.000Z,,,13
+747,,SEC,[],3,Mississippi State,,SEC,[],24,Ole Miss,53300,False,1984,regular,1984-11-24T00:00:00.000Z,,,14
+748,,,[],14,Arkansas State,,SEC,[],22,Mississippi State,53369,False,1985,regular,1985-09-07T00:00:00.000Z,,,2
+749,,FBS Independents,[],3,Syracuse,,SEC,[],30,Mississippi State,53430,False,1985,regular,1985-09-14T00:00:00.000Z,,,3
+750,,FBS Independents,[],20,Southern Mississippi,,SEC,[],23,Mississippi State,53483,False,1985,regular,1985-09-21T00:00:00.000Z,,,4
+751,,SEC,[],36,Florida,,SEC,[],22,Mississippi State,53515,False,1985,regular,1985-09-28T00:00:00.000Z,,,5
+752,,FBS Independents,[],28,Memphis,,SEC,[],31,Mississippi State,53592,False,1985,regular,1985-10-05T00:00:00.000Z,,,6
+753,,SEC,[],19,Mississippi State,,SEC,[],33,Kentucky,53639,False,1985,regular,1985-10-12T00:00:00.000Z,,,7
+754,,FBS Independents,[],27,Tulane,,SEC,[],31,Mississippi State,53693,False,1985,regular,1985-10-19T00:00:00.000Z,,,8
+755,,SEC,[],9,Mississippi State,,SEC,[],21,Auburn,53728,False,1985,regular,1985-10-26T00:00:00.000Z,,,9
+756,,SEC,[],28,Mississippi State,,SEC,[],44,Alabama,53776,False,1985,regular,1985-11-02T00:00:00.000Z,,,10
+757,,SEC,[],15,Mississippi State,,SEC,[],17,LSU,53903,False,1985,regular,1985-11-16T00:00:00.000Z,,,12
+758,,SEC,[],27,Mississippi State,,SEC,[],45,Ole Miss,53957,False,1985,regular,1985-11-23T00:00:00.000Z,,,13
+759,,SEC,[],24,Mississippi State,,FBS Independents,[],17,Syracuse,54042,False,1986,regular,1986-09-06T00:00:00.000Z,,,2
+760,,SEC,[],27,Mississippi State,,SEC,[],23,Tennessee,54090,False,1986,regular,1986-09-13T00:00:00.000Z,,,3
+761,,SEC,[],24,Mississippi State,,FBS Independents,[],28,Southern Mississippi,54158,False,1986,regular,1986-09-20T00:00:00.000Z,,,4
+762,,SEC,[],10,Florida,,SEC,[],16,Mississippi State,54195,False,1986,regular,1986-09-27T00:00:00.000Z,,,5
+763,,SEC,[],34,Mississippi State,,FBS Independents,[],17,Memphis,54249,False,1986,regular,1986-10-04T00:00:00.000Z,,,6
+764,,,[],9,Arkansas State,,SEC,[],24,Mississippi State,54299,False,1986,regular,1986-10-11T00:00:00.000Z,,,7
+765,,SEC,[],34,Mississippi State,,FBS Independents,[],27,Tulane,54348,False,1986,regular,1986-10-18T00:00:00.000Z,,,8
+766,,SEC,[],35,Auburn,,SEC,[],6,Mississippi State,54377,False,1986,regular,1986-10-25T00:00:00.000Z,,,9
+767,,SEC,[],38,Alabama,,SEC,[],3,Mississippi State,54423,False,1986,regular,1986-11-01T00:00:00.000Z,,,10
+768,,SEC,[],47,LSU,,SEC,[],0,Mississippi State,54544,False,1986,regular,1986-11-15T00:00:00.000Z,,,12
+769,,SEC,[],3,Mississippi State,,SEC,[],24,Ole Miss,54587,False,1986,regular,1986-11-22T00:00:00.000Z,,,13
+770,,FBS Independents,[],3,Louisiana,,SEC,[],31,Mississippi State,54670,False,1987,regular,1987-09-05T00:00:00.000Z,,,2
+771,,SEC,[],38,Tennessee,,SEC,[],10,Mississippi State,54736,False,1987,regular,1987-09-12T00:00:00.000Z,,,3
+772,,,[],13,Louisiana Tech,,SEC,[],14,Mississippi State,54772,False,1987,regular,1987-09-19T00:00:00.000Z,,,4
+773,,SEC,[],3,Mississippi State,,SEC,[],38,Florida,54807,False,1987,regular,1987-09-26T00:00:00.000Z,,,5
+774,,FBS Independents,[],6,Memphis,,SEC,[],9,Mississippi State,54872,False,1987,regular,1987-10-03T00:00:00.000Z,,,6
+775,,SEC,[],14,Mississippi State,,FBS Independents,[],18,Southern Mississippi,54990,False,1987,regular,1987-10-17T00:00:00.000Z,,,8
+776,,SEC,[],7,Mississippi State,,SEC,[],38,Auburn,55005,False,1987,regular,1987-10-24T00:00:00.000Z,,,9
+777,,SEC,[],18,Mississippi State,,SEC,[],21,Alabama,55050,False,1987,regular,1987-10-31T00:00:00.000Z,,,10
+778,,FBS Independents,[],30,Tulane,,SEC,[],19,Mississippi State,55141,False,1987,regular,1987-11-07T00:00:00.000Z,,,11
+779,,SEC,[],14,Mississippi State,,SEC,[],34,LSU,55169,False,1987,regular,1987-11-14T00:00:00.000Z,,,12
+780,,SEC,[],20,Ole Miss,,SEC,[],30,Mississippi State,55217,False,1987,regular,1987-11-21T00:00:00.000Z,,,13
+781,,FBS Independents,[],14,Louisiana Tech,,SEC,[],21,Mississippi State,55306,False,1988,regular,1988-09-03T00:00:00.000Z,,,2
+782,,SEC,[],20,Mississippi State,,SEC,[],24,Vanderbilt,55371,False,1988,regular,1988-09-10T00:00:00.000Z,,,3
+783,,SEC,[],42,Georgia,,SEC,[],35,Mississippi State,55395,False,1988,regular,1988-09-17T00:00:00.000Z,,,4
+784,,SEC,[],0,Mississippi State,,SEC,[],17,Florida,55443,False,1988,regular,1988-09-24T00:00:00.000Z,,,5
+785,,SEC,[],10,Mississippi State,,FBS Independents,[],31,Memphis,55501,False,1988,regular,1988-10-01T00:00:00.000Z,,,6
+786,,SEC,[],21,Mississippi State,,FBS Independents,[],38,Southern Mississippi,55621,False,1988,regular,1988-10-15T00:00:00.000Z,,,8
+787,,SEC,[],0,Mississippi State,,SEC,[],33,Auburn,55638,False,1988,regular,1988-10-22T00:00:00.000Z,,,9
+788,,SEC,[],53,Alabama,,SEC,[],34,Mississippi State,55683,False,1988,regular,1988-10-29T00:00:00.000Z,,,10
+789,,SEC,[],20,LSU,,SEC,[],3,Mississippi State,55802,False,1988,regular,1988-11-12T00:00:00.000Z,,,12
+790,,SEC,[],22,Mississippi State,,FBS Independents,[],27,Tulane,55871,False,1988,regular,1988-11-19T00:00:00.000Z,,,13
+791,,SEC,[],6,Mississippi State,,SEC,[],33,Ole Miss,55889,False,1988,regular,1988-11-26T00:00:00.000Z,,,14
+792,,SEC,[],7,Vanderbilt,,SEC,[],42,Mississippi State,55932,False,1989,regular,1989-09-02T00:00:00.000Z,,,1
+793,,SEC,[],26,Mississippi State,,FBS Independents,[],23,Southern Mississippi,55973,False,1989,regular,1989-09-09T00:00:00.000Z,,,2
+794,,SEC,[],6,Mississippi State,,SEC,[],23,Georgia,56064,False,1989,regular,1989-09-23T00:00:00.000Z,,,4
+795,,SEC,[],0,Mississippi State,,SEC,[],21,Florida,56110,False,1989,regular,1989-09-30T00:00:00.000Z,,,5
+796,,,[],14,Louisiana Monroe,,SEC,[],28,Mississippi State,56177,False,1989,regular,1989-10-07T00:00:00.000Z,,,6
+797,,FBS Independents,[],10,Memphis,,SEC,[],35,Mississippi State,56272,False,1989,regular,1989-10-21T00:00:00.000Z,,,8
+798,,SEC,[],0,Mississippi State,,SEC,[],14,Auburn,56307,False,1989,regular,1989-10-28T00:00:00.000Z,,,9
+799,,SEC,[],10,Mississippi State,,SEC,[],23,Alabama,56353,False,1989,regular,1989-11-04T00:00:00.000Z,,,10
+800,,FBS Independents,[],7,Tulane,,SEC,[],27,Mississippi State,56429,False,1989,regular,1989-11-11T00:00:00.000Z,,,11
+801,,SEC,[],20,Mississippi State,,SEC,[],44,LSU,56470,False,1989,regular,1989-11-18T00:00:00.000Z,,,12
+802,,SEC,[],11,Mississippi State,,SEC,[],21,Ole Miss,56515,False,1989,regular,1989-11-25T00:00:00.000Z,,,13
+803,,SEC,[],40,Tennessee,,SEC,[],7,Mississippi State,56624,False,1990,regular,1990-09-08T00:00:00.000Z,,,3
+804,,Big West,[],13,Cal State Fullerton,,SEC,[],27,Mississippi State,56662,False,1990,regular,1990-09-15T00:00:00.000Z,,,4
+805,,FBS Independents,[],10,Southern Mississippi,,SEC,[],13,Mississippi State,56715,False,1990,regular,1990-09-22T00:00:00.000Z,,,5
+806,,SEC,[],21,Mississippi State,,SEC,[],34,Florida,56753,False,1990,regular,1990-09-29T00:00:00.000Z,,,6
+807,,SEC,[],15,Mississippi State,,SEC,[],17,Kentucky,56857,False,1990,regular,1990-10-13T00:00:00.000Z,,,8
+808,,SEC,[],38,Mississippi State,,FBS Independents,[],17,Tulane,56921,False,1990,regular,1990-10-20T00:00:00.000Z,,,9
+809,,SEC,[],17,Auburn,,SEC,[],16,Mississippi State,56946,False,1990,regular,1990-10-27T00:00:00.000Z,,,10
+810,,SEC,[],22,Alabama,,SEC,[],0,Mississippi State,56996,False,1990,regular,1990-11-03T00:00:00.000Z,,,11
+811,,SEC,[],27,Mississippi State,,FBS Independents,[],23,Memphis,57071,False,1990,regular,1990-11-10T00:00:00.000Z,,,12
+812,,SEC,[],22,LSU,,SEC,[],34,Mississippi State,57121,False,1990,regular,1990-11-17T00:00:00.000Z,,,13
+813,,SEC,[],9,Mississippi State,,SEC,[],21,Ole Miss,57158,False,1990,regular,1990-11-24T00:00:00.000Z,,,14
+814,,Big West,[],3,Cal State Fullerton,,SEC,[],47,Mississippi State,57212,False,1991,regular,1991-08-31T00:00:00.000Z,,,1
+815,,Southwest,[],6,Texas,,SEC,[],13,Mississippi State,57246,False,1991,regular,1991-09-07T00:00:00.000Z,,,2
+816,,FBS Independents,[],0,Tulane,,SEC,[],48,Mississippi State,57292,False,1991,regular,1991-09-14T00:00:00.000Z,,,3
+817,,SEC,[],24,Mississippi State,,SEC,[],26,Tennessee,57357,False,1991,regular,1991-09-21T00:00:00.000Z,,,4
+818,,SEC,[],7,Mississippi State,,SEC,[],29,Florida,57381,False,1991,regular,1991-09-28T00:00:00.000Z,,,5
+819,,SEC,[],6,Kentucky,,SEC,[],31,Mississippi State,57498,False,1991,regular,1991-10-12T00:00:00.000Z,,,7
+820,,FBS Independents,[],28,Memphis,,SEC,[],23,Mississippi State,57536,False,1991,regular,1991-10-19T00:00:00.000Z,,,8
+821,,SEC,[],24,Mississippi State,,SEC,[],17,Auburn,57591,False,1991,regular,1991-10-26T00:00:00.000Z,,,9
+822,,SEC,[],7,Mississippi State,,SEC,[],13,Alabama,57617,False,1991,regular,1991-11-02T00:00:00.000Z,,,10
+823,,SEC,[],28,Mississippi State,,SEC,[],19,LSU,57741,False,1991,regular,1991-11-16T00:00:00.000Z,,,12
+824,,SEC,[],9,Ole Miss,,SEC,[],24,Mississippi State,57786,False,1991,regular,1991-11-23T00:00:00.000Z,,,13
+825,,SEC,[],28,Mississippi State,,Southwest,[],10,Texas,57862,False,1992,regular,1992-09-05T00:00:00.000Z,,,2
+826,,SEC,[],3,Mississippi State,,SEC,[],24,LSU,57907,False,1992,regular,1992-09-12T00:00:00.000Z,,,3
+827,,SEC,[],20,Mississippi State,,FBS Independents,[],16,Memphis,57967,False,1992,regular,1992-09-19T00:00:00.000Z,,,4
+828,,SEC,[],6,Florida,,SEC,[],30,Mississippi State,58044,False,1992,regular,1992-10-01T00:00:00.000Z,,,6
+829,,SEC,[],7,Auburn,,SEC,[],14,Mississippi State,58122,False,1992,regular,1992-10-10T00:00:00.000Z,,,7
+830,,SEC,[],6,Mississippi State,,SEC,[],21,South Carolina,58183,False,1992,regular,1992-10-17T00:00:00.000Z,,,8
+831,,FBS Independents,[],6,Arkansas State,,SEC,[],56,Mississippi State,58215,False,1992,regular,1992-10-24T00:00:00.000Z,,,9
+832,,SEC,[],37,Mississippi State,,SEC,[],36,Kentucky,58271,False,1992,regular,1992-10-31T00:00:00.000Z,,,10
+833,,SEC,[],3,Arkansas,,SEC,[],10,Mississippi State,58316,False,1992,regular,1992-11-07T00:00:00.000Z,,,11
+834,,SEC,[],30,Alabama,,SEC,[],21,Mississippi State,58345,False,1992,regular,1992-11-14T00:00:00.000Z,,,12
+835,,SEC,[],10,Mississippi State,,SEC,[],17,Ole Miss,58446,False,1992,regular,1992-11-28T00:00:00.000Z,,,14
+836,,FBS Independents,[],45,Memphis,,SEC,[],35,Mississippi State,58498,False,1993,regular,1993-09-04T00:00:00.000Z,,,2
+837,,SEC,[],18,LSU,,SEC,[],16,Mississippi State,58548,False,1993,regular,1993-09-11T00:00:00.000Z,,,3
+838,,SEC,[],36,Mississippi State,,FBS Independents,[],10,Tulane,58651,False,1993,regular,1993-09-25T00:00:00.000Z,,,5
+839,,SEC,[],24,Mississippi State,,SEC,[],38,Florida,58691,False,1993,regular,1993-10-02T00:00:00.000Z,,,6
+840,,SEC,[],17,Mississippi State,,SEC,[],31,Auburn,58731,False,1993,regular,1993-10-09T00:00:00.000Z,,,7
+841,,SEC,[],0,South Carolina,,SEC,[],23,Mississippi State,58794,False,1993,regular,1993-10-16T00:00:00.000Z,,,8
+842,,SEC,[],15,Mississippi State,,Big West,[],15,Arkansas State,58828,False,1993,regular,1993-10-23T00:00:00.000Z,,,9
+843,,SEC,[],26,Kentucky,,SEC,[],17,Mississippi State,58889,False,1993,regular,1993-10-30T00:00:00.000Z,,,10
+844,,SEC,[],13,Arkansas,,SEC,[],13,Mississippi State,58945,False,1993,regular,1993-11-06T00:00:00.000Z,,,11
+845,,SEC,[],25,Mississippi State,,SEC,[],36,Alabama,58969,False,1993,regular,1993-11-13T00:00:00.000Z,,,12
+846,,SEC,[],13,Ole Miss,,SEC,[],20,Mississippi State,59077,False,1993,regular,1993-11-27T00:00:00.000Z,,,14
+847,,SEC,[],17,Mississippi State,,FBS Independents,[],6,Memphis,59131,False,1994,regular,1994-09-03T00:00:00.000Z,,,2
+848,,SEC,[],24,Mississippi State,,SEC,[],44,LSU,59179,False,1994,regular,1994-09-10T00:00:00.000Z,,,3
+849,,SEC,[],21,Tennessee,,SEC,[],24,Mississippi State,59284,False,1994,regular,1994-09-24T00:00:00.000Z,,,5
+850,,Big West,[],3,Arkansas State,,SEC,[],49,Mississippi State,59334,False,1994,regular,1994-10-01T00:00:00.000Z,,,6
+851,,SEC,[],42,Auburn,,SEC,[],18,Mississippi State,59362,False,1994,regular,1994-10-08T00:00:00.000Z,,,7
+852,,SEC,[],41,Mississippi State,,SEC,[],36,South Carolina,59428,False,1994,regular,1994-10-15T00:00:00.000Z,,,8
+853,,FBS Independents,[],22,Tulane,,SEC,[],66,Mississippi State,59481,False,1994,regular,1994-10-22T00:00:00.000Z,,,9
+854,,SEC,[],47,Mississippi State,,SEC,[],7,Kentucky,59529,False,1994,regular,1994-10-29T00:00:00.000Z,,,10
+855,,SEC,[],7,Arkansas,,SEC,[],17,Mississippi State,59581,False,1994,regular,1994-11-05T00:00:00.000Z,,,11
+856,,SEC,[],29,Alabama,,SEC,[],25,Mississippi State,59603,False,1994,regular,1994-11-12T00:00:00.000Z,,,12
+857,,SEC,[],21,Mississippi State,,SEC,[],17,Ole Miss,59712,False,1994,regular,1994-11-26T00:00:00.000Z,,,14
+858,,FBS Independents,[],18,Memphis,,SEC,[],28,Mississippi State,59771,False,1995,regular,1995-09-02T00:00:00.000Z,,,2
+859,,SEC,[],34,LSU,,SEC,[],16,Mississippi State,59815,False,1995,regular,1995-09-09T00:00:00.000Z,,,3
+860,,SEC,[],30,Mississippi State,,Southwest,[],21,Baylor,59874,False,1995,regular,1995-09-16T00:00:00.000Z,,,4
+861,,SEC,[],14,Mississippi State,,SEC,[],52,Tennessee,59932,False,1995,regular,1995-09-23T00:00:00.000Z,,,5
+862,,FBS Independents,[],34,Louisiana Monroe,,SEC,[],32,Mississippi State,59965,False,1995,regular,1995-09-30T00:00:00.000Z,,,6
+863,,SEC,[],20,Mississippi State,,SEC,[],48,Auburn,59993,False,1995,regular,1995-10-07T00:00:00.000Z,,,7
+864,,SEC,[],65,South Carolina,,SEC,[],39,Mississippi State,60069,False,1995,regular,1995-10-14T00:00:00.000Z,,,8
+865,,SEC,[],32,Kentucky,,SEC,[],42,Mississippi State,60163,False,1995,regular,1995-10-28T00:00:00.000Z,,,10
+866,,SEC,[],21,Mississippi State,,SEC,[],26,Arkansas,60190,False,1995,regular,1995-11-04T00:00:00.000Z,,,11
+867,,SEC,[],9,Mississippi State,,SEC,[],14,Alabama,60237,False,1995,regular,1995-11-11T00:00:00.000Z,,,12
+868,,SEC,[],13,Ole Miss,,SEC,[],10,Mississippi State,60351,False,1995,regular,1995-11-25T00:00:00.000Z,,,14
+869,,SEC,[],31,Mississippi State,,Conference USA,[],10,Memphis,60447,False,1996,regular,1996-09-07T00:00:00.000Z,,,3
+870,,FBS Independents,[],38,Louisiana Tech,,SEC,[],23,Mississippi State,60546,False,1996,regular,1996-09-21T00:00:00.000Z,,,5
+871,,SEC,[],14,Mississippi State,,SEC,[],10,South Carolina,60600,False,1996,regular,1996-09-28T00:00:00.000Z,,,6
+872,,SEC,[],38,Georgia,,SEC,[],19,Mississippi State,60635,False,1996,regular,1996-10-05T00:00:00.000Z,,,7
+873,,SEC,[],49,Auburn,,SEC,[],15,Mississippi State,60677,False,1996,regular,1996-10-12T00:00:00.000Z,,,8
+874,,SEC,[],20,Mississippi State,,SEC,[],28,LSU,60785,False,1996,regular,1996-10-26T00:00:00.000Z,,,10
+875,,FBS Independents,[],0,Louisiana Monroe,,SEC,[],59,Mississippi State,60843,False,1996,regular,1996-11-02T00:00:00.000Z,,,11
+876,,SEC,[],21,Mississippi State,,SEC,[],24,Kentucky,60887,False,1996,regular,1996-11-09T00:00:00.000Z,,,12
+877,,SEC,[],16,Alabama,,SEC,[],17,Mississippi State,60940,False,1996,regular,1996-11-16T00:00:00.000Z,,,13
+878,,SEC,[],16,Arkansas,,SEC,[],13,Mississippi State,60971,False,1996,regular,1996-11-23T00:00:00.000Z,,,14
+879,,SEC,[],17,Mississippi State,,SEC,[],0,Ole Miss,61015,False,1996,regular,1996-11-30T00:00:00.000Z,,,15
+880,,Conference USA,[],10,Memphis,,SEC,[],13,Mississippi State,61065,False,1997,regular,1997-08-30T00:00:00.000Z,,,2
+881,,SEC,[],27,Kentucky,,SEC,[],35,Mississippi State,61100,False,1997,regular,1997-09-06T00:00:00.000Z,,,3
+882,,SEC,[],24,LSU,,SEC,[],9,Mississippi State,61148,False,1997,regular,1997-09-13T00:00:00.000Z,,,4
+883,,SEC,[],17,South Carolina,,SEC,[],37,Mississippi State,61257,False,1997,regular,1997-09-27T00:00:00.000Z,,,6
+884,,SEC,[],0,Mississippi State,,SEC,[],47,Georgia,61291,False,1997,regular,1997-10-04T00:00:00.000Z,,,7
+885,,FBS Independents,[],10,Louisiana Monroe,,SEC,[],24,Mississippi State,61352,False,1997,regular,1997-10-11T00:00:00.000Z,,,8
+886,,FBS Independents,[],28,UCF,,SEC,[],35,Mississippi State,61454,False,1997,regular,1997-10-25T00:00:00.000Z,,,10
+887,,SEC,[],20,Mississippi State,,SEC,[],0,Auburn,61507,False,1997,regular,1997-11-01T00:00:00.000Z,,,11
+888,,SEC,[],32,Mississippi State,,SEC,[],20,Alabama,61603,False,1997,regular,1997-11-15T00:00:00.000Z,,,13
+889,,SEC,[],7,Mississippi State,,SEC,[],17,Arkansas,61634,False,1997,regular,1997-11-22T00:00:00.000Z,,,14
+890,,SEC,[],15,Ole Miss,,SEC,[],14,Mississippi State,61678,False,1997,regular,1997-11-29T00:00:00.000Z,,,15
+891,,SEC,[],0,Vanderbilt,,SEC,[],42,Mississippi State,61740,False,1998,regular,1998-09-05T00:00:00.000Z,,,2
+892,,SEC,[],14,Mississippi State,,Conference USA,[],6,Memphis,61799,False,1998,regular,1998-09-12T00:00:00.000Z,,,3
+893,,SEC,[],23,Mississippi State,,Big 12,[],42,Oklahoma State,61857,False,1998,regular,1998-09-19T00:00:00.000Z,,,4
+894,,SEC,[],38,Mississippi State,,SEC,[],0,South Carolina,61902,False,1998,regular,1998-09-26T00:00:00.000Z,,,5
+895,,SEC,[],21,Auburn,,SEC,[],38,Mississippi State,62006,False,1998,regular,1998-10-10T00:00:00.000Z,,,7
+896,,,[],6,East Tennessee State,,SEC,[],53,Mississippi State,62053,False,1998,regular,1998-10-17T00:00:00.000Z,,,8
+897,,SEC,[],6,Mississippi State,,SEC,[],41,LSU,62099,False,1998,regular,1998-10-24T00:00:00.000Z,,,9
+898,,SEC,[],35,Mississippi State,,SEC,[],37,Kentucky,62201,False,1998,regular,1998-11-07T00:00:00.000Z,,,11
+899,,SEC,[],14,Alabama,,SEC,[],26,Mississippi State,62260,False,1998,regular,1998-11-14T00:00:00.000Z,,,12
+900,,SEC,[],21,Arkansas,,SEC,[],22,Mississippi State,62313,False,1998,regular,1998-11-21T00:00:00.000Z,,,13
+901,,SEC,[],28,Mississippi State,,SEC,[],6,Ole Miss,62339,False,1998,regular,1998-11-26T00:00:00.000Z,,,14
+902,,FBS Independents,[],7,Middle Tennessee,,SEC,[],40,Mississippi State,62421,False,1999,regular,1999-09-04T00:00:00.000Z,,,2
+903,,Conference USA,[],10,Memphis,,SEC,[],13,Mississippi State,62474,False,1999,regular,1999-09-11T00:00:00.000Z,,,3
+904,,Big 12,[],11,Oklahoma State,,SEC,[],29,Mississippi State,62535,False,1999,regular,1999-09-18T00:00:00.000Z,,,4
+905,,SEC,[],0,South Carolina,,SEC,[],17,Mississippi State,62584,False,1999,regular,1999-09-25T00:00:00.000Z,,,5
+906,,SEC,[],42,Mississippi State,,SEC,[],14,Vanderbilt,62641,False,1999,regular,1999-10-02T00:00:00.000Z,,,6
+907,,SEC,[],18,Mississippi State,,SEC,[],16,Auburn,62689,False,1999,regular,1999-10-09T00:00:00.000Z,,,7
+908,,SEC,[],16,LSU,,SEC,[],17,Mississippi State,62791,False,1999,regular,1999-10-23T00:00:00.000Z,,,9
+909,,SEC,[],22,Kentucky,,SEC,[],23,Mississippi State,62868,False,1999,regular,1999-11-04T00:00:00.000Z,,,11
+910,,SEC,[],7,Mississippi State,,SEC,[],19,Alabama,62921,False,1999,regular,1999-11-13T00:00:00.000Z,,,12
+911,,SEC,[],9,Mississippi State,,SEC,[],14,Arkansas,62975,False,1999,regular,1999-11-20T00:00:00.000Z,,,13
+912,,SEC,[],20,Ole Miss,,SEC,[],23,Mississippi State,63020,False,1999,regular,1999-11-25T00:00:00.000Z,,,14
+913,,SEC,[],17,Mississippi State,,Conference USA,[],3,Memphis,63102,False,2000,regular,2000-09-02T00:00:00.000Z,,,2
+914,,SEC,[],44,Mississippi State,,Mountain West,[],28,BYU,63189,False,2000,regular,2000-09-14T00:00:00.000Z,,,4
+915,,SEC,[],19,Mississippi State,,SEC,[],23,South Carolina,63286,False,2000,regular,2000-09-23T00:00:00.000Z,,,5
+916,,SEC,[],35,Florida,,SEC,[],47,Mississippi State,63323,False,2000,regular,2000-09-30T00:00:00.000Z,,,6
+917,,SEC,[],10,Auburn,,SEC,[],17,Mississippi State,63378,False,2000,regular,2000-10-07T00:00:00.000Z,,,7
+918,,SEC,[],38,Mississippi State,,SEC,[],45,LSU,63476,False,2000,regular,2000-10-21T00:00:00.000Z,,,9
+919,,FBS Independents,[],35,Middle Tennessee,,SEC,[],61,Mississippi State,63531,False,2000,regular,2000-10-28T00:00:00.000Z,,,10
+920,,SEC,[],35,Mississippi State,,SEC,[],17,Kentucky,63584,False,2000,regular,2000-11-04T00:00:00.000Z,,,11
+921,,SEC,[],7,Alabama,,SEC,[],29,Mississippi State,63637,False,2000,regular,2000-11-11T00:00:00.000Z,,,12
+922,,SEC,[],17,Arkansas,,SEC,[],10,Mississippi State,63671,False,2000,regular,2000-11-18T00:00:00.000Z,,,13
+923,,SEC,[],30,Mississippi State,,SEC,[],45,Ole Miss,63719,False,2000,regular,2000-11-23T00:00:00.000Z,,,14
+924,45662.0,Conference USA,"[0, 3, 7, 0]",10,Memphis,False,SEC,"[0, 0, 14, 16]",30,Mississippi State,212460344,False,2001,regular,2001-09-03T19:00:00.000Z,Davis Wade Stadium,3693.0,2
+925,43579.0,SEC,"[7, 3, 6, 0]",16,South Carolina,True,SEC,"[7, 0, 0, 7]",14,Mississippi State,212630344,False,2001,regular,2001-09-20T19:30:00.000Z,Davis Wade Stadium,3693.0,5
+926,85579.0,SEC,"[0, 0, 0, 0]",0,Mississippi State,True,SEC,"[21, 14, 7, 10]",52,Florida,212720057,False,2001,regular,2001-09-29T15:30:00.000Z,,,6
+927,86063.0,SEC,"[0, 6, 8, 0]",14,Mississippi State,True,SEC,"[7, 0, 0, 9]",16,Auburn,212790002,False,2001,regular,2001-10-06T19:00:00.000Z,Jordan-Hare Stadium,3785.0,7
+928,26000.0,FBS Independents,"[0, 21, 0, 0]",21,Troy,False,SEC,"[0, 6, 3, 0]",9,Mississippi State,212860344,False,2001,regular,2001-10-13T14:30:00.000Z,Davis Wade Stadium,3693.0,8
+929,,SEC,[],42,LSU,,SEC,[],0,Mississippi State,63794,False,2001,regular,2001-10-20T00:00:00.000Z,,,8
+930,41433.0,SEC,"[0, 7, 7, 0]",14,Kentucky,True,SEC,"[0, 0, 7, 10]",17,Mississippi State,213070344,False,2001,regular,2001-11-03T15:30:00.000Z,Davis Wade Stadium,3693.0,11
+931,83818.0,SEC,"[0, 7, 10, 0]",17,Mississippi State,True,SEC,"[7, 3, 0, 14]",24,Alabama,213140333,False,2001,regular,2001-11-10T12:30:00.000Z,Bryant Denny Stadium,3657.0,12
+932,67314.0,SEC,"[0, 7, 0, 14]",21,Mississippi State,True,SEC,"[7, 0, 10, 7]",24,Arkansas,213210008,False,2001,regular,2001-11-17T14:00:00.000Z,Donald W. Reynolds Razorback Stadium Frank Broyles Field,3887.0,13
+933,51112.0,SEC,"[7, 14, 0, 7]",28,Ole Miss,True,SEC,"[6, 6, 10, 14]",36,Mississippi State,213260344,False,2001,regular,2001-11-22T19:30:00.000Z,Davis Wade Stadium,3693.0,14
+934,43156.0,Mountain West,"[7, 14, 3, 17]",41,BYU,False,SEC,"[14, 10, 7, 7]",38,Mississippi State,213350344,False,2001,regular,2001-12-01T20:00:00.000Z,Davis Wade Stadium,3693.0,15
+935,56386,SEC,"[0, 7, 0, 6]",13,Mississippi State,False,Pac-10,"[14, 13, 9, 0]",36,Oregon,222432483,False,2002,regular,2002-08-31T18:00:00.000Z,Autzen Stadium,3626,2
+936,47456,,"[0, 13, 0, 0]",13,Jacksonville State,False,SEC,"[13, 19, 7, 12]",51,Mississippi State,222570344,False,2002,regular,2002-09-14T19:00:00.000Z,Davis Wade Stadium,3693,4
+937,52583,SEC,"[0, 21, 0, 21]",42,Auburn,True,SEC,"[7, 0, 7, 0]",14,Mississippi State,222620344,False,2002,regular,2002-09-19T19:45:00.000Z,Davis Wade Stadium,3693,5
+938,90793,SEC,"[3, 7, 0, 3]",13,Mississippi State,True,SEC,"[7, 7, 10, 7]",31,LSU,222710099,False,2002,regular,2002-09-28T12:30:00.000Z,Tiger Stadium,3958,6
+939,80250,SEC,"[0, 0, 7, 3]",10,Mississippi State,True,SEC,"[14, 7, 6, 7]",34,South Carolina,222782579,False,2002,regular,2002-10-05T13:00:00.000Z,Williams-Brice Stadium,3994,7
+940,49546,FBS Independents,"[0, 0, 0, 8]",8,Troy,False,SEC,"[3, 0, 8, 0]",11,Mississippi State,222850344,False,2002,regular,2002-10-12T14:30:00.000Z,Davis Wade Stadium,3693,8
+941,28209,SEC,"[10, 3, 0, 16]",29,Mississippi State,False,Conference USA,"[10, 7, 0, 0]",17,Memphis,222920235,False,2002,regular,2002-10-19T20:00:00.000Z,Liberty Bowl Memorial Stadium,3805,9
+942,45248,SEC,"[10, 6, 21, 8]",45,Kentucky,True,SEC,"[0, 17, 0, 7]",24,Mississippi State,223060344,False,2002,regular,2002-11-02T15:30:00.000Z,Davis Wade Stadium,3693,11
+943,83818,SEC,"[3, 11, 0, 0]",14,Mississippi State,True,SEC,"[14, 7, 7, 0]",28,Alabama,223130333,False,2002,regular,2002-11-09T14:00:00.000Z,Bryant Denny Stadium,3657,12
+944,54807,SEC,"[0, 14, 7, 14]",35,Tennessee,True,SEC,"[0, 7, 7, 3]",17,Mississippi State,223200344,False,2002,regular,2002-11-16T12:30:00.000Z,Davis Wade Stadium,3693,13
+945,40108,SEC,"[7, 12, 0, 7]",26,Arkansas,True,SEC,"[3, 0, 3, 13]",19,Mississippi State,223270344,False,2002,regular,2002-11-23T14:30:00.000Z,Davis Wade Stadium,3693,14
+946,60245,SEC,"[3, 0, 3, 6]",12,Mississippi State,True,SEC,"[0, 7, 10, 7]",24,Ole Miss,223320145,False,2002,regular,2002-11-28T19:45:00.000Z,Vaught-Hemingway Stadium,3974,15
+947,52856,Pac-10,"[28, 0, 14, 0]",42,Oregon,False,SEC,"[0, 14, 7, 13]",34,Mississippi State,232420344,False,2003,regular,2003-08-30T21:00:00.000Z,Davis Wade Stadium,3693,2
+948,33723,SEC,"[0, 6, 15, 7]",28,Mississippi State,False,Conference USA,"[0, 7, 7, 17]",31,Tulane,232562655,False,2003,regular,2003-09-13T20:00:00.000Z,Mercedes-Benz Superdome,3493,4
+949,26233,SEC,"[0, 6, 15, 14]",35,Mississippi State,False,Conference USA,"[21, 7, 7, 7]",42,Houston,232630248,False,2003,regular,2003-09-20T20:00:00.000Z,Robertson Stadium,453,5
+950,45835,SEC,"[7, 17, 10, 7]",41,LSU,True,SEC,"[0, 0, 0, 6]",6,Mississippi State,232700344,False,2003,regular,2003-09-27T21:00:00.000Z,Davis Wade Stadium,3693,6
+951,40156,SEC,"[0, 7, 7, 7]",21,Vanderbilt,True,SEC,"[14, 3, 10, 3]",30,Mississippi State,232770344,False,2003,regular,2003-10-04T14:30:00.000Z,Davis Wade Stadium,3693,7
+952,45329,Conference USA,"[7, 10, 7, 3]",27,Memphis,False,SEC,"[14, 14, 7, 0]",35,Mississippi State,232840344,False,2003,regular,2003-10-11T14:30:00.000Z,Davis Wade Stadium,3693,8
+953,86063,SEC,"[7, 0, 0, 6]",13,Mississippi State,True,SEC,"[14, 24, 7, 0]",45,Auburn,232910002,False,2003,regular,2003-10-18T14:30:00.000Z,Jordan-Hare Stadium,3785,9
+954,57141,SEC,"[10, 7, 0, 0]",17,Mississippi State,True,SEC,"[0, 7, 14, 21]",42,Kentucky,232980096,False,2003,regular,2003-10-25T12:30:00.000Z,Commonwealth Stadium,3683,10
+955,48242,SEC,"[14, 10, 0, 14]",38,Alabama,True,SEC,"[0, 0, 0, 0]",0,Mississippi State,233120344,False,2003,regular,2003-11-08T12:30:00.000Z,Davis Wade Stadium,3693,12
+956,104223,SEC,"[7, 0, 0, 14]",21,Mississippi State,True,SEC,"[14, 14, 24, 7]",59,Tennessee,233192633,False,2003,regular,2003-11-15T12:30:00.000Z,Neyland Stadium,3853,13
+957,62547,SEC,"[3, 3, 0, 0]",6,Mississippi State,True,SEC,"[0, 21, 21, 10]",52,Arkansas,233260008,False,2003,regular,2003-11-22T14:00:00.000Z,Donald W. Reynolds Razorback Stadium Frank Broyles Field,3887,14
+958,53582,SEC,"[7, 17, 7, 0]",31,Ole Miss,True,SEC,"[0, 0, 0, 0]",0,Mississippi State,233310344,False,2003,regular,2003-11-27T19:30:00.000Z,Davis Wade Stadium,3693,15
+959,0,Conference USA,"[0, 0, 0, 7]",7,Tulane,False,SEC,"[0, 0, 14, 14]",28,Mississippi State,242480344,False,2004,regular,2004-09-04T18:00:00.000Z,Davis Wade Stadium,3693,2
+960,0,SEC,"[14, 7, 14, 8]",43,Auburn,True,SEC,"[0, 0, 0, 14]",14,Mississippi State,242550344,False,2004,regular,2004-09-11T12:30:00.000Z,Davis Wade Stadium,3693,3
+961,43486,,"[0, 0, 3, 6]",9,Maine,False,SEC,"[7, 0, 0, 0]",7,Mississippi State,242620344,False,2004,regular,2004-09-18T19:00:00.000Z,Davis Wade Stadium,3693,4
+962,0,SEC,"[0, 0, 0, 0]",0,Mississippi State,True,SEC,"[14, 20, 7, 10]",51,LSU,242690099,False,2004,regular,2004-09-25T12:30:00.000Z,Tiger Stadium,3958,5
+963,0,SEC,"[7, 0, 0, 6]",13,Mississippi State,True,SEC,"[3, 21, 7, 0]",31,Vanderbilt,242760238,False,2004,regular,2004-10-02T19:00:00.000Z,Vanderbilt Stadium,3973,6
+964,0,Conference USA,"[7, 3, 7, 10]",27,UAB,False,SEC,"[3, 7, 0, 3]",13,Mississippi State,242830344,False,2004,regular,2004-10-09T14:30:00.000Z,Davis Wade Stadium,3693,7
+965,0,SEC,"[0, 14, 10, 7]",31,Florida,True,SEC,"[7, 10, 7, 14]",38,Mississippi State,242970344,False,2004,regular,2004-10-23T12:30:00.000Z,Davis Wade Stadium,3693,9
+966,0,SEC,"[0, 0, 0, 7]",7,Kentucky,True,SEC,"[7, 3, 0, 12]",22,Mississippi State,243040344,False,2004,regular,2004-10-30T14:30:00.000Z,Davis Wade Stadium,3693,10
+967,0,SEC,"[7, 0, 7, 0]",14,Mississippi State,True,SEC,"[0, 17, 3, 10]",30,Alabama,243110333,False,2004,regular,2004-11-06T19:30:00.000Z,Bryant Denny Stadium,3657,11
+968,0,SEC,"[3, 14, 7, 0]",24,Arkansas,True,SEC,"[14, 0, 0, 7]",21,Mississippi State,243250344,False,2004,regular,2004-11-20T14:30:00.000Z,Davis Wade Stadium,3693,13
+969,0,SEC,"[0, 3, 0, 0]",3,Mississippi State,True,SEC,"[7, 3, 0, 10]",20,Ole Miss,243320145,False,2004,regular,2004-11-27T14:00:00.000Z,Vaught-Hemingway Stadium,3974,14
+970,41143,,"[6, 0, 0, 0]",6,Murray State,False,SEC,"[3, 14, 21, 0]",38,Mississippi State,252460344,False,2005,regular,2005-09-03T19:00:00.000Z,Davis Wade Stadium,3693.0,1
+971,0,SEC,"[0, 0, 0, 0]",0,Mississippi State,True,SEC,"[7, 7, 7, 7]",28,Auburn,252530002,False,2005,regular,2005-09-10T12:30:00.000Z,Jordan-Hare Stadium,3785.0,2
+972,0,SEC,"[0, 0, 14, 7]",21,Mississippi State,False,Conference USA,"[0, 0, 7, 7]",14,Tulane,252602655,False,2005,regular,2005-09-17T20:00:00.000Z,,,3
+973,0,SEC,"[7, 7, 6, 3]",23,Georgia,True,SEC,"[3, 0, 0, 7]",10,Mississippi State,252670344,False,2005,regular,2005-09-24T19:45:00.000Z,Davis Wade Stadium,3693.0,4
+974,0,SEC,"[10, 7, 20, 0]",37,LSU,True,SEC,"[7, 0, 0, 0]",7,Mississippi State,252740344,False,2005,regular,2005-10-01T14:30:00.000Z,Davis Wade Stadium,3693.0,5
+975,0,SEC,"[3, 0, 6, 0]",9,Mississippi State,True,SEC,"[3, 9, 9, 14]",35,Florida,252810057,False,2005,regular,2005-10-08T12:30:00.000Z,Ben Hill Griffin Stadium,3634.0,6
+976,0,Conference USA,"[0, 14, 7, 7]",28,Houston,False,SEC,"[3, 10, 3, 0]",16,Mississippi State,252950344,False,2005,regular,2005-10-22T14:30:00.000Z,Davis Wade Stadium,3693.0,8
+977,0,SEC,"[0, 0, 7, 0]",7,Mississippi State,True,SEC,"[3, 7, 3, 0]",13,Kentucky,253020096,False,2005,regular,2005-10-29T19:00:00.000Z,Commonwealth Stadium,3683.0,9
+978,0,SEC,"[0, 3, 14, 0]",17,Alabama,True,SEC,"[0, 0, 0, 0]",0,Mississippi State,253090344,False,2005,regular,2005-11-05T16:30:00.000Z,Davis Wade Stadium,3693.0,10
+979,0,SEC,"[0, 3, 7, 0]",10,Mississippi State,True,SEC,"[14, 27, 0, 3]",44,Arkansas,253230008,False,2005,regular,2005-11-19T14:00:00.000Z,,,12
+980,0,SEC,"[7, 7, 0, 0]",14,Ole Miss,True,SEC,"[0, 21, 0, 14]",35,Mississippi State,253300344,False,2005,regular,2005-11-26T14:30:00.000Z,Davis Wade Stadium,3693.0,13
+981,50277,SEC,"[0, 3, 3, 9]",15,South Carolina,True,SEC,"[0, 0, 0, 0]",0,Mississippi State,262430344,False,2006,regular,2006-08-31T20:00:00.000Z,Davis Wade Stadium,3693,1
+982,43640,SEC,"[7, 10, 14, 3]",34,Auburn,True,SEC,"[0, 0, 0, 0]",0,Mississippi State,262520344,False,2006,regular,2006-09-09T12:30:00.000Z,Davis Wade Stadium,3693,2
+983,38130,Conference USA,"[7, 7, 18, 0]",32,Tulane,False,SEC,"[0, 7, 0, 22]",29,Mississippi State,262590344,False,2006,regular,2006-09-16T19:00:00.000Z,Davis Wade Stadium,3693,3
+984,36104,SEC,"[0, 3, 0, 7, 6]",16,Mississippi State,False,Conference USA,"[0, 7, 0, 3, 0]",10,UAB,262660005,False,2006,regular,2006-09-23T19:00:00.000Z,Legion Field,3803,4
+985,91960,SEC,"[0, 3, 7, 7]",17,Mississippi State,True,SEC,"[21, 14, 0, 13]",48,LSU,262730099,False,2006,regular,2006-09-30T12:30:00.000Z,Tiger Stadium,3958,5
+986,40327,Big East,"[7, 7, 7, 21]",42,West Virginia,False,SEC,"[0, 7, 0, 7]",14,Mississippi State,262800344,False,2006,regular,2006-10-07T14:30:00.000Z,Davis Wade Stadium,3693,6
+987,0,,"[3, 0, 0, 0]",3,Jacksonville State,False,SEC,"[7, 7, 14, 7]",35,Mississippi State,262870344,False,2006,regular,2006-10-14T14:30:00.000Z,Davis Wade Stadium,3693,7
+988,92746,SEC,"[7, 0, 10, 7]",24,Mississippi State,True,SEC,"[7, 14, 0, 6]",27,Georgia,262940061,False,2006,regular,2006-10-21T13:00:00.000Z,Sanford Stadium,3917,8
+989,37834,SEC,"[14, 0, 10, 10]",34,Kentucky,True,SEC,"[0, 14, 3, 14]",31,Mississippi State,263010344,False,2006,regular,2006-10-28T14:30:00.000Z,Davis Wade Stadium,3693,9
+990,92138,SEC,"[7, 17, 0, 0]",24,Mississippi State,True,SEC,"[3, 7, 6, 0]",16,Alabama,263080333,False,2006,regular,2006-11-04T13:30:00.000Z,Bryant Denny Stadium,3657,10
+991,41845,SEC,"[14, 7, 7, 0]",28,Arkansas,True,SEC,"[7, 7, 0, 0]",14,Mississippi State,263220344,False,2006,regular,2006-11-18T14:30:00.000Z,Davis Wade Stadium,3693,12
+992,57658,SEC,"[0, 10, 0, 7]",17,Mississippi State,True,SEC,"[7, 3, 3, 7]",20,Ole Miss,263290145,False,2006,regular,2006-11-25T14:00:00.000Z,Vaught-Hemingway Stadium,3974,13
+993,50112,SEC,"[3, 14, 14, 14]",45,LSU,True,SEC,"[0, 0, 0, 0]",0,Mississippi State,272420344,False,2007,regular,2007-08-30T20:00:00.000Z,Davis Wade Stadium,3693,1
+994,31076,SEC,"[14, 3, 14, 7]",38,Mississippi State,False,Conference USA,"[14, 3, 0, 0]",17,Tulane,272512655,False,2007,regular,2007-09-08T19:07:00.000Z,Mercedes-Benz Superdome,3493,2
+995,0,SEC,"[10, 3, 0, 6]",19,Mississippi State,True,SEC,"[0, 14, 0, 0]",14,Auburn,272580002,False,2007,regular,2007-09-15T12:30:00.000Z,Jordan-Hare Stadium,3785,3
+996,42272,,"[0, 0, 6, 9]",15,Gardner-Webb,False,SEC,"[14, 14, 3, 0]",31,Mississippi State,272650344,False,2007,regular,2007-09-22T19:00:00.000Z,Davis Wade Stadium,3693,4
+997,78883,SEC,"[7, 7, 7, 0]",21,Mississippi State,True,SEC,"[7, 10, 7, 14]",38,South Carolina,272722579,False,2007,regular,2007-09-29T12:30:00.000Z,Williams-Brice Stadium,3994,5
+998,45259,Conference USA,"[0, 10, 3, 0]",13,UAB,False,SEC,"[0, 3, 6, 21]",30,Mississippi State,272790344,False,2007,regular,2007-10-06T14:30:00.000Z,Davis Wade Stadium,3693,6
+999,50217,SEC,"[7, 10, 10, 6]",33,Tennessee,True,SEC,"[7, 7, 7, 0]",21,Mississippi State,272860344,False,2007,regular,2007-10-13T14:30:00.000Z,Davis Wade Stadium,3693,7
+1000,61022,SEC,"[0, 7, 6, 0]",13,Mississippi State,False,Big East,"[28, 3, 0, 7]",38,West Virginia,272930277,False,2007,regular,2007-10-20T15:30:00.000Z,Mountaineer Field at Milan Puskar Stadium,3842,8
+1001,68173,SEC,"[7, 7, 10, 7]",31,Mississippi State,True,SEC,"[7, 0, 7, 0]",14,Kentucky,273000096,False,2007,regular,2007-10-27T12:30:00.000Z,Commonwealth Stadium,3683,9
+1002,56188,SEC,"[6, 3, 0, 3]",12,Alabama,True,SEC,"[0, 10, 7, 0]",17,Mississippi State,273140344,False,2007,regular,2007-11-10T12:30:00.000Z,Davis Wade Stadium,3693,11
+1003,55185,SEC,"[7, 0, 10, 14]",31,Mississippi State,True,SEC,"[0, 24, 7, 14]",45,Arkansas,273210008,False,2007,regular,2007-11-17T14:00:00.000Z,Donald W. Reynolds Razorback Stadium Frank Broyles Field,3887,12
+1004,51727,SEC,"[7, 0, 7, 0]",14,Ole Miss,True,SEC,"[0, 0, 0, 17]",17,Mississippi State,273270344,False,2007,regular,2007-11-23T12:30:00.000Z,Davis Wade Stadium,3693,13
+1005,0,SEC,"[7, 7, 0, 0]",14,Mississippi State,False,Western Athletic,"[3, 6, 10, 3]",22,Louisiana Tech,282432348,False,2008,regular,2008-08-30T18:45:00.000Z,Joe Aillet Stadium,3776,1
+1006,41938,,"[3, 0, 0, 7]",10,Southeastern Louisiana,False,SEC,"[7, 13, 14, 0]",34,Mississippi State,282500344,False,2008,regular,2008-09-06T19:00:00.000Z,Davis Wade Stadium,3693,2
+1007,52911,SEC,"[0, 3, 0, 0]",3,Auburn,True,SEC,"[0, 0, 0, 2]",2,Mississippi State,282570344,False,2008,regular,2008-09-13T19:00:00.000Z,Davis Wade Stadium,3693,3
+1008,48402,SEC,"[0, 0, 0, 7]",7,Mississippi State,False,ACC,"[14, 7, 10, 7]",38,Georgia Tech,282640059,False,2008,regular,2008-09-20T12:00:00.000Z,Bobby Dodd Stadium at Historic Grant Field,721,4
+1009,92710,SEC,"[3, 7, 0, 14]",24,Mississippi State,True,SEC,"[10, 7, 10, 7]",34,LSU,282710099,False,2008,regular,2008-09-27T19:30:00.000Z,Tiger Stadium,3958,5
+1010,43619,SEC,"[0, 7, 0, 7]",14,Vanderbilt,True,SEC,"[3, 0, 7, 7]",17,Mississippi State,282850344,False,2008,regular,2008-10-11T14:30:00.000Z,Davis Wade Stadium,3693,7
+1011,98239,SEC,"[0, 3, 0, 0]",3,Mississippi State,True,SEC,"[0, 6, 7, 21]",34,Tennessee,282922633,False,2008,regular,2008-10-18T19:00:00.000Z,Neyland Stadium,3853,8
+1012,40024,Sun Belt,"[3, 10, 3, 6]",22,Middle Tennessee,False,SEC,"[14, 0, 10, 7]",31,Mississippi State,282990344,False,2008,regular,2008-10-25T19:00:00.000Z,Davis Wade Stadium,3693,9
+1013,40168,SEC,"[0, 0, 14, 0]",14,Kentucky,True,SEC,"[7, 0, 0, 6]",13,Mississippi State,283060344,False,2008,regular,2008-11-01T14:30:00.000Z,Davis Wade Stadium,3693,10
+1014,92138,SEC,"[0, 7, 0, 0]",7,Mississippi State,True,SEC,"[5, 7, 10, 10]",32,Alabama,283200333,False,2008,regular,2008-11-15T19:45:00.000Z,Bryant Denny Stadium,3657,12
+1015,42056,SEC,"[14, 0, 7, 7]",28,Arkansas,True,SEC,"[7, 10, 7, 7]",31,Mississippi State,283270344,False,2008,regular,2008-11-22T14:30:00.000Z,Davis Wade Stadium,3693,13
+1016,55231,SEC,"[0, 0, 0, 0]",0,Mississippi State,True,SEC,"[24, 7, 7, 7]",45,Ole Miss,283330145,False,2008,regular,2008-11-28T12:30:00.000Z,Vaught-Hemingway Stadium,3974,14
+1017,0,,"[0, 0, 0, 7]",7,Jackson State,False,SEC,"[7, 7, 21, 10]",45,Mississippi State,292480344,False,2009,regular,2009-09-05T15:30:00.000Z,Davis Wade Stadium,3693,1
+1018,0,SEC,"[0, 17, 0, 7]",24,Mississippi State,True,SEC,"[14, 14, 14, 7]",49,Auburn,292550002,False,2009,regular,2009-09-12T19:00:00.000Z,Jordan-Hare Stadium,3785,2
+1019,0,SEC,"[0, 6, 3, 6]",15,Mississippi State,True,SEC,"[0, 3, 0, 0]",3,Vanderbilt,292620238,False,2009,regular,2009-09-19T19:00:00.000Z,Vanderbilt Stadium,3973,3
+1020,0,SEC,"[13, 3, 7, 7]",30,LSU,True,SEC,"[14, 0, 7, 5]",26,Mississippi State,292690344,False,2009,regular,2009-09-26T12:00:00.000Z,Davis Wade Stadium,3693,4
+1021,0,ACC,"[14, 14, 7, 7]",42,Georgia Tech,False,SEC,"[7, 10, 0, 14]",31,Mississippi State,292760344,False,2009,regular,2009-10-03T19:30:00.000Z,Davis Wade Stadium,3693,5
+1022,0,Conference USA,"[7, 7, 3, 14]",31,Houston,False,SEC,"[7, 10, 0, 7]",24,Mississippi State,292830344,False,2009,regular,2009-10-10T12:30:00.000Z,Davis Wade Stadium,3693,6
+1023,0,SEC,"[7, 10, 3, 7]",27,Mississippi State,False,Sun Belt,"[0, 6, 0, 0]",6,Middle Tennessee,292902393,False,2009,regular,2009-10-17T12:30:00.000Z,"Johnny Red"""" Floyd Stadium""""",3725,7
+1024,0,SEC,"[3, 10, 3, 13]",29,Florida,True,SEC,"[3, 7, 3, 6]",19,Mississippi State,292970344,False,2009,regular,2009-10-24T19:30:00.000Z,Davis Wade Stadium,3693,8
+1025,0,SEC,"[3, 7, 21, 0]",31,Mississippi State,True,SEC,"[7, 10, 7, 0]",24,Kentucky,293040096,False,2009,regular,2009-10-31T19:00:00.000Z,Commonwealth Stadium,3683,9
+1026,0,SEC,"[0, 14, 3, 14]",31,Alabama,True,SEC,"[0, 0, 0, 3]",3,Mississippi State,293180344,False,2009,regular,2009-11-14T19:00:00.000Z,Davis Wade Stadium,3693,11
+1027,0,SEC,"[7, 0, 14, 0]",21,Mississippi State,True,SEC,"[7, 14, 7, 14]",42,Arkansas,293250008,False,2009,regular,2009-11-21T12:21:00.000Z,Donald W. Reynolds Razorback Stadium Frank Broyles Field,3887,12
+1028,0,SEC,"[3, 10, 0, 14]",27,Ole Miss,True,SEC,"[0, 10, 17, 14]",41,Mississippi State,293320344,False,2009,regular,2009-11-28T12:21:00.000Z,Davis Wade Stadium,3693,13
+1029,0,Conference USA,"[0, 0, 0, 7]",7,Memphis,False,SEC,"[14, 7, 21, 7]",49,Mississippi State,302470344,False,2010,regular,2010-09-04T19:00:00.000Z,Davis Wade Stadium,3693,1
+1030,0,SEC,"[7, 10, 0, 0]",17,Auburn,True,SEC,"[7, 0, 7, 0]",14,Mississippi State,302520344,False,2010,regular,2010-09-09T19:30:00.000Z,Davis Wade Stadium,3693,2
+1031,0,SEC,"[0, 0, 7, 0]",7,Mississippi State,True,SEC,"[3, 9, 14, 3]",29,LSU,302610099,False,2010,regular,2010-09-18T19:00:00.000Z,Tiger Stadium,3958,3
+1032,0,SEC,"[0, 6, 0, 6]",12,Georgia,True,SEC,"[7, 0, 0, 17]",24,Mississippi State,302680344,False,2010,regular,2010-09-25T19:00:00.000Z,Davis Wade Stadium,3693,4
+1033,0,,"[0, 16, 0, 0]",16,Alcorn State,False,SEC,"[7, 28, 0, 14]",49,Mississippi State,302750344,False,2010,regular,2010-10-02T12:00:00.000Z,Davis Wade Stadium,3693,5
+1034,0,SEC,"[23, 10, 7, 7]",47,Mississippi State,False,Conference USA,"[7, 3, 7, 7]",24,Houston,302820248,False,2010,regular,2010-10-09T20:00:00.000Z,Robertson Stadium,453,6
+1035,0,SEC,"[10, 0, 0, 0]",10,Mississippi State,True,SEC,"[0, 0, 7, 0]",7,Florida,302890057,False,2010,regular,2010-10-16T19:00:00.000Z,Ben Hill Griffin Stadium,3634,7
+1036,0,Conference USA,"[3, 7, 7, 7]",24,UAB,False,SEC,"[7, 3, 10, 9]",29,Mississippi State,302960344,False,2010,regular,2010-10-23T19:00:00.000Z,Davis Wade Stadium,3693,8
+1037,0,SEC,"[7, 3, 7, 0]",17,Kentucky,True,SEC,"[10, 7, 0, 7]",24,Mississippi State,303030344,False,2010,regular,2010-10-30T19:00:00.000Z,Davis Wade Stadium,3693,9
+1038,0,SEC,"[3, 0, 0, 7]",10,Mississippi State,True,SEC,"[6, 14, 7, 3]",30,Alabama,303170333,False,2010,regular,2010-11-13T19:15:00.000Z,Bryant Denny Stadium,3657,11
+1039,0,SEC,"[14, 3, 7, 7, 0, 7]",38,Arkansas,True,SEC,"[7, 14, 0, 10, 0, 0]",31,Mississippi State,303240344,False,2010,regular,2010-11-20T19:00:00.000Z,Davis Wade Stadium,3693,12
+1040,0,SEC,"[0, 21, 10, 0]",31,Mississippi State,True,SEC,"[6, 3, 0, 14]",23,Ole Miss,303310145,False,2010,regular,2010-11-27T19:00:00.000Z,Vaught-Hemingway Stadium,3974,13
+1041,0,SEC,"[17, 14, 14, 14]",59,Mississippi State,False,Conference USA,"[0, 7, 0, 7]",14,Memphis,312440235,False,2011,regular,2011-09-01T20:00:00.000Z,Liberty Bowl Memorial Stadium,3805.0,1
+1042,0,SEC,"[14, 10, 3, 7]",34,Mississippi State,True,SEC,"[14, 17, 3, 7]",41,Auburn,312530002,False,2011,regular,2011-09-10T12:21:00.000Z,Jordan-Hare Stadium,3785.0,2
+1043,0,SEC,"[3, 3, 3, 10]",19,LSU,True,SEC,"[3, 0, 3, 0]",6,Mississippi State,312580344,False,2011,regular,2011-09-15T20:00:00.000Z,Davis Wade Stadium,3693.0,3
+1044,0,Western Athletic,"[3, 7, 7, 3, 0]",20,Louisiana Tech,False,SEC,"[7, 10, 3, 0, 6]",26,Mississippi State,312670344,False,2011,regular,2011-09-24T19:00:00.000Z,Davis Wade Stadium,3693.0,4
+1045,0,SEC,"[3, 0, 0, 7]",10,Mississippi State,True,SEC,"[14, 7, 3, 0]",24,Georgia,312740061,False,2011,regular,2011-10-01T12:00:00.000Z,Sanford Stadium,3917.0,5
+1046,0,SEC,"[0, 0, 7, 14]",21,Mississippi State,False,Conference USA,"[0, 3, 0, 0]",3,UAB,312810005,False,2011,regular,2011-10-08T12:00:00.000Z,Legion Field,3803.0,6
+1047,0,SEC,"[0, 7, 0, 7]",14,South Carolina,True,SEC,"[7, 0, 0, 5]",12,Mississippi State,312880344,False,2011,regular,2011-10-15T12:21:00.000Z,Davis Wade Stadium,3693.0,7
+1048,0,SEC,"[14, 7, 7, 0]",28,Mississippi State,True,SEC,"[3, 3, 3, 7]",16,Kentucky,313020096,False,2011,regular,2011-10-29T19:00:00.000Z,Commonwealth Stadium,3683.0,9
+1049,0,,"[0, 3, 7, 7]",17,UT Martin,False,SEC,"[21, 7, 14, 13]",55,Mississippi State,313090344,False,2011,regular,2011-11-05T19:30:00.000Z,Davis Wade Stadium,3693.0,10
+1050,0,SEC,"[0, 7, 3, 14]",24,Alabama,True,SEC,"[0, 0, 0, 7]",7,Mississippi State,313160344,False,2011,regular,2011-11-12T19:45:00.000Z,Davis Wade Stadium,3693.0,11
+1051,0,SEC,"[3, 7, 0, 7]",17,Mississippi State,True,SEC,"[14, 10, 10, 10]",44,Arkansas,313230008,False,2011,regular,2011-11-19T15:30:00.000Z,,,12
+1052,0,SEC,"[0, 0, 3, 0]",3,Ole Miss,True,SEC,"[14, 7, 7, 3]",31,Mississippi State,313300344,False,2011,regular,2011-11-26T19:00:00.000Z,Davis Wade Stadium,3693.0,13
+1053,55082,,"[0, 6, 0, 3]",9,Jackson State,False,SEC,"[14, 21, 14, 7]",56,Mississippi State,322450344,False,2012,regular,2012-09-01T19:00:00.000Z,Davis Wade Stadium,3693,1
+1054,56111,SEC,"[0, 3, 7, 0]",10,Auburn,True,SEC,"[0, 7, 14, 7]",28,Mississippi State,322520344,False,2012,regular,2012-09-08T12:00:00.000Z,Davis Wade Stadium,3693,2
+1055,29013,SEC,"[10, 13, 0, 7]",30,Mississippi State,False,Sun Belt,"[7, 0, 7, 10]",24,Troy,322592653,False,2012,regular,2012-09-15T19:00:00.000Z,Veterans Memorial Stadium,3975,3
+1056,55186,Sun Belt,"[0, 0, 3, 7]",10,South Alabama,False,SEC,"[0, 20, 7, 3]",30,Mississippi State,322660344,False,2012,regular,2012-09-22T19:00:00.000Z,Davis Wade Stadium,3693,4
+1057,49498,SEC,"[14, 6, 7, 0]",27,Mississippi State,True,SEC,"[0, 7, 7, 0]",14,Kentucky,322800096,False,2012,regular,2012-10-06T12:21:00.000Z,Commonwealth Stadium,3683,6
+1058,57831,SEC,"[7, 7, 10, 7]",31,Tennessee,True,SEC,"[10, 17, 0, 14]",41,Mississippi State,322870344,False,2012,regular,2012-10-13T21:00:00.000Z,Davis Wade Stadium,3693,7
+1059,55108,Sun Belt,"[0, 3, 0, 0]",3,Middle Tennessee,False,SEC,"[10, 0, 21, 14]",45,Mississippi State,322940344,False,2012,regular,2012-10-20T19:00:00.000Z,Davis Wade Stadium,3693,8
+1060,101821,SEC,"[0, 0, 0, 7]",7,Mississippi State,True,SEC,"[14, 10, 0, 14]",38,Alabama,323010333,False,2012,regular,2012-10-27T20:30:00.000Z,Bryant Denny Stadium,3657,9
+1061,55240,SEC,"[14, 10, 7, 7]",38,Texas A&M,True,SEC,"[0, 0, 7, 6]",13,Mississippi State,323080344,False,2012,regular,2012-11-03T12:00:00.000Z,Davis Wade Stadium,3693,10
+1062,92831,SEC,"[7, 3, 7, 0]",17,Mississippi State,True,SEC,"[3, 17, 10, 7]",37,LSU,323150099,False,2012,regular,2012-11-10T19:00:00.000Z,Tiger Stadium,3958,11
+1063,54838,SEC,"[7, 7, 0, 0]",14,Arkansas,True,SEC,"[7, 10, 14, 14]",45,Mississippi State,323220344,False,2012,regular,2012-11-17T12:21:00.000Z,Davis Wade Stadium,3693,12
+1064,61005,SEC,"[14, 3, 0, 7]",24,Mississippi State,True,SEC,"[7, 10, 17, 7]",41,Ole Miss,323290145,False,2012,regular,2012-11-24T19:00:00.000Z,Vaught-Hemingway Stadium,3974,13
+1065,35874,SEC,"[3, 0, 0, 0]",3,Mississippi State,False,Big 12,"[0, 7, 7, 7]",21,Oklahoma State,332430197,True,2013,regular,2013-08-31T15:30:00.000Z,,,1
+1066,55085,,"[0, 0, 0, 7]",7,Alcorn State,False,SEC,"[14, 23, 7, 7]",51,Mississippi State,332500344,False,2013,regular,2013-09-07T15:30:00.000Z,Davis Wade Stadium,3693.0,2
+1067,85817,SEC,"[6, 7, 7, 0]",20,Mississippi State,True,SEC,"[11, 3, 3, 7]",24,Auburn,332570002,False,2013,regular,2013-09-14T19:00:00.000Z,Jordan-Hare Stadium,3785.0,3
+1068,55096,Sun Belt,"[7, 0, 0, 0]",7,Troy,False,SEC,"[10, 35, 7, 10]",62,Mississippi State,332640344,False,2013,regular,2013-09-21T19:30:00.000Z,Davis Wade Stadium,3693.0,4
+1069,57113,SEC,"[14, 14, 3, 28]",59,LSU,True,SEC,"[9, 14, 3, 0]",26,Mississippi State,332780344,False,2013,regular,2013-10-05T19:00:00.000Z,Davis Wade Stadium,3693.0,6
+1070,55148,Mid-American,"[3, 10, 7, 0]",20,Bowling Green,False,SEC,"[14, 7, 0, 0]",21,Mississippi State,332850344,False,2013,regular,2013-10-12T19:30:00.000Z,Davis Wade Stadium,3693.0,7
+1071,55102,SEC,"[7, 3, 9, 3]",22,Kentucky,True,SEC,"[14, 7, 7, 0]",28,Mississippi State,332970344,False,2013,regular,2013-10-24T19:30:00.000Z,Davis Wade Stadium,3693.0,9
+1072,82111,SEC,"[7, 3, 0, 6]",16,Mississippi State,True,SEC,"[14, 3, 17, 0]",34,South Carolina,333062579,False,2013,regular,2013-11-02T12:21:00.000Z,Williams-Brice Stadium,3994.0,10
+1073,88504,SEC,"[7, 7, 6, 21]",41,Mississippi State,True,SEC,"[16, 7, 14, 14]",51,Texas A&M,333130245,False,2013,regular,2013-11-09T15:30:00.000Z,Kyle Field,3795.0,11
+1074,57211,SEC,"[3, 7, 7, 3]",20,Alabama,True,SEC,"[0, 0, 7, 0]",7,Mississippi State,333200344,False,2013,regular,2013-11-16T19:45:00.000Z,Davis Wade Stadium,3693.0,12
+1075,45198,SEC,"[0, 10, 0, 7, 7]",24,Mississippi State,True,SEC,"[7, 3, 7, 0, 0]",17,Arkansas,333270008,False,2013,regular,2013-11-23T12:21:00.000Z,,,13
+1076,55113,SEC,"[0, 7, 3, 0, 0]",10,Ole Miss,True,SEC,"[0, 7, 0, 3, 7]",17,Mississippi State,333320344,False,2013,regular,2013-11-28T19:30:00.000Z,Davis Wade Stadium,3693.0,14
+1077,61889,Conference USA,"[0, 0, 0, 0]",0,Southern Mississippi,False,SEC,"[7, 21, 14, 7]",49,Mississippi State,400548009,False,2014,regular,2014-08-30T19:30:00.000Z,Davis Wade Stadium,3693,1
+1078,57704,Conference USA,"[3, 17, 7, 7]",34,UAB,False,SEC,"[13, 13, 21, 0]",47,Mississippi State,400548017,False,2014,regular,2014-09-06T14:00:00.000Z,Davis Wade Stadium,3693,2
+1079,38129,SEC,"[7, 21, 7, 0]",35,Mississippi State,False,Sun Belt,"[0, 3, 0, 0]",3,South Alabama,400548391,False,2014,regular,2014-09-13T16:00:00.000Z,Ladd Peebles Stadium,3797,3
+1080,102321,SEC,"[14, 3, 14, 3]",34,Mississippi State,True,SEC,"[0, 3, 7, 19]",29,LSU,400548386,False,2014,regular,2014-09-20T19:00:00.000Z,Tiger Stadium,3958,4
+1081,61133,SEC,"[7, 3, 7, 14]",31,Texas A&M,True,SEC,"[14, 14, 13, 7]",48,Mississippi State,400548377,False,2014,regular,2014-10-04T12:00:00.000Z,Davis Wade Stadium,3693,6
+1082,62945,SEC,"[0, 13, 7, 3]",23,Auburn,True,SEC,"[21, 7, 0, 10]",38,Mississippi State,400548369,False,2014,regular,2014-10-11T15:30:00.000Z,Davis Wade Stadium,3693,7
+1083,64791,SEC,"[10, 7, 14, 14]",45,Mississippi State,True,SEC,"[7, 3, 14, 7]",31,Kentucky,400548355,False,2014,regular,2014-10-25T15:30:00.000Z,Commonwealth Stadium,3683,9
+1084,63207,SEC,"[3, 7, 0, 0]",10,Arkansas,True,SEC,"[0, 7, 3, 7]",17,Mississippi State,400548350,False,2014,regular,2014-11-01T19:15:00.000Z,Davis Wade Stadium,3693,10
+1085,61421,,"[3, 0, 0, 13]",16,UT Martin,False,SEC,"[7, 17, 14, 7]",45,Mississippi State,400548345,False,2014,regular,2014-11-08T16:00:00.000Z,Davis Wade Stadium,3693,11
+1086,101821,SEC,"[0, 3, 3, 14]",20,Mississippi State,True,SEC,"[5, 14, 0, 6]",25,Alabama,400548338,False,2014,regular,2014-11-15T15:30:00.000Z,Bryant Denny Stadium,3657,12
+1087,60493,SEC,"[0, 0, 0, 0]",0,Vanderbilt,True,SEC,"[13, 24, 7, 7]",51,Mississippi State,400548335,False,2014,regular,2014-11-22T19:30:00.000Z,Davis Wade Stadium,3693,13
+1088,62058,SEC,"[0, 3, 7, 7]",17,Mississippi State,True,SEC,"[7, 0, 17, 7]",31,Ole Miss,400548324,False,2014,regular,2014-11-29T15:30:00.000Z,Vaught-Hemingway Stadium,3974,14
+1089,36641,SEC,"[7, 7, 13, 7]",34,Mississippi State,False,Conference USA,"[10, 0, 3, 3]",16,Southern Mississippi,400603836,False,2015,regular,2015-09-05T22:00:00.000Z,M. M. Roberts Stadium,3815,1
+1090,62531,SEC,"[14, 0, 7, 0]",21,LSU,True,SEC,"[0, 3, 3, 13]",19,Mississippi State,400603865,False,2015,regular,2015-09-12T21:15:00.000Z,Davis Wade Stadium,3693,2
+1091,61574,,"[0, 6, 7, 0]",13,Northwestern State,False,SEC,"[20, 14, 14, 14]",62,Mississippi State,400603855,False,2015,regular,2015-09-19T16:00:00.000Z,Davis Wade Stadium,3693,3
+1092,87451,SEC,"[7, 7, 3, 0]",17,Mississippi State,True,SEC,"[0, 0, 6, 3]",9,Auburn,400603843,False,2015,regular,2015-09-26T19:30:00.000Z,Jordan-Hare Stadium,3785,4
+1093,104455,SEC,"[3, 7, 0, 7]",17,Mississippi State,True,SEC,"[14, 10, 3, 3]",30,Texas A&M,400603885,False,2015,regular,2015-10-03T19:30:00.000Z,Kyle Field,3795,5
+1094,60866,Sun Belt,"[0, 0, 14, 3]",17,Troy,False,SEC,"[21, 17, 0, 7]",45,Mississippi State,400603900,False,2015,regular,2015-10-10T16:00:00.000Z,Davis Wade Stadium,3693,6
+1095,61651,Conference USA,"[14, 3, 3, 0]",20,Louisiana Tech,False,SEC,"[7, 17, 14, 7]",45,Mississippi State,400603895,False,2015,regular,2015-10-17T12:00:00.000Z,Davis Wade Stadium,3693,7
+1096,61168,SEC,"[10, 3, 3, 0]",16,Kentucky,True,SEC,"[7, 21, 7, 7]",42,Mississippi State,400603889,False,2015,regular,2015-10-24T19:30:00.000Z,Davis Wade Stadium,3693,8
+1097,58878,SEC,"[7, 7, 17, 0]",31,Mississippi State,True,SEC,"[3, 10, 0, 0]",13,Missouri,400603911,False,2015,regular,2015-11-05T21:00:00.000Z,Faurot Field,3838,10
+1098,62435,SEC,"[0, 21, 3, 7]",31,Alabama,True,SEC,"[0, 3, 3, 0]",6,Mississippi State,400603933,False,2015,regular,2015-11-14T15:30:00.000Z,Davis Wade Stadium,3693,11
+1099,71936,SEC,"[14, 17, 0, 20]",51,Mississippi State,True,SEC,"[7, 14, 21, 8]",50,Arkansas,400603922,False,2015,regular,2015-11-21T19:00:00.000Z,Donald W. Reynolds Razorback Stadium Frank Broyles Field,3887,12
+1100,62265,SEC,"[21, 7, 3, 7]",38,Ole Miss,True,SEC,"[0, 3, 10, 14]",27,Mississippi State,400603918,False,2015,regular,2015-11-28T19:15:00.000Z,Davis Wade Stadium,3693,13
+1101,57075,Sun Belt,"[0, 0, 7, 14]",21,South Alabama,False,SEC,"[7, 10, 3, 0]",20,Mississippi State,400868975,False,2016,regular,2016-09-03T12:00:00.000Z,Davis Wade Stadium,3693,1
+1102,57763,SEC,"[0, 0, 7, 7]",14,South Carolina,True,SEC,"[7, 17, 0, 3]",27,Mississippi State,400868987,False,2016,regular,2016-09-10T19:00:00.000Z,Davis Wade Stadium,3693,2
+1103,99910,SEC,"[0, 3, 3, 14]",20,Mississippi State,True,SEC,"[14, 9, 0, 0]",23,LSU,400868996,False,2016,regular,2016-09-17T19:00:00.000Z,Tiger Stadium,3958,3
+1104,13074,SEC,"[3, 10, 28, 6]",47,Mississippi State,False,FBS Independents,"[7, 7, 7, 14]",35,UMass,400868960,False,2016,regular,2016-09-24T15:30:00.000Z,Gillette Stadium,3738,4
+1105,60102,SEC,"[14, 21, 0, 3]",38,Auburn,True,SEC,"[0, 0, 7, 7]",14,Mississippi State,400869021,False,2016,regular,2016-10-08T12:00:00.000Z,Davis Wade Stadium,3693,6
+1106,62184,SEC,"[7, 7, 0, 0, 7, 0]",21,Mississippi State,False,FBS Independents,"[7, 0, 0, 7, 7, 7]",28,BYU,400868928,False,2016,regular,2016-10-14T22:15:00.000Z,LaVell Edwards Stadium,3801,7
+1107,50414,SEC,"[0, 14, 10, 14]",38,Mississippi State,True,SEC,"[0, 6, 21, 13]",40,Kentucky,400869031,False,2016,regular,2016-10-22T19:30:00.000Z,Commonwealth Stadium,3683,8
+1108,58019,,"[13, 7, 13, 8]",41,Samford,False,SEC,"[21, 7, 21, 7]",56,Mississippi State,400869037,False,2016,regular,2016-10-29T15:30:00.000Z,Davis Wade Stadium,3693,9
+1109,58407,SEC,"[7, 7, 0, 14]",28,Texas A&M,True,SEC,"[14, 14, 0, 7]",35,Mississippi State,400869046,False,2016,regular,2016-11-05T12:00:00.000Z,Davis Wade Stadium,3693,10
+1110,101821,SEC,"[0, 0, 3, 0]",3,Mississippi State,True,SEC,"[10, 20, 14, 7]",51,Alabama,400869049,False,2016,regular,2016-11-12T12:00:00.000Z,Bryant Denny Stadium,3657,11
+1111,58538,SEC,"[14, 24, 6, 14]",58,Arkansas,True,SEC,"[14, 0, 14, 14]",42,Mississippi State,400869062,False,2016,regular,2016-11-19T19:00:00.000Z,Davis Wade Stadium,3693,12
+1112,66038,SEC,"[13, 14, 14, 14]",55,Mississippi State,True,SEC,"[10, 10, 0, 0]",20,Ole Miss,400869072,False,2016,regular,2016-11-26T15:30:00.000Z,Vaught-Hemingway Stadium,3974,13
+1113,54215,,"[0, 0, 0, 0]",0,Charleston Southern,False,SEC,"[23, 12, 7, 7]",49,Mississippi State,400933835,False,2017,regular,2017-09-02T16:00:00.000Z,Davis Wade Stadium,3693,1
+1114,28100,SEC,"[16, 20, 21, 0]",57,Mississippi State,False,Conference USA,"[9, 5, 0, 7]",21,Louisiana Tech,400933849,False,2017,regular,2017-09-09T19:30:00.000Z,Joe Aillet Stadium,3776,2
+1115,60596,SEC,"[0, 7, 0, 0]",7,LSU,True,SEC,"[0, 17, 13, 7]",37,Mississippi State,400933859,False,2017,regular,2017-09-16T19:00:00.000Z,Davis Wade Stadium,3693,3
+1116,92746,SEC,"[0, 3, 0, 0]",3,Mississippi State,True,SEC,"[14, 0, 17, 0]",31,Georgia,400933865,False,2017,regular,2017-09-23T19:00:00.000Z,Sanford Stadium,3917,4
+1117,86901,SEC,"[3, 7, 0, 0]",10,Mississippi State,True,SEC,"[14, 7, 7, 21]",49,Auburn,400933874,False,2017,regular,2017-09-30T18:00:00.000Z,Jordan-Hare Stadium,3785,5
+1118,54866,FBS Independents,"[0, 3, 7, 0]",10,BYU,False,SEC,"[7, 14, 7, 7]",35,Mississippi State,400933891,False,2017,regular,2017-10-14T12:00:00.000Z,Davis Wade Stadium,3693,7
+1119,58963,SEC,"[0, 7, 0, 0]",7,Kentucky,True,SEC,"[7, 10, 7, 21]",45,Mississippi State,400933896,False,2017,regular,2017-10-21T16:00:00.000Z,Davis Wade Stadium,3693,8
+1120,96128,SEC,"[7, 7, 14, 7]",35,Mississippi State,True,SEC,"[0, 0, 7, 7]",14,Texas A&M,400933903,False,2017,regular,2017-10-28T19:15:00.000Z,Kyle Field,3795,9
+1121,57374,FBS Independents,"[3, 17, 0, 3]",23,UMass,False,SEC,"[10, 3, 14, 7]",34,Mississippi State,400933908,False,2017,regular,2017-11-04T12:00:00.000Z,Davis Wade Stadium,3693,10
+1122,0,SEC,"[7, 7, 3, 14]",31,Alabama,True,SEC,"[7, 7, 7, 3]",24,Mississippi State,400933916,False,2017,regular,2017-11-11T19:00:00.000Z,Davis Wade Stadium,3693,11
+1123,64153,SEC,"[0, 14, 0, 14]",28,Mississippi State,True,SEC,"[14, 0, 7, 0]",21,Arkansas,400933922,False,2017,regular,2017-11-18T12:00:00.000Z,Donald W. Reynolds Razorback Stadium Frank Broyles Field,3887,12
+1124,59345,SEC,"[7, 3, 14, 7]",31,Ole Miss,True,SEC,"[0, 6, 0, 22]",28,Mississippi State,400933930,False,2017,regular,2017-11-23T19:30:00.000Z,Davis Wade Stadium,3693,13
+1125,0,,"[0, 3, 3, 0]",6,Stephen F. Austin,False,SEC,"[21, 14, 14, 14]",63,Mississippi State,401012254,False,2018,regular,2018-09-01T23:30:00.000Z,Davis Wade Stadium,3693,1
+1126,0,SEC,"[3, 14, 7, 7]",31,Mississippi State,False,Big 12,"[3, 0, 7, 0]",10,Kansas State,401012266,False,2018,regular,2018-09-08T16:00:00.000Z,Bill Snyder Family Football Stadium,3636,2
+1127,0,Sun Belt,"[3, 0, 0, 7]",10,Louisiana,False,SEC,"[14, 21, 14, 7]",56,Mississippi State,401012278,False,2018,regular,2018-09-15T23:30:00.000Z,Davis Wade Stadium,3693,3
+1128,0,SEC,"[0, 7, 0, 0]",7,Mississippi State,True,SEC,"[0, 7, 7, 14]",28,Kentucky,401012286,False,2018,regular,2018-09-22T23:00:00.000Z,Commonwealth Stadium,3683,4
+1129,0,SEC,"[0, 3, 7, 3]",13,Florida,True,SEC,"[3, 3, 0, 0]",6,Mississippi State,401012298,False,2018,regular,2018-09-29T22:00:00.000Z,Davis Wade Stadium,3693,5
+1130,0,SEC,"[3, 0, 3, 3]",9,Auburn,True,SEC,"[3, 10, 3, 7]",23,Mississippi State,401012304,False,2018,regular,2018-10-06T23:30:00.000Z,Davis Wade Stadium,3693,6
+1131,0,SEC,"[3, 0, 0, 0]",3,Mississippi State,True,SEC,"[7, 3, 6, 3]",19,LSU,401012315,False,2018,regular,2018-10-20T23:00:00.000Z,Tiger Stadium,3958,8
+1132,0,SEC,"[0, 10, 3, 0]",13,Texas A&M,True,SEC,"[7, 0, 7, 14]",28,Mississippi State,401012321,False,2018,regular,2018-10-27T23:00:00.000Z,Davis Wade Stadium,3693,9
+1133,0,Conference USA,"[3, 0, 0, 0]",3,Louisiana Tech,False,SEC,"[21, 10, 7, 7]",45,Mississippi State,401012329,False,2018,regular,2018-11-03T23:30:00.000Z,Davis Wade Stadium,3693,10
+1134,0,SEC,"[0, 0, 0, 0]",0,Mississippi State,True,SEC,"[14, 7, 0, 3]",24,Alabama,401012331,False,2018,regular,2018-11-10T20:30:00.000Z,Bryant Denny Stadium,3657,11
+1135,0,SEC,"[0, 3, 3, 0]",6,Arkansas,True,SEC,"[3, 14, 21, 14]",52,Mississippi State,401012344,False,2018,regular,2018-11-17T17:00:00.000Z,Davis Wade Stadium,3693,12
+1136,0,SEC,"[7, 14, 7, 7]",35,Mississippi State,True,SEC,"[0, 3, 0, 0]",3,Ole Miss,401012349,False,2018,regular,2018-11-23T00:30:00.000Z,Vaught-Hemingway Stadium,3974,13
