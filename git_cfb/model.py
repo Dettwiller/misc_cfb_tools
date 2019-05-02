@@ -37,16 +37,17 @@ from . import fetch_data, utility, team
 def ppd_model(team_A_name, team_B_name, data_dir=os.getcwd()):
     team_A = team.Team(team_A_name, data_dir=data_dir)
     team_B = team.Team(team_B_name, data_dir=data_dir)
-    team_A.calculate_ppd()
-    team_B.calculate_ppd()
+    team_A.calc_ppd_dist()
+    team_B.calc_ppd_dist()
 
-    # TODO: add drives per game information
-    # TODO: may need to discretize distributions for math
     # * distribution of team A score = (normal(A offense ppd) + normal(B defense ppd)) * (normal(A offense dpg) + normal(B defense dpg))
     # * distribution of team B score = (normal(B offense ppd) + normal(A defense ppd)) * (normal(B offense dpg) + normal(A defense dpg))
     # * distribution of total points = dist(team A score) + dist(team B score)
     # * distribution of differential = dist(team A score) - dist(team B score)
+    team_A_score = (team_A.ppd['oppd_3s'] + team_B.ppd['dppd_3s']) * (team_A.ppd['odpg_3s'] + team_B.ppd['ddpg_3s'])
+    team_B_score = (team_B.ppd['oppd_3s'] + team_A.ppd['dppd_3s']) * (team_B.ppd['odpg_3s'] + team_A.ppd['ddpg_3s'])
 
+    diff = team_A_score - team_B_score
 
     print(team_A.ppd)
     print(team_B.ppd)

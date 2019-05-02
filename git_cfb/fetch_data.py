@@ -52,6 +52,7 @@ def download_team_drive_data(team_name, timeline=[datetime.now().year - 4, datet
     r = requests.get(website)
     x = r.json()
     total_df = pd.DataFrame(x)
+    total_df['season'] = str(timeline[0])
     for i in range(timeline[0] + 1, timeline[1] + 1):
         year = str(i)
         print(year)
@@ -59,13 +60,19 @@ def download_team_drive_data(team_name, timeline=[datetime.now().year - 4, datet
         r = requests.get(website)
         x = r.json()
         new_df = pd.DataFrame(x)
+        new_df['season'] = year
         if not new_df.empty:
             total_df = total_df.append(new_df, ignore_index = True) 
-    total_df.to_csv(os.path.join(data_dir,team_name + "_drive_data.csv"))
+
+    csv_filename = team_name + "_drive_data_" + str(timeline[0]) + "-" + str(timeline[1]) + ".csv"
+    total_df.to_csv(os.path.join(data_dir,csv_filename))
     return total_df
 
 def get_team_data(team_name, timeline=[1880, datetime.now().year - 1], data_dir = os.getcwd()):
     #TODO: refactor to return total_df (replace get_team_drive_data) and offload analysis to team class
+    #TODO: timeline tag the files
+    #TODO: look for any file that has the data in the timeline requested
+    #TODO: isolate specific ranges from the file into the dataframe
     if os.path.isfile(os.path.join(data_dir, team_name + "_all_history.csv")):
         total_df = pd.read_csv(os.path.join(data_dir, team_name + "_all_history.csv"))
     else:
@@ -103,8 +110,9 @@ def get_team_data(team_name, timeline=[1880, datetime.now().year - 1], data_dir 
     return team_data
 
 def get_team_drive_data(team_name, timeline=[datetime.now().year - 4, datetime.now().year - 1], data_dir = os.getcwd()):
-    if os.path.isfile(os.path.join(data_dir, team_name + "_drive_data.csv")):
-        total_df = pd.read_csv(os.path.join(data_dir, team_name + "_drive_data.csv"))
+    csv_filename = team_name + "_drive_data_" + str(timeline[0]) + "-" + str(timeline[1]) + ".csv"
+    if os.path.isfile(os.path.join(data_dir, csv_filename)):
+        total_df = pd.read_csv(os.path.join(data_dir, csv_filename))
     else:
         total_df = download_team_drive_data(team_name, timeline=timeline, data_dir=data_dir)
 

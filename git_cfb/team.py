@@ -1,56 +1,77 @@
 import os
 import numpy as np
+from scipy.stats import norm
 from . import fetch_data
 from . import utility
 class Team:
-    def __init__(self, name, data_dir=os.getcwd()):
+    def __init__(self, name, timeline = [2016, 2018], data_dir=os.getcwd()):
         self.name = name
         #TODO: deprecate get_team_drive_data in favor of get_team_data for full dataframe
-        self.data = fetch_data.get_team_drive_data(name, data_dir=data_dir)
+        #TODO: axis='season' is not valid, should be column, but that doesn't do what we want
+        self.all_data = fetch_data.get_team_drive_data(name, timeline=timeline, data_dir=data_dir)
+        self.season_3_data = self.all_data.filter(like=str(timeline[0]), axis='season')
+        for i in range(timeline[0] + 2, timeline[1] + 1):
+            year = str(i)
+            new_df = self.all_data.filter(like=year, axis='season')
+            self.season_3_data.append(new_df, ignore_index=True)
+        self.season_data = self.all_data.filter(like=str(timeline[1]), axis='season')
+        self.game_3_data = utility.recent_games(self.all_data, last_games=3)
+        self.drive_dists = {}
 
-        self.ppd = {}
+    
+    def calc_ppd_dist(self):
+        results_3_season = utility.calculate_ppd(self.name, self.season_3_data)
+        results_season = utility.calculate_ppd(self.name, self.season_data)
+        results_3_game = utility.calculate_ppd(self.name, self.game_3_data)
 
-    def calculate_ppd(self):
-        #TODO: add logic (may require refactor) to get ppd over seasons, season, and games
-        #TODO: add logic to figure out if a game ended or quarter changed for turnover calcs
-        #TODO: add game end/quarter logic for drives per game calculations
-        turn_over = False
-        offense_results = []
-        defense_results = []
-        for drive in self.data.itertuples(index=True, name='Drive'):
-            drive_points, on_offense = utility.ppd_calculation(self.name, drive, turn_over=turn_over)
-            if type(drive_points) == str:
-                turn_over = True
+        #ppd
 
-            elif on_offense and not turn_over:
-                offense_results += [drive_points]
-                turn_over = False
+        line_ppd_offense_3_season = [results_3_season['offense'] - 6 * results_3_season['offense_s'], results_3_season['offense'] + 6 * results_3_season['offense_s']]
+        ppd_offense_3_season = np.linspace(line_ppd_offense_3_season[0], line_ppd_offense_3_season[1], 10000)
+        line_ppd_defense_3_season = [results_3_season['defense'] - 6 * results_3_season['defense_s'], results_3_season['defense'] + 6 * results_3_season['defense_s']]
+        ppd_defense_3_season = np.linspace(line_ppd_defense_3_season[0], line_ppd_defense_3_season[1], 10000)
 
-            elif not on_offense and not turn_over:
-                defense_results += [drive_points]
-                turn_over = False
+        line_ppd_offense_season = [results_season['offense'] - 6 * results_season['offense_s'], results_season['offense'] + 6 * results_season['offense_s']]
+        ppd_offense_season = np.linspace(line_ppd_offense_season[0], line_ppd_offense_season[1], 10000)
+        line_ppd_defense_season = [results_season['defense'] - 6 * results_season['defense_s'], results_season['defense'] + 6 * results_season['defense_s']]
+        ppd_defense_season = np.linspace(line_ppd_defense_season[0], line_ppd_defense_season[1], 10000)
 
-            elif not on_offense and turn_over:
-                offense_results += [-1 * drive_points]
-                defense_results += [drive_points]
-                turn_over = False
+        line_ppd_offense_3_game = [results_3_game['offense'] - 6 * results_3_game['offense_s'], results_3_game['offense'] + 6 * results_3_game['offense_s']]
+        ppd_offense_3_game = np.linspace(line_ppd_offense_3_game[0], line_ppd_offense_3_game[1], 10000)
+        line_ppd_defense_3_game = [results_3_game['defense'] - 6 * results_3_game['defense_s'], results_3_game['defense'] + 6 * results_3_game['defense_s']]
+        ppd_defense_3_game = np.linspace(line_ppd_defense_3_game[0], line_ppd_defense_3_game[1], 10000)
 
-            elif on_offense and turn_over:
-                defense_results += [-1 * drive_points]
-                offense_results += [drive_points]
-                turn_over = False
+        #dpg
 
-        np_offense_results = np.array(offense_results)
-        np_defense_results = np.array(defense_results)
+        line_dpg_offense_3_season = [results_3_season['offense'] - 6 * results_3_season['offense_s'], results_3_season['offense'] + 6 * results_3_season['offense_s']]
+        dpg_offense_3_season = np.linspace(line_dpg_offense_3_season[0], line_dpg_offense_3_season[1], 10000)
+        line_dpg_defense_3_season = [results_3_season['defense'] - 6 * results_3_season['defense_s'], results_3_season['defense'] + 6 * results_3_season['defense_s']]
+        dpg_defense_3_season = np.linspace(line_dpg_defense_3_season[0], line_dpg_defense_3_season[1], 10000)
 
-        self.ppd['offense'] = np.mean(np_offense_results)
-        self.ppd['offense_s'] = np.std(np_offense_results)
-        self.ppd['defense'] = np.mean(np_defense_results)
-        self.ppd['defense_s'] = np.std(np_defense_results)
-        # ! THIS IS INCORRECT BELOW
-        # TODO: calculate drives per game for the offense and defense
-        # TODO: this is going to require logic for when a game ends
-        # self.ppd['offense_dpg'] = len(np_offense_results)
-        # self.ppd['offense_dpg_s'] = len(np_offense_results)
-        # self.ppd['defense_dpg'] = len(np_defense_results)
-        # self.ppd['defense_dpg_s'] = len(np_defense_results)
+        line_dpg_offense_season = [results_season['offense'] - 6 * results_season['offense_s'], results_season['offense'] + 6 * results_season['offense_s']]
+        dpg_offense_season = np.linspace(line_dpg_offense_season[0], line_dpg_offense_season[1], 10000)
+        line_dpg_defense_season = [results_season['defense'] - 6 * results_season['defense_s'], results_season['defense'] + 6 * results_season['defense_s']]
+        dpg_defense_season = np.linspace(line_dpg_defense_season[0], line_dpg_defense_season[1], 10000)
+
+        line_dpg_offense_3_game = [results_3_game['offense'] - 6 * results_3_game['offense_s'], results_3_game['offense'] + 6 * results_3_game['offense_s']]
+        dpg_offense_3_game = np.linspace(line_dpg_offense_3_game[0], line_dpg_offense_3_game[1], 10000)
+        line_dpg_defense_3_game = [results_3_game['defense'] - 6 * results_3_game['defense_s'], results_3_game['defense'] + 6 * results_3_game['defense_s']]
+        dpg_defense_3_game = np.linspace(line_dpg_defense_3_game[0], line_dpg_defense_3_game[1], 10000)
+
+        self.drive_dists['oppd_3s'] = ppd_offense_3_season
+        self.drive_dists['dppd_3s'] = ppd_defense_3_season
+        self.drive_dists['oppd_s'] = ppd_offense_season
+        self.drive_dists['dppd_s'] = ppd_defense_season
+        self.drive_dists['oppd_3g'] = ppd_offense_3_game
+        self.drive_dists['dppd_3g'] = ppd_defense_3_game
+
+        self.drive_dists['odpg_3s'] = dpg_offense_3_season
+        self.drive_dists['ddpg_3s'] = dpg_defense_3_season
+        self.drive_dists['odpg_s'] = dpg_offense_season
+        self.drive_dists['ddpg_s'] = dpg_defense_season
+        self.drive_dists['odpg_3g'] = dpg_offense_3_game
+        self.drive_dists['ddpg_3g'] = dpg_defense_3_game
+
+        
+
+
