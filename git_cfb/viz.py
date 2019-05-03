@@ -6,8 +6,14 @@ import pandas as pd
 
 from . import fetch_data, utility
 
+def dist_plot(x, f):
+    plt.figure("Distribution")
+    plt.plot(x, f)
+    plt.ylabel("f")
+    plt.xlabel("x")
 
-def plot_team_feature(team_name, feature, rolling_average = True, team_data=None, timeline=[1880, datetime.now().year - 1], data_dir = os.getcwd(), image_dir = os.getcwd(), **kwargs):
+
+def plot_team_feature(team_name, feature, rolling_average = True, team_data=None, timeline=[1880, datetime.now().year - 1], data_dir=os.path.join(os.getcwd(), 'data'), image_dir=os.path.join(os.getcwd(), 'images'), **kwargs):
     if team_data is not None:
         assert(isinstance(team_data, pd.DataFrame))
     else:
@@ -18,8 +24,8 @@ def plot_team_feature(team_name, feature, rolling_average = True, team_data=None
         print("TODO: Add logic and crap so this isn't a thing anymore")
         raise ValueError('feature cannot be result or seasons')
 
-    plt_sizes = utility.__plt_sizes(kwargs)
-    plt_labels = utility.__plt_labels(team_name, feature)
+    plt_sizes = utility.plt_sizes(kwargs)
+    plt_labels = utility.plt_labels(team_name, feature)
     
     plt.figure(figsize=plt_sizes["figsize"])
 
@@ -52,7 +58,7 @@ def plot_team_feature(team_name, feature, rolling_average = True, team_data=None
 
     plt.savefig(os.path.join(image_dir, plt_labels["image"]))
 
-def plot_team_compare(team_A, team_B, feature, rolling_average = True, team_A_data=None, team_B_data=None, timeline=[1880, datetime.now().year - 1], data_dir = os.getcwd(), image_dir = os.getcwd(), **kwargs):
+def plot_team_compare(team_A, team_B, feature, rolling_average = True, team_A_data=None, team_B_data=None, timeline=[1880, datetime.now().year - 1], data_dir=os.path.join(os.getcwd(), 'data'), image_dir=os.path.join(os.getcwd(), 'images'), **kwargs):
     if team_A_data is not None:
         assert(isinstance(team_A_data, pd.DataFrame))
     else:
@@ -72,8 +78,8 @@ def plot_team_compare(team_A, team_B, feature, rolling_average = True, team_A_da
     comparison = [team_A, team_B]
     comparison.sort()
 
-    plt_sizes = utility.__plt_sizes(kwargs)
-    plt_labels = utility.__plt_labels(' v '.join(comparison), feature)
+    plt_sizes = utility.plt_sizes(kwargs)
+    plt_labels = utility.plt_labels(' v '.join(comparison), feature)
     
     plt.figure(figsize=plt_sizes["figsize"])
 

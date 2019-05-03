@@ -1,0 +1,949 @@
+,defense,defense_conference,drive_result,elapsed,end_period,end_time,end_yardline,game_id,id,offense,offense_conference,plays,scoring,start_period,start_time,start_yardline,yards,season
+0,Florida State,ACC,TD,"{'minutes': 1, 'seconds': 46}",1,"{'minutes': 13, 'seconds': 14}",0,400868979,4008689791,Ole Miss,SEC,6,True,1,{'minutes': 15},75,75,2016
+1,Ole Miss,SEC,PUNT,"{'minutes': 3, 'seconds': 17}",1,"{'minutes': 9, 'seconds': 57}",39,400868979,4008689792,Florida State,ACC,6,False,1,"{'minutes': 13, 'seconds': 14}",65,11,2016
+2,Florida State,ACC,INT,{'seconds': 35},1,"{'minutes': 9, 'seconds': 22}",58,400868979,4008689793,Ole Miss,SEC,4,False,1,"{'minutes': 9, 'seconds': 57}",82,24,2016
+3,Ole Miss,SEC,PUNT,"{'minutes': 1, 'seconds': 26}",1,"{'minutes': 7, 'seconds': 56}",38,400868979,4008689794,Florida State,ACC,3,False,1,"{'minutes': 9, 'seconds': 22}",39,-1,2016
+4,Florida State,ACC,PUNT,"{'minutes': 1, 'seconds': 24}",1,"{'minutes': 6, 'seconds': 32}",73,400868979,4008689795,Ole Miss,SEC,3,False,1,"{'minutes': 7, 'seconds': 56}",78,5,2016
+5,Ole Miss,SEC,FG,"{'minutes': 6, 'seconds': 31}",1,{'seconds': 1},92,400868979,4008689796,Florida State,ACC,13,True,1,"{'minutes': 6, 'seconds': 32}",17,75,2016
+6,Florida State,ACC,TD,"{'minutes': 2, 'seconds': 19}",2,"{'minutes': 12, 'seconds': 42}",0,400868979,4008689797,Ole Miss,SEC,9,True,1,{'seconds': 1},75,75,2016
+7,Ole Miss,SEC,PUNT,"{'minutes': 1, 'seconds': 4}",2,"{'minutes': 11, 'seconds': 38}",15,400868979,4008689798,Florida State,ACC,3,False,2,"{'minutes': 12, 'seconds': 42}",25,-10,2016
+8,Florida State,ACC,TD,"{'minutes': 1, 'seconds': 56}",2,"{'minutes': 9, 'seconds': 42}",0,400868979,4008689799,Ole Miss,SEC,6,True,2,"{'minutes': 11, 'seconds': 38}",72,72,2016
+9,Wofford,,FG,"{'minutes': 1, 'seconds': 57}",1,"{'minutes': 13, 'seconds': 3}",77,400868986,4008689861,Ole Miss,SEC,9,True,1,{'minutes': 15},35,42,2016
+10,Ole Miss,SEC,PUNT,"{'minutes': 2, 'seconds': 1}",1,"{'minutes': 11, 'seconds': 2}",70,400868986,4008689862,Wofford,,3,False,1,"{'minutes': 13, 'seconds': 3}",75,5,2016
+11,Wofford,,TD,"{'minutes': 3, 'seconds': 51}",1,"{'minutes': 7, 'seconds': 11}",100,400868986,4008689863,Ole Miss,SEC,13,True,1,"{'minutes': 11, 'seconds': 2}",19,81,2016
+12,Ole Miss,SEC,PUNT,"{'minutes': 5, 'seconds': 20}",1,"{'minutes': 1, 'seconds': 51}",56,400868986,4008689864,Wofford,,9,False,1,"{'minutes': 7, 'seconds': 11}",75,19,2016
+13,Wofford,,TD,"{'minutes': 3, 'seconds': 1}",2,"{'minutes': 13, 'seconds': 50}",100,400868986,4008689865,Ole Miss,SEC,11,True,1,"{'minutes': 1, 'seconds': 51}",8,92,2016
+14,Ole Miss,SEC,FG,"{'minutes': 9, 'seconds': 12}",2,"{'minutes': 4, 'seconds': 38}",12,400868986,4008689866,Wofford,,17,True,2,"{'minutes': 13, 'seconds': 50}",82,70,2016
+15,Wofford,,TD,"{'minutes': 3, 'seconds': 2}",2,"{'minutes': 1, 'seconds': 36}",100,400868986,4008689867,Ole Miss,SEC,6,True,2,"{'minutes': 4, 'seconds': 38}",62,38,2016
+16,Ole Miss,SEC,END OF HALF,"{'minutes': 1, 'seconds': 36}",2,{},53,400868986,4008689868,Wofford,,6,False,2,"{'minutes': 1, 'seconds': 36}",82,29,2016
+17,Ole Miss,SEC,DOWNS,"{'minutes': 6, 'seconds': 55}",3,"{'minutes': 8, 'seconds': 5}",23,400868986,4008689869,Wofford,,12,False,3,{'minutes': 15},77,54,2016
+18,Alabama,SEC,TD,"{'minutes': 1, 'seconds': 53}",1,"{'minutes': 13, 'seconds': 7}",100,400868997,4008689971,Ole Miss,SEC,7,True,1,{'minutes': 15},25,75,2016
+19,Ole Miss,SEC,FG,"{'minutes': 7, 'seconds': 13}",1,"{'minutes': 5, 'seconds': 54}",14,400868997,4008689972,Alabama,SEC,17,True,1,"{'minutes': 13, 'seconds': 7}",75,61,2016
+20,Alabama,SEC,PUNT,"{'minutes': 1, 'seconds': 2}",1,"{'minutes': 4, 'seconds': 52}",8,400868997,4008689973,Ole Miss,SEC,3,False,1,"{'minutes': 5, 'seconds': 54}",10,-2,2016
+21,Ole Miss,SEC,MISSED FG,"{'minutes': 3, 'seconds': 26}",1,"{'minutes': 1, 'seconds': 26}",29,400868997,4008689974,Alabama,SEC,9,False,1,"{'minutes': 4, 'seconds': 52}",52,23,2016
+22,Alabama,SEC,PUNT,"{'minutes': 1, 'seconds': 37}",2,"{'minutes': 14, 'seconds': 49}",38,400868997,4008689975,Ole Miss,SEC,3,False,1,"{'minutes': 1, 'seconds': 26}",29,9,2016
+23,Ole Miss,SEC,PUNT,"{'minutes': 1, 'seconds': 5}",2,"{'minutes': 13, 'seconds': 44}",86,400868997,4008689976,Alabama,SEC,3,False,2,"{'minutes': 14, 'seconds': 49}",87,1,2016
+24,Alabama,SEC,PUNT,"{'minutes': 1, 'seconds': 13}",2,"{'minutes': 12, 'seconds': 31}",32,400868997,4008689977,Ole Miss,SEC,3,False,2,"{'minutes': 13, 'seconds': 44}",26,6,2016
+25,Ole Miss,SEC,PUNT,"{'minutes': 3, 'seconds': 11}",2,"{'minutes': 9, 'seconds': 20}",52,400868997,4008689978,Alabama,SEC,5,False,2,"{'minutes': 12, 'seconds': 31}",80,28,2016
+26,Alabama,SEC,FG,"{'minutes': 1, 'seconds': 37}",2,"{'minutes': 7, 'seconds': 43}",94,400868997,4008689979,Ole Miss,SEC,5,True,2,"{'minutes': 9, 'seconds': 20}",44,50,2016
+27,Ole Miss,SEC,PUNT,"{'minutes': 3, 'seconds': 46}",1,"{'minutes': 11, 'seconds': 14}",65,400869005,4008690051,Georgia,SEC,6,False,1,{'minutes': 15},75,10,2016
+28,Georgia,SEC,FG,"{'minutes': 2, 'seconds': 20}",1,"{'minutes': 8, 'seconds': 54}",93,400869005,4008690052,Ole Miss,SEC,7,True,1,"{'minutes': 11, 'seconds': 14}",24,69,2016
+29,Ole Miss,SEC,INT TD,"{'minutes': 1, 'seconds': 42}",1,"{'minutes': 7, 'seconds': 12}",63,400869005,4008690053,Georgia,SEC,4,True,1,"{'minutes': 8, 'seconds': 54}",75,12,2016
+30,Ole Miss,SEC,PUNT,"{'minutes': 2, 'seconds': 1}",1,"{'minutes': 5, 'seconds': 11}",55,400869005,4008690054,Georgia,SEC,5,False,1,"{'minutes': 7, 'seconds': 12}",75,20,2016
+31,Georgia,SEC,TD,"{'minutes': 2, 'seconds': 57}",1,"{'minutes': 2, 'seconds': 14}",100,400869005,4008690055,Ole Miss,SEC,10,True,1,"{'minutes': 5, 'seconds': 11}",16,84,2016
+32,Ole Miss,SEC,MISSED FG,"{'minutes': 3, 'seconds': 44}",2,"{'minutes': 13, 'seconds': 30}",18,400869005,4008690056,Georgia,SEC,10,False,1,"{'minutes': 2, 'seconds': 14}",59,41,2016
+33,Georgia,SEC,PUNT,"{'minutes': 1, 'seconds': 31}",2,"{'minutes': 11, 'seconds': 59}",48,400869005,4008690057,Ole Miss,SEC,4,False,2,"{'minutes': 13, 'seconds': 30}",20,28,2016
+34,Ole Miss,SEC,PUNT,"{'minutes': 1, 'seconds': 25}",2,"{'minutes': 10, 'seconds': 34}",81,400869005,4008690058,Georgia,SEC,3,False,2,"{'minutes': 11, 'seconds': 59}",84,3,2016
+35,Georgia,SEC,TD,{'seconds': 10},2,"{'minutes': 10, 'seconds': 24}",100,400869005,4008690059,Ole Miss,SEC,1,True,2,"{'minutes': 10, 'seconds': 34}",45,55,2016
+36,Ole Miss,SEC,PUNT,"{'minutes': 3, 'seconds': 24}",1,"{'minutes': 11, 'seconds': 36}",46,400869015,4008690151,Memphis,American Athletic,8,False,1,{'minutes': 15},75,29,2016
+37,Memphis,American Athletic,TD,"{'minutes': 4, 'seconds': 41}",1,"{'minutes': 6, 'seconds': 55}",100,400869015,4008690152,Ole Miss,SEC,13,True,1,"{'minutes': 11, 'seconds': 36}",10,90,2016
+38,Ole Miss,SEC,PUNT,"{'minutes': 1, 'seconds': 42}",1,"{'minutes': 5, 'seconds': 13}",56,400869015,4008690153,Memphis,American Athletic,4,False,1,"{'minutes': 6, 'seconds': 55}",79,23,2016
+39,Memphis,American Athletic,PUNT,"{'minutes': 2, 'seconds': 38}",1,"{'minutes': 2, 'seconds': 35}",58,400869015,4008690154,Ole Miss,SEC,8,False,1,"{'minutes': 5, 'seconds': 13}",11,47,2016
+40,Ole Miss,SEC,INT TD,"{'minutes': 1, 'seconds': 37}",1,{'seconds': 58},72,400869015,4008690155,Memphis,American Athletic,4,True,1,"{'minutes': 2, 'seconds': 35}",80,8,2016
+41,Ole Miss,SEC,TD,"{'minutes': 1, 'seconds': 2}",2,"{'minutes': 14, 'seconds': 56}",0,400869015,4008690156,Memphis,American Athletic,4,True,1,{'seconds': 58},64,64,2016
+42,Memphis,American Athletic,FG,"{'minutes': 2, 'seconds': 34}",2,"{'minutes': 12, 'seconds': 22}",85,400869015,4008690157,Ole Miss,SEC,9,True,2,"{'minutes': 14, 'seconds': 56}",25,60,2016
+43,Ole Miss,SEC,PUNT,"{'minutes': 1, 'seconds': 39}",2,"{'minutes': 10, 'seconds': 43}",63,400869015,4008690158,Memphis,American Athletic,4,False,2,"{'minutes': 12, 'seconds': 22}",74,11,2016
+44,Memphis,American Athletic,PUNT,"{'minutes': 3, 'seconds': 4}",2,"{'minutes': 7, 'seconds': 39}",57,400869015,4008690159,Ole Miss,SEC,7,False,2,"{'minutes': 10, 'seconds': 43}",12,45,2016
+45,Ole Miss,SEC,PUNT,"{'minutes': 1, 'seconds': 32}",1,"{'minutes': 13, 'seconds': 28}",12,400869024,4008690241,Arkansas,SEC,3,False,1,{'minutes': 15},25,-13,2016
+46,Arkansas,SEC,PUNT,{'seconds': 21},1,"{'minutes': 13, 'seconds': 7}",65,400869024,4008690242,Ole Miss,SEC,3,False,1,"{'minutes': 13, 'seconds': 28}",65,0,2016
+47,Ole Miss,SEC,TD,"{'minutes': 2, 'seconds': 34}",1,"{'minutes': 10, 'seconds': 33}",100,400869024,4008690243,Arkansas,SEC,5,True,1,"{'minutes': 13, 'seconds': 7}",18,82,2016
+48,Arkansas,SEC,TD,"{'minutes': 3, 'seconds': 7}",1,"{'minutes': 7, 'seconds': 26}",0,400869024,4008690244,Ole Miss,SEC,9,True,1,"{'minutes': 10, 'seconds': 33}",61,61,2016
+49,Ole Miss,SEC,TD,"{'minutes': 1, 'seconds': 18}",1,"{'minutes': 6, 'seconds': 8}",100,400869024,4008690245,Arkansas,SEC,3,True,1,"{'minutes': 7, 'seconds': 26}",35,65,2016
+50,Arkansas,SEC,PUNT,"{'minutes': 2, 'seconds': 5}",1,"{'minutes': 4, 'seconds': 3}",40,400869024,4008690246,Ole Miss,SEC,5,False,1,"{'minutes': 6, 'seconds': 8}",65,25,2016
+51,Ole Miss,SEC,FG,"{'minutes': 4, 'seconds': 50}",2,"{'minutes': 14, 'seconds': 13}",76,400869024,4008690247,Arkansas,SEC,10,True,1,"{'minutes': 4, 'seconds': 3}",20,56,2016
+52,Arkansas,SEC,TD,"{'minutes': 2, 'seconds': 23}",2,"{'minutes': 11, 'seconds': 50}",0,400869024,4008690248,Ole Miss,SEC,7,True,2,"{'minutes': 14, 'seconds': 13}",67,67,2016
+53,Ole Miss,SEC,FG,"{'minutes': 6, 'seconds': 29}",2,"{'minutes': 5, 'seconds': 21}",82,400869024,4008690249,Arkansas,SEC,13,True,2,"{'minutes': 11, 'seconds': 50}",9,73,2016
+54,Ole Miss,SEC,PUNT,"{'minutes': 1, 'seconds': 56}",1,"{'minutes': 13, 'seconds': 4}",28,400869032,4008690321,LSU,SEC,3,False,1,{'minutes': 15},21,7,2016
+55,LSU,SEC,TD,"{'minutes': 2, 'seconds': 12}",1,"{'minutes': 10, 'seconds': 52}",0,400869032,4008690322,Ole Miss,SEC,6,True,1,"{'minutes': 13, 'seconds': 4}",77,77,2016
+56,Ole Miss,SEC,PUNT,"{'minutes': 2, 'seconds': 20}",1,"{'minutes': 8, 'seconds': 32}",20,400869032,4008690323,LSU,SEC,3,False,1,"{'minutes': 10, 'seconds': 52}",16,4,2016
+57,LSU,SEC,FG,"{'minutes': 3, 'seconds': 44}",1,"{'minutes': 4, 'seconds': 48}",28,400869032,4008690324,Ole Miss,SEC,9,True,1,"{'minutes': 8, 'seconds': 32}",65,37,2016
+58,Ole Miss,SEC,TD,"{'minutes': 1, 'seconds': 22}",1,"{'minutes': 3, 'seconds': 26}",100,400869032,4008690325,LSU,SEC,3,True,1,"{'minutes': 4, 'seconds': 48}",25,75,2016
+59,LSU,SEC,PUNT,"{'minutes': 1, 'seconds': 10}",1,"{'minutes': 2, 'seconds': 16}",49,400869032,4008690326,Ole Miss,SEC,4,False,1,"{'minutes': 3, 'seconds': 26}",73,24,2016
+60,Ole Miss,SEC,FUMBLE,"{'minutes': 3, 'seconds': 9}",2,"{'minutes': 14, 'seconds': 7}",58,400869032,4008690327,LSU,SEC,7,False,1,"{'minutes': 2, 'seconds': 16}",18,26,2016
+61,LSU,SEC,INT,{'seconds': 8},2,"{'minutes': 13, 'seconds': 59}",35,400869032,4008690328,Ole Miss,SEC,1,False,2,"{'minutes': 14, 'seconds': 7}",35,0,2016
+62,Ole Miss,SEC,TD,"{'minutes': 2, 'seconds': 46}",2,"{'minutes': 11, 'seconds': 13}",100,400869032,4008690329,LSU,SEC,7,True,2,"{'minutes': 13, 'seconds': 59}",3,97,2016
+63,Auburn,SEC,TD,"{'minutes': 3, 'seconds': 53}",1,"{'minutes': 11, 'seconds': 7}",100,400869036,4008690361,Ole Miss,SEC,12,True,1,{'minutes': 15},22,78,2016
+64,Ole Miss,SEC,TD,"{'minutes': 3, 'seconds': 40}",1,"{'minutes': 7, 'seconds': 27}",0,400869036,4008690362,Auburn,SEC,10,True,1,"{'minutes': 11, 'seconds': 7}",90,90,2016
+65,Auburn,SEC,TD,"{'minutes': 1, 'seconds': 51}",1,"{'minutes': 5, 'seconds': 36}",100,400869036,4008690363,Ole Miss,SEC,7,True,1,"{'minutes': 7, 'seconds': 27}",25,75,2016
+66,Ole Miss,SEC,FG,"{'minutes': 3, 'seconds': 46}",1,"{'minutes': 1, 'seconds': 50}",28,400869036,4008690364,Auburn,SEC,11,True,1,"{'minutes': 5, 'seconds': 36}",75,47,2016
+67,Auburn,SEC,FG,"{'minutes': 2, 'seconds': 36}",2,"{'minutes': 14, 'seconds': 14}",97,400869036,4008690365,Ole Miss,SEC,10,True,1,"{'minutes': 1, 'seconds': 50}",25,72,2016
+68,Ole Miss,SEC,TD,"{'minutes': 1, 'seconds': 47}",2,"{'minutes': 12, 'seconds': 27}",0,400869036,4008690366,Auburn,SEC,5,True,2,"{'minutes': 14, 'seconds': 14}",75,75,2016
+69,Auburn,SEC,FG,"{'minutes': 5, 'seconds': 17}",2,"{'minutes': 7, 'seconds': 10}",68,400869036,4008690367,Ole Miss,SEC,15,True,2,"{'minutes': 12, 'seconds': 27}",18,50,2016
+70,Ole Miss,SEC,FG,"{'minutes': 4, 'seconds': 20}",2,"{'minutes': 2, 'seconds': 50}",15,400869036,4008690368,Auburn,SEC,10,True,2,"{'minutes': 7, 'seconds': 10}",75,60,2016
+71,Auburn,SEC,FG,"{'minutes': 2, 'seconds': 45}",2,{'seconds': 5},91,400869036,4008690369,Ole Miss,SEC,12,True,2,"{'minutes': 2, 'seconds': 50}",25,66,2016
+72,Georgia Southern,Sun Belt,PUNT,"{'minutes': 1, 'seconds': 11}",1,"{'minutes': 13, 'seconds': 49}",21,400869045,4008690451,Ole Miss,SEC,3,False,1,{'minutes': 15},25,-4,2016
+73,Ole Miss,SEC,INT,"{'minutes': 2, 'seconds': 49}",1,{'minutes': 11},48,400869045,4008690452,Georgia Southern,Sun Belt,6,False,1,"{'minutes': 13, 'seconds': 49}",58,10,2016
+74,Georgia Southern,Sun Belt,FG,"{'minutes': 1, 'seconds': 59}",1,"{'minutes': 9, 'seconds': 1}",82,400869045,4008690453,Ole Miss,SEC,7,True,1,{'minutes': 11},49,33,2016
+75,Ole Miss,SEC,TD,"{'minutes': 3, 'seconds': 53}",1,"{'minutes': 5, 'seconds': 8}",0,400869045,4008690454,Georgia Southern,Sun Belt,8,True,1,"{'minutes': 9, 'seconds': 1}",69,69,2016
+76,Georgia Southern,Sun Belt,PUNT,"{'minutes': 1, 'seconds': 50}",1,"{'minutes': 3, 'seconds': 18}",48,400869045,4008690455,Ole Miss,SEC,7,False,1,"{'minutes': 5, 'seconds': 8}",16,32,2016
+77,Ole Miss,SEC,TD,"{'minutes': 2, 'seconds': 19}",1,{'seconds': 59},0,400869045,4008690456,Georgia Southern,Sun Belt,5,True,1,"{'minutes': 3, 'seconds': 18}",49,49,2016
+78,Georgia Southern,Sun Belt,PUNT,{'seconds': 59},1,{},33,400869045,4008690457,Ole Miss,SEC,3,False,1,{'seconds': 59},25,8,2016
+79,Ole Miss,SEC,PUNT,"{'minutes': 1, 'seconds': 34}",2,"{'minutes': 13, 'seconds': 26}",60,400869045,4008690458,Georgia Southern,Sun Belt,3,False,1,{},67,7,2016
+80,Georgia Southern,Sun Belt,TD,"{'minutes': 1, 'seconds': 48}",2,"{'minutes': 11, 'seconds': 38}",100,400869045,4008690459,Ole Miss,SEC,7,True,2,"{'minutes': 13, 'seconds': 26}",29,71,2016
+81,Texas A&M,SEC,PUNT,"{'minutes': 1, 'seconds': 57}",1,"{'minutes': 13, 'seconds': 3}",71,400869055,4008690551,Ole Miss,SEC,4,False,1,{'minutes': 15},75,4,2016
+82,Ole Miss,SEC,DOWNS,"{'minutes': 2, 'seconds': 13}",1,"{'minutes': 10, 'seconds': 50}",66,400869055,4008690552,Texas A&M,SEC,7,False,1,"{'minutes': 13, 'seconds': 3}",35,31,2016
+83,Texas A&M,SEC,FG,"{'minutes': 5, 'seconds': 27}",1,"{'minutes': 5, 'seconds': 23}",8,400869055,4008690553,Ole Miss,SEC,14,True,1,"{'minutes': 10, 'seconds': 50}",65,57,2016
+84,Ole Miss,SEC,TD,{'seconds': 34},1,"{'minutes': 4, 'seconds': 49}",100,400869055,4008690554,Texas A&M,SEC,2,True,1,"{'minutes': 5, 'seconds': 23}",25,75,2016
+85,Texas A&M,SEC,PUNT,"{'minutes': 2, 'seconds': 53}",1,"{'minutes': 1, 'seconds': 56}",58,400869055,4008690555,Ole Miss,SEC,5,False,1,"{'minutes': 4, 'seconds': 49}",75,17,2016
+86,Ole Miss,SEC,TD,"{'minutes': 3, 'seconds': 1}",2,"{'minutes': 13, 'seconds': 55}",100,400869055,4008690556,Texas A&M,SEC,8,True,1,"{'minutes': 1, 'seconds': 56}",11,89,2016
+87,Texas A&M,SEC,FG,"{'minutes': 6, 'seconds': 9}",2,"{'minutes': 7, 'seconds': 46}",7,400869055,4008690557,Ole Miss,SEC,14,True,2,"{'minutes': 13, 'seconds': 55}",75,68,2016
+88,Ole Miss,SEC,TD,"{'minutes': 1, 'seconds': 3}",2,"{'minutes': 6, 'seconds': 43}",100,400869055,4008690558,Texas A&M,SEC,3,True,2,"{'minutes': 7, 'seconds': 46}",93,7,2016
+89,Texas A&M,SEC,PUNT,{'seconds': 50},2,"{'minutes': 5, 'seconds': 53}",75,400869055,4008690559,Ole Miss,SEC,3,False,2,"{'minutes': 6, 'seconds': 43}",75,0,2016
+90,Vanderbilt,SEC,FG,"{'minutes': 4, 'seconds': 9}",1,"{'minutes': 10, 'seconds': 51}",6,400869066,4008690661,Ole Miss,SEC,9,True,1,{'minutes': 15},35,75,2016
+91,Ole Miss,SEC,PUNT,"{'minutes': 3, 'seconds': 9}",1,"{'minutes': 7, 'seconds': 42}",54,400869066,4008690662,Vanderbilt,SEC,7,False,1,"{'minutes': 10, 'seconds': 51}",65,34,2016
+92,Vanderbilt,SEC,PUNT,{'seconds': 40},1,"{'minutes': 7, 'seconds': 2}",71,400869066,4008690663,Ole Miss,SEC,3,False,1,"{'minutes': 7, 'seconds': 42}",76,5,2016
+93,Vanderbilt,SEC,TD,{'seconds': 11},1,"{'minutes': 6, 'seconds': 51}",0,400869066,4008690665,Ole Miss,SEC,1,True,1,"{'minutes': 7, 'seconds': 2}",21,21,2016
+94,Ole Miss,SEC,PUNT,"{'minutes': 3, 'seconds': 12}",1,"{'minutes': 3, 'seconds': 39}",44,400869066,4008690666,Vanderbilt,SEC,7,False,1,"{'minutes': 6, 'seconds': 51}",65,21,2016
+95,Vanderbilt,SEC,PUNT,"{'minutes': 2, 'seconds': 23}",1,"{'minutes': 1, 'seconds': 16}",62,400869066,4008690667,Ole Miss,SEC,6,False,1,"{'minutes': 3, 'seconds': 39}",93,31,2016
+96,Ole Miss,SEC,TD,{'seconds': 46},1,{'seconds': 30},100,400869066,4008690668,Vanderbilt,SEC,2,True,1,"{'minutes': 1, 'seconds': 16}",24,76,2016
+97,Vanderbilt,SEC,PUNT,"{'minutes': 1, 'seconds': 41}",2,"{'minutes': 13, 'seconds': 49}",73,400869066,4008690669,Ole Miss,SEC,4,False,1,{'seconds': 30},35,7,2016
+98,Mississippi State,SEC,PUNT,{'seconds': 58},1,"{'minutes': 14, 'seconds': 2}",50,400869072,4008690721,Ole Miss,SEC,4,False,1,{'minutes': 15},35,15,2016
+99,Ole Miss,SEC,PUNT,{'seconds': 46},1,"{'minutes': 13, 'seconds': 16}",64,400869072,4008690722,Mississippi State,SEC,4,False,1,"{'minutes': 14, 'seconds': 2}",80,16,2016
+100,Mississippi State,SEC,FG,"{'minutes': 5, 'seconds': 40}",1,"{'minutes': 7, 'seconds': 36}",93,400869072,4008690723,Ole Miss,SEC,11,True,1,"{'minutes': 13, 'seconds': 16}",18,75,2016
+101,Ole Miss,SEC,TD,"{'minutes': 1, 'seconds': 48}",1,"{'minutes': 5, 'seconds': 48}",0,400869072,4008690724,Mississippi State,SEC,5,True,1,"{'minutes': 7, 'seconds': 36}",63,63,2016
+102,Mississippi State,SEC,TD,{'minutes': 2},1,"{'minutes': 3, 'seconds': 48}",100,400869072,4008690725,Ole Miss,SEC,5,True,1,"{'minutes': 5, 'seconds': 48}",25,75,2016
+103,Ole Miss,SEC,TD,"{'minutes': 1, 'seconds': 20}",1,"{'minutes': 2, 'seconds': 28}",0,400869072,4008690726,Mississippi State,SEC,4,True,1,"{'minutes': 3, 'seconds': 48}",80,80,2016
+104,Mississippi State,SEC,PUNT,"{'minutes': 1, 'seconds': 44}",1,{'seconds': 44},28,400869072,4008690727,Ole Miss,SEC,5,False,1,"{'minutes': 2, 'seconds': 28}",17,11,2016
+105,Ole Miss,SEC,TD,"{'minutes': 2, 'seconds': 49}",2,"{'minutes': 12, 'seconds': 49}",0,400869072,4008690728,Mississippi State,SEC,7,True,1,{'seconds': 44},67,67,2016
+106,Mississippi State,SEC,INT,"{'minutes': 1, 'seconds': 26}",2,"{'minutes': 11, 'seconds': 23}",83,400869072,4008690729,Ole Miss,SEC,5,False,2,"{'minutes': 12, 'seconds': 49}",27,56,2016
+107,Ole Miss,SEC,FG,"{'minutes': 4, 'seconds': 53}",2,"{'minutes': 4, 'seconds': 49}",96,400868979,40086897910,Florida State,ACC,10,True,2,"{'minutes': 9, 'seconds': 42}",25,71,2016
+108,Florida State,ACC,TD,"{'minutes': 1, 'seconds': 45}",2,"{'minutes': 3, 'seconds': 4}",0,400868979,40086897911,Ole Miss,SEC,10,True,2,"{'minutes': 4, 'seconds': 49}",35,80,2016
+109,Ole Miss,SEC,TD,"{'minutes': 2, 'seconds': 36}",2,{'seconds': 28},100,400868979,40086897912,Florida State,ACC,9,True,2,"{'minutes': 3, 'seconds': 4}",65,75,2016
+110,Florida State,ACC,END OF HALF,{'seconds': 28},2,{},81,400868979,40086897913,Ole Miss,SEC,1,False,2,{'seconds': 28},35,-1,2016
+111,Ole Miss,SEC,FG,"{'minutes': 2, 'seconds': 42}",3,"{'minutes': 12, 'seconds': 18}",77,400868979,40086897914,Florida State,ACC,7,True,3,{'minutes': 15},25,52,2016
+112,Florida State,ACC,INT,{'seconds': 9},3,"{'minutes': 12, 'seconds': 9}",75,400868979,40086897915,Ole Miss,SEC,2,False,3,"{'minutes': 12, 'seconds': 18}",75,0,2016
+113,Ole Miss,SEC,TD,{'seconds': 40},3,"{'minutes': 11, 'seconds': 29}",100,400868979,40086897916,Florida State,ACC,3,True,3,"{'minutes': 12, 'seconds': 9}",68,32,2016
+114,Florida State,ACC,FUMBLE,{'seconds': 42},3,"{'minutes': 10, 'seconds': 47}",84,400868979,40086897917,Ole Miss,SEC,2,False,3,"{'minutes': 11, 'seconds': 29}",35,-4,2016
+115,Ole Miss,SEC,TD,"{'minutes': 1, 'seconds': 30}",3,"{'minutes': 9, 'seconds': 17}",100,400868979,40086897918,Florida State,ACC,3,True,3,"{'minutes': 10, 'seconds': 47}",89,11,2016
+116,Florida State,ACC,FUMBLE,{'seconds': 41},3,"{'minutes': 8, 'seconds': 36}",72,400868979,40086897919,Ole Miss,SEC,3,False,3,"{'minutes': 9, 'seconds': 17}",75,3,2016
+117,Ole Miss,SEC,TD,"{'minutes': 4, 'seconds': 24}",3,"{'minutes': 4, 'seconds': 12}",100,400868979,40086897920,Florida State,ACC,8,True,3,"{'minutes': 8, 'seconds': 36}",23,77,2016
+118,Florida State,ACC,PUNT,"{'minutes': 1, 'seconds': 18}",3,"{'minutes': 2, 'seconds': 54}",77,400868979,40086897921,Ole Miss,SEC,3,False,3,"{'minutes': 4, 'seconds': 12}",65,-6,2016
+119,Ole Miss,SEC,FG,"{'minutes': 4, 'seconds': 58}",4,"{'minutes': 12, 'seconds': 56}",77,400868979,40086897922,Florida State,ACC,14,True,3,"{'minutes': 2, 'seconds': 54}",26,51,2016
+120,Florida State,ACC,TD,{'seconds': 47},4,"{'minutes': 12, 'seconds': 9}",0,400868979,40086897923,Ole Miss,SEC,4,True,4,"{'minutes': 12, 'seconds': 56}",75,75,2016
+121,Ole Miss,SEC,FG,"{'minutes': 2, 'seconds': 53}",4,"{'minutes': 9, 'seconds': 16}",73,400868979,40086897924,Florida State,ACC,7,True,4,"{'minutes': 12, 'seconds': 9}",65,26,2016
+122,Florida State,ACC,PUNT,{'minutes': 1},4,"{'minutes': 8, 'seconds': 16}",76,400868979,40086897925,Ole Miss,SEC,3,False,4,"{'minutes': 9, 'seconds': 16}",75,-1,2016
+123,Ole Miss,SEC,FG,"{'minutes': 3, 'seconds': 23}",4,"{'minutes': 4, 'seconds': 53}",87,400868979,40086897926,Florida State,ACC,8,True,4,"{'minutes': 8, 'seconds': 16}",37,50,2016
+124,Florida State,ACC,INT,"{'minutes': 2, 'seconds': 32}",4,"{'minutes': 2, 'seconds': 21}",64,400868979,40086897927,Ole Miss,SEC,8,False,4,"{'minutes': 4, 'seconds': 53}",75,11,2016
+125,Ole Miss,SEC,END OF GAME,"{'minutes': 2, 'seconds': 21}",4,{},71,400868979,40086897928,Florida State,ACC,5,False,4,"{'minutes': 2, 'seconds': 21}",32,39,2016
+126,Wofford,,TD,"{'minutes': 2, 'seconds': 58}",3,"{'minutes': 5, 'seconds': 7}",100,400868986,40086898610,Ole Miss,SEC,8,True,3,"{'minutes': 8, 'seconds': 5}",23,77,2016
+127,Ole Miss,SEC,PUNT,"{'minutes': 2, 'seconds': 15}",3,"{'minutes': 2, 'seconds': 52}",68,400868986,40086898611,Wofford,,3,False,3,"{'minutes': 5, 'seconds': 7}",75,7,2016
+128,Wofford,,PUNT,"{'minutes': 2, 'seconds': 3}",3,{'seconds': 49},25,400868986,40086898612,Ole Miss,SEC,3,False,3,"{'minutes': 2, 'seconds': 52}",16,9,2016
+129,Ole Miss,SEC,PUNT,"{'minutes': 1, 'seconds': 44}",4,"{'minutes': 14, 'seconds': 5}",57,400868986,40086898613,Wofford,,4,False,3,{'seconds': 49},70,13,2016
+130,Wofford,,PUNT,"{'minutes': 1, 'seconds': 55}",4,"{'minutes': 12, 'seconds': 10}",9,400868986,40086898614,Ole Miss,SEC,3,False,4,"{'minutes': 14, 'seconds': 5}",2,7,2016
+131,Ole Miss,SEC,TD,"{'minutes': 1, 'seconds': 43}",4,"{'minutes': 10, 'seconds': 27}",0,400868986,40086898615,Wofford,,4,True,4,"{'minutes': 12, 'seconds': 10}",41,41,2016
+132,Wofford,,TD,"{'minutes': 4, 'seconds': 11}",4,"{'minutes': 6, 'seconds': 16}",100,400868986,40086898616,Ole Miss,SEC,8,True,4,"{'minutes': 10, 'seconds': 27}",48,52,2016
+133,Ole Miss,SEC,FG,"{'minutes': 3, 'seconds': 48}",4,"{'minutes': 2, 'seconds': 28}",32,400868986,40086898617,Wofford,,7,True,4,"{'minutes': 6, 'seconds': 16}",81,49,2016
+134,Wofford,,INT,{'seconds': 15},4,"{'minutes': 2, 'seconds': 13}",28,400868986,40086898618,Ole Miss,SEC,2,False,4,"{'minutes': 2, 'seconds': 28}",25,3,2016
+135,Ole Miss,SEC,FUMBLE,{'seconds': 52},4,"{'minutes': 1, 'seconds': 21}",62,400868986,40086898619,Wofford,,3,False,4,"{'minutes': 2, 'seconds': 13}",71,8,2016
+136,Wofford,,END OF GAME,"{'minutes': 1, 'seconds': 21}",4,{},68,400868986,40086898620,Ole Miss,SEC,2,False,4,"{'minutes': 1, 'seconds': 21}",63,5,2016
+137,Ole Miss,SEC,PUNT,"{'minutes': 2, 'seconds': 11}",2,"{'minutes': 5, 'seconds': 32}",45,400868997,40086899710,Alabama,SEC,5,False,2,"{'minutes': 7, 'seconds': 43}",80,35,2016
+138,Alabama,SEC,TD,{'seconds': 52},2,"{'minutes': 4, 'seconds': 40}",100,400868997,40086899711,Ole Miss,SEC,2,True,2,"{'minutes': 5, 'seconds': 32}",20,80,2016
+139,Ole Miss,SEC,FUMBLE TD,"{'minutes': 1, 'seconds': 53}",2,"{'minutes': 2, 'seconds': 47}",47,400868997,40086899712,Alabama,SEC,3,True,2,"{'minutes': 4, 'seconds': 40}",58,2,2016
+140,Ole Miss,SEC,TD,{'seconds': 37},2,"{'minutes': 2, 'seconds': 10}",0,400868997,40086899713,Alabama,SEC,3,True,2,"{'minutes': 2, 'seconds': 47}",50,50,2016
+141,Alabama,SEC,PUNT RETURN TD,"{'minutes': 1, 'seconds': 5}",2,"{'minutes': 1, 'seconds': 5}",32,400868997,40086899714,Ole Miss,SEC,3,True,2,"{'minutes': 2, 'seconds': 10}",25,7,2016
+142,Alabama,SEC,END OF HALF,"{'minutes': 1, 'seconds': 5}",2,{},43,400868997,40086899715,Ole Miss,SEC,4,False,2,"{'minutes': 1, 'seconds': 5}",25,18,2016
+143,Ole Miss,SEC,PUNT,"{'minutes': 2, 'seconds': 36}",3,"{'minutes': 12, 'seconds': 24}",56,400868997,40086899716,Alabama,SEC,6,False,3,{'minutes': 15},75,19,2016
+144,Alabama,SEC,FUMBLE TD,{'seconds': 37},3,"{'minutes': 11, 'seconds': 47}",9,400868997,40086899717,Ole Miss,SEC,2,True,3,"{'minutes': 12, 'seconds': 24}",6,-3,2016
+145,Alabama,SEC,PUNT,"{'minutes': 1, 'seconds': 20}",3,"{'minutes': 10, 'seconds': 27}",17,400868997,40086899718,Ole Miss,SEC,3,False,3,"{'minutes': 11, 'seconds': 47}",25,-8,2016
+146,Ole Miss,SEC,FG,"{'minutes': 4, 'seconds': 24}",3,"{'minutes': 6, 'seconds': 3}",12,400868997,40086899719,Alabama,SEC,10,True,3,"{'minutes': 10, 'seconds': 27}",63,51,2016
+147,Alabama,SEC,FG,"{'minutes': 4, 'seconds': 16}",3,"{'minutes': 1, 'seconds': 47}",99,400868997,40086899720,Ole Miss,SEC,12,True,3,"{'minutes': 6, 'seconds': 3}",25,74,2016
+148,Ole Miss,SEC,TD,"{'minutes': 1, 'seconds': 31}",3,{'seconds': 16},0,400868997,40086899721,Alabama,SEC,4,True,3,"{'minutes': 1, 'seconds': 47}",75,75,2016
+149,Alabama,SEC,FG,"{'minutes': 1, 'seconds': 59}",4,"{'minutes': 13, 'seconds': 17}",79,400868997,40086899722,Ole Miss,SEC,7,True,3,{'seconds': 16},25,54,2016
+150,Ole Miss,SEC,PUNT,"{'minutes': 2, 'seconds': 18}",4,"{'minutes': 10, 'seconds': 59}",39,400868997,40086899723,Alabama,SEC,5,False,4,"{'minutes': 13, 'seconds': 17}",77,38,2016
+151,Alabama,SEC,PUNT,"{'minutes': 1, 'seconds': 23}",4,"{'minutes': 9, 'seconds': 36}",18,400868997,40086899724,Ole Miss,SEC,3,False,4,"{'minutes': 10, 'seconds': 59}",11,7,2016
+152,Ole Miss,SEC,TD,"{'minutes': 2, 'seconds': 3}",4,"{'minutes': 7, 'seconds': 33}",0,400868997,40086899725,Alabama,SEC,5,True,4,"{'minutes': 9, 'seconds': 36}",58,58,2016
+153,Alabama,SEC,FUMBLE RETURN TD,"{'minutes': 2, 'seconds': 5}",4,"{'minutes': 5, 'seconds': 28}",80,400868997,40086899726,Ole Miss,SEC,6,True,4,"{'minutes': 7, 'seconds': 33}",25,55,2016
+154,Alabama,SEC,TD,"{'minutes': 2, 'seconds': 29}",4,"{'minutes': 2, 'seconds': 59}",100,400868997,40086899727,Ole Miss,SEC,12,True,4,"{'minutes': 5, 'seconds': 28}",22,78,2016
+155,Alabama,SEC,TD,{'seconds': 8},4,"{'minutes': 2, 'seconds': 51}",100,400868997,40086899728,Ole Miss,SEC,1,True,4,"{'minutes': 2, 'seconds': 59}",63,37,2016
+156,Ole Miss,SEC,END OF GAME,"{'minutes': 2, 'seconds': 51}",4,{},49,400868997,40086899729,Alabama,SEC,7,False,4,"{'minutes': 2, 'seconds': 51}",75,26,2016
+157,Ole Miss,SEC,DOWNS,"{'minutes': 2, 'seconds': 41}",2,"{'minutes': 7, 'seconds': 43}",29,400869005,40086900510,Georgia,SEC,9,False,2,"{'minutes': 10, 'seconds': 24}",75,46,2016
+158,Georgia,SEC,PUNT,"{'minutes': 3, 'seconds': 17}",2,"{'minutes': 4, 'seconds': 26}",54,400869005,40086900511,Ole Miss,SEC,6,False,2,"{'minutes': 7, 'seconds': 43}",29,25,2016
+159,Ole Miss,SEC,PUNT,"{'minutes': 2, 'seconds': 16}",2,"{'minutes': 2, 'seconds': 10}",75,400869005,40086900512,Georgia,SEC,5,False,2,"{'minutes': 4, 'seconds': 26}",97,22,2016
+160,Georgia,SEC,TD,"{'minutes': 1, 'seconds': 27}",2,{'seconds': 43},100,400869005,40086900513,Ole Miss,SEC,5,True,2,"{'minutes': 2, 'seconds': 10}",42,58,2016
+161,Ole Miss,SEC,END OF HALF,{'seconds': 43},2,{},53,400869005,40086900514,Georgia,SEC,3,False,2,{'seconds': 43},75,22,2016
+162,Georgia,SEC,TD,"{'minutes': 1, 'seconds': 47}",3,"{'minutes': 13, 'seconds': 13}",100,400869005,40086900515,Ole Miss,SEC,7,True,3,{'minutes': 15},30,70,2016
+163,Ole Miss,SEC,PUNT,"{'minutes': 1, 'seconds': 51}",3,"{'minutes': 11, 'seconds': 22}",81,400869005,40086900516,Georgia,SEC,3,False,3,"{'minutes': 13, 'seconds': 13}",65,9,2016
+164,Georgia,SEC,PUNT,"{'minutes': 1, 'seconds': 7}",3,"{'minutes': 10, 'seconds': 15}",45,400869005,40086900517,Ole Miss,SEC,3,False,3,"{'minutes': 11, 'seconds': 22}",38,7,2016
+165,Ole Miss,SEC,PUNT,{'seconds': 48},3,"{'minutes': 9, 'seconds': 27}",83,400869005,40086900518,Georgia,SEC,3,False,3,"{'minutes': 10, 'seconds': 15}",86,3,2016
+166,Georgia,SEC,TD,{'seconds': 53},3,"{'minutes': 8, 'seconds': 34}",100,400869005,40086900519,Ole Miss,SEC,3,True,3,"{'minutes': 9, 'seconds': 27}",36,64,2016
+167,Ole Miss,SEC,TD,"{'minutes': 3, 'seconds': 34}",3,{'minutes': 5},0,400869005,40086900520,Georgia,SEC,7,True,3,"{'minutes': 8, 'seconds': 34}",75,75,2016
+168,Georgia,SEC,MISSED FG,"{'minutes': 4, 'seconds': 49}",3,{'seconds': 11},63,400869005,40086900521,Ole Miss,SEC,9,False,3,{'minutes': 5},25,38,2016
+169,Ole Miss,SEC,FUMBLE,{'seconds': 18},4,"{'minutes': 14, 'seconds': 53}",62,400869005,40086900522,Georgia,SEC,2,False,3,{'seconds': 11},63,-6,2016
+170,Georgia,SEC,INT,"{'minutes': 1, 'seconds': 21}",4,"{'minutes': 13, 'seconds': 32}",75,400869005,40086900523,Ole Miss,SEC,3,False,4,"{'minutes': 14, 'seconds': 53}",69,6,2016
+171,Ole Miss,SEC,TD,"{'minutes': 5, 'seconds': 54}",4,"{'minutes': 7, 'seconds': 38}",0,400869005,40086900524,Georgia,SEC,12,True,4,"{'minutes': 13, 'seconds': 32}",79,79,2016
+172,Georgia,SEC,PUNT,"{'minutes': 1, 'seconds': 6}",4,"{'minutes': 6, 'seconds': 32}",26,400869005,40086900525,Ole Miss,SEC,3,False,4,"{'minutes': 7, 'seconds': 38}",20,6,2016
+173,Ole Miss,SEC,PUNT,"{'minutes': 5, 'seconds': 5}",4,"{'minutes': 1, 'seconds': 27}",41,400869005,40086900526,Georgia,SEC,10,False,4,"{'minutes': 6, 'seconds': 32}",86,45,2016
+174,Georgia,SEC,END OF GAME,"{'minutes': 1, 'seconds': 27}",4,{},8,400869005,40086900527,Ole Miss,SEC,2,False,4,"{'minutes': 1, 'seconds': 27}",11,-3,2016
+175,Ole Miss,SEC,FUMBLE,"{'minutes': 2, 'seconds': 51}",2,"{'minutes': 4, 'seconds': 48}",31,400869015,40086901510,Memphis,American Athletic,9,False,2,"{'minutes': 7, 'seconds': 39}",89,46,2016
+176,Memphis,American Athletic,TD,"{'minutes': 3, 'seconds': 23}",2,"{'minutes': 1, 'seconds': 25}",100,400869015,40086901511,Ole Miss,SEC,8,True,2,"{'minutes': 4, 'seconds': 48}",70,30,2016
+177,Ole Miss,SEC,END OF HALF,"{'minutes': 1, 'seconds': 25}",2,{},74,400869015,40086901512,Memphis,American Athletic,5,False,2,"{'minutes': 1, 'seconds': 25}",87,13,2016
+178,Memphis,American Athletic,FG,"{'minutes': 2, 'seconds': 21}",3,"{'minutes': 12, 'seconds': 39}",94,400869015,40086901513,Ole Miss,SEC,6,True,3,{'minutes': 15},25,69,2016
+179,Ole Miss,SEC,TD,"{'minutes': 2, 'seconds': 28}",3,"{'minutes': 10, 'seconds': 11}",0,400869015,40086901514,Memphis,American Athletic,7,True,3,"{'minutes': 12, 'seconds': 39}",75,75,2016
+180,Memphis,American Athletic,PUNT,"{'minutes': 1, 'seconds': 34}",3,"{'minutes': 8, 'seconds': 37}",50,400869015,40086901515,Ole Miss,SEC,5,False,3,"{'minutes': 10, 'seconds': 11}",22,28,2016
+181,Ole Miss,SEC,TD,"{'minutes': 5, 'seconds': 1}",3,"{'minutes': 3, 'seconds': 36}",0,400869015,40086901516,Memphis,American Athletic,13,True,3,"{'minutes': 8, 'seconds': 37}",99,99,2016
+182,Memphis,American Athletic,TD,"{'minutes': 1, 'seconds': 37}",3,"{'minutes': 1, 'seconds': 59}",100,400869015,40086901517,Ole Miss,SEC,7,True,3,"{'minutes': 3, 'seconds': 36}",35,65,2016
+183,Ole Miss,SEC,PUNT,"{'minutes': 1, 'seconds': 24}",3,{'seconds': 35},74,400869015,40086901518,Memphis,American Athletic,3,False,3,"{'minutes': 1, 'seconds': 59}",80,6,2016
+184,Memphis,American Athletic,TD,{'seconds': 42},4,"{'minutes': 14, 'seconds': 53}",100,400869015,40086901519,Ole Miss,SEC,3,True,3,{'seconds': 35},65,35,2016
+185,Ole Miss,SEC,INT,{'minutes': 2},4,"{'minutes': 12, 'seconds': 53}",35,400869015,40086901520,Memphis,American Athletic,7,False,4,"{'minutes': 14, 'seconds': 53}",83,48,2016
+186,Memphis,American Athletic,INT,"{'minutes': 1, 'seconds': 14}",4,"{'minutes': 11, 'seconds': 39}",78,400869015,40086901521,Ole Miss,SEC,6,False,4,"{'minutes': 12, 'seconds': 53}",40,38,2016
+187,Ole Miss,SEC,TD,"{'minutes': 2, 'seconds': 58}",4,"{'minutes': 8, 'seconds': 41}",0,400869015,40086901522,Memphis,American Athletic,8,True,4,"{'minutes': 11, 'seconds': 39}",80,80,2016
+188,Memphis,American Athletic,TD,"{'minutes': 3, 'seconds': 41}",4,{'minutes': 5},100,400869015,40086901523,Ole Miss,SEC,9,True,4,"{'minutes': 8, 'seconds': 41}",15,85,2016
+189,Ole Miss,SEC,FUMBLE,{'seconds': 22},4,"{'minutes': 4, 'seconds': 38}",75,400869015,40086901524,Memphis,American Athletic,2,False,4,{'minutes': 5},75,0,2016
+190,Memphis,American Athletic,END OF GAME,"{'minutes': 4, 'seconds': 38}",4,{},92,400869015,40086901525,Ole Miss,SEC,9,False,4,"{'minutes': 4, 'seconds': 38}",60,32,2016
+191,Arkansas,SEC,DOWNS,"{'minutes': 1, 'seconds': 39}",2,"{'minutes': 3, 'seconds': 42}",44,400869024,40086902410,Ole Miss,SEC,7,False,2,"{'minutes': 5, 'seconds': 21}",90,46,2016
+192,Ole Miss,SEC,PUNT,"{'minutes': 1, 'seconds': 30}",2,"{'minutes': 2, 'seconds': 12}",52,400869024,40086902411,Arkansas,SEC,3,False,2,"{'minutes': 3, 'seconds': 42}",44,8,2016
+193,Arkansas,SEC,TD,{'seconds': 48},2,"{'minutes': 1, 'seconds': 24}",0,400869024,40086902412,Ole Miss,SEC,5,True,2,"{'minutes': 2, 'seconds': 12}",90,90,2016
+194,Ole Miss,SEC,END OF HALF,"{'minutes': 1, 'seconds': 24}",2,{},40,400869024,40086902413,Arkansas,SEC,5,False,2,"{'minutes': 1, 'seconds': 24}",30,10,2016
+195,Arkansas,SEC,INT,{'seconds': 50},3,"{'minutes': 14, 'seconds': 10}",56,400869024,40086902414,Ole Miss,SEC,5,False,3,{'minutes': 15},75,19,2016
+196,Ole Miss,SEC,PUNT,"{'minutes': 3, 'seconds': 57}",3,"{'minutes': 10, 'seconds': 13}",58,400869024,40086902415,Arkansas,SEC,9,False,3,"{'minutes': 14, 'seconds': 10}",12,46,2016
+197,Arkansas,SEC,PUNT,"{'minutes': 1, 'seconds': 27}",3,"{'minutes': 8, 'seconds': 46}",94,400869024,40086902416,Ole Miss,SEC,3,False,3,"{'minutes': 10, 'seconds': 13}",95,1,2016
+198,Ole Miss,SEC,TD,"{'minutes': 5, 'seconds': 17}",3,"{'minutes': 3, 'seconds': 29}",100,400869024,40086902417,Arkansas,SEC,10,True,3,"{'minutes': 8, 'seconds': 46}",62,38,2016
+199,Arkansas,SEC,FG,"{'minutes': 3, 'seconds': 40}",4,"{'minutes': 14, 'seconds': 49}",16,400869024,40086902418,Ole Miss,SEC,12,True,3,"{'minutes': 3, 'seconds': 29}",75,59,2016
+200,Ole Miss,SEC,PUNT,"{'minutes': 2, 'seconds': 20}",4,"{'minutes': 12, 'seconds': 29}",34,400869024,40086902419,Arkansas,SEC,3,False,4,"{'minutes': 14, 'seconds': 49}",25,9,2016
+201,Arkansas,SEC,PUNT,{'seconds': 56},4,"{'minutes': 11, 'seconds': 33}",86,400869024,40086902420,Ole Miss,SEC,3,False,4,"{'minutes': 12, 'seconds': 29}",88,2,2016
+202,Ole Miss,SEC,INT,"{'minutes': 1, 'seconds': 28}",4,"{'minutes': 10, 'seconds': 5}",57,400869024,40086902421,Arkansas,SEC,4,False,4,"{'minutes': 11, 'seconds': 33}",45,12,2016
+203,Arkansas,SEC,TD,"{'minutes': 1, 'seconds': 5}",4,{'minutes': 9},0,400869024,40086902422,Ole Miss,SEC,5,True,4,"{'minutes': 10, 'seconds': 5}",45,45,2016
+204,Ole Miss,SEC,PUNT,"{'minutes': 1, 'seconds': 34}",4,"{'minutes': 7, 'seconds': 26}",51,400869024,40086902423,Arkansas,SEC,4,False,4,{'minutes': 9},25,26,2016
+205,Arkansas,SEC,PUNT,{'seconds': 27},4,"{'minutes': 6, 'seconds': 59}",80,400869024,40086902424,Ole Miss,SEC,3,False,4,"{'minutes': 7, 'seconds': 26}",80,0,2016
+206,Ole Miss,SEC,TD,"{'minutes': 4, 'seconds': 39}",4,"{'minutes': 2, 'seconds': 20}",100,400869024,40086902425,Arkansas,SEC,10,True,4,"{'minutes': 6, 'seconds': 59}",44,56,2016
+207,Arkansas,SEC,FUMBLE,{'seconds': 40},4,"{'minutes': 1, 'seconds': 40}",80,400869024,40086902426,Ole Miss,SEC,4,False,4,"{'minutes': 2, 'seconds': 20}",74,3,2016
+208,Ole Miss,SEC,END OF HALF,"{'minutes': 1, 'seconds': 40}",4,{},47,400869024,40086902427,Arkansas,SEC,3,False,4,"{'minutes': 1, 'seconds': 40}",71,-24,2016
+209,LSU,SEC,FG,"{'minutes': 4, 'seconds': 2}",2,"{'minutes': 7, 'seconds': 11}",5,400869032,40086903210,Ole Miss,SEC,13,True,2,"{'minutes': 11, 'seconds': 13}",85,80,2016
+210,Ole Miss,SEC,TD,{'minutes': 1},2,"{'minutes': 6, 'seconds': 11}",100,400869032,40086903211,LSU,SEC,2,True,2,"{'minutes': 7, 'seconds': 11}",16,84,2016
+211,LSU,SEC,PUNT,"{'minutes': 1, 'seconds': 25}",2,"{'minutes': 4, 'seconds': 46}",73,400869032,40086903212,Ole Miss,SEC,3,False,2,"{'minutes': 6, 'seconds': 11}",75,2,2016
+212,Ole Miss,SEC,PUNT,"{'minutes': 1, 'seconds': 7}",2,"{'minutes': 3, 'seconds': 39}",39,400869032,40086903213,LSU,SEC,3,False,2,"{'minutes': 4, 'seconds': 46}",37,2,2016
+213,LSU,SEC,PUNT,"{'minutes': 2, 'seconds': 29}",2,"{'minutes': 1, 'seconds': 10}",62,400869032,40086903214,Ole Miss,SEC,3,False,2,"{'minutes': 3, 'seconds': 39}",75,13,2016
+214,Ole Miss,SEC,FUMBLE,{'seconds': 7},2,"{'minutes': 1, 'seconds': 3}",17,400869032,40086903215,LSU,SEC,1,False,2,"{'minutes': 1, 'seconds': 10}",17,-8,2016
+215,LSU,SEC,TD,{'seconds': 52},2,{'seconds': 11},0,400869032,40086903216,Ole Miss,SEC,3,True,2,"{'minutes': 1, 'seconds': 3}",9,9,2016
+216,Ole Miss,SEC,END OF HALF,{'seconds': 11},2,{},9,400869032,40086903217,LSU,SEC,1,False,2,{'seconds': 11},65,-1,2016
+217,LSU,SEC,PUNT,"{'minutes': 1, 'seconds': 9}",3,"{'minutes': 13, 'seconds': 51}",66,400869032,40086903218,Ole Miss,SEC,3,False,3,{'minutes': 15},75,9,2016
+218,Ole Miss,SEC,TD,{'seconds': 13},3,"{'minutes': 13, 'seconds': 38}",100,400869032,40086903219,LSU,SEC,1,True,3,"{'minutes': 13, 'seconds': 51}",22,78,2016
+219,LSU,SEC,PUNT,"{'minutes': 1, 'seconds': 53}",3,"{'minutes': 11, 'seconds': 45}",70,400869032,40086903220,Ole Miss,SEC,3,False,3,"{'minutes': 13, 'seconds': 38}",70,0,2016
+220,Ole Miss,SEC,FG,"{'minutes': 3, 'seconds': 18}",3,"{'minutes': 8, 'seconds': 27}",73,400869032,40086903221,LSU,SEC,8,True,3,"{'minutes': 11, 'seconds': 45}",37,36,2016
+221,LSU,SEC,PUNT,"{'minutes': 1, 'seconds': 53}",3,"{'minutes': 6, 'seconds': 34}",65,400869032,40086903222,Ole Miss,SEC,3,False,3,"{'minutes': 8, 'seconds': 27}",74,9,2016
+222,Ole Miss,SEC,PUNT,"{'minutes': 3, 'seconds': 59}",3,"{'minutes': 2, 'seconds': 35}",55,400869032,40086903223,LSU,SEC,7,False,3,"{'minutes': 6, 'seconds': 34}",23,32,2016
+223,LSU,SEC,INT,"{'minutes': 1, 'seconds': 30}",3,"{'minutes': 1, 'seconds': 5}",82,400869032,40086903224,Ole Miss,SEC,5,False,3,"{'minutes': 2, 'seconds': 35}",94,12,2016
+224,Ole Miss,SEC,INT,{'seconds': 48},3,{'seconds': 17},76,400869032,40086903225,LSU,SEC,3,False,3,"{'minutes': 1, 'seconds': 5}",75,1,2016
+225,LSU,SEC,PUNT,"{'minutes': 1, 'seconds': 48}",4,"{'minutes': 13, 'seconds': 29}",77,400869032,40086903226,Ole Miss,SEC,3,False,3,{'seconds': 17},84,7,2016
+226,Ole Miss,SEC,TD,"{'minutes': 6, 'seconds': 3}",4,"{'minutes': 7, 'seconds': 26}",100,400869032,40086903227,LSU,SEC,11,True,4,"{'minutes': 13, 'seconds': 29}",30,70,2016
+227,LSU,SEC,PUNT,"{'minutes': 1, 'seconds': 42}",4,"{'minutes': 5, 'seconds': 44}",72,400869032,40086903228,Ole Miss,SEC,4,False,4,"{'minutes': 7, 'seconds': 26}",79,7,2016
+228,Ole Miss,SEC,PUNT,"{'minutes': 3, 'seconds': 54}",4,"{'minutes': 1, 'seconds': 50}",58,400869032,40086903229,LSU,SEC,5,False,4,"{'minutes': 5, 'seconds': 44}",51,7,2016
+229,LSU,SEC,END OF GAME,"{'minutes': 1, 'seconds': 50}",4,{},47,400869032,40086903230,Ole Miss,SEC,8,False,4,"{'minutes': 1, 'seconds': 50}",97,50,2016
+230,Ole Miss,SEC,Uncategorized,{},2,{},69,400869036,40086903610,Auburn,SEC,0,False,2,{},69,0,2016
+231,Ole Miss,SEC,PUNT,{'seconds': 44},3,"{'minutes': 14, 'seconds': 16}",72,400869036,40086903611,Auburn,SEC,3,False,3,{'minutes': 15},75,3,2016
+232,Auburn,SEC,DOWNS,"{'minutes': 3, 'seconds': 52}",3,"{'minutes': 10, 'seconds': 24}",97,400869036,40086903612,Ole Miss,SEC,10,False,3,"{'minutes': 14, 'seconds': 16}",22,75,2016
+233,Ole Miss,SEC,PUNT,"{'minutes': 2, 'seconds': 12}",3,"{'minutes': 8, 'seconds': 12}",70,400869036,40086903613,Auburn,SEC,4,False,3,"{'minutes': 10, 'seconds': 24}",97,27,2016
+234,Auburn,SEC,PUNT,"{'minutes': 2, 'seconds': 16}",3,"{'minutes': 5, 'seconds': 56}",48,400869036,40086903614,Ole Miss,SEC,5,False,3,"{'minutes': 8, 'seconds': 12}",34,14,2016
+235,Ole Miss,SEC,TD,"{'minutes': 2, 'seconds': 45}",3,"{'minutes': 3, 'seconds': 11}",0,400869036,40086903615,Auburn,SEC,7,True,3,"{'minutes': 5, 'seconds': 56}",76,76,2016
+236,Auburn,SEC,TD,"{'minutes': 1, 'seconds': 41}",3,"{'minutes': 1, 'seconds': 30}",100,400869036,40086903616,Ole Miss,SEC,7,True,3,"{'minutes': 3, 'seconds': 11}",25,75,2016
+237,Ole Miss,SEC,FG,"{'minutes': 4, 'seconds': 5}",4,"{'minutes': 12, 'seconds': 25}",12,400869036,40086903617,Auburn,SEC,10,True,3,"{'minutes': 1, 'seconds': 30}",75,63,2016
+238,Auburn,SEC,PUNT,{'seconds': 52},4,"{'minutes': 11, 'seconds': 33}",33,400869036,40086903618,Ole Miss,SEC,3,False,4,"{'minutes': 12, 'seconds': 25}",25,8,2016
+239,Ole Miss,SEC,FG,"{'minutes': 3, 'seconds': 27}",4,"{'minutes': 8, 'seconds': 6}",30,400869036,40086903619,Auburn,SEC,7,True,4,"{'minutes': 11, 'seconds': 33}",82,52,2016
+240,Auburn,SEC,INT,{'seconds': 45},4,"{'minutes': 7, 'seconds': 21}",61,400869036,40086903620,Ole Miss,SEC,4,False,4,"{'minutes': 8, 'seconds': 6}",43,18,2016
+241,Ole Miss,SEC,TD,"{'minutes': 1, 'seconds': 23}",4,"{'minutes': 5, 'seconds': 58}",0,400869036,40086903621,Auburn,SEC,3,True,4,"{'minutes': 7, 'seconds': 21}",25,25,2016
+242,Auburn,SEC,DOWNS,"{'minutes': 1, 'seconds': 37}",4,"{'minutes': 4, 'seconds': 21}",59,400869036,40086903622,Ole Miss,SEC,8,False,4,"{'minutes': 5, 'seconds': 58}",25,34,2016
+243,Ole Miss,SEC,END OF GAME,"{'minutes': 4, 'seconds': 21}",4,{},23,400869036,40086903623,Auburn,SEC,8,False,4,"{'minutes': 4, 'seconds': 21}",59,36,2016
+244,Ole Miss,SEC,TD,"{'minutes': 1, 'seconds': 25}",2,"{'minutes': 10, 'seconds': 13}",0,400869045,40086904510,Georgia Southern,Sun Belt,3,True,2,"{'minutes': 11, 'seconds': 38}",75,75,2016
+245,Georgia Southern,Sun Belt,TD,"{'minutes': 1, 'seconds': 53}",2,"{'minutes': 8, 'seconds': 20}",100,400869045,40086904511,Ole Miss,SEC,5,True,2,"{'minutes': 10, 'seconds': 13}",59,41,2016
+246,Ole Miss,SEC,PUNT,"{'minutes': 3, 'seconds': 18}",2,"{'minutes': 5, 'seconds': 2}",68,400869045,40086904512,Georgia Southern,Sun Belt,5,False,2,"{'minutes': 8, 'seconds': 20}",90,22,2016
+247,Georgia Southern,Sun Belt,TD,"{'minutes': 1, 'seconds': 26}",2,"{'minutes': 3, 'seconds': 36}",100,400869045,40086904513,Ole Miss,SEC,7,True,2,"{'minutes': 5, 'seconds': 2}",40,56,2016
+248,Ole Miss,SEC,PUNT,{'seconds': 54},2,"{'minutes': 2, 'seconds': 42}",79,400869045,40086904514,Georgia Southern,Sun Belt,3,False,2,"{'minutes': 3, 'seconds': 36}",85,6,2016
+249,Georgia Southern,Sun Belt,TD,{'seconds': 36},2,"{'minutes': 2, 'seconds': 6}",100,400869045,40086904515,Ole Miss,SEC,2,True,2,"{'minutes': 2, 'seconds': 42}",35,65,2016
+250,Ole Miss,SEC,DOWNS,"{'minutes': 2, 'seconds': 6}",2,{},36,400869045,40086904516,Georgia Southern,Sun Belt,10,False,2,"{'minutes': 2, 'seconds': 6}",65,34,2016
+251,Ole Miss,SEC,PUNT,"{'minutes': 3, 'seconds': 36}",3,"{'minutes': 11, 'seconds': 24}",68,400869045,40086904518,Georgia Southern,Sun Belt,6,False,3,{'minutes': 15},35,17,2016
+252,Georgia Southern,Sun Belt,PUNT,"{'minutes': 2, 'seconds': 7}",3,"{'minutes': 9, 'seconds': 17}",51,400869045,40086904519,Ole Miss,SEC,7,False,3,"{'minutes': 11, 'seconds': 24}",19,32,2016
+253,Ole Miss,SEC,FG,"{'minutes': 6, 'seconds': 15}",3,"{'minutes': 3, 'seconds': 2}",23,400869045,40086904520,Georgia Southern,Sun Belt,13,True,3,"{'minutes': 9, 'seconds': 17}",93,70,2016
+254,Georgia Southern,Sun Belt,FG,"{'minutes': 2, 'seconds': 49}",3,{'seconds': 13},88,400869045,40086904521,Ole Miss,SEC,9,True,3,"{'minutes': 3, 'seconds': 2}",25,63,2016
+255,Ole Miss,SEC,FG,"{'minutes': 3, 'seconds': 4}",4,"{'minutes': 12, 'seconds': 9}",21,400869045,40086904522,Georgia Southern,Sun Belt,8,True,3,{'seconds': 13},91,70,2016
+256,Georgia Southern,Sun Belt,INT,{'seconds': 59},4,"{'minutes': 11, 'seconds': 10}",36,400869045,40086904523,Ole Miss,SEC,3,False,4,"{'minutes': 12, 'seconds': 9}",25,11,2016
+257,Ole Miss,SEC,PUNT,"{'minutes': 1, 'seconds': 25}",4,"{'minutes': 9, 'seconds': 45}",77,400869045,40086904524,Georgia Southern,Sun Belt,3,False,4,"{'minutes': 11, 'seconds': 10}",78,1,2016
+258,Georgia Southern,Sun Belt,FG,"{'minutes': 2, 'seconds': 31}",4,"{'minutes': 7, 'seconds': 14}",79,400869045,40086904525,Ole Miss,SEC,7,True,4,"{'minutes': 9, 'seconds': 45}",44,35,2016
+259,Ole Miss,SEC,DOWNS,"{'minutes': 3, 'seconds': 25}",4,"{'minutes': 3, 'seconds': 49}",60,400869045,40086904526,Georgia Southern,Sun Belt,6,False,4,"{'minutes': 7, 'seconds': 14}",76,16,2016
+260,Georgia Southern,Sun Belt,END OF GAME,"{'minutes': 3, 'seconds': 49}",4,{},89,400869045,40086904527,Ole Miss,SEC,9,False,4,"{'minutes': 3, 'seconds': 49}",60,29,2016
+261,Ole Miss,SEC,PUNT,"{'minutes': 2, 'seconds': 47}",2,"{'minutes': 3, 'seconds': 6}",47,400869055,40086905510,Texas A&M,SEC,6,False,2,"{'minutes': 5, 'seconds': 53}",35,12,2016
+262,Texas A&M,SEC,PUNT,"{'minutes': 2, 'seconds': 33}",2,{'seconds': 33},72,400869055,40086905511,Ole Miss,SEC,7,False,2,"{'minutes': 3, 'seconds': 6}",93,21,2016
+263,Ole Miss,SEC,END OF HALF,{'seconds': 33},2,{},40,400869055,40086905512,Texas A&M,SEC,1,False,2,{'seconds': 33},34,6,2016
+264,Ole Miss,SEC,DOWNS,"{'minutes': 2, 'seconds': 3}",3,"{'minutes': 12, 'seconds': 57}",69,400869055,40086905513,Texas A&M,SEC,6,False,3,{'minutes': 15},48,21,2016
+265,Texas A&M,SEC,INT,"{'minutes': 1, 'seconds': 45}",3,"{'minutes': 11, 'seconds': 12}",37,400869055,40086905514,Ole Miss,SEC,5,False,3,"{'minutes': 12, 'seconds': 57}",69,32,2016
+266,Ole Miss,SEC,PUNT,"{'minutes': 1, 'seconds': 56}",3,"{'minutes': 9, 'seconds': 16}",23,400869055,40086905515,Texas A&M,SEC,3,False,3,"{'minutes': 11, 'seconds': 12}",18,5,2016
+267,Texas A&M,SEC,FUMBLE,"{'minutes': 1, 'seconds': 44}",3,"{'minutes': 7, 'seconds': 32}",9,400869055,40086905516,Ole Miss,SEC,7,False,3,"{'minutes': 9, 'seconds': 16}",73,55,2016
+268,Ole Miss,SEC,PUNT,"{'minutes': 2, 'seconds': 13}",3,"{'minutes': 5, 'seconds': 19}",33,400869055,40086905517,Texas A&M,SEC,4,False,3,"{'minutes': 7, 'seconds': 32}",18,15,2016
+269,Texas A&M,SEC,PUNT,{'seconds': 38},3,"{'minutes': 4, 'seconds': 41}",76,400869055,40086905518,Ole Miss,SEC,3,False,3,"{'minutes': 5, 'seconds': 19}",83,7,2016
+270,Ole Miss,SEC,PUNT,{'seconds': 58},3,"{'minutes': 3, 'seconds': 43}",44,400869055,40086905519,Texas A&M,SEC,3,False,3,"{'minutes': 4, 'seconds': 41}",42,2,2016
+271,Texas A&M,SEC,TD,"{'minutes': 3, 'seconds': 53}",4,"{'minutes': 14, 'seconds': 50}",0,400869055,40086905520,Ole Miss,SEC,11,True,3,"{'minutes': 3, 'seconds': 43}",90,90,2016
+272,Ole Miss,SEC,FUMBLE,"{'minutes': 2, 'seconds': 11}",4,"{'minutes': 12, 'seconds': 39}",10,400869055,40086905521,Texas A&M,SEC,3,False,4,"{'minutes': 14, 'seconds': 50}",19,-9,2016
+273,Texas A&M,SEC,TD,{'seconds': 27},4,"{'minutes': 12, 'seconds': 12}",0,400869055,40086905522,Ole Miss,SEC,3,True,4,"{'minutes': 12, 'seconds': 39}",61,61,2016
+274,Ole Miss,SEC,TD,"{'minutes': 5, 'seconds': 31}",4,"{'minutes': 6, 'seconds': 41}",100,400869055,40086905523,Texas A&M,SEC,11,True,4,"{'minutes': 12, 'seconds': 12}",24,76,2016
+275,Texas A&M,SEC,TD,"{'minutes': 1, 'seconds': 24}",4,"{'minutes': 5, 'seconds': 17}",0,400869055,40086905524,Ole Miss,SEC,6,True,4,"{'minutes': 6, 'seconds': 41}",75,75,2016
+276,Ole Miss,SEC,PUNT,"{'minutes': 1, 'seconds': 33}",4,"{'minutes': 3, 'seconds': 44}",12,400869055,40086905525,Texas A&M,SEC,3,False,4,"{'minutes': 5, 'seconds': 17}",9,3,2016
+277,Texas A&M,SEC,FG,"{'minutes': 3, 'seconds': 7}",4,{'seconds': 37},22,400869055,40086905526,Ole Miss,SEC,9,True,4,"{'minutes': 3, 'seconds': 44}",58,36,2016
+278,Ole Miss,SEC,INT,{'seconds': 21},4,{'seconds': 16},33,400869055,40086905527,Texas A&M,SEC,2,False,4,{'seconds': 37},33,0,2016
+279,Texas A&M,SEC,END OF GAME,{'seconds': 16},4,{},49,400869055,40086905528,Ole Miss,SEC,1,False,4,{'seconds': 16},46,-3,2016
+280,Ole Miss,SEC,PUNT,"{'minutes': 2, 'seconds': 10}",2,"{'minutes': 11, 'seconds': 39}",35,400869066,40086906610,Vanderbilt,SEC,6,False,2,"{'minutes': 13, 'seconds': 49}",25,10,2016
+281,Vanderbilt,SEC,DOWNS,"{'minutes': 2, 'seconds': 10}",2,"{'minutes': 9, 'seconds': 29}",28,400869066,40086906611,Ole Miss,SEC,5,False,2,"{'minutes': 11, 'seconds': 39}",49,21,2016
+282,Ole Miss,SEC,TD,"{'minutes': 3, 'seconds': 20}",2,"{'minutes': 6, 'seconds': 9}",100,400869066,40086906612,Vanderbilt,SEC,7,True,2,"{'minutes': 9, 'seconds': 29}",28,72,2016
+283,Vanderbilt,SEC,PUNT,"{'minutes': 3, 'seconds': 16}",2,"{'minutes': 2, 'seconds': 53}",68,400869066,40086906613,Ole Miss,SEC,5,False,2,"{'minutes': 6, 'seconds': 9}",35,22,2016
+284,Ole Miss,SEC,PUNT,{'seconds': 28},2,"{'minutes': 2, 'seconds': 25}",16,400869066,40086906614,Vanderbilt,SEC,3,False,2,"{'minutes': 2, 'seconds': 53}",24,-8,2016
+285,Vanderbilt,SEC,PUNT,{'seconds': 35},2,"{'minutes': 1, 'seconds': 50}",58,400869066,40086906615,Ole Miss,SEC,3,False,2,"{'minutes': 2, 'seconds': 25}",63,5,2016
+286,Ole Miss,SEC,PUNT,"{'minutes': 1, 'seconds': 46}",2,{'seconds': 4},21,400869066,40086906616,Vanderbilt,SEC,3,False,2,"{'minutes': 1, 'seconds': 50}",15,6,2016
+287,Vanderbilt,SEC,END OF HALF,{'seconds': 4},2,{},61,400869066,40086906617,Ole Miss,SEC,1,False,2,{'seconds': 4},61,0,2016
+288,Ole Miss,SEC,TD,"{'minutes': 4, 'seconds': 12}",3,"{'minutes': 10, 'seconds': 48}",100,400869066,40086906618,Vanderbilt,SEC,9,True,3,{'minutes': 15},65,90,2016
+289,Vanderbilt,SEC,FUMBLE,"{'minutes': 1, 'seconds': 11}",3,"{'minutes': 9, 'seconds': 37}",60,400869066,40086906619,Ole Miss,SEC,5,False,3,"{'minutes': 10, 'seconds': 48}",75,15,2016
+290,Ole Miss,SEC,FG,"{'minutes': 1, 'seconds': 34}",3,"{'minutes': 8, 'seconds': 3}",94,400869066,40086906620,Vanderbilt,SEC,5,True,3,"{'minutes': 9, 'seconds': 37}",73,21,2016
+291,Vanderbilt,SEC,PUNT,{'seconds': 26},3,"{'minutes': 7, 'seconds': 37}",68,400869066,40086906621,Ole Miss,SEC,3,False,3,"{'minutes': 8, 'seconds': 3}",75,7,2016
+292,Ole Miss,SEC,TD,"{'minutes': 5, 'seconds': 33}",3,"{'minutes': 2, 'seconds': 4}",100,400869066,40086906622,Vanderbilt,SEC,11,True,3,"{'minutes': 7, 'seconds': 37}",28,72,2016
+293,Vanderbilt,SEC,TD,"{'minutes': 2, 'seconds': 20}",4,"{'minutes': 14, 'seconds': 44}",0,400869066,40086906623,Ole Miss,SEC,9,True,3,"{'minutes': 2, 'seconds': 4}",35,65,2016
+294,Ole Miss,SEC,PUNT,"{'minutes': 1, 'seconds': 33}",4,"{'minutes': 13, 'seconds': 11}",31,400869066,40086906624,Vanderbilt,SEC,3,False,4,"{'minutes': 14, 'seconds': 44}",25,6,2016
+295,Vanderbilt,SEC,PUNT,{'seconds': 50},4,"{'minutes': 12, 'seconds': 21}",67,400869066,40086906625,Ole Miss,SEC,3,False,4,"{'minutes': 13, 'seconds': 11}",60,-7,2016
+296,Ole Miss,SEC,TD,"{'minutes': 3, 'seconds': 57}",4,"{'minutes': 8, 'seconds': 24}",100,400869066,40086906626,Vanderbilt,SEC,8,True,4,"{'minutes': 12, 'seconds': 21}",28,72,2016
+297,Vanderbilt,SEC,DOWNS,"{'minutes': 1, 'seconds': 14}",4,"{'minutes': 7, 'seconds': 10}",13,400869066,40086906627,Ole Miss,SEC,5,False,4,"{'minutes': 8, 'seconds': 24}",35,19,2016
+298,Ole Miss,SEC,PUNT,"{'minutes': 1, 'seconds': 45}",4,"{'minutes': 5, 'seconds': 25}",15,400869066,40086906628,Vanderbilt,SEC,3,False,4,"{'minutes': 7, 'seconds': 10}",13,2,2016
+299,Vanderbilt,SEC,DOWNS,"{'minutes': 1, 'seconds': 14}",4,"{'minutes': 4, 'seconds': 11}",28,400869066,40086906629,Ole Miss,SEC,7,False,4,"{'minutes': 5, 'seconds': 25}",53,25,2016
+300,Ole Miss,SEC,PUNT,"{'minutes': 1, 'seconds': 50}",4,"{'minutes': 2, 'seconds': 21}",35,400869066,40086906630,Vanderbilt,SEC,3,False,4,"{'minutes': 4, 'seconds': 11}",28,7,2016
+301,Vanderbilt,SEC,END OF GAME,"{'minutes': 2, 'seconds': 21}",4,{},15,400869066,40086906631,Ole Miss,SEC,10,False,4,"{'minutes': 2, 'seconds': 21}",66,51,2016
+302,Ole Miss,SEC,TD,"{'minutes': 2, 'seconds': 19}",2,"{'minutes': 9, 'seconds': 4}",0,400869072,40086907210,Mississippi State,SEC,6,True,2,"{'minutes': 11, 'seconds': 23}",80,80,2016
+303,Mississippi State,SEC,TD,"{'minutes': 4, 'seconds': 17}",2,"{'minutes': 4, 'seconds': 47}",100,400869072,40086907211,Ole Miss,SEC,12,True,2,"{'minutes': 9, 'seconds': 4}",16,84,2016
+304,Ole Miss,SEC,PUNT,"{'minutes': 1, 'seconds': 58}",2,"{'minutes': 2, 'seconds': 49}",73,400869072,40086907212,Mississippi State,SEC,3,False,2,"{'minutes': 4, 'seconds': 47}",75,2,2016
+305,Mississippi State,SEC,FG,"{'minutes': 2, 'seconds': 26}",2,{'seconds': 23},80,400869072,40086907213,Ole Miss,SEC,11,True,2,"{'minutes': 2, 'seconds': 49}",23,57,2016
+306,Ole Miss,SEC,END OF HALF,{'seconds': 23},2,{},76,400869072,40086907214,Mississippi State,SEC,1,False,2,{'seconds': 23},75,-1,2016
+307,Ole Miss,SEC,PUNT,{'seconds': 44},3,"{'minutes': 14, 'seconds': 10}",84,400869072,40086907215,Mississippi State,SEC,3,False,3,"{'minutes': 14, 'seconds': 54}",81,-3,2016
+308,Mississippi State,SEC,DOWNS,"{'minutes': 4, 'seconds': 21}",3,"{'minutes': 9, 'seconds': 49}",82,400869072,40086907216,Ole Miss,SEC,9,False,3,"{'minutes': 14, 'seconds': 10}",40,42,2016
+309,Ole Miss,SEC,TD,"{'minutes': 4, 'seconds': 32}",3,"{'minutes': 5, 'seconds': 17}",0,400869072,40086907217,Mississippi State,SEC,9,True,3,"{'minutes': 9, 'seconds': 49}",82,82,2016
+310,Mississippi State,SEC,PUNT,"{'minutes': 1, 'seconds': 32}",3,"{'minutes': 3, 'seconds': 45}",15,400869072,40086907218,Ole Miss,SEC,3,False,3,"{'minutes': 5, 'seconds': 17}",17,-2,2016
+311,Ole Miss,SEC,TD,{'seconds': 48},3,"{'minutes': 2, 'seconds': 57}",0,400869072,40086907219,Mississippi State,SEC,3,True,3,"{'minutes': 3, 'seconds': 45}",69,69,2016
+312,Mississippi State,SEC,DOWNS,"{'minutes': 2, 'seconds': 22}",3,{'seconds': 35},70,400869072,40086907220,Ole Miss,SEC,7,False,3,"{'minutes': 2, 'seconds': 57}",25,45,2016
+313,Ole Miss,SEC,FUMBLE,"{'minutes': 2, 'seconds': 19}",4,"{'minutes': 13, 'seconds': 16}",36,400869072,40086907221,Mississippi State,SEC,5,False,3,{'seconds': 35},70,34,2016
+314,Mississippi State,SEC,DOWNS,"{'minutes': 1, 'seconds': 20}",4,"{'minutes': 11, 'seconds': 56}",55,400869072,40086907222,Ole Miss,SEC,5,False,4,"{'minutes': 13, 'seconds': 16}",36,19,2016
+315,Ole Miss,SEC,TD,"{'minutes': 6, 'seconds': 55}",4,"{'minutes': 5, 'seconds': 1}",0,400869072,40086907223,Mississippi State,SEC,11,True,4,"{'minutes': 11, 'seconds': 56}",55,55,2016
+316,Mississippi State,SEC,INT TD,"{'minutes': 2, 'seconds': 2}",4,"{'minutes': 2, 'seconds': 59}",78,400869072,40086907224,Ole Miss,SEC,8,True,4,"{'minutes': 5, 'seconds': 1}",18,60,2016
+317,Mississippi State,SEC,PUNT,{'seconds': 53},4,"{'minutes': 1, 'seconds': 59}",27,400869072,40086907226,Ole Miss,SEC,3,False,4,"{'minutes': 2, 'seconds': 52}",26,1,2016
+318,Ole Miss,SEC,END OF GAME,"{'minutes': 1, 'seconds': 59}",4,{},69,400869072,40086907227,Mississippi State,SEC,3,False,4,"{'minutes': 1, 'seconds': 59}",66,-3,2016
+319,Ole Miss,SEC,PUNT,"{'minutes': 1, 'seconds': 31}",1,"{'minutes': 13, 'seconds': 29}",71,400933834,4009338341,South Alabama,Sun Belt,3,False,1,{'minutes': 15},75,4,2017
+320,South Alabama,Sun Belt,TD,"{'minutes': 2, 'seconds': 29}",1,{'minutes': 11},100,400933834,4009338342,Ole Miss,SEC,9,True,1,"{'minutes': 13, 'seconds': 29}",22,78,2017
+321,Ole Miss,SEC,PUNT,"{'minutes': 2, 'seconds': 8}",1,"{'minutes': 8, 'seconds': 52}",93,400933834,4009338343,South Alabama,Sun Belt,3,False,1,{'minutes': 11},75,-18,2017
+322,South Alabama,Sun Belt,FG,"{'minutes': 6, 'seconds': 37}",1,"{'minutes': 2, 'seconds': 15}",98,400933834,4009338344,Ole Miss,SEC,12,True,1,"{'minutes': 8, 'seconds': 52}",55,43,2017
+323,Ole Miss,SEC,FG,"{'minutes': 9, 'seconds': 40}",2,"{'minutes': 7, 'seconds': 35}",3,400933834,4009338345,South Alabama,Sun Belt,19,True,1,"{'minutes': 2, 'seconds': 15}",98,95,2017
+324,South Alabama,Sun Belt,FUMBLE,"{'minutes': 1, 'seconds': 11}",2,"{'minutes': 6, 'seconds': 24}",40,400933834,4009338346,Ole Miss,SEC,4,False,2,"{'minutes': 7, 'seconds': 35}",25,15,2017
+325,Ole Miss,SEC,TD,"{'minutes': 1, 'seconds': 15}",2,"{'minutes': 5, 'seconds': 9}",0,400933834,4009338347,South Alabama,Sun Belt,3,True,2,"{'minutes': 6, 'seconds': 24}",40,40,2017
+326,South Alabama,Sun Belt,FG,"{'minutes': 4, 'seconds': 37}",2,{'seconds': 32},88,400933834,4009338348,Ole Miss,SEC,13,True,2,"{'minutes': 5, 'seconds': 9}",21,67,2017
+327,Ole Miss,SEC,END OF HALF,{'seconds': 32},2,{},68,400933834,4009338349,South Alabama,Sun Belt,1,False,2,{'seconds': 32},62,-6,2017
+328,Ole Miss,SEC,TD,"{'minutes': 4, 'seconds': 17}",1,"{'minutes': 10, 'seconds': 43}",0,400933848,4009338481,UT Martin,,7,True,1,{'minutes': 15},75,75,2017
+329,UT Martin,,PUNT,{'minutes': 1},1,"{'minutes': 9, 'seconds': 43}",33,400933848,4009338482,Ole Miss,SEC,3,False,1,"{'minutes': 10, 'seconds': 43}",29,4,2017
+330,Ole Miss,SEC,PUNT,"{'minutes': 4, 'seconds': 11}",1,"{'minutes': 5, 'seconds': 32}",49,400933848,4009338483,UT Martin,,7,False,1,"{'minutes': 9, 'seconds': 43}",77,28,2017
+331,UT Martin,,INT,"{'minutes': 1, 'seconds': 46}",1,"{'minutes': 3, 'seconds': 46}",46,400933848,4009338484,Ole Miss,SEC,6,False,1,"{'minutes': 5, 'seconds': 32}",12,34,2017
+332,Ole Miss,SEC,FG,"{'minutes': 2, 'seconds': 3}",1,"{'minutes': 1, 'seconds': 43}",6,400933848,4009338485,UT Martin,,4,True,1,"{'minutes': 3, 'seconds': 46}",12,18,2017
+333,UT Martin,,TD,"{'minutes': 1, 'seconds': 2}",1,{'seconds': 41},100,400933848,4009338486,Ole Miss,SEC,3,True,1,"{'minutes': 1, 'seconds': 43}",35,65,2017
+334,Ole Miss,SEC,PUNT,"{'minutes': 2, 'seconds': 19}",2,"{'minutes': 13, 'seconds': 22}",69,400933848,4009338487,UT Martin,,3,False,1,{'seconds': 41},75,6,2017
+335,UT Martin,,MISSED FG,"{'minutes': 3, 'seconds': 10}",2,"{'minutes': 10, 'seconds': 12}",80,400933848,4009338488,Ole Miss,SEC,8,False,2,"{'minutes': 13, 'seconds': 22}",37,43,2017
+336,Ole Miss,SEC,TD,"{'minutes': 3, 'seconds': 27}",2,"{'minutes': 6, 'seconds': 45}",0,400933848,4009338489,UT Martin,,6,True,2,"{'minutes': 10, 'seconds': 12}",80,80,2017
+337,California,Pac-12,FG,"{'minutes': 2, 'seconds': 53}",1,"{'minutes': 12, 'seconds': 7}",4,400933858,4009338581,Ole Miss,SEC,8,True,1,{'minutes': 15},75,71,2017
+338,Ole Miss,SEC,PUNT,"{'minutes': 1, 'seconds': 15}",1,"{'minutes': 10, 'seconds': 52}",25,400933858,4009338582,California,Pac-12,3,False,1,"{'minutes': 12, 'seconds': 7}",17,8,2017
+339,California,Pac-12,INT,"{'minutes': 1, 'seconds': 18}",1,"{'minutes': 9, 'seconds': 34}",76,400933858,4009338583,Ole Miss,SEC,3,False,1,"{'minutes': 10, 'seconds': 52}",72,-4,2017
+340,Ole Miss,SEC,TD,"{'minutes': 1, 'seconds': 17}",1,"{'minutes': 8, 'seconds': 17}",100,400933858,4009338584,California,Pac-12,3,True,1,"{'minutes': 9, 'seconds': 34}",79,21,2017
+341,California,Pac-12,TD,{'seconds': 19},1,"{'minutes': 7, 'seconds': 58}",0,400933858,4009338585,Ole Miss,SEC,1,True,1,"{'minutes': 8, 'seconds': 17}",67,67,2017
+342,Ole Miss,SEC,PUNT,"{'minutes': 2, 'seconds': 36}",1,"{'minutes': 5, 'seconds': 22}",28,400933858,4009338586,California,Pac-12,6,False,1,"{'minutes': 7, 'seconds': 58}",21,7,2017
+343,California,Pac-12,INT,"{'minutes': 3, 'seconds': 16}",1,"{'minutes': 2, 'seconds': 6}",30,400933858,4009338587,Ole Miss,SEC,8,False,1,"{'minutes': 5, 'seconds': 22}",70,40,2017
+344,Ole Miss,SEC,MISSED FG,"{'minutes': 3, 'seconds': 54}",2,"{'minutes': 13, 'seconds': 12}",71,400933858,4009338588,California,Pac-12,9,False,1,"{'minutes': 2, 'seconds': 6}",23,48,2017
+345,California,Pac-12,TD,{},2,"{'minutes': 13, 'seconds': 12}",0,400933858,4009338589,Ole Miss,SEC,1,True,2,"{'minutes': 13, 'seconds': 12}",71,71,2017
+346,Alabama,SEC,PUNT,"{'minutes': 1, 'seconds': 6}",1,"{'minutes': 13, 'seconds': 54}",82,400933872,4009338721,Ole Miss,SEC,3,False,1,{'minutes': 15},88,6,2017
+347,Ole Miss,SEC,PUNT,{'seconds': 47},1,"{'minutes': 13, 'seconds': 7}",58,400933872,4009338722,Alabama,SEC,3,False,1,"{'minutes': 13, 'seconds': 54}",54,4,2017
+348,Alabama,SEC,PUNT,{'seconds': 56},1,"{'minutes': 12, 'seconds': 18}",85,400933872,4009338724,Ole Miss,SEC,3,False,1,"{'minutes': 13, 'seconds': 14}",87,2,2017
+349,Ole Miss,SEC,TD,"{'minutes': 2, 'seconds': 14}",1,"{'minutes': 10, 'seconds': 4}",100,400933872,4009338725,Alabama,SEC,6,True,1,"{'minutes': 12, 'seconds': 18}",49,51,2017
+350,Alabama,SEC,INT TD,{'seconds': 44},1,"{'minutes': 9, 'seconds': 20}",70,400933872,4009338726,Ole Miss,SEC,3,True,1,"{'minutes': 10, 'seconds': 4}",76,6,2017
+351,Alabama,SEC,PUNT,"{'minutes': 1, 'seconds': 54}",1,"{'minutes': 7, 'seconds': 26}",46,400933872,4009338727,Ole Miss,SEC,5,False,1,"{'minutes': 9, 'seconds': 20}",88,42,2017
+352,Ole Miss,SEC,TD,"{'minutes': 2, 'seconds': 13}",1,"{'minutes': 5, 'seconds': 13}",100,400933872,4009338728,Alabama,SEC,5,True,1,"{'minutes': 7, 'seconds': 26}",15,85,2017
+353,Alabama,SEC,FG,"{'minutes': 2, 'seconds': 31}",1,"{'minutes': 2, 'seconds': 42}",9,400933872,4009338729,Ole Miss,SEC,6,True,1,"{'minutes': 5, 'seconds': 13}",75,66,2017
+354,Auburn,SEC,MISSED FG,"{'minutes': 2, 'seconds': 23}",1,"{'minutes': 12, 'seconds': 37}",26,400933880,4009338801,Ole Miss,SEC,9,False,1,{'minutes': 15},75,49,2017
+355,Ole Miss,SEC,TD,"{'minutes': 5, 'seconds': 6}",1,"{'minutes': 7, 'seconds': 31}",100,400933880,4009338802,Auburn,SEC,10,True,1,"{'minutes': 12, 'seconds': 37}",26,74,2017
+356,Auburn,SEC,FG,"{'minutes': 3, 'seconds': 12}",1,"{'minutes': 4, 'seconds': 19}",10,400933880,4009338803,Ole Miss,SEC,11,True,1,"{'minutes': 7, 'seconds': 31}",75,65,2017
+357,Ole Miss,SEC,TD,{'seconds': 15},1,"{'minutes': 4, 'seconds': 4}",100,400933880,4009338804,Auburn,SEC,1,True,1,"{'minutes': 4, 'seconds': 19}",25,75,2017
+358,Auburn,SEC,PUNT,"{'minutes': 1, 'seconds': 33}",1,"{'minutes': 2, 'seconds': 31}",67,400933880,4009338805,Ole Miss,SEC,3,False,1,"{'minutes': 4, 'seconds': 4}",75,8,2017
+359,Ole Miss,SEC,TD,"{'minutes': 2, 'seconds': 38}",2,"{'minutes': 14, 'seconds': 53}",100,400933880,4009338806,Auburn,SEC,9,True,1,"{'minutes': 2, 'seconds': 31}",26,74,2017
+360,Auburn,SEC,PUNT,"{'minutes': 1, 'seconds': 11}",2,"{'minutes': 13, 'seconds': 42}",68,400933880,4009338807,Ole Miss,SEC,3,False,2,"{'minutes': 14, 'seconds': 53}",75,7,2017
+361,Ole Miss,SEC,TD,"{'minutes': 1, 'seconds': 18}",2,"{'minutes': 12, 'seconds': 24}",100,400933880,4009338808,Auburn,SEC,3,True,2,"{'minutes': 13, 'seconds': 42}",43,57,2017
+362,Auburn,SEC,DOWNS,"{'minutes': 3, 'seconds': 30}",2,"{'minutes': 8, 'seconds': 54}",29,400933880,4009338809,Ole Miss,SEC,11,False,2,"{'minutes': 12, 'seconds': 24}",75,49,2017
+363,Vanderbilt,SEC,PUNT,"{'minutes': 1, 'seconds': 39}",1,"{'minutes': 13, 'seconds': 21}",18,400933890,4009338901,Ole Miss,SEC,3,False,1,{'minutes': 15},25,-7,2017
+364,Ole Miss,SEC,MISSED FG,"{'minutes': 1, 'seconds': 48}",1,"{'minutes': 11, 'seconds': 33}",28,400933890,4009338902,Vanderbilt,SEC,5,False,1,"{'minutes': 13, 'seconds': 21}",59,31,2017
+365,Vanderbilt,SEC,DOWNS,"{'minutes': 2, 'seconds': 10}",1,"{'minutes': 9, 'seconds': 23}",71,400933890,4009338903,Ole Miss,SEC,8,False,1,"{'minutes': 11, 'seconds': 33}",28,43,2017
+366,Ole Miss,SEC,PUNT,"{'minutes': 1, 'seconds': 38}",1,"{'minutes': 7, 'seconds': 45}",68,400933890,4009338904,Vanderbilt,SEC,3,False,1,"{'minutes': 9, 'seconds': 23}",71,3,2017
+367,Vanderbilt,SEC,TD,{'seconds': 57},1,"{'minutes': 6, 'seconds': 48}",100,400933890,4009338905,Ole Miss,SEC,3,True,1,"{'minutes': 7, 'seconds': 45}",26,74,2017
+368,Ole Miss,SEC,PUNT,"{'minutes': 1, 'seconds': 59}",1,"{'minutes': 4, 'seconds': 49}",90,400933890,4009338906,Vanderbilt,SEC,3,False,1,"{'minutes': 6, 'seconds': 48}",79,-11,2017
+369,Vanderbilt,SEC,PUNT,"{'minutes': 1, 'seconds': 9}",1,"{'minutes': 3, 'seconds': 40}",55,400933890,4009338907,Ole Miss,SEC,3,False,1,"{'minutes': 4, 'seconds': 49}",58,-3,2017
+370,Ole Miss,SEC,TD,"{'minutes': 4, 'seconds': 36}",2,"{'minutes': 14, 'seconds': 4}",0,400933890,4009338908,Vanderbilt,SEC,8,True,1,"{'minutes': 3, 'seconds': 40}",97,97,2017
+371,Vanderbilt,SEC,PUNT,"{'minutes': 1, 'seconds': 42}",2,"{'minutes': 12, 'seconds': 22}",16,400933890,4009338909,Ole Miss,SEC,4,False,2,"{'minutes': 14, 'seconds': 4}",25,-9,2017
+372,LSU,SEC,PUNT,{'seconds': 51},1,"{'minutes': 14, 'seconds': 9}",34,400933895,4009338951,Ole Miss,SEC,3,False,1,{'minutes': 15},25,9,2017
+373,Ole Miss,SEC,FG,"{'minutes': 3, 'seconds': 31}",1,"{'minutes': 10, 'seconds': 38}",18,400933895,4009338952,LSU,SEC,7,True,1,"{'minutes': 14, 'seconds': 9}",90,72,2017
+374,LSU,SEC,FG,"{'minutes': 4, 'seconds': 45}",1,"{'minutes': 5, 'seconds': 53}",85,400933895,4009338953,Ole Miss,SEC,10,True,1,"{'minutes': 10, 'seconds': 38}",18,67,2017
+375,Ole Miss,SEC,TD,"{'minutes': 1, 'seconds': 1}",1,"{'minutes': 4, 'seconds': 52}",0,400933895,4009338954,LSU,SEC,3,True,1,"{'minutes': 5, 'seconds': 53}",75,75,2017
+376,LSU,SEC,PUNT,"{'minutes': 2, 'seconds': 7}",1,"{'minutes': 2, 'seconds': 45}",30,400933895,4009338955,Ole Miss,SEC,5,False,1,"{'minutes': 4, 'seconds': 52}",25,5,2017
+377,Ole Miss,SEC,PUNT,"{'minutes': 1, 'seconds': 55}",1,{'seconds': 50},86,400933895,4009338956,LSU,SEC,3,False,1,"{'minutes': 2, 'seconds': 45}",79,-7,2017
+378,LSU,SEC,PUNT,"{'minutes': 1, 'seconds': 40}",2,"{'minutes': 14, 'seconds': 10}",53,400933895,4009338957,Ole Miss,SEC,3,False,1,{'seconds': 50},46,7,2017
+379,Ole Miss,SEC,PUNT,"{'minutes': 7, 'seconds': 39}",2,"{'minutes': 6, 'seconds': 31}",56,400933895,4009338958,LSU,SEC,11,False,2,"{'minutes': 14, 'seconds': 10}",93,37,2017
+380,LSU,SEC,INT,{'seconds': 50},2,"{'minutes': 5, 'seconds': 41}",42,400933895,4009338959,Ole Miss,SEC,3,False,2,"{'minutes': 6, 'seconds': 31}",25,17,2017
+381,Arkansas,SEC,TD,{'seconds': 36},1,"{'minutes': 14, 'seconds': 24}",100,400933900,4009339001,Ole Miss,SEC,2,True,1,{'minutes': 15},26,74,2017
+382,Ole Miss,SEC,TD,"{'minutes': 6, 'seconds': 35}",1,"{'minutes': 7, 'seconds': 49}",0,400933900,4009339002,Arkansas,SEC,13,True,1,"{'minutes': 14, 'seconds': 24}",70,70,2017
+383,Arkansas,SEC,TD,"{'minutes': 1, 'seconds': 9}",1,"{'minutes': 6, 'seconds': 40}",100,400933900,4009339003,Ole Miss,SEC,4,True,1,"{'minutes': 7, 'seconds': 49}",28,72,2017
+384,Ole Miss,SEC,PUNT,"{'minutes': 1, 'seconds': 6}",1,"{'minutes': 5, 'seconds': 34}",69,400933900,4009339004,Arkansas,SEC,3,False,1,"{'minutes': 6, 'seconds': 40}",77,8,2017
+385,Arkansas,SEC,TD,"{'minutes': 1, 'seconds': 17}",1,"{'minutes': 4, 'seconds': 17}",100,400933900,4009339005,Ole Miss,SEC,5,True,1,"{'minutes': 5, 'seconds': 34}",33,67,2017
+386,Ole Miss,SEC,MISSED FG,{'minutes': 3},1,"{'minutes': 1, 'seconds': 17}",27,400933900,4009339006,Arkansas,SEC,7,False,1,"{'minutes': 4, 'seconds': 17}",67,40,2017
+387,Arkansas,SEC,FG,"{'minutes': 3, 'seconds': 14}",2,"{'minutes': 12, 'seconds': 56}",80,400933900,4009339007,Ole Miss,SEC,10,True,1,"{'minutes': 1, 'seconds': 17}",27,53,2017
+388,Ole Miss,SEC,PUNT,{'seconds': 55},2,"{'minutes': 12, 'seconds': 1}",61,400933900,4009339008,Arkansas,SEC,3,False,2,"{'minutes': 12, 'seconds': 56}",65,4,2017
+389,Arkansas,SEC,TD,"{'minutes': 1, 'seconds': 10}",2,"{'minutes': 10, 'seconds': 51}",100,400933900,4009339009,Ole Miss,SEC,4,True,2,"{'minutes': 12, 'seconds': 1}",34,66,2017
+390,Kentucky,SEC,PUNT,"{'minutes': 1, 'seconds': 16}",1,"{'minutes': 13, 'seconds': 44}",78,400933907,4009339071,Ole Miss,SEC,3,False,1,{'minutes': 15},75,-3,2017
+391,Ole Miss,SEC,FG,"{'minutes': 3, 'seconds': 59}",1,"{'minutes': 9, 'seconds': 45}",82,400933907,4009339072,Kentucky,SEC,8,True,1,"{'minutes': 13, 'seconds': 44}",35,47,2017
+392,Kentucky,SEC,TD,"{'minutes': 4, 'seconds': 16}",1,"{'minutes': 5, 'seconds': 29}",0,400933907,4009339073,Ole Miss,SEC,10,True,1,"{'minutes': 9, 'seconds': 45}",75,75,2017
+393,Ole Miss,SEC,FG,"{'minutes': 6, 'seconds': 14}",2,"{'minutes': 14, 'seconds': 15}",84,400933907,4009339074,Kentucky,SEC,13,True,1,"{'minutes': 5, 'seconds': 29}",19,65,2017
+394,Kentucky,SEC,FG,"{'minutes': 1, 'seconds': 30}",2,"{'minutes': 12, 'seconds': 45}",16,400933907,4009339075,Ole Miss,SEC,6,True,2,"{'minutes': 14, 'seconds': 15}",75,59,2017
+395,Ole Miss,SEC,TD,"{'minutes': 4, 'seconds': 43}",2,"{'minutes': 8, 'seconds': 2}",100,400933907,4009339076,Kentucky,SEC,9,True,2,"{'minutes': 12, 'seconds': 45}",25,75,2017
+396,Kentucky,SEC,TD,"{'minutes': 1, 'seconds': 52}",2,"{'minutes': 6, 'seconds': 10}",0,400933907,4009339077,Ole Miss,SEC,6,True,2,"{'minutes': 8, 'seconds': 2}",69,69,2017
+397,Ole Miss,SEC,TD,"{'minutes': 5, 'seconds': 57}",2,{'seconds': 13},100,400933907,4009339078,Kentucky,SEC,13,True,2,"{'minutes': 6, 'seconds': 10}",21,79,2017
+398,Kentucky,SEC,END OF HALF,{'seconds': 13},2,{},63,400933907,4009339079,Ole Miss,SEC,1,False,2,{'seconds': 13},75,12,2017
+399,Louisiana,Sun Belt,TD,"{'minutes': 1, 'seconds': 12}",1,"{'minutes': 13, 'seconds': 48}",100,400933915,4009339151,Ole Miss,SEC,5,True,1,{'minutes': 15},25,75,2017
+400,Ole Miss,SEC,PUNT,"{'minutes': 3, 'seconds': 29}",1,"{'minutes': 10, 'seconds': 19}",45,400933915,4009339152,Louisiana,Sun Belt,8,False,1,"{'minutes': 13, 'seconds': 48}",75,30,2017
+401,Louisiana,Sun Belt,TD,"{'minutes': 1, 'seconds': 33}",1,"{'minutes': 8, 'seconds': 46}",100,400933915,4009339153,Ole Miss,SEC,5,True,1,"{'minutes': 10, 'seconds': 19}",4,96,2017
+402,Ole Miss,SEC,PUNT,"{'minutes': 3, 'seconds': 25}",1,"{'minutes': 5, 'seconds': 21}",55,400933915,4009339154,Louisiana,Sun Belt,6,False,1,"{'minutes': 8, 'seconds': 46}",35,25,2017
+403,Louisiana,Sun Belt,TD,"{'minutes': 1, 'seconds': 35}",1,"{'minutes': 3, 'seconds': 46}",100,400933915,4009339155,Ole Miss,SEC,5,True,1,"{'minutes': 5, 'seconds': 21}",20,80,2017
+404,Ole Miss,SEC,PUNT,{'minutes': 3},1,{'seconds': 46},64,400933915,4009339156,Louisiana,Sun Belt,5,False,1,"{'minutes': 3, 'seconds': 46}",75,11,2017
+405,Louisiana,Sun Belt,TD,"{'minutes': 2, 'seconds': 47}",2,"{'minutes': 12, 'seconds': 51}",100,400933915,4009339157,Ole Miss,SEC,8,True,1,{'seconds': 46},28,72,2017
+406,Ole Miss,SEC,TD,"{'minutes': 1, 'seconds': 38}",2,"{'minutes': 11, 'seconds': 13}",0,400933915,4009339158,Louisiana,Sun Belt,4,True,2,"{'minutes': 12, 'seconds': 51}",35,78,2017
+407,Louisiana,Sun Belt,TD,"{'minutes': 3, 'seconds': 17}",2,"{'minutes': 7, 'seconds': 56}",100,400933915,4009339159,Ole Miss,SEC,10,True,2,"{'minutes': 11, 'seconds': 13}",25,75,2017
+408,Texas A&M,SEC,TD,"{'minutes': 2, 'seconds': 31}",1,"{'minutes': 12, 'seconds': 29}",100,400933926,4009339261,Ole Miss,SEC,7,True,1,{'minutes': 15},30,70,2017
+409,Ole Miss,SEC,TD,"{'minutes': 5, 'seconds': 28}",1,"{'minutes': 7, 'seconds': 1}",0,400933926,4009339262,Texas A&M,SEC,10,True,1,"{'minutes': 12, 'seconds': 29}",75,75,2017
+410,Texas A&M,SEC,TD,{'seconds': 20},1,"{'minutes': 6, 'seconds': 41}",100,400933926,4009339263,Ole Miss,SEC,1,True,1,"{'minutes': 7, 'seconds': 1}",36,64,2017
+411,Ole Miss,SEC,TD,"{'minutes': 2, 'seconds': 24}",1,"{'minutes': 4, 'seconds': 17}",0,400933926,4009339264,Texas A&M,SEC,7,True,1,"{'minutes': 6, 'seconds': 41}",81,81,2017
+412,Texas A&M,SEC,PUNT,"{'minutes': 1, 'seconds': 24}",1,"{'minutes': 2, 'seconds': 53}",37,400933926,4009339265,Ole Miss,SEC,3,False,1,"{'minutes': 4, 'seconds': 17}",28,9,2017
+413,Ole Miss,SEC,PUNT,{'seconds': 43},1,"{'minutes': 2, 'seconds': 10}",80,400933926,4009339266,Texas A&M,SEC,3,False,1,"{'minutes': 2, 'seconds': 53}",84,4,2017
+414,Texas A&M,SEC,PUNT,{'seconds': 45},1,"{'minutes': 1, 'seconds': 25}",39,400933926,4009339267,Ole Miss,SEC,3,False,1,"{'minutes': 2, 'seconds': 10}",36,3,2017
+415,Ole Miss,SEC,PUNT,"{'minutes': 1, 'seconds': 17}",1,{'seconds': 8},72,400933926,4009339268,Texas A&M,SEC,3,False,1,"{'minutes': 1, 'seconds': 25}",79,7,2017
+416,Texas A&M,SEC,FUMBLE,"{'minutes': 2, 'seconds': 37}",2,"{'minutes': 12, 'seconds': 31}",49,400933926,4009339269,Ole Miss,SEC,9,False,1,{'seconds': 8},8,62,2017
+417,Mississippi State,SEC,TD,{'seconds': 39},1,"{'minutes': 14, 'seconds': 21}",0,400933930,4009339301,Ole Miss,SEC,3,True,1,{'minutes': 15},75,75,2017
+418,Ole Miss,SEC,INT,"{'minutes': 3, 'seconds': 6}",1,"{'minutes': 11, 'seconds': 15}",62,400933930,4009339302,Mississippi State,SEC,9,False,1,"{'minutes': 14, 'seconds': 21}",65,38,2017
+419,Mississippi State,SEC,PUNT,"{'minutes': 1, 'seconds': 24}",1,"{'minutes': 9, 'seconds': 51}",66,400933930,4009339303,Ole Miss,SEC,3,False,1,"{'minutes': 11, 'seconds': 15}",74,8,2017
+420,Ole Miss,SEC,PUNT,"{'minutes': 1, 'seconds': 21}",1,"{'minutes': 8, 'seconds': 30}",16,400933930,4009339304,Mississippi State,SEC,3,False,1,"{'minutes': 9, 'seconds': 51}",22,-6,2017
+421,Mississippi State,SEC,PUNT,"{'minutes': 2, 'seconds': 43}",1,"{'minutes': 5, 'seconds': 47}",52,400933930,4009339305,Ole Miss,SEC,6,False,1,"{'minutes': 8, 'seconds': 30}",60,8,2017
+422,Ole Miss,SEC,PUNT,"{'minutes': 3, 'seconds': 39}",1,"{'minutes': 2, 'seconds': 8}",47,400933930,4009339306,Mississippi State,SEC,6,False,1,"{'minutes': 5, 'seconds': 47}",12,35,2017
+423,Mississippi State,SEC,PUNT,"{'minutes': 3, 'seconds': 40}",2,"{'minutes': 13, 'seconds': 28}",41,400933930,4009339307,Ole Miss,SEC,8,False,1,"{'minutes': 2, 'seconds': 8}",81,40,2017
+424,Ole Miss,SEC,INT,{'seconds': 15},2,"{'minutes': 13, 'seconds': 13}",58,400933930,4009339308,Mississippi State,SEC,1,False,2,"{'minutes': 13, 'seconds': 28}",43,0,2017
+425,Mississippi State,SEC,FG,"{'minutes': 2, 'seconds': 33}",2,"{'minutes': 10, 'seconds': 40}",16,400933930,4009339309,Ole Miss,SEC,6,True,2,"{'minutes': 13, 'seconds': 13}",28,12,2017
+426,South Alabama,Sun Belt,TD,{'seconds': 33},3,"{'minutes': 14, 'seconds': 27}",100,400933834,40093383410,Ole Miss,SEC,2,True,3,{'minutes': 15},25,75,2017
+427,Ole Miss,SEC,PUNT,"{'minutes': 1, 'seconds': 30}",3,"{'minutes': 12, 'seconds': 57}",69,400933834,40093383411,South Alabama,Sun Belt,3,False,3,"{'minutes': 14, 'seconds': 27}",75,6,2017
+428,South Alabama,Sun Belt,TD,{'seconds': 50},3,"{'minutes': 12, 'seconds': 7}",100,400933834,40093383412,Ole Miss,SEC,3,True,3,"{'minutes': 12, 'seconds': 57}",24,76,2017
+429,Ole Miss,SEC,PUNT,"{'minutes': 1, 'seconds': 30}",3,"{'minutes': 10, 'seconds': 37}",62,400933834,40093383413,South Alabama,Sun Belt,3,False,3,"{'minutes': 12, 'seconds': 7}",75,13,2017
+430,South Alabama,Sun Belt,PUNT,"{'minutes': 1, 'seconds': 22}",3,"{'minutes': 9, 'seconds': 15}",13,400933834,40093383414,Ole Miss,SEC,3,False,3,"{'minutes': 10, 'seconds': 37}",14,-1,2017
+431,Ole Miss,SEC,FG,"{'minutes': 4, 'seconds': 4}",3,"{'minutes': 5, 'seconds': 11}",4,400933834,40093383415,South Alabama,Sun Belt,9,True,3,"{'minutes': 9, 'seconds': 15}",60,56,2017
+432,South Alabama,Sun Belt,TD,{'seconds': 12},3,"{'minutes': 4, 'seconds': 59}",100,400933834,40093383416,Ole Miss,SEC,0,True,3,"{'minutes': 5, 'seconds': 11}",100,0,2017
+433,Ole Miss,SEC,PUNT,"{'minutes': 1, 'seconds': 3}",3,"{'minutes': 3, 'seconds': 56}",81,400933834,40093383417,South Alabama,Sun Belt,3,False,3,"{'minutes': 4, 'seconds': 59}",75,-6,2017
+434,South Alabama,Sun Belt,TD,"{'minutes': 1, 'seconds': 32}",3,"{'minutes': 2, 'seconds': 24}",100,400933834,40093383418,Ole Miss,SEC,5,True,3,"{'minutes': 3, 'seconds': 56}",36,64,2017
+435,Ole Miss,SEC,DOWNS,"{'minutes': 2, 'seconds': 31}",4,"{'minutes': 14, 'seconds': 53}",39,400933834,40093383419,South Alabama,Sun Belt,7,False,3,"{'minutes': 2, 'seconds': 24}",75,36,2017
+436,South Alabama,Sun Belt,TD,"{'minutes': 3, 'seconds': 12}",4,"{'minutes': 11, 'seconds': 41}",100,400933834,40093383420,Ole Miss,SEC,6,True,4,"{'minutes': 14, 'seconds': 53}",39,61,2017
+437,Ole Miss,SEC,TD,"{'minutes': 2, 'seconds': 59}",4,"{'minutes': 8, 'seconds': 42}",0,400933834,40093383421,South Alabama,Sun Belt,8,True,4,"{'minutes': 11, 'seconds': 41}",75,75,2017
+438,South Alabama,Sun Belt,MISSED FG,"{'minutes': 1, 'seconds': 30}",4,"{'minutes': 7, 'seconds': 12}",72,400933834,40093383422,Ole Miss,SEC,4,False,4,"{'minutes': 8, 'seconds': 42}",70,2,2017
+439,Ole Miss,SEC,TD,"{'minutes': 3, 'seconds': 8}",4,"{'minutes': 4, 'seconds': 4}",0,400933834,40093383423,South Alabama,Sun Belt,8,True,4,"{'minutes': 7, 'seconds': 12}",72,72,2017
+440,South Alabama,Sun Belt,END OF GAME,"{'minutes': 4, 'seconds': 4}",4,{},55,400933834,40093383424,Ole Miss,SEC,6,False,4,"{'minutes': 4, 'seconds': 4}",29,26,2017
+441,UT Martin,,FG,"{'minutes': 2, 'seconds': 46}",2,"{'minutes': 3, 'seconds': 59}",96,400933848,40093384810,Ole Miss,SEC,7,True,2,"{'minutes': 6, 'seconds': 45}",0,71,2017
+442,Ole Miss,SEC,PUNT,"{'minutes': 2, 'seconds': 1}",2,"{'minutes': 1, 'seconds': 58}",72,400933848,40093384811,UT Martin,,3,False,2,"{'minutes': 3, 'seconds': 59}",81,9,2017
+443,UT Martin,,TD,"{'minutes': 1, 'seconds': 43}",2,{'seconds': 15},100,400933848,40093384812,Ole Miss,SEC,4,True,2,"{'minutes': 1, 'seconds': 58}",49,51,2017
+444,Ole Miss,SEC,END OF HALF,{'seconds': 15},2,{},66,400933848,40093384813,UT Martin,,1,False,2,{'seconds': 15},64,-2,2017
+445,UT Martin,,TD,"{'minutes': 2, 'seconds': 19}",3,"{'minutes': 12, 'seconds': 35}",100,400933848,40093384814,Ole Miss,SEC,9,True,3,"{'minutes': 14, 'seconds': 54}",20,80,2017
+446,Ole Miss,SEC,PUNT,"{'minutes': 1, 'seconds': 32}",3,"{'minutes': 11, 'seconds': 3}",76,400933848,40093384815,UT Martin,,3,False,3,"{'minutes': 12, 'seconds': 35}",80,4,2017
+447,UT Martin,,TD,"{'minutes': 1, 'seconds': 38}",3,"{'minutes': 9, 'seconds': 25}",100,400933848,40093384816,Ole Miss,SEC,5,True,3,"{'minutes': 11, 'seconds': 3}",40,60,2017
+448,Ole Miss,SEC,PUNT,"{'minutes': 2, 'seconds': 22}",3,"{'minutes': 7, 'seconds': 3}",84,400933848,40093384817,UT Martin,,3,False,3,"{'minutes': 9, 'seconds': 25}",75,-9,2017
+449,UT Martin,,TD,"{'minutes': 1, 'seconds': 43}",3,"{'minutes': 5, 'seconds': 20}",100,400933848,40093384818,Ole Miss,SEC,5,True,3,"{'minutes': 7, 'seconds': 3}",42,58,2017
+450,Ole Miss,SEC,TD,"{'minutes': 7, 'seconds': 20}",4,"{'minutes': 12, 'seconds': 51}",0,400933848,40093384819,UT Martin,,12,True,3,"{'minutes': 5, 'seconds': 20}",71,71,2017
+451,UT Martin,,TD,"{'minutes': 3, 'seconds': 26}",4,"{'minutes': 9, 'seconds': 25}",100,400933848,40093384820,Ole Miss,SEC,9,True,4,"{'minutes': 12, 'seconds': 51}",38,62,2017
+452,Ole Miss,SEC,INT,"{'minutes': 4, 'seconds': 47}",4,"{'minutes': 4, 'seconds': 38}",30,400933848,40093384821,UT Martin,,10,False,4,"{'minutes': 9, 'seconds': 25}",75,45,2017
+453,UT Martin,,PUNT,"{'minutes': 2, 'seconds': 2}",4,"{'minutes': 2, 'seconds': 36}",9,400933848,40093384822,Ole Miss,SEC,3,False,4,"{'minutes': 4, 'seconds': 38}",11,-2,2017
+454,Ole Miss,SEC,PUNT,"{'minutes': 2, 'seconds': 12}",4,{'seconds': 24},59,400933848,40093384823,UT Martin,,3,False,4,"{'minutes': 2, 'seconds': 36}",60,1,2017
+455,UT Martin,,END OF GAME,{'seconds': 24},4,{},10,400933848,40093384824,Ole Miss,SEC,1,False,4,{'seconds': 24},6,4,2017
+456,Ole Miss,SEC,PUNT,"{'minutes': 1, 'seconds': 33}",2,"{'minutes': 11, 'seconds': 39}",29,400933858,40093385810,California,Pac-12,3,False,2,"{'minutes': 13, 'seconds': 12}",29,0,2017
+457,California,Pac-12,PUNT,"{'minutes': 1, 'seconds': 59}",2,"{'minutes': 9, 'seconds': 40}",85,400933858,40093385811,Ole Miss,SEC,3,False,2,"{'minutes': 11, 'seconds': 39}",79,-6,2017
+458,Ole Miss,SEC,PUNT,{'seconds': 48},2,"{'minutes': 8, 'seconds': 52}",28,400933858,40093385812,California,Pac-12,3,False,2,"{'minutes': 9, 'seconds': 40}",24,4,2017
+459,California,Pac-12,PUNT,{'minutes': 2},2,"{'minutes': 6, 'seconds': 52}",59,400933858,40093385813,Ole Miss,SEC,3,False,2,"{'minutes': 8, 'seconds': 52}",66,7,2017
+460,Ole Miss,SEC,INT,"{'minutes': 3, 'seconds': 36}",2,"{'minutes': 3, 'seconds': 16}",92,400933858,40093385814,California,Pac-12,11,False,2,"{'minutes': 6, 'seconds': 52}",18,74,2017
+461,California,Pac-12,PUNT,"{'minutes': 2, 'seconds': 18}",2,{'seconds': 58},64,400933858,40093385815,Ole Miss,SEC,6,False,2,"{'minutes': 3, 'seconds': 16}",85,23,2017
+462,Ole Miss,SEC,INT,{'seconds': 58},2,{},45,400933858,40093385816,California,Pac-12,9,False,2,{'seconds': 58},15,30,2017
+463,Ole Miss,SEC,TD,"{'minutes': 3, 'seconds': 44}",3,"{'minutes': 11, 'seconds': 16}",100,400933858,40093385818,California,Pac-12,13,True,3,{'minutes': 15},28,72,2017
+464,California,Pac-12,PUNT,"{'minutes': 2, 'seconds': 22}",3,"{'minutes': 8, 'seconds': 54}",41,400933858,40093385819,Ole Miss,SEC,6,False,3,"{'minutes': 11, 'seconds': 16}",73,34,2017
+465,Ole Miss,SEC,PUNT,{'seconds': 40},3,"{'minutes': 8, 'seconds': 14}",25,400933858,40093385820,California,Pac-12,3,False,3,"{'minutes': 8, 'seconds': 54}",20,5,2017
+466,California,Pac-12,PUNT,"{'minutes': 1, 'seconds': 16}",3,"{'minutes': 6, 'seconds': 58}",70,400933858,40093385821,Ole Miss,SEC,4,False,3,"{'minutes': 8, 'seconds': 14}",77,7,2017
+467,Ole Miss,SEC,FG,"{'minutes': 4, 'seconds': 11}",3,"{'minutes': 2, 'seconds': 47}",98,400933858,40093385822,California,Pac-12,9,True,3,"{'minutes': 6, 'seconds': 58}",28,70,2017
+468,California,Pac-12,MISSED FG,"{'minutes': 4, 'seconds': 56}",4,"{'minutes': 12, 'seconds': 51}",31,400933858,40093385823,Ole Miss,SEC,14,False,3,"{'minutes': 2, 'seconds': 47}",83,52,2017
+469,Ole Miss,SEC,MISSED FG,"{'minutes': 5, 'seconds': 3}",4,"{'minutes': 7, 'seconds': 48}",77,400933858,40093385824,California,Pac-12,11,False,4,"{'minutes': 12, 'seconds': 51}",31,46,2017
+470,California,Pac-12,PUNT,"{'minutes': 1, 'seconds': 12}",4,"{'minutes': 6, 'seconds': 36}",88,400933858,40093385825,Ole Miss,SEC,3,False,4,"{'minutes': 7, 'seconds': 48}",77,-11,2017
+471,Ole Miss,SEC,FG,"{'minutes': 2, 'seconds': 52}",4,"{'minutes': 3, 'seconds': 44}",76,400933858,40093385826,California,Pac-12,7,True,4,"{'minutes': 6, 'seconds': 36}",51,25,2017
+472,California,Pac-12,INT TD,{'seconds': 44},4,{'minutes': 3},72,400933858,40093385827,Ole Miss,SEC,3,True,4,"{'minutes': 3, 'seconds': 44}",75,3,2017
+473,California,Pac-12,DOWNS,"{'minutes': 2, 'seconds': 24}",4,{'seconds': 36},19,400933858,40093385828,Ole Miss,SEC,13,False,4,{'minutes': 3},68,38,2017
+474,Ole Miss,SEC,END OF GAME,{'seconds': 36},4,{},29,400933858,40093385829,California,Pac-12,1,False,4,{'seconds': 36},30,-1,2017
+475,Ole Miss,SEC,TD,"{'minutes': 4, 'seconds': 49}",2,"{'minutes': 12, 'seconds': 53}",100,400933872,40093387210,Alabama,SEC,10,True,1,"{'minutes': 2, 'seconds': 42}",25,75,2017
+476,Alabama,SEC,PUNT,"{'minutes': 2, 'seconds': 2}",2,"{'minutes': 10, 'seconds': 51}",51,400933872,40093387211,Ole Miss,SEC,4,False,2,"{'minutes': 12, 'seconds': 53}",75,24,2017
+477,Ole Miss,SEC,MISSED FG,"{'minutes': 4, 'seconds': 2}",2,"{'minutes': 6, 'seconds': 49}",77,400933872,40093387212,Alabama,SEC,9,False,2,"{'minutes': 10, 'seconds': 51}",22,55,2017
+478,Alabama,SEC,FUMBLE,"{'minutes': 2, 'seconds': 36}",2,"{'minutes': 4, 'seconds': 13}",85,400933872,40093387213,Ole Miss,SEC,3,False,2,"{'minutes': 6, 'seconds': 49}",77,-8,2017
+479,Ole Miss,SEC,TD,{'seconds': 31},2,"{'minutes': 3, 'seconds': 42}",100,400933872,40093387214,Alabama,SEC,2,True,2,"{'minutes': 4, 'seconds': 13}",64,36,2017
+480,Alabama,SEC,PUNT,"{'minutes': 1, 'seconds': 56}",2,"{'minutes': 1, 'seconds': 46}",69,400933872,40093387215,Ole Miss,SEC,5,False,2,"{'minutes': 3, 'seconds': 42}",75,6,2017
+481,Ole Miss,SEC,PUNT,"{'minutes': 1, 'seconds': 32}",2,{'seconds': 14},45,400933872,40093387216,Alabama,SEC,4,False,2,"{'minutes': 1, 'seconds': 46}",36,9,2017
+482,Alabama,SEC,END OF HALF,{'seconds': 14},2,{},76,400933872,40093387217,Ole Miss,SEC,1,False,2,{'seconds': 14},80,4,2017
+483,Ole Miss,SEC,FG,"{'minutes': 2, 'seconds': 23}",3,"{'minutes': 12, 'seconds': 37}",70,400933872,40093387218,Alabama,SEC,5,True,3,{'minutes': 15},22,48,2017
+484,Alabama,SEC,PUNT,"{'minutes': 1, 'seconds': 31}",3,"{'minutes': 11, 'seconds': 6}",90,400933872,40093387219,Ole Miss,SEC,3,False,3,"{'minutes': 12, 'seconds': 37}",84,-6,2017
+485,Ole Miss,SEC,TD,"{'minutes': 1, 'seconds': 59}",3,"{'minutes': 9, 'seconds': 7}",100,400933872,40093387220,Alabama,SEC,6,True,3,"{'minutes': 11, 'seconds': 6}",71,29,2017
+486,Alabama,SEC,DOWNS,"{'minutes': 2, 'seconds': 8}",3,"{'minutes': 6, 'seconds': 59}",31,400933872,40093387221,Ole Miss,SEC,7,False,3,"{'minutes': 9, 'seconds': 7}",75,44,2017
+487,Ole Miss,SEC,TD,{'seconds': 54},3,"{'minutes': 6, 'seconds': 5}",100,400933872,40093387222,Alabama,SEC,3,True,3,"{'minutes': 6, 'seconds': 59}",31,69,2017
+488,Alabama,SEC,INT,"{'minutes': 1, 'seconds': 25}",3,"{'minutes': 4, 'seconds': 40}",31,400933872,40093387223,Ole Miss,SEC,5,False,3,"{'minutes': 6, 'seconds': 5}",74,43,2017
+489,Ole Miss,SEC,TD,"{'minutes': 2, 'seconds': 4}",3,"{'minutes': 2, 'seconds': 36}",100,400933872,40093387224,Alabama,SEC,5,True,3,"{'minutes': 4, 'seconds': 40}",69,44,2017
+490,Alabama,SEC,PUNT,"{'minutes': 2, 'seconds': 36}",3,{},41,400933872,40093387225,Ole Miss,SEC,5,False,3,"{'minutes': 2, 'seconds': 36}",79,38,2017
+491,Ole Miss,SEC,TD,"{'minutes': 8, 'seconds': 9}",4,"{'minutes': 6, 'seconds': 51}",100,400933872,40093387226,Alabama,SEC,12,True,3,{},9,91,2017
+492,Alabama,SEC,PUNT,"{'minutes': 1, 'seconds': 51}",4,{'minutes': 5},79,400933872,40093387227,Ole Miss,SEC,3,False,4,"{'minutes': 6, 'seconds': 51}",75,-4,2017
+493,Ole Miss,SEC,END OF GAME,{'minutes': 5},4,{},44,400933872,40093387228,Alabama,SEC,7,False,4,{'minutes': 5},42,2,2017
+494,Ole Miss,SEC,TD,"{'minutes': 2, 'seconds': 16}",2,"{'minutes': 6, 'seconds': 38}",100,400933880,40093388010,Auburn,SEC,6,True,2,"{'minutes': 8, 'seconds': 54}",26,74,2017
+495,Auburn,SEC,PUNT,"{'minutes': 4, 'seconds': 17}",2,"{'minutes': 2, 'seconds': 21}",50,400933880,40093388011,Ole Miss,SEC,10,False,2,"{'minutes': 6, 'seconds': 38}",75,25,2017
+496,Ole Miss,SEC,PUNT,"{'minutes': 1, 'seconds': 19}",2,"{'minutes': 1, 'seconds': 2}",57,400933880,40093388012,Auburn,SEC,6,False,2,"{'minutes': 2, 'seconds': 21}",10,47,2017
+497,Auburn,SEC,PUNT,{'seconds': 40},2,{'seconds': 22},64,400933880,40093388013,Ole Miss,SEC,4,False,2,"{'minutes': 1, 'seconds': 2}",80,16,2017
+498,Ole Miss,SEC,END OF HALF,{'seconds': 22},2,{},27,400933880,40093388014,Auburn,SEC,1,False,2,{'seconds': 22},22,5,2017
+499,Ole Miss,SEC,FG,"{'minutes': 1, 'seconds': 7}",3,"{'minutes': 13, 'seconds': 53}",69,400933880,40093388015,Auburn,SEC,4,True,3,{'minutes': 15},70,-1,2017
+500,Auburn,SEC,TD,"{'minutes': 2, 'seconds': 46}",3,"{'minutes': 11, 'seconds': 7}",0,400933880,40093388016,Ole Miss,SEC,8,True,3,"{'minutes': 13, 'seconds': 53}",75,75,2017
+501,Ole Miss,SEC,PUNT,"{'minutes': 1, 'seconds': 30}",3,"{'minutes': 9, 'seconds': 37}",29,400933880,40093388017,Auburn,SEC,3,False,3,"{'minutes': 11, 'seconds': 7}",25,4,2017
+502,Auburn,SEC,PUNT,{'seconds': 43},3,"{'minutes': 8, 'seconds': 54}",63,400933880,40093388018,Ole Miss,SEC,3,False,3,"{'minutes': 9, 'seconds': 37}",66,3,2017
+503,Ole Miss,SEC,FG,"{'minutes': 5, 'seconds': 49}",3,"{'minutes': 3, 'seconds': 5}",92,400933880,40093388019,Auburn,SEC,14,True,3,"{'minutes': 8, 'seconds': 54}",15,77,2017
+504,Auburn,SEC,PUNT,"{'minutes': 1, 'seconds': 44}",3,"{'minutes': 1, 'seconds': 21}",66,400933880,40093388020,Ole Miss,SEC,3,False,3,"{'minutes': 3, 'seconds': 5}",75,9,2017
+505,Ole Miss,SEC,PUNT,"{'minutes': 1, 'seconds': 36}",4,"{'minutes': 14, 'seconds': 45}",20,400933880,40093388021,Auburn,SEC,5,False,3,"{'minutes': 1, 'seconds': 21}",19,1,2017
+506,Auburn,SEC,TD,"{'minutes': 2, 'seconds': 18}",4,"{'minutes': 12, 'seconds': 27}",0,400933880,40093388022,Ole Miss,SEC,7,True,4,"{'minutes': 14, 'seconds': 45}",63,63,2017
+507,Ole Miss,SEC,FG,"{'minutes': 5, 'seconds': 55}",4,"{'minutes': 6, 'seconds': 32}",82,400933880,40093388023,Auburn,SEC,10,True,4,"{'minutes': 12, 'seconds': 27}",17,65,2017
+508,Auburn,SEC,TD,"{'minutes': 3, 'seconds': 35}",4,"{'minutes': 2, 'seconds': 57}",0,400933880,40093388024,Ole Miss,SEC,11,True,4,"{'minutes': 6, 'seconds': 32}",75,75,2017
+509,Ole Miss,SEC,END OF GAME,"{'minutes': 2, 'seconds': 57}",4,{},66,400933880,40093388025,Auburn,SEC,4,False,4,"{'minutes': 2, 'seconds': 57}",52,14,2017
+510,Ole Miss,SEC,TD,"{'minutes': 2, 'seconds': 30}",2,"{'minutes': 9, 'seconds': 52}",0,400933890,40093389010,Vanderbilt,SEC,5,True,2,"{'minutes': 12, 'seconds': 22}",56,56,2017
+511,Vanderbilt,SEC,TD,"{'minutes': 1, 'seconds': 9}",2,"{'minutes': 8, 'seconds': 43}",100,400933890,40093389011,Ole Miss,SEC,5,True,2,"{'minutes': 9, 'seconds': 52}",25,75,2017
+512,Ole Miss,SEC,FUMBLE,{'seconds': 8},2,"{'minutes': 8, 'seconds': 35}",73,400933890,40093389012,Vanderbilt,SEC,1,False,2,"{'minutes': 8, 'seconds': 43}",65,-8,2017
+513,Vanderbilt,SEC,TD,"{'minutes': 1, 'seconds': 29}",2,"{'minutes': 7, 'seconds': 6}",100,400933890,40093389013,Ole Miss,SEC,4,True,2,"{'minutes': 8, 'seconds': 35}",73,27,2017
+514,Ole Miss,SEC,PUNT,"{'minutes': 1, 'seconds': 31}",2,"{'minutes': 5, 'seconds': 35}",70,400933890,40093389014,Vanderbilt,SEC,3,False,2,"{'minutes': 7, 'seconds': 6}",74,4,2017
+515,Vanderbilt,SEC,TD,"{'minutes': 1, 'seconds': 21}",2,"{'minutes': 4, 'seconds': 14}",100,400933890,40093389015,Ole Miss,SEC,5,True,2,"{'minutes': 5, 'seconds': 35}",35,65,2017
+516,Ole Miss,SEC,INT,{'seconds': 54},2,"{'minutes': 3, 'seconds': 20}",81,400933890,40093389016,Vanderbilt,SEC,3,False,2,"{'minutes': 4, 'seconds': 14}",75,-6,2017
+517,Vanderbilt,SEC,TD,"{'minutes': 1, 'seconds': 16}",2,"{'minutes': 2, 'seconds': 4}",100,400933890,40093389017,Ole Miss,SEC,5,True,2,"{'minutes': 3, 'seconds': 20}",70,30,2017
+518,Ole Miss,SEC,TD,"{'minutes': 1, 'seconds': 35}",2,{'seconds': 29},0,400933890,40093389018,Vanderbilt,SEC,5,True,2,"{'minutes': 2, 'seconds': 4}",75,75,2017
+519,Vanderbilt,SEC,END OF HALF,{'seconds': 29},2,{},62,400933890,40093389019,Ole Miss,SEC,5,False,2,{'seconds': 29},38,24,2017
+520,Ole Miss,SEC,SF,{'seconds': 55},3,"{'minutes': 14, 'seconds': 2}",100,400933890,40093389020,Vanderbilt,SEC,3,True,3,"{'minutes': 14, 'seconds': 57}",89,-11,2017
+521,Vanderbilt,SEC,TD,{'seconds': 57},3,"{'minutes': 13, 'seconds': 5}",100,400933890,40093389021,Ole Miss,SEC,3,True,3,"{'minutes': 14, 'seconds': 2}",50,50,2017
+522,Ole Miss,SEC,MISSED FG,"{'minutes': 3, 'seconds': 25}",3,"{'minutes': 9, 'seconds': 40}",13,400933890,40093389022,Vanderbilt,SEC,8,False,3,"{'minutes': 13, 'seconds': 5}",49,36,2017
+523,Vanderbilt,SEC,PUNT,"{'minutes': 2, 'seconds': 54}",3,"{'minutes': 6, 'seconds': 46}",58,400933890,40093389023,Ole Miss,SEC,7,False,3,"{'minutes': 9, 'seconds': 40}",20,38,2017
+524,Ole Miss,SEC,DOWNS,"{'minutes': 3, 'seconds': 4}",3,"{'minutes': 3, 'seconds': 42}",73,400933890,40093389024,Vanderbilt,SEC,8,False,3,"{'minutes': 6, 'seconds': 46}",92,19,2017
+525,Vanderbilt,SEC,FG,"{'minutes': 2, 'seconds': 15}",3,"{'minutes': 1, 'seconds': 27}",95,400933890,40093389025,Ole Miss,SEC,5,True,3,"{'minutes': 3, 'seconds': 42}",73,22,2017
+526,Ole Miss,SEC,TD,"{'minutes': 1, 'seconds': 48}",4,"{'minutes': 14, 'seconds': 39}",0,400933890,40093389026,Vanderbilt,SEC,7,True,3,"{'minutes': 1, 'seconds': 27}",67,67,2017
+527,Vanderbilt,SEC,FG,"{'minutes': 4, 'seconds': 53}",4,"{'minutes': 9, 'seconds': 46}",92,400933890,40093389027,Ole Miss,SEC,10,True,4,"{'minutes': 14, 'seconds': 39}",35,57,2017
+528,Ole Miss,SEC,PUNT,"{'minutes': 1, 'seconds': 20}",4,"{'minutes': 8, 'seconds': 26}",80,400933890,40093389028,Vanderbilt,SEC,3,False,4,"{'minutes': 9, 'seconds': 46}",75,-5,2017
+529,Vanderbilt,SEC,TD,"{'minutes': 1, 'seconds': 2}",4,"{'minutes': 7, 'seconds': 24}",100,400933890,40093389029,Ole Miss,SEC,2,True,4,"{'minutes': 8, 'seconds': 26}",34,66,2017
+530,Ole Miss,SEC,TD,"{'minutes': 4, 'seconds': 7}",4,"{'minutes': 3, 'seconds': 17}",0,400933890,40093389030,Vanderbilt,SEC,11,True,4,"{'minutes': 7, 'seconds': 24}",75,75,2017
+531,Vanderbilt,SEC,END OF GAME,"{'minutes': 3, 'seconds': 17}",4,{},59,400933890,40093389031,Ole Miss,SEC,6,False,4,"{'minutes': 3, 'seconds': 17}",25,34,2017
+532,Ole Miss,SEC,FG,"{'minutes': 4, 'seconds': 24}",2,"{'minutes': 1, 'seconds': 17}",21,400933895,40093389510,LSU,SEC,10,True,2,"{'minutes': 5, 'seconds': 41}",80,59,2017
+533,LSU,SEC,END OF HALF,"{'minutes': 1, 'seconds': 17}",2,{},35,400933895,40093389511,Ole Miss,SEC,10,True,2,"{'minutes': 1, 'seconds': 17}",25,66,2017
+534,Ole Miss,SEC,FG,"{'minutes': 2, 'seconds': 58}",3,"{'minutes': 12, 'seconds': 2}",15,400933895,40093389512,LSU,SEC,6,True,3,{'minutes': 15},75,60,2017
+535,LSU,SEC,FG,"{'minutes': 2, 'seconds': 33}",3,"{'minutes': 9, 'seconds': 29}",78,400933895,40093389513,Ole Miss,SEC,7,True,3,"{'minutes': 12, 'seconds': 2}",59,19,2017
+536,Ole Miss,SEC,TD,"{'minutes': 3, 'seconds': 25}",3,"{'minutes': 6, 'seconds': 4}",0,400933895,40093389514,LSU,SEC,7,True,3,"{'minutes': 9, 'seconds': 29}",78,78,2017
+537,LSU,SEC,TD,"{'minutes': 1, 'seconds': 53}",3,"{'minutes': 4, 'seconds': 11}",100,400933895,40093389515,Ole Miss,SEC,7,True,3,"{'minutes': 6, 'seconds': 4}",31,69,2017
+538,Ole Miss,SEC,TD,"{'minutes': 1, 'seconds': 40}",3,"{'minutes': 2, 'seconds': 31}",0,400933895,40093389516,LSU,SEC,4,True,3,"{'minutes': 4, 'seconds': 11}",57,75,2017
+539,LSU,SEC,INT,{'seconds': 47},3,"{'minutes': 1, 'seconds': 44}",77,400933895,40093389517,Ole Miss,SEC,4,False,3,"{'minutes': 2, 'seconds': 31}",37,40,2017
+540,Ole Miss,SEC,PUNT,"{'minutes': 2, 'seconds': 38}",4,"{'minutes': 14, 'seconds': 6}",66,400933895,40093389518,LSU,SEC,5,False,3,"{'minutes': 1, 'seconds': 44}",86,20,2017
+541,LSU,SEC,PUNT,"{'minutes': 2, 'seconds': 3}",4,"{'minutes': 12, 'seconds': 3}",27,400933895,40093389519,Ole Miss,SEC,3,False,4,"{'minutes': 14, 'seconds': 6}",22,5,2017
+542,Ole Miss,SEC,TD,"{'minutes': 1, 'seconds': 39}",4,"{'minutes': 10, 'seconds': 24}",0,400933895,40093389520,LSU,SEC,4,True,4,"{'minutes': 12, 'seconds': 3}",81,81,2017
+543,LSU,SEC,INT,{'seconds': 18},4,"{'minutes': 10, 'seconds': 6}",39,400933895,40093389521,Ole Miss,SEC,1,False,4,"{'minutes': 10, 'seconds': 24}",39,0,2017
+544,Ole Miss,SEC,FG,"{'minutes': 4, 'seconds': 59}",4,"{'minutes': 5, 'seconds': 7}",30,400933895,40093389522,LSU,SEC,9,True,4,"{'minutes': 10, 'seconds': 6}",70,40,2017
+545,LSU,SEC,TD,"{'minutes': 3, 'seconds': 16}",4,"{'minutes': 1, 'seconds': 51}",100,400933895,40093389523,Ole Miss,SEC,9,True,4,"{'minutes': 5, 'seconds': 7}",34,66,2017
+546,Ole Miss,SEC,END OF GAME,"{'minutes': 1, 'seconds': 51}",4,{},19,400933895,40093389524,LSU,SEC,3,False,4,"{'minutes': 1, 'seconds': 51}",36,17,2017
+547,Ole Miss,SEC,PUNT,"{'minutes': 1, 'seconds': 53}",2,"{'minutes': 8, 'seconds': 58}",57,400933900,40093390010,Arkansas,SEC,4,False,2,"{'minutes': 10, 'seconds': 51}",75,18,2017
+548,Arkansas,SEC,FUMBLE,{'seconds': 30},2,"{'minutes': 8, 'seconds': 28}",70,400933900,40093390011,Ole Miss,SEC,2,False,2,"{'minutes': 8, 'seconds': 58}",22,48,2017
+549,Ole Miss,SEC,TD,"{'minutes': 5, 'seconds': 48}",2,"{'minutes': 2, 'seconds': 40}",0,400933900,40093390012,Arkansas,SEC,10,True,2,"{'minutes': 8, 'seconds': 28}",70,70,2017
+550,Arkansas,SEC,INT,"{'minutes': 1, 'seconds': 32}",2,"{'minutes': 1, 'seconds': 8}",58,400933900,40093390013,Ole Miss,SEC,7,False,2,"{'minutes': 2, 'seconds': 40}",21,37,2017
+551,Ole Miss,SEC,TD,"{'minutes': 1, 'seconds': 3}",2,{'seconds': 5},0,400933900,40093390014,Arkansas,SEC,3,True,2,"{'minutes': 1, 'seconds': 8}",21,21,2017
+552,Arkansas,SEC,END OF HALF,{'seconds': 5},2,{},26,400933900,40093390015,Ole Miss,SEC,1,False,2,{'seconds': 5},28,-2,2017
+553,Ole Miss,SEC,TD,"{'minutes': 4, 'seconds': 16}",3,"{'minutes': 10, 'seconds': 38}",0,400933900,40093390016,Arkansas,SEC,8,True,3,"{'minutes': 14, 'seconds': 54}",73,73,2017
+554,Arkansas,SEC,PUNT,"{'minutes': 3, 'seconds': 11}",3,"{'minutes': 7, 'seconds': 27}",53,400933900,40093390017,Ole Miss,SEC,7,False,3,"{'minutes': 10, 'seconds': 38}",5,48,2017
+555,Ole Miss,SEC,DOWNS,"{'minutes': 5, 'seconds': 27}",3,{'minutes': 2},30,400933900,40093390018,Arkansas,SEC,10,False,3,"{'minutes': 7, 'seconds': 27}",93,63,2017
+556,Arkansas,SEC,FG,"{'minutes': 2, 'seconds': 36}",4,"{'minutes': 14, 'seconds': 13}",81,400933900,40093390019,Ole Miss,SEC,10,True,3,{'minutes': 2},30,51,2017
+557,Ole Miss,SEC,FUMBLE,"{'minutes': 2, 'seconds': 22}",4,"{'minutes': 11, 'seconds': 51}",58,400933900,40093390020,Arkansas,SEC,4,False,4,"{'minutes': 14, 'seconds': 13}",54,-4,2017
+558,Arkansas,SEC,FG,"{'minutes': 2, 'seconds': 1}",4,"{'minutes': 9, 'seconds': 50}",97,400933900,40093390021,Ole Miss,SEC,5,True,4,"{'minutes': 11, 'seconds': 51}",58,39,2017
+559,Ole Miss,SEC,INT,"{'minutes': 3, 'seconds': 42}",4,"{'minutes': 6, 'seconds': 8}",34,400933900,40093390022,Arkansas,SEC,8,False,4,"{'minutes': 9, 'seconds': 50}",70,36,2017
+560,Arkansas,SEC,FUMBLE TD,{'seconds': 7},4,"{'minutes': 6, 'seconds': 1}",22,400933900,40093390023,Ole Miss,SEC,1,True,4,"{'minutes': 6, 'seconds': 8}",29,-7,2017
+561,Arkansas,SEC,PUNT,"{'minutes': 1, 'seconds': 51}",4,"{'minutes': 4, 'seconds': 4}",30,400933900,40093390025,Ole Miss,SEC,4,False,4,"{'minutes': 5, 'seconds': 55}",15,15,2017
+562,Ole Miss,SEC,FG,"{'minutes': 4, 'seconds': 4}",4,{},16,400933900,40093390026,Arkansas,SEC,12,True,4,"{'minutes': 4, 'seconds': 4}",78,62,2017
+563,Arkansas,SEC,Uncategorized,{},4,{},36,400933900,40093390027,Ole Miss,SEC,0,False,4,{},36,0,2017
+564,Ole Miss,SEC,TD,"{'minutes': 2, 'seconds': 28}",3,"{'minutes': 12, 'seconds': 27}",100,400933907,40093390710,Kentucky,SEC,5,True,3,"{'minutes': 14, 'seconds': 55}",20,80,2017
+565,Kentucky,SEC,PUNT,"{'minutes': 1, 'seconds': 29}",3,"{'minutes': 10, 'seconds': 58}",77,400933907,40093390711,Ole Miss,SEC,3,False,3,"{'minutes': 12, 'seconds': 27}",75,-2,2017
+566,Ole Miss,SEC,PUNT,"{'minutes': 1, 'seconds': 59}",3,"{'minutes': 8, 'seconds': 59}",56,400933907,40093390712,Kentucky,SEC,3,False,3,"{'minutes': 10, 'seconds': 58}",51,5,2017
+567,Kentucky,SEC,FG,"{'minutes': 5, 'seconds': 23}",3,"{'minutes': 3, 'seconds': 36}",20,400933907,40093390713,Ole Miss,SEC,12,True,3,"{'minutes': 8, 'seconds': 59}",94,74,2017
+568,Ole Miss,SEC,PUNT,{'seconds': 48},3,"{'minutes': 2, 'seconds': 48}",20,400933907,40093390714,Kentucky,SEC,3,False,3,"{'minutes': 3, 'seconds': 36}",18,2,2017
+569,Kentucky,SEC,TD,"{'minutes': 1, 'seconds': 7}",3,"{'minutes': 1, 'seconds': 41}",0,400933907,40093390715,Ole Miss,SEC,3,True,3,"{'minutes': 2, 'seconds': 48}",76,76,2017
+570,Ole Miss,SEC,PUNT,"{'minutes': 1, 'seconds': 1}",3,{'seconds': 40},13,400933907,40093390716,Kentucky,SEC,3,False,3,"{'minutes': 1, 'seconds': 41}",10,3,2017
+571,Kentucky,SEC,FG,"{'minutes': 1, 'seconds': 24}",4,"{'minutes': 14, 'seconds': 9}",32,400933907,40093390717,Ole Miss,SEC,4,True,3,{'seconds': 40},38,6,2017
+572,Ole Miss,SEC,PUNT,{'minutes': 2},4,"{'minutes': 12, 'seconds': 9}",35,400933907,40093390718,Kentucky,SEC,3,False,4,"{'minutes': 14, 'seconds': 9}",31,4,2017
+573,Kentucky,SEC,PUNT,"{'minutes': 3, 'seconds': 33}",4,"{'minutes': 8, 'seconds': 36}",59,400933907,40093390719,Ole Miss,SEC,8,False,4,"{'minutes': 12, 'seconds': 9}",75,16,2017
+574,Ole Miss,SEC,TD,"{'minutes': 6, 'seconds': 22}",4,"{'minutes': 2, 'seconds': 14}",100,400933907,40093390720,Kentucky,SEC,12,True,4,"{'minutes': 8, 'seconds': 36}",5,95,2017
+575,Kentucky,SEC,TD,"{'minutes': 2, 'seconds': 14}",4,{},0,400933907,40093390721,Ole Miss,SEC,14,True,4,"{'minutes': 2, 'seconds': 14}",71,71,2017
+576,Ole Miss,SEC,Uncategorized,{},4,{},1,400933907,40093390722,Kentucky,SEC,0,False,4,{},1,0,2017
+577,Ole Miss,SEC,FG,"{'minutes': 3, 'seconds': 6}",2,"{'minutes': 4, 'seconds': 40}",26,400933915,40093391510,Louisiana,Sun Belt,8,True,2,"{'minutes': 7, 'seconds': 46}",35,35,2017
+578,Louisiana,Sun Belt,PUNT,"{'minutes': 3, 'seconds': 47}",2,{'seconds': 53},60,400933915,40093391511,Ole Miss,SEC,11,False,2,"{'minutes': 4, 'seconds': 40}",65,40,2017
+579,Ole Miss,SEC,PUNT,{'seconds': 26},2,{'seconds': 27},92,400933915,40093391512,Louisiana,Sun Belt,3,False,2,{'seconds': 53},92,0,2017
+580,Louisiana,Sun Belt,MISSED FG,{'seconds': 27},2,{},62,400933915,40093391513,Ole Miss,SEC,5,False,2,{'seconds': 27},44,18,2017
+581,Ole Miss,SEC,MISSED FG,"{'minutes': 3, 'seconds': 16}",3,"{'minutes': 11, 'seconds': 39}",11,400933915,40093391515,Louisiana,Sun Belt,7,False,3,"{'minutes': 14, 'seconds': 55}",35,73,2017
+582,Louisiana,Sun Belt,TD,"{'minutes': 2, 'seconds': 22}",3,"{'minutes': 9, 'seconds': 17}",100,400933915,40093391516,Ole Miss,SEC,7,True,3,"{'minutes': 11, 'seconds': 39}",20,80,2017
+583,Ole Miss,SEC,PUNT,"{'minutes': 2, 'seconds': 57}",3,"{'minutes': 6, 'seconds': 20}",37,400933915,40093391517,Louisiana,Sun Belt,6,False,3,"{'minutes': 9, 'seconds': 17}",35,43,2017
+584,Louisiana,Sun Belt,PUNT,"{'minutes': 2, 'seconds': 49}",3,"{'minutes': 3, 'seconds': 31}",42,400933915,40093391518,Ole Miss,SEC,5,False,3,"{'minutes': 6, 'seconds': 20}",20,22,2017
+585,Ole Miss,SEC,TD,"{'minutes': 4, 'seconds': 45}",4,"{'minutes': 13, 'seconds': 43}",0,400933915,40093391519,Louisiana,Sun Belt,11,True,3,"{'minutes': 3, 'seconds': 31}",86,86,2017
+586,Louisiana,Sun Belt,INT,{'seconds': 33},4,"{'minutes': 13, 'seconds': 10}",62,400933915,40093391520,Ole Miss,SEC,2,False,4,"{'minutes': 13, 'seconds': 43}",56,6,2017
+587,Ole Miss,SEC,TD,"{'minutes': 1, 'seconds': 28}",4,"{'minutes': 11, 'seconds': 42}",0,400933915,40093391521,Louisiana,Sun Belt,4,True,4,"{'minutes': 13, 'seconds': 10}",52,52,2017
+588,Louisiana,Sun Belt,TD,"{'minutes': 3, 'seconds': 17}",4,"{'minutes': 8, 'seconds': 25}",100,400933915,40093391522,Ole Miss,SEC,8,True,4,"{'minutes': 11, 'seconds': 42}",25,75,2017
+589,Ole Miss,SEC,PUNT,{'seconds': 32},4,"{'minutes': 7, 'seconds': 53}",90,400933915,40093391523,Louisiana,Sun Belt,3,False,4,"{'minutes': 8, 'seconds': 25}",75,-15,2017
+590,Louisiana,Sun Belt,PUNT,"{'minutes': 2, 'seconds': 17}",4,"{'minutes': 5, 'seconds': 36}",48,400933915,40093391524,Ole Miss,SEC,3,False,4,"{'minutes': 7, 'seconds': 53}",47,1,2017
+591,Ole Miss,SEC,PUNT,"{'minutes': 1, 'seconds': 43}",4,"{'minutes': 3, 'seconds': 53}",66,400933915,40093391525,Louisiana,Sun Belt,3,False,4,"{'minutes': 5, 'seconds': 36}",70,4,2017
+592,Louisiana,Sun Belt,END OF GAME,"{'minutes': 3, 'seconds': 53}",4,{},58,400933915,40093391526,Ole Miss,SEC,6,False,4,"{'minutes': 3, 'seconds': 53}",27,31,2017
+593,Ole Miss,SEC,INT,"{'minutes': 1, 'seconds': 16}",2,"{'minutes': 11, 'seconds': 15}",70,400933926,40093392610,Texas A&M,SEC,3,False,2,"{'minutes': 12, 'seconds': 31}",70,0,2017
+594,Texas A&M,SEC,PUNT,"{'minutes': 1, 'seconds': 23}",2,"{'minutes': 9, 'seconds': 52}",46,400933926,40093392611,Ole Miss,SEC,3,False,2,"{'minutes': 11, 'seconds': 15}",50,-4,2017
+595,Ole Miss,SEC,PUNT,"{'minutes': 2, 'seconds': 9}",2,"{'minutes': 7, 'seconds': 43}",54,400933926,40093392612,Texas A&M,SEC,4,False,2,"{'minutes': 9, 'seconds': 52}",84,30,2017
+596,Texas A&M,SEC,TD,"{'minutes': 3, 'seconds': 19}",2,"{'minutes': 4, 'seconds': 24}",100,400933926,40093392613,Ole Miss,SEC,8,True,2,"{'minutes': 7, 'seconds': 43}",18,82,2017
+597,Ole Miss,SEC,TD,"{'minutes': 2, 'seconds': 27}",2,"{'minutes': 1, 'seconds': 57}",0,400933926,40093392614,Texas A&M,SEC,8,True,2,"{'minutes': 4, 'seconds': 24}",80,80,2017
+598,Texas A&M,SEC,FG,"{'minutes': 1, 'seconds': 33}",2,{'seconds': 24},89,400933926,40093392615,Ole Miss,SEC,8,True,2,"{'minutes': 1, 'seconds': 57}",35,54,2017
+599,Ole Miss,SEC,END OF HALF,{'seconds': 24},2,{},60,400933926,40093392616,Texas A&M,SEC,2,False,2,{'seconds': 24},68,8,2017
+600,Ole Miss,SEC,MISSED FG,"{'minutes': 2, 'seconds': 27}",3,"{'minutes': 12, 'seconds': 33}",27,400933926,40093392617,Texas A&M,SEC,8,False,3,{'minutes': 15},69,42,2017
+601,Texas A&M,SEC,PUNT,"{'minutes': 1, 'seconds': 45}",3,"{'minutes': 10, 'seconds': 48}",20,400933926,40093392618,Ole Miss,SEC,3,False,3,"{'minutes': 12, 'seconds': 33}",28,-8,2017
+602,Ole Miss,SEC,PUNT,"{'minutes': 2, 'seconds': 4}",3,"{'minutes': 8, 'seconds': 44}",56,400933926,40093392619,Texas A&M,SEC,4,False,3,"{'minutes': 10, 'seconds': 48}",65,9,2017
+603,Texas A&M,SEC,INT TD,{'seconds': 40},3,"{'minutes': 8, 'seconds': 4}",12,400933926,40093392620,Ole Miss,SEC,2,True,3,"{'minutes': 8, 'seconds': 44}",10,2,2017
+604,Texas A&M,SEC,PUNT,"{'minutes': 1, 'seconds': 40}",3,"{'minutes': 6, 'seconds': 24}",30,400933926,40093392621,Ole Miss,SEC,3,False,3,"{'minutes': 8, 'seconds': 4}",25,5,2017
+605,Ole Miss,SEC,PUNT,"{'minutes': 1, 'seconds': 41}",3,"{'minutes': 4, 'seconds': 43}",50,400933926,40093392622,Texas A&M,SEC,4,False,3,"{'minutes': 6, 'seconds': 24}",78,28,2017
+606,Texas A&M,SEC,PUNT,"{'minutes': 1, 'seconds': 20}",3,"{'minutes': 3, 'seconds': 23}",1,400933926,40093392623,Ole Miss,SEC,3,False,3,"{'minutes': 4, 'seconds': 43}",3,-2,2017
+607,Ole Miss,SEC,PUNT,"{'minutes': 1, 'seconds': 51}",3,"{'minutes': 1, 'seconds': 32}",43,400933926,40093392624,Texas A&M,SEC,3,False,3,"{'minutes': 3, 'seconds': 23}",50,8,2017
+608,Texas A&M,SEC,PUNT,"{'minutes': 3, 'seconds': 37}",4,"{'minutes': 12, 'seconds': 55}",55,400933926,40093392625,Ole Miss,SEC,8,False,3,"{'minutes': 1, 'seconds': 32}",19,36,2017
+609,Ole Miss,SEC,PUNT,{'seconds': 55},4,{'minutes': 12},94,400933926,40093392626,Texas A&M,SEC,3,False,4,"{'minutes': 12, 'seconds': 55}",97,3,2017
+610,Texas A&M,SEC,PUNT,"{'minutes': 2, 'seconds': 44}",4,"{'minutes': 9, 'seconds': 16}",59,400933926,40093392627,Ole Miss,SEC,6,False,4,{'minutes': 12},48,11,2017
+611,Ole Miss,SEC,PUNT,"{'minutes': 1, 'seconds': 39}",4,"{'minutes': 7, 'seconds': 37}",87,400933926,40093392628,Texas A&M,SEC,3,False,4,"{'minutes': 9, 'seconds': 16}",93,6,2017
+612,Texas A&M,SEC,PUNT,{'seconds': 50},4,"{'minutes': 6, 'seconds': 47}",10,400933926,40093392629,Ole Miss,SEC,3,False,4,"{'minutes': 7, 'seconds': 37}",36,-26,2017
+613,Ole Miss,SEC,FG,"{'minutes': 4, 'seconds': 48}",4,"{'minutes': 1, 'seconds': 59}",1,400933926,40093392630,Texas A&M,SEC,11,True,4,"{'minutes': 6, 'seconds': 47}",48,47,2017
+614,Texas A&M,SEC,DOWNS,{'seconds': 45},4,"{'minutes': 1, 'seconds': 14}",42,400933926,40093392631,Ole Miss,SEC,4,False,4,"{'minutes': 1, 'seconds': 59}",34,8,2017
+615,Ole Miss,SEC,END OF GAME,"{'minutes': 1, 'seconds': 14}",4,{},46,400933926,40093392632,Texas A&M,SEC,2,False,4,"{'minutes': 1, 'seconds': 14}",41,-5,2017
+616,Ole Miss,SEC,FG,"{'minutes': 4, 'seconds': 17}",2,"{'minutes': 6, 'seconds': 23}",73,400933930,40093393010,Mississippi State,SEC,9,True,2,"{'minutes': 10, 'seconds': 40}",65,39,2017
+617,Mississippi State,SEC,PUNT,"{'minutes': 2, 'seconds': 39}",2,"{'minutes': 3, 'seconds': 44}",52,400933930,40093393011,Ole Miss,SEC,5,False,2,"{'minutes': 6, 'seconds': 23}",75,23,2017
+618,Ole Miss,SEC,FUMBLE,"{'minutes': 2, 'seconds': 22}",2,"{'minutes': 1, 'seconds': 22}",39,400933930,40093393012,Mississippi State,SEC,5,False,2,"{'minutes': 3, 'seconds': 44}",12,27,2017
+619,Mississippi State,SEC,FUMBLE,{'seconds': 20},2,"{'minutes': 1, 'seconds': 2}",45,400933930,40093393013,Ole Miss,SEC,3,False,2,"{'minutes': 1, 'seconds': 22}",43,-12,2017
+620,Ole Miss,SEC,END OF HALF,"{'minutes': 1, 'seconds': 2}",2,{},35,400933930,40093393014,Mississippi State,SEC,5,True,2,"{'minutes': 1, 'seconds': 2}",55,25,2017
+621,Ole Miss,SEC,PUNT,"{'minutes': 3, 'seconds': 49}",3,"{'minutes': 11, 'seconds': 11}",60,400933930,40093393015,Mississippi State,SEC,7,False,3,{'minutes': 15},65,34,2017
+622,Mississippi State,SEC,PUNT,{'seconds': 56},3,"{'minutes': 10, 'seconds': 15}",98,400933930,40093393016,Ole Miss,SEC,3,False,3,"{'minutes': 11, 'seconds': 11}",99,1,2017
+623,Ole Miss,SEC,FUMBLE,"{'minutes': 2, 'seconds': 22}",3,"{'minutes': 7, 'seconds': 53}",82,400933930,40093393017,Mississippi State,SEC,5,False,3,"{'minutes': 10, 'seconds': 15}",60,20,2017
+624,Mississippi State,SEC,TD,{'seconds': 40},3,"{'minutes': 7, 'seconds': 13}",0,400933930,40093393018,Ole Miss,SEC,2,True,3,"{'minutes': 7, 'seconds': 53}",80,80,2017
+625,Ole Miss,SEC,FUMBLE,"{'minutes': 1, 'seconds': 14}",3,"{'minutes': 5, 'seconds': 59}",31,400933930,40093393019,Mississippi State,SEC,3,False,3,"{'minutes': 7, 'seconds': 13}",25,26,2017
+626,Mississippi State,SEC,PUNT,{'seconds': 52},3,"{'minutes': 5, 'seconds': 7}",51,400933930,40093393020,Ole Miss,SEC,3,False,3,"{'minutes': 5, 'seconds': 59}",51,0,2017
+627,Ole Miss,SEC,PUNT,"{'minutes': 2, 'seconds': 40}",3,"{'minutes': 2, 'seconds': 27}",31,400933930,40093393021,Mississippi State,SEC,6,False,3,"{'minutes': 5, 'seconds': 7}",16,15,2017
+628,Mississippi State,SEC,TD,{'seconds': 12},3,"{'minutes': 2, 'seconds': 15}",0,400933930,40093393022,Ole Miss,SEC,1,True,3,"{'minutes': 2, 'seconds': 27}",63,63,2017
+629,Ole Miss,SEC,DOWNS,"{'minutes': 2, 'seconds': 2}",3,{'seconds': 13},55,400933930,40093393023,Mississippi State,SEC,5,False,3,"{'minutes': 2, 'seconds': 15}",80,17,2017
+630,Mississippi State,SEC,PUNT,"{'minutes': 1, 'seconds': 15}",4,"{'minutes': 13, 'seconds': 58}",62,400933930,40093393024,Ole Miss,SEC,3,False,3,{'seconds': 13},55,-7,2017
+631,Ole Miss,SEC,DOWNS,"{'minutes': 1, 'seconds': 21}",4,"{'minutes': 12, 'seconds': 37}",72,400933930,40093393025,Mississippi State,SEC,5,False,4,"{'minutes': 13, 'seconds': 58}",26,44,2017
+632,Mississippi State,SEC,INT,{'seconds': 39},4,"{'minutes': 11, 'seconds': 58}",70,400933930,40093393026,Ole Miss,SEC,2,False,4,"{'minutes': 12, 'seconds': 37}",70,0,2017
+633,Ole Miss,SEC,TD,"{'minutes': 2, 'seconds': 42}",4,"{'minutes': 9, 'seconds': 16}",100,400933930,40093393027,Mississippi State,SEC,8,True,4,"{'minutes': 11, 'seconds': 58}",56,44,2017
+634,Mississippi State,SEC,TD,{'seconds': 53},4,"{'minutes': 8, 'seconds': 23}",0,400933930,40093393028,Ole Miss,SEC,2,True,4,"{'minutes': 9, 'seconds': 16}",44,44,2017
+635,Ole Miss,SEC,TD,"{'minutes': 3, 'seconds': 25}",4,"{'minutes': 4, 'seconds': 58}",100,400933930,40093393029,Mississippi State,SEC,11,True,4,"{'minutes': 8, 'seconds': 23}",65,69,2017
+636,Mississippi State,SEC,PUNT,{'minutes': 2},4,"{'minutes': 2, 'seconds': 58}",59,400933930,40093393030,Ole Miss,SEC,3,False,4,"{'minutes': 4, 'seconds': 58}",61,2,2017
+637,Ole Miss,SEC,TD,"{'minutes': 1, 'seconds': 53}",4,"{'minutes': 1, 'seconds': 5}",100,400933930,40093393031,Mississippi State,SEC,8,True,4,"{'minutes': 2, 'seconds': 58}",38,62,2017
+638,Mississippi State,SEC,Uncategorized,"{'minutes': 1, 'seconds': 5}",4,{},42,400933930,40093393032,Ole Miss,SEC,2,False,4,"{'minutes': 1, 'seconds': 5}",45,-3,2017
+639,Texas Tech,Big 12,TD,{'seconds': 33},1,"{'minutes': 14, 'seconds': 27}",0,401012253,4010122531,Ole Miss,SEC,2,True,1,{'minutes': 15},69,69,2018
+640,Ole Miss,SEC,TD,"{'minutes': 3, 'seconds': 55}",1,"{'minutes': 10, 'seconds': 32}",97,401012253,4010122532,Texas Tech,Big 12,10,True,1,"{'minutes': 14, 'seconds': 27}",10,90,2018
+641,Texas Tech,Big 12,TD,{'seconds': 15},1,"{'minutes': 10, 'seconds': 17}",0,401012253,4010122533,Ole Miss,SEC,0,True,1,"{'minutes': 10, 'seconds': 32}",0,0,2018
+642,Ole Miss,SEC,PUNT,"{'minutes': 1, 'seconds': 5}",1,"{'minutes': 9, 'seconds': 12}",30,401012253,4010122534,Texas Tech,Big 12,3,False,1,"{'minutes': 10, 'seconds': 17}",26,4,2018
+643,Texas Tech,Big 12,FG,"{'minutes': 4, 'seconds': 42}",1,"{'minutes': 4, 'seconds': 30}",7,401012253,4010122535,Ole Miss,SEC,14,True,1,"{'minutes': 9, 'seconds': 12}",72,65,2018
+644,Ole Miss,SEC,PUNT,"{'minutes': 1, 'seconds': 33}",1,"{'minutes': 2, 'seconds': 57}",27,401012253,4010122536,Texas Tech,Big 12,3,False,1,"{'minutes': 4, 'seconds': 30}",25,2,2018
+645,Texas Tech,Big 12,TD,"{'minutes': 1, 'seconds': 49}",1,"{'minutes': 1, 'seconds': 8}",0,401012253,4010122537,Ole Miss,SEC,5,True,1,"{'minutes': 2, 'seconds': 57}",60,60,2018
+646,Ole Miss,SEC,FG,"{'minutes': 3, 'seconds': 51}",2,"{'minutes': 12, 'seconds': 17}",93,401012253,4010122538,Texas Tech,Big 12,9,True,1,"{'minutes': 1, 'seconds': 8}",51,42,2018
+647,Texas Tech,Big 12,PUNT,"{'minutes': 1, 'seconds': 10}",2,"{'minutes': 11, 'seconds': 7}",57,401012253,4010122539,Ole Miss,SEC,4,False,2,"{'minutes': 12, 'seconds': 17}",75,18,2018
+648,Southern Illinois,,PUNT,"{'minutes': 1, 'seconds': 6}",1,"{'minutes': 13, 'seconds': 54}",18,401012265,4010122651,Ole Miss,SEC,3,False,1,{'minutes': 15},18,0,2018
+649,Ole Miss,SEC,TD,{'seconds': 50},1,"{'minutes': 13, 'seconds': 4}",0,401012265,4010122652,Southern Illinois,,5,True,1,"{'minutes': 13, 'seconds': 54}",56,56,2018
+650,Southern Illinois,,TD,"{'minutes': 3, 'seconds': 7}",1,"{'minutes': 9, 'seconds': 57}",100,401012265,4010122653,Ole Miss,SEC,11,True,1,"{'minutes': 13, 'seconds': 4}",35,65,2018
+651,Ole Miss,SEC,TD,"{'minutes': 3, 'seconds': 31}",1,"{'minutes': 6, 'seconds': 26}",0,401012265,4010122654,Southern Illinois,,6,True,1,"{'minutes': 9, 'seconds': 57}",75,75,2018
+652,Southern Illinois,,TD,{'seconds': 55},1,"{'minutes': 5, 'seconds': 31}",100,401012265,4010122655,Ole Miss,SEC,3,True,1,"{'minutes': 6, 'seconds': 26}",19,81,2018
+653,Ole Miss,SEC,TD,"{'minutes': 4, 'seconds': 35}",1,{'seconds': 56},0,401012265,4010122656,Southern Illinois,,10,True,1,"{'minutes': 5, 'seconds': 31}",75,75,2018
+654,Southern Illinois,,TD,"{'minutes': 1, 'seconds': 4}",2,"{'minutes': 14, 'seconds': 46}",100,401012265,4010122657,Ole Miss,SEC,4,True,1,{'seconds': 56},13,87,2018
+655,Ole Miss,SEC,FG,"{'minutes': 6, 'seconds': 34}",2,"{'minutes': 8, 'seconds': 12}",5,401012265,4010122658,Southern Illinois,,14,True,2,"{'minutes': 14, 'seconds': 46}",75,70,2018
+656,Southern Illinois,,TD,"{'minutes': 1, 'seconds': 32}",2,"{'minutes': 6, 'seconds': 40}",100,401012265,4010122659,Ole Miss,SEC,5,True,2,"{'minutes': 8, 'seconds': 12}",25,75,2018
+657,Alabama,SEC,TD,{'seconds': 11},1,"{'minutes': 14, 'seconds': 49}",100,401012277,4010122771,Ole Miss,SEC,1,True,1,{'minutes': 15},25,75,2018
+658,Ole Miss,SEC,TD,"{'minutes': 1, 'seconds': 10}",1,"{'minutes': 13, 'seconds': 39}",0,401012277,4010122772,Alabama,SEC,3,True,1,"{'minutes': 14, 'seconds': 49}",72,72,2018
+659,Alabama,SEC,PUNT,{'seconds': 51},1,"{'minutes': 12, 'seconds': 48}",29,401012277,4010122773,Ole Miss,SEC,3,False,1,"{'minutes': 13, 'seconds': 39}",25,4,2018
+660,Ole Miss,SEC,FUMBLE,"{'minutes': 1, 'seconds': 9}",1,"{'minutes': 11, 'seconds': 39}",54,401012277,4010122774,Alabama,SEC,3,False,1,"{'minutes': 12, 'seconds': 48}",65,12,2018
+661,Alabama,SEC,PUNT,{'seconds': 49},1,"{'minutes': 10, 'seconds': 50}",58,401012277,4010122775,Ole Miss,SEC,3,False,1,"{'minutes': 11, 'seconds': 39}",53,5,2018
+662,Ole Miss,SEC,TD,{'seconds': 59},1,"{'minutes': 9, 'seconds': 51}",0,401012277,4010122776,Alabama,SEC,3,True,1,"{'minutes': 10, 'seconds': 50}",80,80,2018
+663,Alabama,SEC,FUMBLE,"{'minutes': 1, 'seconds': 42}",1,"{'minutes': 8, 'seconds': 9}",53,401012277,4010122777,Ole Miss,SEC,7,False,1,"{'minutes': 9, 'seconds': 51}",25,28,2018
+664,Ole Miss,SEC,TD,"{'minutes': 2, 'seconds': 26}",1,"{'minutes': 5, 'seconds': 43}",0,401012277,4010122778,Alabama,SEC,6,True,1,"{'minutes': 8, 'seconds': 9}",62,62,2018
+665,Alabama,SEC,INT,{'seconds': 13},1,"{'minutes': 5, 'seconds': 30}",25,401012277,4010122779,Ole Miss,SEC,1,False,1,"{'minutes': 5, 'seconds': 43}",25,0,2018
+666,Ole Miss,SEC,PUNT,"{'minutes': 1, 'seconds': 59}",1,"{'minutes': 13, 'seconds': 1}",50,401012288,4010122881,Kent State,Mid-American,9,False,1,{'minutes': 15},75,25,2018
+667,Kent State,Mid-American,TD,"{'minutes': 1, 'seconds': 41}",1,"{'minutes': 11, 'seconds': 20}",100,401012288,4010122882,Ole Miss,SEC,6,True,1,"{'minutes': 13, 'seconds': 1}",23,77,2018
+668,Ole Miss,SEC,MISSED FG,"{'minutes': 3, 'seconds': 6}",1,"{'minutes': 8, 'seconds': 14}",31,401012288,4010122883,Kent State,Mid-American,11,False,1,"{'minutes': 11, 'seconds': 20}",75,44,2018
+669,Kent State,Mid-American,PUNT,"{'minutes': 1, 'seconds': 36}",1,"{'minutes': 6, 'seconds': 38}",50,401012288,4010122884,Ole Miss,SEC,5,False,1,"{'minutes': 8, 'seconds': 14}",31,19,2018
+670,Ole Miss,SEC,PUNT,"{'minutes': 1, 'seconds': 43}",1,"{'minutes': 4, 'seconds': 55}",89,401012288,4010122885,Kent State,Mid-American,3,False,1,"{'minutes': 6, 'seconds': 38}",74,-15,2018
+671,Kent State,Mid-American,PUNT,"{'minutes': 2, 'seconds': 33}",1,"{'minutes': 2, 'seconds': 22}",58,401012288,4010122886,Ole Miss,SEC,5,False,1,"{'minutes': 4, 'seconds': 55}",51,7,2018
+672,Ole Miss,SEC,DOWNS,"{'minutes': 2, 'seconds': 22}",1,{},40,401012288,4010122887,Kent State,Mid-American,11,False,1,"{'minutes': 2, 'seconds': 22}",80,40,2018
+673,Kent State,Mid-American,PUNT,{'seconds': 50},2,"{'minutes': 13, 'seconds': 51}",38,401012288,4010122888,Ole Miss,SEC,3,False,2,"{'minutes': 14, 'seconds': 41}",40,-2,2018
+674,Ole Miss,SEC,TD,"{'minutes': 1, 'seconds': 23}",2,"{'minutes': 12, 'seconds': 28}",0,401012288,4010122889,Kent State,Mid-American,5,True,2,"{'minutes': 13, 'seconds': 51}",85,85,2018
+675,LSU,SEC,INT,{'seconds': 11},1,"{'minutes': 14, 'seconds': 49}",80,401012297,4010122971,Ole Miss,SEC,2,False,1,{'minutes': 15},75,-5,2018
+676,Ole Miss,SEC,MISSED FG,"{'minutes': 2, 'seconds': 47}",1,"{'minutes': 12, 'seconds': 2}",66,401012297,4010122972,LSU,SEC,7,False,1,"{'minutes': 14, 'seconds': 49}",47,19,2018
+677,LSU,SEC,FG,"{'minutes': 2, 'seconds': 56}",1,"{'minutes': 9, 'seconds': 6}",13,401012297,4010122973,Ole Miss,SEC,9,True,1,"{'minutes': 12, 'seconds': 2}",65,52,2018
+678,Ole Miss,SEC,TD,"{'minutes': 3, 'seconds': 7}",1,"{'minutes': 5, 'seconds': 59}",100,401012297,4010122974,LSU,SEC,6,True,1,"{'minutes': 9, 'seconds': 6}",19,81,2018
+679,LSU,SEC,PUNT,"{'minutes': 1, 'seconds': 7}",1,"{'minutes': 4, 'seconds': 52}",74,401012297,4010122975,Ole Miss,SEC,3,False,1,"{'minutes': 5, 'seconds': 59}",80,6,2018
+680,Ole Miss,SEC,TD,"{'minutes': 3, 'seconds': 55}",1,{'seconds': 57},100,401012297,4010122976,LSU,SEC,9,True,1,"{'minutes': 4, 'seconds': 52}",29,71,2018
+681,LSU,SEC,PUNT,"{'minutes': 1, 'seconds': 10}",2,"{'minutes': 14, 'seconds': 47}",80,401012297,4010122977,Ole Miss,SEC,3,False,1,{'seconds': 57},75,-5,2018
+682,Ole Miss,SEC,TD,"{'minutes': 5, 'seconds': 48}",2,"{'minutes': 8, 'seconds': 59}",100,401012297,4010122978,LSU,SEC,12,True,2,"{'minutes': 14, 'seconds': 47}",17,83,2018
+683,LSU,SEC,PUNT,{'seconds': 33},2,"{'minutes': 8, 'seconds': 26}",75,401012297,4010122979,Ole Miss,SEC,3,False,2,"{'minutes': 8, 'seconds': 59}",75,0,2018
+684,Ole Miss,SEC,DOWNS,"{'minutes': 2, 'seconds': 27}",1,"{'minutes': 12, 'seconds': 33}",22,401012303,4010123031,Louisiana Monroe,Sun Belt,6,False,1,{'minutes': 15},75,53,2018
+685,Louisiana Monroe,Sun Belt,TD,"{'minutes': 1, 'seconds': 35}",1,"{'minutes': 10, 'seconds': 58}",100,401012303,4010123032,Ole Miss,SEC,6,True,1,"{'minutes': 12, 'seconds': 33}",22,78,2018
+686,Ole Miss,SEC,PUNT,{'seconds': 56},1,"{'minutes': 10, 'seconds': 2}",71,401012303,4010123033,Louisiana Monroe,Sun Belt,3,False,1,"{'minutes': 10, 'seconds': 58}",75,4,2018
+687,Louisiana Monroe,Sun Belt,TD,"{'minutes': 2, 'seconds': 19}",1,"{'minutes': 7, 'seconds': 43}",100,401012303,4010123034,Ole Miss,SEC,6,True,1,"{'minutes': 10, 'seconds': 2}",39,61,2018
+688,Ole Miss,SEC,FUMBLE,"{'minutes': 3, 'seconds': 16}",1,"{'minutes': 4, 'seconds': 27}",3,401012303,4010123035,Louisiana Monroe,Sun Belt,10,False,1,"{'minutes': 7, 'seconds': 43}",82,79,2018
+689,Louisiana Monroe,Sun Belt,TD,"{'minutes': 3, 'seconds': 14}",1,"{'minutes': 1, 'seconds': 13}",100,401012303,4010123036,Ole Miss,SEC,10,True,1,"{'minutes': 4, 'seconds': 27}",3,97,2018
+690,Ole Miss,SEC,PUNT,"{'minutes': 1, 'seconds': 13}",1,{},77,401012303,4010123037,Louisiana Monroe,Sun Belt,3,False,1,"{'minutes': 1, 'seconds': 13}",67,-10,2018
+691,Louisiana Monroe,Sun Belt,TD,{'minutes': 2},2,"{'minutes': 12, 'seconds': 13}",100,401012303,4010123038,Ole Miss,SEC,5,True,2,"{'minutes': 14, 'seconds': 13}",34,66,2018
+692,Ole Miss,SEC,TD,"{'minutes': 2, 'seconds': 38}",2,"{'minutes': 9, 'seconds': 35}",0,401012303,4010123039,Louisiana Monroe,Sun Belt,7,True,2,"{'minutes': 12, 'seconds': 13}",75,75,2018
+693,Arkansas,SEC,FG,"{'minutes': 2, 'seconds': 11}",1,"{'minutes': 12, 'seconds': 49}",19,401012308,4010123081,Ole Miss,SEC,6,True,1,{'minutes': 15},75,56,2018
+694,Ole Miss,SEC,FG,"{'minutes': 5, 'seconds': 8}",1,"{'minutes': 7, 'seconds': 41}",75,401012308,4010123082,Arkansas,SEC,11,True,1,"{'minutes': 12, 'seconds': 49}",25,50,2018
+695,Arkansas,SEC,PUNT,"{'minutes': 1, 'seconds': 16}",1,"{'minutes': 6, 'seconds': 25}",57,401012308,4010123083,Ole Miss,SEC,4,False,1,"{'minutes': 7, 'seconds': 41}",75,18,2018
+696,Ole Miss,SEC,TD,"{'minutes': 3, 'seconds': 1}",1,"{'minutes': 3, 'seconds': 24}",100,401012308,4010123084,Arkansas,SEC,7,True,1,"{'minutes': 6, 'seconds': 25}",22,78,2018
+697,Arkansas,SEC,INT,"{'minutes': 1, 'seconds': 49}",1,"{'minutes': 1, 'seconds': 35}",35,401012308,4010123085,Ole Miss,SEC,5,False,1,"{'minutes': 3, 'seconds': 24}",75,40,2018
+698,Ole Miss,SEC,TD,"{'minutes': 1, 'seconds': 4}",1,{'seconds': 31},100,401012308,4010123086,Arkansas,SEC,3,True,1,"{'minutes': 1, 'seconds': 35}",20,80,2018
+699,Arkansas,SEC,TD,"{'minutes': 3, 'seconds': 8}",2,"{'minutes': 12, 'seconds': 23}",0,401012308,4010123087,Ole Miss,SEC,9,True,1,{'seconds': 31},75,75,2018
+700,Ole Miss,SEC,TD,"{'minutes': 1, 'seconds': 33}",2,"{'minutes': 10, 'seconds': 50}",100,401012308,4010123088,Arkansas,SEC,5,True,2,"{'minutes': 12, 'seconds': 23}",25,75,2018
+701,Arkansas,SEC,MISSED FG,"{'minutes': 3, 'seconds': 47}",2,"{'minutes': 7, 'seconds': 3}",27,401012308,4010123089,Ole Miss,SEC,9,False,2,"{'minutes': 10, 'seconds': 50}",60,33,2018
+702,Auburn,SEC,MISSED FG,"{'minutes': 2, 'seconds': 40}",1,"{'minutes': 12, 'seconds': 20}",77,401012316,4010123161,Ole Miss,SEC,11,False,1,{'minutes': 15},25,52,2018
+703,Ole Miss,SEC,TD,"{'minutes': 3, 'seconds': 44}",1,"{'minutes': 8, 'seconds': 36}",0,401012316,4010123162,Auburn,SEC,11,True,1,"{'minutes': 12, 'seconds': 20}",77,77,2018
+704,Auburn,SEC,FG,"{'minutes': 2, 'seconds': 47}",1,"{'minutes': 5, 'seconds': 49}",81,401012316,4010123163,Ole Miss,SEC,11,True,1,"{'minutes': 8, 'seconds': 36}",25,56,2018
+705,Ole Miss,SEC,PUNT,"{'minutes': 1, 'seconds': 45}",1,"{'minutes': 4, 'seconds': 4}",64,401012316,4010123164,Auburn,SEC,3,False,1,"{'minutes': 5, 'seconds': 49}",61,-3,2018
+706,Auburn,SEC,PUNT,"{'minutes': 1, 'seconds': 14}",1,"{'minutes': 2, 'seconds': 50}",24,401012316,4010123165,Ole Miss,SEC,3,False,1,"{'minutes': 4, 'seconds': 4}",19,5,2018
+707,Ole Miss,SEC,PUNT,"{'minutes': 1, 'seconds': 34}",1,"{'minutes': 1, 'seconds': 16}",79,401012316,4010123166,Auburn,SEC,3,False,1,"{'minutes': 2, 'seconds': 50}",70,-9,2018
+708,Auburn,SEC,DOWNS,"{'minutes': 1, 'seconds': 21}",2,"{'minutes': 14, 'seconds': 55}",48,401012316,4010123167,Ole Miss,SEC,4,False,1,"{'minutes': 1, 'seconds': 16}",39,9,2018
+709,Ole Miss,SEC,MISSED FG,"{'minutes': 3, 'seconds': 17}",2,"{'minutes': 11, 'seconds': 38}",29,401012316,4010123168,Auburn,SEC,7,False,2,"{'minutes': 14, 'seconds': 55}",48,19,2018
+710,Auburn,SEC,FG,"{'minutes': 2, 'seconds': 22}",2,"{'minutes': 9, 'seconds': 16}",80,401012316,4010123169,Ole Miss,SEC,8,True,2,"{'minutes': 11, 'seconds': 38}",29,51,2018
+711,Ole Miss,SEC,TD,{'seconds': 23},1,"{'minutes': 14, 'seconds': 37}",0,401012328,4010123281,South Carolina,SEC,0,True,1,{'minutes': 15},0,0,2018
+712,South Carolina,SEC,FG,"{'minutes': 3, 'seconds': 22}",1,"{'minutes': 11, 'seconds': 15}",92,401012328,4010123282,Ole Miss,SEC,12,True,1,"{'minutes': 14, 'seconds': 37}",27,65,2018
+713,Ole Miss,SEC,TD,"{'minutes': 2, 'seconds': 11}",1,"{'minutes': 9, 'seconds': 4}",0,401012328,4010123283,South Carolina,SEC,8,True,1,"{'minutes': 11, 'seconds': 15}",75,75,2018
+714,South Carolina,SEC,FUMBLE,"{'minutes': 3, 'seconds': 1}",1,"{'minutes': 6, 'seconds': 3}",76,401012328,4010123284,Ole Miss,SEC,6,False,1,"{'minutes': 9, 'seconds': 4}",23,53,2018
+715,Ole Miss,SEC,FG,"{'minutes': 3, 'seconds': 25}",1,"{'minutes': 2, 'seconds': 38}",3,401012328,4010123285,South Carolina,SEC,9,True,1,"{'minutes': 6, 'seconds': 3}",76,73,2018
+716,South Carolina,SEC,TD,"{'minutes': 3, 'seconds': 52}",2,"{'minutes': 13, 'seconds': 42}",100,401012328,4010123286,Ole Miss,SEC,11,True,1,"{'minutes': 2, 'seconds': 38}",25,75,2018
+717,Ole Miss,SEC,PUNT,"{'minutes': 2, 'seconds': 8}",2,"{'minutes': 11, 'seconds': 34}",56,401012328,4010123287,South Carolina,SEC,6,False,2,"{'minutes': 13, 'seconds': 42}",69,13,2018
+718,South Carolina,SEC,FG,"{'minutes': 3, 'seconds': 42}",2,"{'minutes': 7, 'seconds': 52}",91,401012328,4010123288,Ole Miss,SEC,12,True,2,"{'minutes': 11, 'seconds': 34}",11,80,2018
+719,Ole Miss,SEC,TD,{'seconds': 11},2,"{'minutes': 7, 'seconds': 41}",0,401012328,4010123289,South Carolina,SEC,1,True,2,"{'minutes': 7, 'seconds': 52}",75,75,2018
+720,Texas A&M,SEC,PUNT,"{'minutes': 1, 'seconds': 30}",1,"{'minutes': 13, 'seconds': 30}",67,401012337,4010123371,Ole Miss,SEC,4,False,1,{'minutes': 15},75,8,2018
+721,Ole Miss,SEC,PUNT,"{'minutes': 3, 'seconds': 22}",1,"{'minutes': 10, 'seconds': 8}",51,401012337,4010123372,Texas A&M,SEC,6,False,1,"{'minutes': 13, 'seconds': 30}",30,21,2018
+722,Texas A&M,SEC,PUNT,"{'minutes': 1, 'seconds': 19}",1,"{'minutes': 8, 'seconds': 49}",88,401012337,4010123373,Ole Miss,SEC,3,False,1,"{'minutes': 10, 'seconds': 8}",95,7,2018
+723,Ole Miss,SEC,TD,{'minutes': 7},1,"{'minutes': 1, 'seconds': 49}",100,401012337,4010123374,Texas A&M,SEC,14,True,1,"{'minutes': 8, 'seconds': 49}",29,71,2018
+724,Texas A&M,SEC,TD,"{'minutes': 1, 'seconds': 58}",2,"{'minutes': 14, 'seconds': 51}",0,401012337,4010123375,Ole Miss,SEC,5,True,1,"{'minutes': 1, 'seconds': 49}",75,75,2018
+725,Ole Miss,SEC,PUNT,"{'minutes': 2, 'seconds': 1}",2,"{'minutes': 12, 'seconds': 50}",30,401012337,4010123376,Texas A&M,SEC,3,False,2,"{'minutes': 14, 'seconds': 51}",23,7,2018
+726,Texas A&M,SEC,TD,"{'minutes': 3, 'seconds': 2}",2,"{'minutes': 9, 'seconds': 48}",0,401012337,4010123377,Ole Miss,SEC,7,True,2,"{'minutes': 12, 'seconds': 50}",75,75,2018
+727,Ole Miss,SEC,PUNT,"{'minutes': 3, 'seconds': 48}",2,{'minutes': 6},51,401012337,4010123378,Texas A&M,SEC,9,False,2,"{'minutes': 9, 'seconds': 48}",25,26,2018
+728,Texas A&M,SEC,FUMBLE,"{'minutes': 2, 'seconds': 28}",2,"{'minutes': 3, 'seconds': 32}",15,401012337,4010123379,Ole Miss,SEC,6,False,2,{'minutes': 6},92,77,2018
+729,Vanderbilt,SEC,DOWNS,"{'minutes': 2, 'seconds': 38}",1,"{'minutes': 12, 'seconds': 22}",48,401012348,4010123481,Ole Miss,SEC,6,False,1,{'minutes': 15},75,27,2018
+730,Ole Miss,SEC,PUNT,"{'minutes': 2, 'seconds': 32}",1,"{'minutes': 9, 'seconds': 50}",51,401012348,4010123482,Vanderbilt,SEC,3,False,1,"{'minutes': 12, 'seconds': 22}",48,3,2018
+731,Vanderbilt,SEC,FG,"{'minutes': 4, 'seconds': 35}",1,"{'minutes': 5, 'seconds': 15}",15,401012348,4010123483,Ole Miss,SEC,13,True,1,"{'minutes': 9, 'seconds': 50}",89,74,2018
+732,Ole Miss,SEC,PUNT,"{'minutes': 2, 'seconds': 41}",1,"{'minutes': 2, 'seconds': 34}",55,401012348,4010123484,Vanderbilt,SEC,5,False,1,"{'minutes': 5, 'seconds': 15}",23,32,2018
+733,Vanderbilt,SEC,FG,"{'minutes': 5, 'seconds': 32}",2,"{'minutes': 12, 'seconds': 2}",3,401012348,4010123485,Ole Miss,SEC,13,True,1,"{'minutes': 2, 'seconds': 34}",94,91,2018
+734,Ole Miss,SEC,PUNT,"{'minutes': 2, 'seconds': 8}",2,"{'minutes': 9, 'seconds': 54}",42,401012348,4010123486,Vanderbilt,SEC,4,False,2,"{'minutes': 12, 'seconds': 2}",19,23,2018
+735,Vanderbilt,SEC,TD,{'seconds': 13},2,"{'minutes': 9, 'seconds': 41}",0,401012348,4010123487,Ole Miss,SEC,1,True,2,"{'minutes': 9, 'seconds': 54}",84,84,2018
+736,Ole Miss,SEC,FG,"{'minutes': 3, 'seconds': 57}",2,"{'minutes': 5, 'seconds': 44}",81,401012348,4010123488,Vanderbilt,SEC,9,True,2,"{'minutes': 9, 'seconds': 41}",25,56,2018
+737,Vanderbilt,SEC,SF,"{'minutes': 1, 'seconds': 48}",2,"{'minutes': 3, 'seconds': 56}",71,401012348,4010123489,Ole Miss,SEC,3,True,2,"{'minutes': 5, 'seconds': 44}",75,4,2018
+738,Mississippi State,SEC,PUNT,"{'minutes': 2, 'seconds': 22}",1,"{'minutes': 12, 'seconds': 38}",44,401012349,4010123491,Ole Miss,SEC,6,False,1,{'minutes': 15},25,19,2018
+739,Ole Miss,SEC,PUNT,"{'minutes': 3, 'seconds': 20}",1,"{'minutes': 9, 'seconds': 18}",50,401012349,4010123492,Mississippi State,SEC,6,False,1,"{'minutes': 12, 'seconds': 38}",86,36,2018
+740,Mississippi State,SEC,FUMBLE,"{'minutes': 1, 'seconds': 14}",1,"{'minutes': 8, 'seconds': 4}",30,401012349,4010123493,Ole Miss,SEC,4,False,1,"{'minutes': 9, 'seconds': 18}",18,12,2018
+741,Ole Miss,SEC,TD,"{'minutes': 3, 'seconds': 2}",1,"{'minutes': 5, 'seconds': 2}",0,401012349,4010123494,Mississippi State,SEC,7,True,1,"{'minutes': 8, 'seconds': 4}",30,30,2018
+742,Mississippi State,SEC,PUNT,"{'minutes': 2, 'seconds': 28}",1,"{'minutes': 2, 'seconds': 34}",54,401012349,4010123495,Ole Miss,SEC,4,False,1,"{'minutes': 5, 'seconds': 2}",22,32,2018
+743,Ole Miss,SEC,TD,"{'minutes': 3, 'seconds': 30}",2,"{'minutes': 14, 'seconds': 4}",0,401012349,4010123496,Mississippi State,SEC,8,True,1,"{'minutes': 2, 'seconds': 34}",86,86,2018
+744,Mississippi State,SEC,PUNT,"{'minutes': 2, 'seconds': 1}",2,"{'minutes': 12, 'seconds': 3}",40,401012349,4010123497,Ole Miss,SEC,4,False,2,"{'minutes': 14, 'seconds': 4}",25,15,2018
+745,Ole Miss,SEC,PUNT,"{'minutes': 1, 'seconds': 23}",2,"{'minutes': 10, 'seconds': 40}",70,401012349,4010123498,Mississippi State,SEC,3,False,2,"{'minutes': 12, 'seconds': 3}",75,5,2018
+746,Mississippi State,SEC,FG,"{'minutes': 3, 'seconds': 54}",2,"{'minutes': 6, 'seconds': 46}",85,401012349,4010123499,Ole Miss,SEC,10,True,2,"{'minutes': 10, 'seconds': 40}",34,51,2018
+747,Ole Miss,SEC,PUNT,{'seconds': 51},2,"{'minutes': 10, 'seconds': 16}",18,401012253,40101225310,Texas Tech,Big 12,3,False,2,"{'minutes': 11, 'seconds': 7}",17,1,2018
+748,Texas Tech,Big 12,FG,"{'minutes': 3, 'seconds': 35}",2,"{'minutes': 6, 'seconds': 41}",12,401012253,40101225311,Ole Miss,SEC,8,True,2,"{'minutes': 10, 'seconds': 16}",65,53,2018
+749,Ole Miss,SEC,TD,"{'minutes': 4, 'seconds': 44}",2,"{'minutes': 1, 'seconds': 57}",100,401012253,40101225312,Texas Tech,Big 12,11,True,2,"{'minutes': 6, 'seconds': 41}",25,75,2018
+750,Texas Tech,Big 12,FG,"{'minutes': 1, 'seconds': 20}",2,{'seconds': 37},22,401012253,40101225313,Ole Miss,SEC,8,True,2,"{'minutes': 1, 'seconds': 57}",84,47,2018
+751,Ole Miss,SEC,END OF HALF,{'seconds': 37},2,{},31,401012253,40101225314,Texas Tech,Big 12,1,False,2,{'seconds': 37},34,-3,2018
+752,Ole Miss,SEC,PUNT,"{'minutes': 1, 'seconds': 28}",3,"{'minutes': 13, 'seconds': 32}",31,401012253,40101225315,Texas Tech,Big 12,3,False,3,{'minutes': 15},25,6,2018
+753,Texas Tech,Big 12,PUNT,"{'minutes': 1, 'seconds': 45}",3,"{'minutes': 11, 'seconds': 47}",49,401012253,40101225316,Ole Miss,SEC,4,False,3,"{'minutes': 13, 'seconds': 32}",70,21,2018
+754,Ole Miss,SEC,FG,"{'minutes': 3, 'seconds': 50}",3,"{'minutes': 7, 'seconds': 57}",77,401012253,40101225317,Texas Tech,Big 12,11,True,3,"{'minutes': 11, 'seconds': 47}",12,65,2018
+755,Texas Tech,Big 12,TD,{'seconds': 50},3,"{'minutes': 7, 'seconds': 7}",0,401012253,40101225318,Ole Miss,SEC,3,True,3,"{'minutes': 7, 'seconds': 57}",75,75,2018
+756,Ole Miss,SEC,TD,"{'minutes': 1, 'seconds': 37}",3,"{'minutes': 5, 'seconds': 30}",100,401012253,40101225319,Texas Tech,Big 12,5,True,3,"{'minutes': 7, 'seconds': 7}",25,75,2018
+757,Texas Tech,Big 12,PUNT,"{'minutes': 1, 'seconds': 53}",3,"{'minutes': 3, 'seconds': 37}",53,401012253,40101225320,Ole Miss,SEC,4,False,3,"{'minutes': 5, 'seconds': 30}",75,22,2018
+758,Ole Miss,SEC,PUNT,"{'minutes': 1, 'seconds': 57}",3,"{'minutes': 1, 'seconds': 40}",47,401012253,40101225321,Texas Tech,Big 12,6,False,3,"{'minutes': 3, 'seconds': 37}",38,9,2018
+759,Texas Tech,Big 12,FUMBLE,{'seconds': 9},3,"{'minutes': 1, 'seconds': 31}",58,401012253,40101225322,Ole Miss,SEC,1,False,3,"{'minutes': 1, 'seconds': 40}",58,9,2018
+760,Ole Miss,SEC,DOWNS,"{'minutes': 1, 'seconds': 38}",4,"{'minutes': 14, 'seconds': 53}",54,401012253,40101225323,Texas Tech,Big 12,4,False,3,"{'minutes': 1, 'seconds': 31}",49,5,2018
+761,Texas Tech,Big 12,TD,{'seconds': 20},4,"{'minutes': 14, 'seconds': 33}",0,401012253,40101225324,Ole Miss,SEC,2,True,4,"{'minutes': 14, 'seconds': 53}",49,54,2018
+762,Ole Miss,SEC,DOWNS,"{'minutes': 5, 'seconds': 22}",4,"{'minutes': 9, 'seconds': 11}",86,401012253,40101225325,Texas Tech,Big 12,15,False,4,"{'minutes': 14, 'seconds': 33}",33,53,2018
+763,Texas Tech,Big 12,FG,"{'minutes': 5, 'seconds': 2}",4,"{'minutes': 4, 'seconds': 9}",6,401012253,40101225326,Ole Miss,SEC,8,True,4,"{'minutes': 9, 'seconds': 11}",81,80,2018
+764,Ole Miss,SEC,DOWNS,"{'minutes': 3, 'seconds': 57}",4,{'seconds': 12},95,401012253,40101225327,Texas Tech,Big 12,13,False,4,"{'minutes': 4, 'seconds': 9}",24,71,2018
+765,Texas Tech,Big 12,END OF GAME,{'seconds': 12},4,{},97,401012253,40101225328,Ole Miss,SEC,1,False,4,{'seconds': 12},95,-2,2018
+766,Ole Miss,SEC,TD,"{'minutes': 2, 'seconds': 34}",2,"{'minutes': 4, 'seconds': 6}",0,401012265,40101226510,Southern Illinois,,6,True,2,"{'minutes': 6, 'seconds': 40}",75,75,2018
+767,Southern Illinois,,TD,"{'minutes': 2, 'seconds': 49}",2,"{'minutes': 1, 'seconds': 17}",100,401012265,40101226511,Ole Miss,SEC,10,True,2,"{'minutes': 4, 'seconds': 6}",25,75,2018
+768,Ole Miss,SEC,TD,{'seconds': 37},2,{'seconds': 40},0,401012265,40101226512,Southern Illinois,,3,True,2,"{'minutes': 1, 'seconds': 17}",75,75,2018
+769,Southern Illinois,,END OF HALF,{'seconds': 40},2,{},34,401012265,40101226513,Ole Miss,SEC,4,False,2,{'seconds': 40},24,10,2018
+770,Ole Miss,SEC,PUNT,"{'minutes': 3, 'seconds': 14}",3,"{'minutes': 11, 'seconds': 46}",51,401012265,40101226514,Southern Illinois,,8,False,3,{'minutes': 15},75,24,2018
+771,Southern Illinois,,TD,{'seconds': 24},3,"{'minutes': 11, 'seconds': 22}",100,401012265,40101226515,Ole Miss,SEC,2,True,3,"{'minutes': 11, 'seconds': 46}",41,59,2018
+772,Ole Miss,SEC,PUNT,"{'minutes': 3, 'seconds': 20}",3,"{'minutes': 8, 'seconds': 2}",62,401012265,40101226516,Southern Illinois,,7,False,3,"{'minutes': 11, 'seconds': 22}",75,13,2018
+773,Southern Illinois,,PUNT,{},3,"{'minutes': 8, 'seconds': 2}",5,401012265,40101226517,Ole Miss,SEC,3,False,3,"{'minutes': 8, 'seconds': 2}",10,-5,2018
+774,Ole Miss,SEC,FG,"{'minutes': 3, 'seconds': 2}",3,{'minutes': 5},9,401012265,40101226518,Southern Illinois,,8,True,3,"{'minutes': 8, 'seconds': 2}",44,35,2018
+775,Southern Illinois,,TD,"{'minutes': 1, 'seconds': 19}",3,"{'minutes': 3, 'seconds': 41}",100,401012265,40101226519,Ole Miss,SEC,5,True,3,{'minutes': 5},25,75,2018
+776,Ole Miss,SEC,INT TD,"{'minutes': 3, 'seconds': 59}",4,"{'minutes': 14, 'seconds': 42}",20,401012265,40101226520,Southern Illinois,,12,True,3,"{'minutes': 3, 'seconds': 41}",94,74,2018
+777,Ole Miss,SEC,INT,"{'minutes': 1, 'seconds': 6}",4,"{'minutes': 13, 'seconds': 36}",72,401012265,40101226522,Southern Illinois,,3,False,4,"{'minutes': 14, 'seconds': 42}",75,3,2018
+778,Southern Illinois,,TD,"{'minutes': 1, 'seconds': 42}",4,"{'minutes': 11, 'seconds': 54}",100,401012265,40101226523,Ole Miss,SEC,7,True,4,"{'minutes': 13, 'seconds': 36}",48,52,2018
+779,Ole Miss,SEC,FUMBLE TD,"{'minutes': 2, 'seconds': 20}",4,"{'minutes': 9, 'seconds': 34}",44,401012265,40101226524,Southern Illinois,,6,True,4,"{'minutes': 11, 'seconds': 54}",78,34,2018
+780,Ole Miss,SEC,PUNT,"{'minutes': 2, 'seconds': 1}",4,"{'minutes': 7, 'seconds': 33}",67,401012265,40101226526,Southern Illinois,,3,False,4,"{'minutes': 9, 'seconds': 34}",75,8,2018
+781,Southern Illinois,,TD,"{'minutes': 5, 'seconds': 51}",4,"{'minutes': 1, 'seconds': 42}",100,401012265,40101226527,Ole Miss,SEC,10,True,4,"{'minutes': 7, 'seconds': 33}",30,70,2018
+782,Ole Miss,SEC,END OF GAME,"{'minutes': 1, 'seconds': 42}",4,{},43,401012265,40101226528,Southern Illinois,,4,False,4,"{'minutes': 1, 'seconds': 42}",75,32,2018
+783,Ole Miss,SEC,TD,{'seconds': 50},1,"{'minutes': 4, 'seconds': 40}",0,401012277,40101227710,Alabama,SEC,3,True,1,"{'minutes': 5, 'seconds': 30}",15,15,2018
+784,Alabama,SEC,PUNT,"{'minutes': 3, 'seconds': 44}",1,{'seconds': 56},59,401012277,40101227711,Ole Miss,SEC,7,False,1,"{'minutes': 4, 'seconds': 40}",25,34,2018
+785,Ole Miss,SEC,MISSED FG,"{'minutes': 5, 'seconds': 4}",2,"{'minutes': 10, 'seconds': 52}",20,401012277,40101227712,Alabama,SEC,10,False,1,{'seconds': 56},80,60,2018
+786,Alabama,SEC,DOWNS,"{'minutes': 1, 'seconds': 50}",2,"{'minutes': 9, 'seconds': 2}",59,401012277,40101227713,Ole Miss,SEC,7,False,2,"{'minutes': 10, 'seconds': 52}",20,32,2018
+787,Ole Miss,SEC,TD,"{'minutes': 1, 'seconds': 44}",2,"{'minutes': 7, 'seconds': 18}",0,401012277,40101227714,Alabama,SEC,4,True,2,"{'minutes': 9, 'seconds': 2}",52,52,2018
+788,Alabama,SEC,PUNT,"{'minutes': 1, 'seconds': 48}",2,"{'minutes': 5, 'seconds': 30}",30,401012277,40101227715,Ole Miss,SEC,3,False,2,"{'minutes': 7, 'seconds': 18}",25,5,2018
+789,Ole Miss,SEC,TD,{'seconds': 54},2,"{'minutes': 4, 'seconds': 36}",0,401012277,40101227716,Alabama,SEC,3,True,2,"{'minutes': 5, 'seconds': 30}",30,30,2018
+790,Alabama,SEC,PUNT,"{'minutes': 1, 'seconds': 49}",2,"{'minutes': 2, 'seconds': 47}",10,401012277,40101227717,Ole Miss,SEC,3,False,2,"{'minutes': 4, 'seconds': 36}",11,-1,2018
+791,Ole Miss,SEC,TD,"{'minutes': 1, 'seconds': 52}",2,{'seconds': 55},0,401012277,40101227718,Alabama,SEC,7,True,2,"{'minutes': 2, 'seconds': 47}",50,50,2018
+792,Alabama,SEC,END OF HALF,{'seconds': 55},2,{},12,401012277,40101227719,Ole Miss,SEC,3,False,2,{'seconds': 55},3,9,2018
+793,Ole Miss,SEC,FG,"{'minutes': 3, 'seconds': 11}",3,"{'minutes': 11, 'seconds': 49}",2,401012277,40101227720,Alabama,SEC,7,True,3,{'minutes': 15},23,21,2018
+794,Alabama,SEC,PUNT,{'seconds': 52},3,"{'minutes': 10, 'seconds': 57}",30,401012277,40101227721,Ole Miss,SEC,3,False,3,"{'minutes': 11, 'seconds': 49}",25,5,2018
+795,Ole Miss,SEC,INT,"{'minutes': 4, 'seconds': 3}",3,"{'minutes': 6, 'seconds': 54}",35,401012277,40101227722,Alabama,SEC,7,False,3,"{'minutes': 10, 'seconds': 57}",66,31,2018
+796,Alabama,SEC,INT TD,"{'minutes': 1, 'seconds': 50}",3,"{'minutes': 5, 'seconds': 4}",24,401012277,40101227723,Ole Miss,SEC,4,True,3,"{'minutes': 6, 'seconds': 54}",4,20,2018
+797,Alabama,SEC,PUNT,"{'minutes': 1, 'seconds': 32}",3,"{'minutes': 3, 'seconds': 32}",24,401012277,40101227724,Ole Miss,SEC,3,False,3,"{'minutes': 5, 'seconds': 4}",25,-1,2018
+798,Ole Miss,SEC,FG,"{'minutes': 6, 'seconds': 16}",4,"{'minutes': 12, 'seconds': 16}",26,401012277,40101227725,Alabama,SEC,13,True,3,"{'minutes': 3, 'seconds': 32}",72,46,2018
+799,Alabama,SEC,PUNT,"{'minutes': 1, 'seconds': 56}",4,"{'minutes': 10, 'seconds': 20}",34,401012277,40101227726,Ole Miss,SEC,3,False,4,"{'minutes': 12, 'seconds': 16}",25,9,2018
+800,Ole Miss,SEC,PUNT,"{'minutes': 2, 'seconds': 35}",4,"{'minutes': 7, 'seconds': 45}",79,401012277,40101227727,Alabama,SEC,3,False,4,"{'minutes': 10, 'seconds': 20}",77,-2,2018
+801,Alabama,SEC,PUNT,"{'minutes': 3, 'seconds': 36}",4,"{'minutes': 4, 'seconds': 9}",58,401012277,40101227728,Ole Miss,SEC,5,False,4,"{'minutes': 7, 'seconds': 45}",44,14,2018
+802,Ole Miss,SEC,PUNT,"{'minutes': 2, 'seconds': 8}",4,"{'minutes': 2, 'seconds': 1}",79,401012277,40101227729,Alabama,SEC,3,False,4,"{'minutes': 4, 'seconds': 9}",80,1,2018
+803,Alabama,SEC,END OF GAME,"{'minutes': 2, 'seconds': 1}",4,{},46,401012277,40101227730,Ole Miss,SEC,3,False,4,"{'minutes': 2, 'seconds': 1}",40,6,2018
+804,Kent State,Mid-American,PUNT,"{'minutes': 3, 'seconds': 9}",2,"{'minutes': 9, 'seconds': 19}",39,401012288,40101228810,Ole Miss,SEC,6,False,2,"{'minutes': 12, 'seconds': 28}",25,14,2018
+805,Ole Miss,SEC,PUNT,"{'minutes': 5, 'seconds': 7}",2,"{'minutes': 4, 'seconds': 12}",35,401012288,40101228811,Kent State,Mid-American,12,False,2,"{'minutes': 9, 'seconds': 19}",73,38,2018
+806,Kent State,Mid-American,MISSED FG,"{'minutes': 3, 'seconds': 5}",2,"{'minutes': 1, 'seconds': 7}",79,401012288,40101228812,Ole Miss,SEC,8,False,2,"{'minutes': 4, 'seconds': 12}",8,71,2018
+807,Ole Miss,SEC,END OF HALF,"{'minutes': 1, 'seconds': 7}",2,{},57,401012288,40101228813,Kent State,Mid-American,5,False,2,"{'minutes': 1, 'seconds': 7}",79,22,2018
+808,Kent State,Mid-American,TD,"{'minutes': 1, 'seconds': 35}",3,"{'minutes': 13, 'seconds': 20}",100,401012288,40101228814,Ole Miss,SEC,5,True,3,"{'minutes': 14, 'seconds': 55}",24,76,2018
+809,Ole Miss,SEC,FG,"{'minutes': 2, 'seconds': 30}",3,"{'minutes': 10, 'seconds': 50}",15,401012288,40101228815,Kent State,Mid-American,8,True,3,"{'minutes': 13, 'seconds': 20}",65,50,2018
+810,Kent State,Mid-American,TD,{'seconds': 42},3,"{'minutes': 10, 'seconds': 8}",100,401012288,40101228816,Ole Miss,SEC,2,True,3,"{'minutes': 10, 'seconds': 50}",29,71,2018
+811,Ole Miss,SEC,TD,"{'minutes': 3, 'seconds': 23}",3,"{'minutes': 6, 'seconds': 45}",0,401012288,40101228817,Kent State,Mid-American,11,True,3,"{'minutes': 10, 'seconds': 8}",53,53,2018
+812,Kent State,Mid-American,INT,"{'minutes': 1, 'seconds': 46}",3,"{'minutes': 4, 'seconds': 59}",71,401012288,40101228818,Ole Miss,SEC,4,False,3,"{'minutes': 6, 'seconds': 45}",25,46,2018
+813,Ole Miss,SEC,INT,{'seconds': 14},3,"{'minutes': 4, 'seconds': 45}",58,401012288,40101228819,Kent State,Mid-American,1,False,3,"{'minutes': 4, 'seconds': 59}",73,15,2018
+814,Kent State,Mid-American,FG,"{'minutes': 4, 'seconds': 42}",3,{'seconds': 3},90,401012288,40101228820,Ole Miss,SEC,13,True,3,"{'minutes': 4, 'seconds': 45}",25,65,2018
+815,Ole Miss,SEC,PUNT,{'seconds': 3},3,{},59,401012288,40101228821,Kent State,Mid-American,5,False,3,{'seconds': 3},75,16,2018
+816,Kent State,Mid-American,TD,"{'minutes': 2, 'seconds': 40}",4,"{'minutes': 9, 'seconds': 55}",100,401012288,40101228822,Ole Miss,SEC,7,True,4,"{'minutes': 12, 'seconds': 35}",12,88,2018
+817,Ole Miss,SEC,FUMBLE,{'seconds': 30},4,"{'minutes': 9, 'seconds': 25}",66,401012288,40101228823,Kent State,Mid-American,2,False,4,"{'minutes': 9, 'seconds': 55}",75,9,2018
+818,Kent State,Mid-American,TD,"{'minutes': 2, 'seconds': 27}",4,"{'minutes': 6, 'seconds': 58}",100,401012288,40101228824,Ole Miss,SEC,5,True,4,"{'minutes': 9, 'seconds': 25}",66,34,2018
+819,Ole Miss,SEC,PUNT,"{'minutes': 1, 'seconds': 33}",4,"{'minutes': 5, 'seconds': 25}",62,401012288,40101228825,Kent State,Mid-American,3,False,4,"{'minutes': 6, 'seconds': 58}",65,3,2018
+820,Kent State,Mid-American,Uncategorized,"{'minutes': 5, 'seconds': 25}",4,{},59,401012288,40101228826,Ole Miss,SEC,8,False,4,"{'minutes': 5, 'seconds': 25}",14,45,2018
+821,Ole Miss,SEC,TD,{'seconds': 45},2,"{'minutes': 7, 'seconds': 41}",100,401012297,40101229710,LSU,SEC,2,True,2,"{'minutes': 8, 'seconds': 26}",31,69,2018
+822,LSU,SEC,PUNT,"{'minutes': 1, 'seconds': 44}",2,"{'minutes': 5, 'seconds': 57}",66,401012297,40101229711,Ole Miss,SEC,3,False,2,"{'minutes': 7, 'seconds': 41}",75,9,2018
+823,Ole Miss,SEC,FUMBLE,"{'minutes': 3, 'seconds': 21}",2,"{'minutes': 2, 'seconds': 36}",84,401012297,40101229712,LSU,SEC,7,False,2,"{'minutes': 5, 'seconds': 57}",32,63,2018
+824,LSU,SEC,FG,"{'minutes': 2, 'seconds': 34}",2,{'seconds': 2},1,401012297,40101229713,Ole Miss,SEC,12,True,2,"{'minutes': 2, 'seconds': 36}",91,90,2018
+825,Ole Miss,SEC,END OF HALF,{'seconds': 2},2,{},24,401012297,40101229714,LSU,SEC,1,False,2,{'seconds': 2},25,-1,2018
+826,Ole Miss,SEC,FUMBLE,"{'minutes': 3, 'seconds': 30}",3,"{'minutes': 11, 'seconds': 30}",91,401012297,40101229715,LSU,SEC,9,False,3,{'minutes': 15},25,62,2018
+827,LSU,SEC,PUNT,"{'minutes': 1, 'seconds': 34}",3,"{'minutes': 9, 'seconds': 56}",62,401012297,40101229716,Ole Miss,SEC,5,False,3,"{'minutes': 11, 'seconds': 30}",87,25,2018
+828,Ole Miss,SEC,PUNT,"{'minutes': 1, 'seconds': 40}",3,"{'minutes': 8, 'seconds': 16}",18,401012297,40101229717,LSU,SEC,3,False,3,"{'minutes': 9, 'seconds': 56}",20,-2,2018
+829,LSU,SEC,TD,"{'minutes': 4, 'seconds': 31}",3,"{'minutes': 3, 'seconds': 45}",0,401012297,40101229718,Ole Miss,SEC,13,True,3,"{'minutes': 8, 'seconds': 16}",59,59,2018
+830,Ole Miss,SEC,TD,"{'minutes': 1, 'seconds': 57}",3,"{'minutes': 1, 'seconds': 48}",100,401012297,40101229719,LSU,SEC,5,True,3,"{'minutes': 3, 'seconds': 45}",33,67,2018
+831,LSU,SEC,FG,"{'minutes': 3, 'seconds': 38}",4,"{'minutes': 13, 'seconds': 10}",24,401012297,40101229720,Ole Miss,SEC,11,True,3,"{'minutes': 1, 'seconds': 48}",75,51,2018
+832,Ole Miss,SEC,FG,"{'minutes': 4, 'seconds': 25}",4,"{'minutes': 8, 'seconds': 45}",92,401012297,40101229721,LSU,SEC,10,True,4,"{'minutes': 13, 'seconds': 10}",25,67,2018
+833,LSU,SEC,PUNT,"{'minutes': 1, 'seconds': 49}",4,"{'minutes': 6, 'seconds': 56}",79,401012297,40101229722,Ole Miss,SEC,3,False,4,"{'minutes': 8, 'seconds': 45}",75,-4,2018
+834,Ole Miss,SEC,TD,{'minutes': 4},4,"{'minutes': 2, 'seconds': 56}",100,401012297,40101229723,LSU,SEC,6,True,4,"{'minutes': 6, 'seconds': 56}",36,64,2018
+835,LSU,SEC,END OF GAME,"{'minutes': 2, 'seconds': 56}",4,{},60,401012297,40101229724,Ole Miss,SEC,5,False,4,"{'minutes': 2, 'seconds': 56}",75,15,2018
+836,Louisiana Monroe,Sun Belt,TD,"{'minutes': 2, 'seconds': 21}",2,"{'minutes': 7, 'seconds': 7}",100,401012303,40101230310,Ole Miss,SEC,8,True,2,"{'minutes': 9, 'seconds': 28}",28,72,2018
+837,Ole Miss,SEC,DOWNS,"{'minutes': 4, 'seconds': 54}",2,"{'minutes': 2, 'seconds': 13}",26,401012303,40101230311,Louisiana Monroe,Sun Belt,12,False,2,"{'minutes': 7, 'seconds': 7}",75,49,2018
+838,Louisiana Monroe,Sun Belt,TD,{'seconds': 30},2,"{'minutes': 1, 'seconds': 43}",100,401012303,40101230312,Ole Miss,SEC,2,True,2,"{'minutes': 2, 'seconds': 13}",26,74,2018
+839,Ole Miss,SEC,PUNT,{'seconds': 36},2,"{'minutes': 1, 'seconds': 7}",50,401012303,40101230313,Louisiana Monroe,Sun Belt,5,False,2,"{'minutes': 1, 'seconds': 43}",75,25,2018
+840,Louisiana Monroe,Sun Belt,TD,"{'minutes': 1, 'seconds': 3}",2,{'seconds': 4},100,401012303,40101230314,Ole Miss,SEC,6,True,2,"{'minutes': 1, 'seconds': 7}",2,98,2018
+841,Ole Miss,SEC,Uncategorized,{'seconds': 4},2,{},71,401012303,40101230315,Louisiana Monroe,Sun Belt,0,False,2,{'seconds': 4},71,0,2018
+842,Louisiana Monroe,Sun Belt,TD,"{'minutes': 1, 'seconds': 16}",3,"{'minutes': 13, 'seconds': 44}",100,401012303,40101230316,Ole Miss,SEC,4,True,3,{'minutes': 15},25,75,2018
+843,Ole Miss,SEC,PUNT,"{'minutes': 3, 'seconds': 11}",3,"{'minutes': 10, 'seconds': 33}",66,401012303,40101230317,Louisiana Monroe,Sun Belt,6,False,3,"{'minutes': 13, 'seconds': 44}",77,11,2018
+844,Louisiana Monroe,Sun Belt,TD,{'seconds': 39},3,"{'minutes': 9, 'seconds': 54}",100,401012303,40101230318,Ole Miss,SEC,2,True,3,"{'minutes': 10, 'seconds': 33}",8,92,2018
+845,Ole Miss,SEC,DOWNS,"{'minutes': 2, 'seconds': 56}",3,"{'minutes': 6, 'seconds': 58}",22,401012303,40101230319,Louisiana Monroe,Sun Belt,6,False,3,"{'minutes': 9, 'seconds': 54}",61,39,2018
+846,Louisiana Monroe,Sun Belt,PUNT RETURN TD,"{'minutes': 1, 'seconds': 59}",3,"{'minutes': 4, 'seconds': 59}",27,401012303,40101230320,Ole Miss,SEC,3,True,3,"{'minutes': 6, 'seconds': 58}",22,5,2018
+847,Louisiana Monroe,Sun Belt,TD,"{'minutes': 7, 'seconds': 21}",4,"{'minutes': 12, 'seconds': 32}",100,401012303,40101230322,Ole Miss,SEC,11,True,3,"{'minutes': 4, 'seconds': 59}",25,75,2018
+848,Ole Miss,SEC,FUMBLE,"{'minutes': 2, 'seconds': 3}",4,"{'minutes': 10, 'seconds': 29}",35,401012303,40101230323,Louisiana Monroe,Sun Belt,6,False,4,"{'minutes': 12, 'seconds': 32}",72,37,2018
+849,Louisiana Monroe,Sun Belt,PUNT,"{'minutes': 4, 'seconds': 57}",4,"{'minutes': 5, 'seconds': 32}",57,401012303,40101230324,Ole Miss,SEC,7,False,4,"{'minutes': 10, 'seconds': 29}",45,12,2018
+850,Ole Miss,SEC,TD,"{'minutes': 4, 'seconds': 7}",4,"{'minutes': 1, 'seconds': 25}",0,401012303,40101230325,Louisiana Monroe,Sun Belt,12,True,4,"{'minutes': 5, 'seconds': 32}",86,86,2018
+851,Louisiana Monroe,Sun Belt,END OF GAME,"{'minutes': 1, 'seconds': 25}",4,{},46,401012303,40101230326,Ole Miss,SEC,2,False,4,"{'minutes': 1, 'seconds': 25}",25,21,2018
+852,Ole Miss,SEC,FG,"{'minutes': 4, 'seconds': 27}",2,"{'minutes': 2, 'seconds': 36}",80,401012308,40101230810,Arkansas,SEC,9,True,2,"{'minutes': 7, 'seconds': 3}",28,52,2018
+853,Arkansas,SEC,TD,"{'minutes': 2, 'seconds': 3}",2,{'seconds': 33},0,401012308,40101230811,Ole Miss,SEC,10,True,2,"{'minutes': 2, 'seconds': 36}",77,77,2018
+854,Ole Miss,SEC,END OF HALF,{'seconds': 33},2,{},18,401012308,40101230812,Arkansas,SEC,1,False,2,{'seconds': 33},20,-2,2018
+855,Ole Miss,SEC,FG,"{'minutes': 5, 'seconds': 32}",3,"{'minutes': 9, 'seconds': 28}",80,401012308,40101230813,Arkansas,SEC,10,True,3,{'minutes': 15},25,55,2018
+856,Arkansas,SEC,TD,"{'minutes': 1, 'seconds': 59}",3,"{'minutes': 7, 'seconds': 29}",0,401012308,40101230814,Ole Miss,SEC,5,True,3,"{'minutes': 9, 'seconds': 28}",79,79,2018
+857,Ole Miss,SEC,FG,"{'minutes': 4, 'seconds': 56}",3,"{'minutes': 2, 'seconds': 33}",82,401012308,40101230815,Arkansas,SEC,11,True,3,"{'minutes': 7, 'seconds': 29}",25,57,2018
+858,Arkansas,SEC,MISSED FG,"{'minutes': 3, 'seconds': 46}",4,"{'minutes': 13, 'seconds': 47}",11,401012308,40101230816,Ole Miss,SEC,10,False,3,"{'minutes': 2, 'seconds': 33}",75,64,2018
+859,Ole Miss,SEC,PUNT,"{'minutes': 6, 'seconds': 38}",4,"{'minutes': 7, 'seconds': 9}",53,401012308,40101230817,Arkansas,SEC,10,False,4,"{'minutes': 13, 'seconds': 47}",20,33,2018
+860,Arkansas,SEC,TD,"{'minutes': 2, 'seconds': 54}",4,"{'minutes': 4, 'seconds': 15}",0,401012308,40101230818,Ole Miss,SEC,10,True,4,"{'minutes': 7, 'seconds': 9}",84,84,2018
+861,Ole Miss,SEC,PUNT,"{'minutes': 2, 'seconds': 13}",4,"{'minutes': 2, 'seconds': 2}",33,401012308,40101230819,Arkansas,SEC,6,False,4,"{'minutes': 4, 'seconds': 15}",10,23,2018
+862,Arkansas,SEC,TD,"{'minutes': 1, 'seconds': 20}",4,{'seconds': 42},0,401012308,40101230820,Ole Miss,SEC,7,True,4,"{'minutes': 2, 'seconds': 2}",97,97,2018
+863,Ole Miss,SEC,INT,{'seconds': 13},4,{'seconds': 29},28,401012308,40101230821,Arkansas,SEC,1,False,4,{'seconds': 42},43,-15,2018
+864,Ole Miss,SEC,FG,"{'minutes': 4, 'seconds': 58}",2,"{'minutes': 4, 'seconds': 18}",10,401012316,40101231610,Auburn,SEC,15,True,2,"{'minutes': 9, 'seconds': 16}",96,86,2018
+865,Auburn,SEC,PUNT,"{'minutes': 2, 'seconds': 56}",2,"{'minutes': 1, 'seconds': 22}",65,401012316,40101231611,Ole Miss,SEC,4,False,2,"{'minutes': 4, 'seconds': 18}",19,46,2018
+866,Ole Miss,SEC,END OF HALF,"{'minutes': 1, 'seconds': 22}",2,{},87,401012316,40101231612,Auburn,SEC,2,False,2,"{'minutes': 1, 'seconds': 22}",96,9,2018
+867,Ole Miss,SEC,TD,"{'minutes': 2, 'seconds': 53}",3,"{'minutes': 12, 'seconds': 7}",0,401012316,40101231613,Auburn,SEC,7,True,3,{'minutes': 15},68,68,2018
+868,Auburn,SEC,FG,"{'minutes': 3, 'seconds': 37}",3,"{'minutes': 8, 'seconds': 30}",82,401012316,40101231614,Ole Miss,SEC,9,True,3,"{'minutes': 12, 'seconds': 7}",25,57,2018
+869,Ole Miss,SEC,TD,"{'minutes': 1, 'seconds': 37}",3,"{'minutes': 6, 'seconds': 53}",0,401012316,40101231615,Auburn,SEC,4,True,3,"{'minutes': 8, 'seconds': 30}",75,75,2018
+870,Auburn,SEC,DOWNS,"{'minutes': 2, 'seconds': 55}",3,"{'minutes': 3, 'seconds': 58}",64,401012316,40101231616,Ole Miss,SEC,8,False,3,"{'minutes': 6, 'seconds': 53}",25,37,2018
+871,Ole Miss,SEC,TD,{'seconds': 58},3,{'minutes': 3},0,401012316,40101231617,Auburn,SEC,3,True,3,"{'minutes': 3, 'seconds': 58}",62,62,2018
+872,Auburn,SEC,PUNT,"{'minutes': 1, 'seconds': 19}",3,"{'minutes': 1, 'seconds': 41}",19,401012316,40101231618,Ole Miss,SEC,3,False,3,{'minutes': 3},25,-6,2018
+873,Ole Miss,SEC,MISSED FG,"{'minutes': 1, 'seconds': 50}",4,"{'minutes': 14, 'seconds': 51}",27,401012316,40101231619,Auburn,SEC,5,False,3,"{'minutes': 1, 'seconds': 41}",50,23,2018
+874,Auburn,SEC,PUNT,"{'minutes': 2, 'seconds': 33}",4,"{'minutes': 12, 'seconds': 18}",51,401012316,40101231620,Ole Miss,SEC,5,False,4,"{'minutes': 14, 'seconds': 51}",27,24,2018
+875,Ole Miss,SEC,PUNT,"{'minutes': 4, 'seconds': 51}",4,"{'minutes': 7, 'seconds': 27}",65,401012316,40101231621,Auburn,SEC,6,False,4,"{'minutes': 12, 'seconds': 18}",90,25,2018
+876,Auburn,SEC,TD,"{'minutes': 5, 'seconds': 3}",4,"{'minutes': 2, 'seconds': 24}",100,401012316,40101231622,Ole Miss,SEC,15,True,4,"{'minutes': 7, 'seconds': 27}",18,82,2018
+877,Ole Miss,SEC,DOWNS,{'minutes': 1},4,"{'minutes': 1, 'seconds': 24}",27,401012316,40101231623,Auburn,SEC,5,False,4,"{'minutes': 2, 'seconds': 24}",46,17,2018
+878,Auburn,SEC,END OF GAME,"{'minutes': 1, 'seconds': 24}",4,{},73,401012316,40101231624,Ole Miss,SEC,9,False,4,"{'minutes': 1, 'seconds': 24}",29,44,2018
+879,South Carolina,SEC,TD,"{'minutes': 1, 'seconds': 26}",2,"{'minutes': 6, 'seconds': 15}",100,401012328,40101232810,Ole Miss,SEC,5,True,2,"{'minutes': 7, 'seconds': 41}",25,75,2018
+880,Ole Miss,SEC,FG,"{'minutes': 4, 'seconds': 14}",2,"{'minutes': 2, 'seconds': 1}",6,401012328,40101232811,South Carolina,SEC,11,True,2,"{'minutes': 6, 'seconds': 15}",78,72,2018
+881,South Carolina,SEC,TD,"{'minutes': 1, 'seconds': 57}",2,{'seconds': 4},100,401012328,40101232812,Ole Miss,SEC,9,True,2,"{'minutes': 2, 'seconds': 1}",25,75,2018
+882,Ole Miss,SEC,END OF HALF,{'seconds': 4},2,{},74,401012328,40101232813,South Carolina,SEC,1,False,2,{'seconds': 4},72,-2,2018
+883,South Carolina,SEC,FG,"{'minutes': 3, 'seconds': 6}",3,"{'minutes': 11, 'seconds': 54}",86,401012328,40101232814,Ole Miss,SEC,9,True,3,{'minutes': 15},25,61,2018
+884,Ole Miss,SEC,TD,"{'minutes': 1, 'seconds': 49}",3,"{'minutes': 10, 'seconds': 5}",0,401012328,40101232815,South Carolina,SEC,7,True,3,"{'minutes': 11, 'seconds': 54}",71,71,2018
+885,South Carolina,SEC,PUNT,"{'minutes': 2, 'seconds': 32}",3,"{'minutes': 7, 'seconds': 33}",45,401012328,40101232816,Ole Miss,SEC,5,False,3,"{'minutes': 10, 'seconds': 5}",25,20,2018
+886,Ole Miss,SEC,PUNT,"{'minutes': 1, 'seconds': 1}",3,"{'minutes': 6, 'seconds': 32}",91,401012328,40101232817,South Carolina,SEC,3,False,3,"{'minutes': 7, 'seconds': 33}",94,3,2018
+887,South Carolina,SEC,TD,"{'minutes': 3, 'seconds': 47}",3,"{'minutes': 2, 'seconds': 45}",100,401012328,40101232818,Ole Miss,SEC,10,True,3,"{'minutes': 6, 'seconds': 32}",46,54,2018
+888,Ole Miss,SEC,DOWNS,"{'minutes': 1, 'seconds': 10}",3,"{'minutes': 1, 'seconds': 35}",63,401012328,40101232819,South Carolina,SEC,4,False,3,"{'minutes': 2, 'seconds': 45}",72,9,2018
+889,South Carolina,SEC,TD,"{'minutes': 2, 'seconds': 20}",4,"{'minutes': 14, 'seconds': 7}",100,401012328,40101232820,Ole Miss,SEC,5,True,3,"{'minutes': 1, 'seconds': 35}",78,37,2018
+890,Ole Miss,SEC,TD,"{'minutes': 3, 'seconds': 6}",4,"{'minutes': 11, 'seconds': 1}",0,401012328,40101232821,South Carolina,SEC,8,True,4,"{'minutes': 14, 'seconds': 7}",47,47,2018
+891,South Carolina,SEC,PUNT,"{'minutes': 2, 'seconds': 3}",4,"{'minutes': 8, 'seconds': 58}",23,401012328,40101232822,Ole Miss,SEC,3,False,4,"{'minutes': 11, 'seconds': 1}",25,-2,2018
+892,Ole Miss,SEC,PUNT,{'seconds': 56},4,"{'minutes': 8, 'seconds': 2}",74,401012328,40101232823,South Carolina,SEC,3,False,4,"{'minutes': 8, 'seconds': 58}",73,-1,2018
+893,South Carolina,SEC,PUNT,{'seconds': 58},4,"{'minutes': 7, 'seconds': 4}",30,401012328,40101232824,Ole Miss,SEC,3,False,4,"{'minutes': 8, 'seconds': 2}",28,2,2018
+894,Ole Miss,SEC,TD,"{'minutes': 1, 'seconds': 14}",4,"{'minutes': 5, 'seconds': 50}",0,401012328,40101232825,South Carolina,SEC,4,True,4,"{'minutes': 7, 'seconds': 4}",73,73,2018
+895,South Carolina,SEC,PUNT,"{'minutes': 2, 'seconds': 30}",4,"{'minutes': 3, 'seconds': 20}",22,401012328,40101232826,Ole Miss,SEC,5,False,4,"{'minutes': 5, 'seconds': 50}",25,-3,2018
+896,Ole Miss,SEC,PUNT,"{'minutes': 1, 'seconds': 3}",4,"{'minutes': 2, 'seconds': 17}",65,401012328,40101232827,South Carolina,SEC,3,False,4,"{'minutes': 3, 'seconds': 20}",59,-6,2018
+897,South Carolina,SEC,DOWNS,"{'minutes': 1, 'seconds': 5}",4,"{'minutes': 1, 'seconds': 12}",48,401012328,40101232828,Ole Miss,SEC,6,False,4,"{'minutes': 2, 'seconds': 17}",29,19,2018
+898,Ole Miss,SEC,END OF GAME,"{'minutes': 1, 'seconds': 12}",4,{},55,401012328,40101232829,South Carolina,SEC,3,False,4,"{'minutes': 1, 'seconds': 12}",48,-7,2018
+899,Ole Miss,SEC,TD,"{'minutes': 2, 'seconds': 48}",2,{'seconds': 44},100,401012337,40101233710,Texas A&M,SEC,8,True,2,"{'minutes': 3, 'seconds': 32}",15,85,2018
+900,Texas A&M,SEC,PUNT,{'seconds': 27},2,{'seconds': 17},66,401012337,40101233711,Ole Miss,SEC,3,False,2,{'seconds': 44},75,9,2018
+901,Ole Miss,SEC,END OF HALF,{'seconds': 17},2,{},5,401012337,40101233712,Texas A&M,SEC,1,False,2,{'seconds': 17},6,-1,2018
+902,Ole Miss,SEC,FUMBLE TD,"{'minutes': 3, 'seconds': 26}",3,"{'minutes': 11, 'seconds': 34}",96,401012337,40101233713,Texas A&M,SEC,6,True,3,{'minutes': 15},38,58,2018
+903,Ole Miss,SEC,INT,"{'minutes': 1, 'seconds': 41}",3,"{'minutes': 9, 'seconds': 53}",51,401012337,40101233715,Texas A&M,SEC,4,False,3,"{'minutes': 11, 'seconds': 34}",29,22,2018
+904,Texas A&M,SEC,PUNT,"{'minutes': 1, 'seconds': 40}",3,"{'minutes': 8, 'seconds': 13}",68,401012337,40101233716,Ole Miss,SEC,4,False,3,"{'minutes': 9, 'seconds': 53}",83,15,2018
+905,Ole Miss,SEC,TD,"{'minutes': 4, 'seconds': 9}",3,"{'minutes': 4, 'seconds': 4}",100,401012337,40101233717,Texas A&M,SEC,9,True,3,"{'minutes': 8, 'seconds': 13}",28,72,2018
+906,Texas A&M,SEC,PUNT,"{'minutes': 2, 'seconds': 17}",3,"{'minutes': 1, 'seconds': 47}",90,401012337,40101233718,Ole Miss,SEC,4,False,3,"{'minutes': 4, 'seconds': 4}",92,2,2018
+907,Ole Miss,SEC,FG,"{'minutes': 2, 'seconds': 36}",4,"{'minutes': 14, 'seconds': 11}",72,401012337,40101233719,Texas A&M,SEC,7,True,3,"{'minutes': 1, 'seconds': 47}",54,18,2018
+908,Texas A&M,SEC,PUNT,"{'minutes': 1, 'seconds': 36}",4,"{'minutes': 12, 'seconds': 35}",73,401012337,40101233720,Ole Miss,SEC,3,False,4,"{'minutes': 14, 'seconds': 11}",75,2,2018
+909,Ole Miss,SEC,PUNT,"{'minutes': 2, 'seconds': 53}",4,"{'minutes': 9, 'seconds': 42}",18,401012337,40101233721,Texas A&M,SEC,3,False,4,"{'minutes': 12, 'seconds': 35}",0,-4,2018
+910,Texas A&M,SEC,MISSED FG,"{'minutes': 2, 'seconds': 24}",4,"{'minutes': 7, 'seconds': 18}",5,401012337,40101233722,Ole Miss,SEC,6,False,4,"{'minutes': 9, 'seconds': 42}",66,61,2018
+911,Ole Miss,SEC,TD,"{'minutes': 2, 'seconds': 42}",4,"{'minutes': 4, 'seconds': 36}",100,401012337,40101233723,Texas A&M,SEC,6,True,4,"{'minutes': 7, 'seconds': 18}",20,80,2018
+912,Texas A&M,SEC,FG,"{'minutes': 2, 'seconds': 45}",4,"{'minutes': 1, 'seconds': 51}",7,401012337,40101233724,Ole Miss,SEC,9,True,4,"{'minutes': 4, 'seconds': 36}",75,68,2018
+913,Ole Miss,SEC,TD,{'seconds': 12},4,"{'minutes': 1, 'seconds': 39}",100,401012337,40101233725,Texas A&M,SEC,1,True,4,"{'minutes': 1, 'seconds': 51}",54,46,2018
+914,Texas A&M,SEC,DOWNS,"{'minutes': 1, 'seconds': 33}",4,{'seconds': 6},18,401012337,40101233726,Ole Miss,SEC,15,False,4,"{'minutes': 1, 'seconds': 39}",75,57,2018
+915,Ole Miss,SEC,END OF GAME,{'seconds': 6},4,{},17,401012337,40101233727,Texas A&M,SEC,1,False,4,{'seconds': 6},18,-1,2018
+916,Ole Miss,SEC,TD,"{'minutes': 2, 'seconds': 54}",2,"{'minutes': 1, 'seconds': 2}",100,401012348,40101234810,Vanderbilt,SEC,7,True,2,"{'minutes': 3, 'seconds': 56}",47,53,2018
+917,Vanderbilt,SEC,PUNT,{'seconds': 41},2,{'seconds': 21},88,401012348,40101234811,Ole Miss,SEC,3,False,2,"{'minutes': 1, 'seconds': 2}",75,-13,2018
+918,Ole Miss,SEC,INT,{'seconds': 15},2,{'seconds': 6},70,401012348,40101234812,Vanderbilt,SEC,2,False,2,{'seconds': 21},62,8,2018
+919,Vanderbilt,SEC,END OF HALF,{'seconds': 6},2,{},68,401012348,40101234813,Ole Miss,SEC,1,False,2,{'seconds': 6},67,-1,2018
+920,Ole Miss,SEC,TD,"{'minutes': 3, 'seconds': 27}",3,"{'minutes': 11, 'seconds': 33}",100,401012348,40101234814,Vanderbilt,SEC,7,True,3,{'minutes': 15},36,64,2018
+921,Vanderbilt,SEC,FG,"{'minutes': 2, 'seconds': 33}",3,{'minutes': 9},5,401012348,40101234815,Ole Miss,SEC,7,True,3,"{'minutes': 11, 'seconds': 33}",75,70,2018
+922,Ole Miss,SEC,DOWNS,"{'minutes': 1, 'seconds': 4}",3,"{'minutes': 7, 'seconds': 56}",26,401012348,40101234816,Vanderbilt,SEC,4,False,3,{'minutes': 9},25,1,2018
+923,Vanderbilt,SEC,FG,"{'minutes': 1, 'seconds': 30}",3,"{'minutes': 6, 'seconds': 26}",18,401012348,40101234817,Ole Miss,SEC,4,True,3,"{'minutes': 7, 'seconds': 56}",26,8,2018
+924,Ole Miss,SEC,TD,"{'minutes': 5, 'seconds': 37}",3,{'seconds': 49},100,401012348,40101234818,Vanderbilt,SEC,12,True,3,"{'minutes': 6, 'seconds': 26}",25,75,2018
+925,Vanderbilt,SEC,INT,"{'minutes': 2, 'seconds': 20}",4,"{'minutes': 13, 'seconds': 29}",23,401012348,40101234819,Ole Miss,SEC,8,False,3,{'seconds': 49},75,52,2018
+926,Ole Miss,SEC,PUNT,"{'minutes': 1, 'seconds': 47}",4,"{'minutes': 11, 'seconds': 42}",41,401012348,40101234820,Vanderbilt,SEC,3,False,4,"{'minutes': 13, 'seconds': 29}",34,7,2018
+927,Vanderbilt,SEC,TD,"{'minutes': 1, 'seconds': 59}",4,"{'minutes': 9, 'seconds': 43}",0,401012348,40101234821,Ole Miss,SEC,6,True,4,"{'minutes': 11, 'seconds': 42}",90,90,2018
+928,Ole Miss,SEC,FG,"{'minutes': 4, 'seconds': 23}",4,"{'minutes': 5, 'seconds': 20}",74,401012348,40101234822,Vanderbilt,SEC,8,True,4,"{'minutes': 9, 'seconds': 43}",25,49,2018
+929,Vanderbilt,SEC,INT,"{'minutes': 2, 'seconds': 20}",4,{'minutes': 3},33,401012348,40101234823,Ole Miss,SEC,7,False,4,"{'minutes': 5, 'seconds': 20}",75,42,2018
+930,Ole Miss,SEC,PUNT,"{'minutes': 1, 'seconds': 19}",4,"{'minutes': 1, 'seconds': 41}",13,401012348,40101234824,Vanderbilt,SEC,3,False,4,{'minutes': 3},10,3,2018
+931,Vanderbilt,SEC,FG,"{'minutes': 1, 'seconds': 1}",4,{'seconds': 40},15,401012348,40101234825,Ole Miss,SEC,11,True,4,"{'minutes': 1, 'seconds': 41}",61,46,2018
+932,Vanderbilt,SEC,END OF 4TH QUARTER,{'seconds': 40},4,{},25,401012348,40101234826,Ole Miss,SEC,9,False,4,{'seconds': 40},25,0,2018
+933,Ole Miss,SEC,PUNT,"{'minutes': 2, 'seconds': 29}",2,"{'minutes': 4, 'seconds': 17}",69,401012349,40101234910,Mississippi State,SEC,3,False,2,"{'minutes': 6, 'seconds': 46}",71,2,2018
+934,Mississippi State,SEC,PUNT,{'seconds': 49},2,"{'minutes': 3, 'seconds': 28}",27,401012349,40101234911,Ole Miss,SEC,3,False,2,"{'minutes': 4, 'seconds': 17}",29,-2,2018
+935,Ole Miss,SEC,TD,"{'minutes': 3, 'seconds': 3}",2,{'seconds': 25},0,401012349,40101234912,Mississippi State,SEC,8,True,2,"{'minutes': 3, 'seconds': 28}",92,92,2018
+936,Mississippi State,SEC,END OF HALF,{'seconds': 25},2,{},29,401012349,40101234913,Ole Miss,SEC,1,False,2,{'seconds': 25},25,4,2018
+937,Ole Miss,SEC,PUNT,"{'minutes': 1, 'seconds': 54}",3,"{'minutes': 13, 'seconds': 6}",63,401012349,40101234914,Mississippi State,SEC,3,False,3,{'minutes': 15},71,8,2018
+938,Mississippi State,SEC,INT,{'seconds': 44},3,"{'minutes': 12, 'seconds': 22}",8,401012349,40101234915,Ole Miss,SEC,2,False,3,"{'minutes': 13, 'seconds': 6}",15,-7,2018
+939,Ole Miss,SEC,TD,"{'minutes': 1, 'seconds': 40}",3,"{'minutes': 10, 'seconds': 42}",0,401012349,40101234916,Mississippi State,SEC,3,True,3,"{'minutes': 12, 'seconds': 22}",19,19,2018
+940,Mississippi State,SEC,DOWNS,"{'minutes': 3, 'seconds': 9}",3,"{'minutes': 7, 'seconds': 33}",61,401012349,40101234917,Ole Miss,SEC,8,False,3,"{'minutes': 10, 'seconds': 42}",25,36,2018
+941,Ole Miss,SEC,PUNT,"{'minutes': 2, 'seconds': 58}",3,"{'minutes': 4, 'seconds': 35}",51,401012349,40101234918,Mississippi State,SEC,6,False,3,"{'minutes': 7, 'seconds': 33}",61,10,2018
+942,Mississippi State,SEC,INT,"{'minutes': 1, 'seconds': 11}",3,"{'minutes': 3, 'seconds': 24}",52,401012349,40101234919,Ole Miss,SEC,3,False,3,"{'minutes': 4, 'seconds': 35}",19,33,2018
+943,Ole Miss,SEC,PUNT,"{'minutes': 1, 'seconds': 35}",3,"{'minutes': 1, 'seconds': 49}",75,401012349,40101234920,Mississippi State,SEC,3,False,3,"{'minutes': 3, 'seconds': 24}",80,5,2018
+944,Mississippi State,SEC,PUNT,"{'minutes': 3, 'seconds': 42}",4,"{'minutes': 13, 'seconds': 7}",44,401012349,40101234921,Ole Miss,SEC,7,False,3,"{'minutes': 1, 'seconds': 49}",32,12,2018
+945,Ole Miss,SEC,TD,"{'minutes': 5, 'seconds': 46}",4,"{'minutes': 7, 'seconds': 21}",0,401012349,40101234922,Mississippi State,SEC,11,True,4,"{'minutes': 13, 'seconds': 7}",89,89,2018
+946,Mississippi State,SEC,PUNT,"{'minutes': 1, 'seconds': 49}",4,"{'minutes': 5, 'seconds': 32}",24,401012349,40101234923,Ole Miss,SEC,3,False,4,"{'minutes': 7, 'seconds': 21}",25,-1,2018
+947,Ole Miss,SEC,END OF 4TH QUARTER,"{'minutes': 5, 'seconds': 32}",4,{},25,401012349,40101234924,Mississippi State,SEC,8,False,4,"{'minutes': 5, 'seconds': 32}",67,42,2018
