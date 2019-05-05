@@ -62,71 +62,6 @@ def recent_games(original_df, last_games=3):
 
     return recent_game_data
 
-
-def drive_scoring(team_name, drive_tuple, turn_over=False):
-    '''
-        Consider asking for the next drives results for any change of 
-        possession event, not just INT and FUMBLE
-    '''
-    drive_result = getattr(drive_tuple, "drive_result")
-    if drive_result == "TD":
-        return 7, getattr(drive_tuple, "offense") == team_name
-    elif drive_result == "FG":
-        return 3, getattr(drive_tuple, "offense") == team_name
-    elif drive_result == "PUNT" or drive_result == "DOWNS" or turn_over:
-        return 0, getattr(drive_tuple, "offense") == team_name
-    else:
-        return drive_result, getattr(drive_tuple, "offense") == team_name
-
-def calculate_ppd(name, drives_df):
-    #TODO: add logic to figure out if a game ended or quarter changed for turnover calcs
-    turn_over = False
-    offense_results = []
-    defense_results = []
-    drives_per_game = []
-    game_drives = 0
-    game = -1
-    for drive in drives_df.itertuples(index=True, name='Drive'):
-        this_game = getattr(drive, "game_id")
-        if game == this_game:
-            game_drives += 1
-        else:
-            drives_per_game +=[game_drives]
-            game = this_game
-            game_drives = 1
-        drive_points, on_offense = drive_scoring(name, drive, turn_over=turn_over)
-        if type(drive_points) == str:
-            turn_over = True
-
-        elif on_offense and not turn_over:
-            offense_results += [drive_points]
-            turn_over = False
-
-        elif not on_offense and not turn_over:
-            defense_results += [drive_points]
-            turn_over = False
-
-        elif not on_offense and turn_over:
-            offense_results += [-1 * drive_points]
-            defense_results += [drive_points]
-            turn_over = False
-
-        elif on_offense and turn_over:
-            defense_results += [-1 * drive_points]
-            offense_results += [drive_points]
-            turn_over = False
-
-    np_offense_results = np.array(offense_results)
-    np_defense_results = np.array(defense_results)
-    np_drives_per_game = np.array(drives_per_game)
-
-    ppd = {}
-    ppd['offense'] = (np.mean(np_offense_results), np.var(np_offense_results))
-    ppd['defense'] = (np.mean(np_defense_results), np.var(np_defense_results))
-    ppd['dpg'] = (np.mean(np_drives_per_game), np.var(np_drives_per_game))
-
-    return ppd
-
 def disc_to_dist(x, f, delta):
     # * outdated, kept for reference ifn
     mean = (x * f).sum() * delta
@@ -134,7 +69,7 @@ def disc_to_dist(x, f, delta):
     return (mean, var)
 
 def dist_norm_mult(dist_A, dist_B):
-    # * sample gives better results
+    # * outdated, sample gives better results
     mu = (dist_A[0] * dist_B[1] + dist_B[0] * dist_A[1]) / (dist_A[1] + dist_B[1])
     var = dist_A[1] * dist_B[1] / (dist_A[1] + dist_B[1])
 
@@ -148,69 +83,4 @@ def dist_sample_mult(dist_A, dist_B, ns=50000):
     result = (np.mean(s_F), np.var(s_F))
     return result
 
-def pred_score(team_A_ppd_dists, team_B_ppd_dists):
-    # * Rules for normal distributions
-    # * N(m1, v1) + N(m2, v2) = N(m1 + m2, v1 + v2)
-    # * N(m1, v1) - N(m2, v2) = N(m1 - m2, v1 - v2)
-    # * a*N(m1, v1) = N( a*m1, (a^2)*v1 ) 
 
-    pred_team_A_ppd = ( (team_A_ppd_dists['offense'][0] + team_B_ppd_dists['defense'][0]) / 2.0, 
-                             (team_A_ppd_dists['offense'][1] + team_B_ppd_dists['defense'][1]) / 4.0 )
-    
-    pred_team_B_ppd = ( (team_B_ppd_dists['offense'][0] + team_A_ppd_dists['defense'][0]) / 2.0, 
-                             (team_B_ppd_dists['offense'][1] + team_A_ppd_dists['defense'][1]) / 4.0 )
-
-    pred_dpg = ( (team_A_ppd_dists['dpg'][0] + team_B_ppd_dists['dpg'][0]) / 2.0, 
-                             (team_A_ppd_dists['dpg'][1] + team_B_ppd_dists['dpg'][1]) / 4.0 )
-
-    # pred_team_A_score_disc = dist_disc_mult(pred_team_A_ppd, pred_dpg)
-    # pred_team_B_score_disc = dist_disc_mult(pred_team_B_ppd, pred_dpg)
-
-    # pred_team_A_score_norm = dist_norm_mult(pred_team_A_ppd, pred_dpg)
-    # pred_team_B_score_norm = dist_norm_mult(pred_team_B_ppd, pred_dpg)
-
-    # pred_team_A_score_10k = dist_sample_mult(pred_team_A_ppd, pred_dpg, ns=10000)
-    # pred_team_B_score_10k = dist_sample_mult(pred_team_B_ppd, pred_dpg, ns=10000)
-
-    # pred_team_A_score_50k = dist_sample_mult(pred_team_A_ppd, pred_dpg, ns=50000)
-    # pred_team_B_score_50k = dist_sample_mult(pred_team_B_ppd, pred_dpg, ns=50000)
-
-    # pred_team_A_score_100k = dist_sample_mult(pred_team_A_ppd, pred_dpg, ns=100000)
-    # pred_team_B_score_100k = dist_sample_mult(pred_team_B_ppd, pred_dpg, ns=100000)
-
-    # pred_team_A_score_500k = dist_sample_mult(pred_team_A_ppd, pred_dpg, ns=500000)
-    # pred_team_B_score_500k = dist_sample_mult(pred_team_B_ppd, pred_dpg, ns=500000)
-
-    # pred_team_A_score_1000k = dist_sample_mult(pred_team_A_ppd, pred_dpg, ns=1000000)
-    # pred_team_B_score_1000k = dist_sample_mult(pred_team_B_ppd, pred_dpg, ns=1000000)
-
-    # print("10k sample score A~N( " + str(pred_team_A_score_10k[0]) + ", " + str(pred_team_A_score_10k[1]) + " )")
-    # print("50k sample score A~N( " + str(pred_team_A_score_50k[0]) + ", " + str(pred_team_A_score_50k[1]) + " )")
-    # print("100k sample score A~N( " + str(pred_team_A_score_100k[0]) + ", " + str(pred_team_A_score_100k[1]) + " )")
-    # print("500k sample score A~N( " + str(pred_team_A_score_500k[0]) + ", " + str(pred_team_A_score_500k[1]) + " )")
-    # print("1000k sample score A~N( " + str(pred_team_A_score_1000k[0]) + ", " + str(pred_team_A_score_1000k[1]) + " )")
-
-
-    # print("10k sample score B~N( " + str(pred_team_B_score_10k[0]) + ", " + str(pred_team_B_score_10k[1]) + " )")
-    # print("50k sample score B~N( " + str(pred_team_B_score_50k[0]) + ", " + str(pred_team_B_score_50k[1]) + " )")
-    # print("100k sample score B~N( " + str(pred_team_B_score_100k[0]) + ", " + str(pred_team_B_score_100k[1]) + " )")
-    # print("500k sample score B~N( " + str(pred_team_B_score_500k[0]) + ", " + str(pred_team_B_score_500k[1]) + " )")
-    # print("1000k sample score B~N( " + str(pred_team_B_score_1000k[0]) + ", " + str(pred_team_B_score_1000k[1]) + " )")
-
-    pred_team_A_score = dist_sample_mult(pred_team_A_ppd, pred_dpg, ns=1000000)
-    pred_team_B_score = dist_sample_mult(pred_team_B_ppd, pred_dpg, ns=1000000)
-
-    return pred_team_A_score, pred_team_B_score
-
-def ppd_kwargs_filter(kwargs_dict):
-    ppd_args_dict = {}
-    if 'weights' in kwargs_dict:
-        ppd_args_dict['weights'] = kwargs_dict['weights']
-    else:
-        ppd_args_dict['weights'] = [0.15, 0.35, 0.5]
-    if 'home_field' in kwargs_dict:
-        ppd_args_dict['home_field'] = kwargs_dict['home_field']
-    else:
-        ppd_args_dict['home_field'] = 3.0
-
-    return ppd_args_dict

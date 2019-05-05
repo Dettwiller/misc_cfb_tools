@@ -1,105 +1,201 @@
 import os
+from datetime import datetime
+
 import numpy as np
 from scipy.stats import norm
-from . import fetch_data, utility, team
+
+from . import fetch_data, utility
+
+
 '''
-    The overall goal of this series of functions is 
-    to provide models for predicting game outcomes.
-
-    TODO: build a point-per-drive and drives-per-game
-    model
-        ppd historicall (3 seasons)?
-        ppd this season?
-        ppd past 3 games?
-
-    TODO: what fetch_data functions do we need?
-        fetch based on conference?
-        fetch based on team?
-        fetch based on season?
-    we want to be arbitrary with this, so likely
-    not based on team. Maybe the whole season?
-    Every game for the entire season with a 
-    class for every team?
-    Plan of action:
-        Pull down drive data for a team
-        populate team classes based on data
-        matchup function takes in two teams and
-        predicts scores
-            any new features of the model added
-            to team
-
-    TODO: Build team class factory
-
-    TODO: This can be facilitated by robust methods for
-    testing arbitrary models with error table
-    outcomes
+    TODO: :
+        1. 
 '''
-# model.matchup(home_team, away_team, line = -3.5, over_under = 60.5, model='ppd', weights = [0.15, 0.35, 0.5], home_field=0.0)
-def matchup(home_team_name, away_team_name, line = None, over_under = None, model='ppd', data_dir=os.path.join(os.getcwd(), 'data'), **kwargs):
-    '''
-        line: betting line for the HOME team (line = -3.5 indicates home team is favored by 3.5)
-        over_under: betting line for total points
-        model: the model desired to predict outcome (only ppd for now)
-    '''
-    if model == 'ppd':
-        ppd_args = utility.ppd_kwargs_filter(kwargs)
-        total, diff = ppd_model(home_team_name, away_team_name, weights = ppd_args['weights'], home_field=ppd_args['home_field'], data_dir=data_dir)
-    # * if the diff is +, home team won
 
-    prob_away_win = norm.cdf(0.0, diff[0], np.sqrt(diff[1]))
-    prob_home_win = 1.0 - prob_away_win
-    mean_home_score = total[0] / 2.0 + diff[0]
-    mean_away_score = total[0] / 2.0 - diff[0]
-    print(home_team_name + " wins with p=%.4f" % prob_home_win)
-    print(away_team_name + " wins with p=%.4f" % prob_away_win)
-    print("    Predicted score: %.0f - %.0f" % (mean_home_score, mean_away_score))
-    if line:
-        away_covers = norm.cdf(-1.0 * line, diff[0], np.sqrt(diff[1]))
-        home_covers = 1.0 - away_covers
-        print("\n" + home_team_name + " covers with p=%.4f" % home_covers)
-        print(away_team_name + " covers with p=%.4f" % away_covers)
-    if over_under:
-        under_prob = norm.cdf(over_under, total[0], np.sqrt(total[1]))
-        over_prob = 1.0 - under_prob
-        print("\nover hits with p=%.4f" % over_prob)
-        print("under hits with p=%.4f" % under_prob)
+'''
+    TODO: refactoring:
+        1. no private functions should have var=var arguments
+            defaults handled by outward facing functions
+'''
 
-def ppd_model(home_team_name, away_team_name, weights = [0.15, 0.35, 0.5], home_field = 0.3, data_dir=os.path.join(os.getcwd(), 'data')):
-    '''
-        weights explanation:
-            weights[0]: weight given to historical (last 3 seasons) data
-            weights[1]: weight given to recent (this season) data
-            weights[2]: weight given to current (past 3 games) data
-        home_field: the additional points given to the home team for being at home
-    '''
-    assert(sum(weights) == 1)
-    home_team = team.Team(home_team_name, data_dir=data_dir)
-    away_team = team.Team(away_team_name, data_dir=data_dir)
-    home_team.calc_ppd_dists()
-    away_team.calc_ppd_dists()
+class Model:
+    home_team = None
+    away_team = None
+    neutral_site = False
+    dist_home_team_score = None
+    dist_away_team_score = None
+    total = None
+    diff = None
+    home_field = 0.0
+    data_dir=os.path.join(os.getcwd(), 'data')
 
-    score_home_hist, score_away_hist = utility.pred_score(home_team.drive_dists['hist'], away_team.drive_dists['hist'])
-    score_home_recent, score_away_recent = utility.pred_score(home_team.drive_dists['recent'], away_team.drive_dists['recent'])
-    score_home_current, score_away_current = utility.pred_score(home_team.drive_dists['current'], away_team.drive_dists['current'])
-
-    # * Rules for normal distributions
-    # * N(m1, v1) + N(m2, v2) = N(m1 + m2, v1 + v2)
-    # * N(m1, v1) - N(m2, v2) = N(m1 - m2, v1 + v2)
-    # * a*N(m1, v1) = N( a*m1, (a^2)*v1 ) 
-
-    score_home_mean = weights[0] * score_home_hist[0] + weights[1] * score_home_recent[0] + weights[2] * score_home_current[0]
-    score_home_var =(weights[0] ** 2.0) * score_home_hist[1] + (weights[1] ** 2.0) * score_home_recent[1] + (weights[2] ** 2.0) * score_home_current[1]
-
-    score_away_mean = weights[0] * score_away_hist[0] + weights[1] * score_away_recent[0] + weights[2] * score_away_current[0]
-    score_away_var =(weights[0] ** 2.0) * score_away_hist[1] + (weights[1] ** 2.0) * score_away_recent[1] + (weights[2] ** 2.0) * score_away_current[1]
-    # print("    " + home_team_name + " mean = " + str(score_home_mean))
-    # print("    " + away_team_name + " mean = " + str(score_away_mean))
-
-    # print("    " + home_team_name + " var = " + str(score_home_var))
-    # print("    " + away_team_name + " var = " + str(score_away_var))
+    def __init__(self, home_field = None, neutral_site=False, data_dir=None):
+        '''
+            TODO: if data_dir is not None, add logic to ensure data_dir:
+                1. is a path
+                2. exists
+                3. create the passed data_dir if it doesn't exist
+                4. only assign self.data_dir if data
+            TODO: if home_field is not None, add logic to ensure home_field:
+                1. is a float
+                2. is >= 0
+            TODO: add logic to ensure neutral_site:
+                1. is a bool
+        '''
+        if home_field is not None and not neutral_site:
+            self.home_field = home_field
+        if neutral_site:
+            self.home_field = 0.0
+        if data_dir is not None:
+            self.data_dir=data_dir
 
 
-    total = (score_home_mean + score_away_mean, score_home_var + score_away_var)
-    diff = (score_home_mean + home_field - score_away_mean, score_home_var + score_away_var)
+class PPD_Model(Model):
+    weights =  [0.15, 0.35, 0.5]
+    def __init__(self, weights=[], home_field=None, neutral_site=False, data_dir=None):
+        '''
+            TODO: if weights, add logic to ensure weights:
+                1. is a list or numpy array like
+                2. all values >= 0.0
+                3. all values sum to 1
+        '''
+        Model.__init__(self, home_field=home_field, neutral_site=neutral_site, data_dir=data_dir)
+        if weights:
+            self.weights = weights
 
-    return total, diff
+    def __predict_score(self, home_team_dists, away_team_dists):
+        # * Rules for normal distributions
+        # * N(m1, v1) + N(m2, v2) = N(m1 + m2, v1 + v2)
+        # * N(m1, v1) - N(m2, v2) = N(m1 - m2, v1 - v2)
+        # * a*N(m1, v1) = N( a*m1, (a^2)*v1 ) 
+
+        home_team_ppd = ( (home_team_dists['offense'][0] + away_team_dists['defense'][0]) / 2.0, 
+                                (home_team_dists['offense'][1] + away_team_dists['defense'][1]) / 4.0 )
+        
+        away_team_ppd = ( (away_team_dists['offense'][0] + home_team_dists['defense'][0]) / 2.0, 
+                                (away_team_dists['offense'][1] + home_team_dists['defense'][1]) / 4.0 )
+
+        dpg = ( (home_team_dists['dpg'][0] + away_team_dists['dpg'][0]) / 2.0, 
+                                (home_team_dists['dpg'][1] + away_team_dists['dpg'][1]) / 4.0 )
+
+        # * May not always be self.home_team_score, could be components
+        home_team_score = utility.dist_sample_mult(home_team_ppd, dpg, ns=1000000)
+        away_team_score = utility.dist_sample_mult(away_team_ppd, dpg, ns=1000000)
+        return home_team_score, away_team_score
+
+    def __ppd_dists(self, team_name, timeline):
+        drive_data = fetch_data.get_team_drive_data(team_name, timeline=timeline, data_dir=self.data_dir)
+        seasons = []
+        for i in range(timeline[0], timeline[1] + 1):
+            seasons += [i]
+        hist_data = drive_data.loc[drive_data['season'].isin(seasons)]
+        recent_data = drive_data.loc[drive_data['season'] == timeline[1]]
+        current_data = utility.recent_games(drive_data, last_games=3)
+
+        drive_dists = {}
+        drive_dists['hist'] = self.__calculate_ppd(team_name, hist_data)
+        drive_dists['recent'] = self.__calculate_ppd(team_name, recent_data)
+        drive_dists['current'] = self.__calculate_ppd(team_name, current_data)
+        return drive_dists
+
+    def __drive_scoring(self, team_name, drive_tuple, turn_over=False):
+        '''
+            TODO: everything:
+                1. this code has not been examined for improvement
+        '''
+        '''
+            Consider asking for the next drives results for any change of 
+            possession event, not just INT and FUMBLE
+        '''
+        drive_result = getattr(drive_tuple, "drive_result")
+        if drive_result == "TD":
+            return 7, getattr(drive_tuple, "offense") == team_name
+        elif drive_result == "FG":
+            return 3, getattr(drive_tuple, "offense") == team_name
+        elif drive_result == "PUNT" or drive_result == "DOWNS" or turn_over:
+            return 0, getattr(drive_tuple, "offense") == team_name
+        else:
+            return drive_result, getattr(drive_tuple, "offense") == team_name
+
+    def __calculate_ppd(self, name, drives_df):
+        '''
+            TODO: everything:
+                1. this code has not been examined for improvement
+        '''
+        #TODO: add logic to figure out if a game ended or quarter changed for turnover calcs
+        turn_over = False
+        offense_results = []
+        defense_results = []
+        drives_per_game = []
+        game_drives = 0
+        game = -1
+        for drive in drives_df.itertuples(index=True, name='Drive'):
+            this_game = getattr(drive, "game_id")
+            if game == this_game:
+                game_drives += 1
+            else:
+                drives_per_game +=[game_drives]
+                game = this_game
+                game_drives = 1
+            drive_points, on_offense = self.__drive_scoring(name, drive, turn_over=turn_over)
+            if type(drive_points) == str:
+                turn_over = True
+
+            elif on_offense and not turn_over:
+                offense_results += [drive_points]
+                turn_over = False
+
+            elif not on_offense and not turn_over:
+                defense_results += [drive_points]
+                turn_over = False
+
+            elif not on_offense and turn_over:
+                offense_results += [-1 * drive_points]
+                defense_results += [drive_points]
+                turn_over = False
+
+            elif on_offense and turn_over:
+                defense_results += [-1 * drive_points]
+                offense_results += [drive_points]
+                turn_over = False
+
+        np_offense_results = np.array(offense_results)
+        np_defense_results = np.array(defense_results)
+        np_drives_per_game = np.array(drives_per_game)
+
+        ppd = {}
+        ppd['offense'] = (np.mean(np_offense_results), np.var(np_offense_results))
+        ppd['defense'] = (np.mean(np_defense_results), np.var(np_defense_results))
+        ppd['dpg'] = (np.mean(np_drives_per_game), np.var(np_drives_per_game))
+
+        return ppd
+
+    def predict(self, home_team, away_team, timeline=[datetime.now().year - 4, datetime.now().year - 1]):
+        '''
+            TODO: input checking:
+                1. home_team and away_team are instinces of Team class
+                2. timeline is correct
+        '''
+        
+        self.home_team = home_team
+        self.away_team = away_team
+
+        home_team_drive_dists = self.__ppd_dists(self.home_team.name, timeline)
+        away_team_drive_dists = self.__ppd_dists(self.away_team.name, timeline)
+
+        home_score_hist, away_score_hist = self.__predict_score(home_team_drive_dists['hist'], away_team_drive_dists['hist'])
+        home_score_recent, away_score_recent = self.__predict_score(home_team_drive_dists['recent'], away_team_drive_dists['recent'])
+        home_score_current, away_score_current = self.__predict_score(home_team_drive_dists['current'], away_team_drive_dists['current'])
+        
+        home_score_mean = self.weights[0] * home_score_hist[0] + self.weights[1] * home_score_recent[0] + self.weights[2] * home_score_current[0]
+        home_score_var =(self.weights[0] ** 2.0) * home_score_hist[1] + (self.weights[1] ** 2.0) * home_score_recent[1] + (self.weights[2] ** 2.0) * home_score_current[1]
+
+        away_score_mean = self.weights[0] * away_score_hist[0] + self.weights[1] * away_score_recent[0] + self.weights[2] * away_score_current[0]
+        away_score_var =(self.weights[0] ** 2.0) * away_score_hist[1] + (self.weights[1] ** 2.0) * away_score_recent[1] + (self.weights[2] ** 2.0) * away_score_current[1]
+
+        self.dist_home_team_score = (home_score_mean, home_score_var)
+        self.dist_away_team_score = (away_score_mean, away_score_var)
+
+        self.total = (home_score_mean + away_score_mean, home_score_var + away_score_var)
+        self.diff = (home_score_mean + self.home_field - away_score_mean, home_score_var + away_score_var)
+        return self.total, self.diff
