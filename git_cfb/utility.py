@@ -1,6 +1,6 @@
 import numpy as np
 from scipy.stats import norm
-# import matplotlib.pyplot as plt
+import matplotlib.pyplot as plt
 
     # print("red ppd~N( " + str(dist_A[0]) + ", " + str(dist_A[1]) + " )")
     # print("blue dpg~N( " + str(dist_B[0]) + ", " + str(dist_B[1]) + " )")
@@ -128,25 +128,25 @@ def calculate_ppd(name, drives_df):
     return ppd
 
 def disc_to_dist(x, f, delta):
+    # * outdated, kept for reference ifn
     mean = (x * f).sum() * delta
     var = ((x ** 2.0) * f).sum() * delta - mean ** 2.0
     return (mean, var)
 
-def dist_mult(dist_A, dist_B, sigma_range=6, res=10000):
-    left_side = min([dist_A[0] - 6 * dist_A[1], dist_B[0] - 6 * dist_B[1]])
-    right_side = max([dist_A[0] + 6 * dist_A[1], dist_B[0] + 6 * dist_B[1]]) 
+def dist_norm_mult(dist_A, dist_B):
+    # * sample gives better results
+    mu = (dist_A[0] * dist_B[1] + dist_B[0] * dist_A[1]) / (dist_A[1] + dist_B[1])
+    var = dist_A[1] * dist_B[1] / (dist_A[1] + dist_B[1])
 
-    x = np.linspace(left_side, right_side, res)
-    # * for reference and f_A/f_B checking, do not delete
-    # * delta = (right_side - left_side) / res 
+    result = (mu, var)
+    return result
 
-    f_A = norm.pdf(x, dist_A[0], np.sqrt(dist_A[1]))
-    f_B = norm.pdf(x, dist_B[0], np.sqrt(dist_B[1]))
-
-    disc_result = (f_A * f_B) / (f_A * f_B).sum()
-    dist_result = disc_to_dist(x, disc_result, 1.0) # * the result is already normalized, so delta = 1.0
-
-    return dist_result
+def dist_sample_mult(dist_A, dist_B, ns=50000):
+    s_A = norm.rvs(dist_A[0], np.sqrt(dist_A[1]), size=ns)
+    s_B = norm.rvs(dist_B[0], np.sqrt(dist_B[1]), size=ns)
+    s_F = s_A * s_B
+    result = (np.mean(s_F), np.var(s_F))
+    return result
 
 def pred_score(team_A_ppd_dists, team_B_ppd_dists):
     # * Rules for normal distributions
@@ -163,8 +163,42 @@ def pred_score(team_A_ppd_dists, team_B_ppd_dists):
     pred_dpg = ( (team_A_ppd_dists['dpg'][0] + team_B_ppd_dists['dpg'][0]) / 2.0, 
                              (team_A_ppd_dists['dpg'][1] + team_B_ppd_dists['dpg'][1]) / 4.0 )
 
-    pred_team_A_score = dist_mult(pred_team_A_ppd, pred_dpg)
-    pred_team_B_score = dist_mult(pred_team_B_ppd, pred_dpg)
+    # pred_team_A_score_disc = dist_disc_mult(pred_team_A_ppd, pred_dpg)
+    # pred_team_B_score_disc = dist_disc_mult(pred_team_B_ppd, pred_dpg)
+
+    # pred_team_A_score_norm = dist_norm_mult(pred_team_A_ppd, pred_dpg)
+    # pred_team_B_score_norm = dist_norm_mult(pred_team_B_ppd, pred_dpg)
+
+    # pred_team_A_score_10k = dist_sample_mult(pred_team_A_ppd, pred_dpg, ns=10000)
+    # pred_team_B_score_10k = dist_sample_mult(pred_team_B_ppd, pred_dpg, ns=10000)
+
+    # pred_team_A_score_50k = dist_sample_mult(pred_team_A_ppd, pred_dpg, ns=50000)
+    # pred_team_B_score_50k = dist_sample_mult(pred_team_B_ppd, pred_dpg, ns=50000)
+
+    # pred_team_A_score_100k = dist_sample_mult(pred_team_A_ppd, pred_dpg, ns=100000)
+    # pred_team_B_score_100k = dist_sample_mult(pred_team_B_ppd, pred_dpg, ns=100000)
+
+    # pred_team_A_score_500k = dist_sample_mult(pred_team_A_ppd, pred_dpg, ns=500000)
+    # pred_team_B_score_500k = dist_sample_mult(pred_team_B_ppd, pred_dpg, ns=500000)
+
+    # pred_team_A_score_1000k = dist_sample_mult(pred_team_A_ppd, pred_dpg, ns=1000000)
+    # pred_team_B_score_1000k = dist_sample_mult(pred_team_B_ppd, pred_dpg, ns=1000000)
+
+    # print("10k sample score A~N( " + str(pred_team_A_score_10k[0]) + ", " + str(pred_team_A_score_10k[1]) + " )")
+    # print("50k sample score A~N( " + str(pred_team_A_score_50k[0]) + ", " + str(pred_team_A_score_50k[1]) + " )")
+    # print("100k sample score A~N( " + str(pred_team_A_score_100k[0]) + ", " + str(pred_team_A_score_100k[1]) + " )")
+    # print("500k sample score A~N( " + str(pred_team_A_score_500k[0]) + ", " + str(pred_team_A_score_500k[1]) + " )")
+    # print("1000k sample score A~N( " + str(pred_team_A_score_1000k[0]) + ", " + str(pred_team_A_score_1000k[1]) + " )")
+
+
+    # print("10k sample score B~N( " + str(pred_team_B_score_10k[0]) + ", " + str(pred_team_B_score_10k[1]) + " )")
+    # print("50k sample score B~N( " + str(pred_team_B_score_50k[0]) + ", " + str(pred_team_B_score_50k[1]) + " )")
+    # print("100k sample score B~N( " + str(pred_team_B_score_100k[0]) + ", " + str(pred_team_B_score_100k[1]) + " )")
+    # print("500k sample score B~N( " + str(pred_team_B_score_500k[0]) + ", " + str(pred_team_B_score_500k[1]) + " )")
+    # print("1000k sample score B~N( " + str(pred_team_B_score_1000k[0]) + ", " + str(pred_team_B_score_1000k[1]) + " )")
+
+    pred_team_A_score = dist_sample_mult(pred_team_A_ppd, pred_dpg, ns=1000000)
+    pred_team_B_score = dist_sample_mult(pred_team_B_ppd, pred_dpg, ns=1000000)
 
     return pred_team_A_score, pred_team_B_score
 
