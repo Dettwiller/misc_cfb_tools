@@ -21,3 +21,4 @@ from git_cfb import model, matchup
         5. drive differential and total probabilities to 0.5 (accuracy)
         6. multiobjective of 5 and 4
 '''
+

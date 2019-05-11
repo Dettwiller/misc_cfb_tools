@@ -30,90 +30,36 @@ def download_SEC_data(timeline=[1880, datetime.now().year - 1], save=True):
         total_df.to_csv("sec_all_history.csv")
     return total_df
 
-def download_team_data(team_name, timeline=[1880, datetime.now().year - 1], data_dir = os.getcwd()):
-    website = 'https://api.collegefootballdata.com/games?year=' + str(timeline[0]) + '&team=' + team_name
+def download_team_data(team_name, csv_filename, data='games', timeline=[1880, datetime.now().year - 1], data_dir = os.getcwd()):
+    # TODO: check the string "data" for 'games' or 'drives' and disallow all other options
+    website = 'https://api.collegefootballdata.com/' + data + '?year=' + str(timeline[0]) + '&team=' + team_name
     r = requests.get(website)
     x = r.json()
     total_df = pd.DataFrame(x)
+    if data == 'drives':
+        total_df['season'] = str(timeline[0])
     for i in range(timeline[0] + 1, timeline[1] + 1):
         year = str(i)
         print(year)
-        website = 'https://api.collegefootballdata.com/games?year=' + year + '&team=' + team_name
+        website = 'https://api.collegefootballdata.com/' + data + '?year=' + year + '&team=' + team_name
         r = requests.get(website)
         x = r.json()
         new_df = pd.DataFrame(x)
+        if data == 'drives':
+            new_df['season'] = year
         if not new_df.empty:
             total_df = total_df.append(new_df, ignore_index = True) 
-    total_df.to_csv(os.path.join(data_dir,team_name + "_all_history.csv"))
+    total_df.to_csv(os.path.join(data_dir, csv_filename))
     return total_df
 
-def download_team_drive_data(team_name, timeline=[datetime.now().year - 4, datetime.now().year - 1], data_dir = os.getcwd()):
-    website = 'https://api.collegefootballdata.com/drives?year=' + str(timeline[0]) + '&team=' + team_name
-    r = requests.get(website)
-    x = r.json()
-    total_df = pd.DataFrame(x)
-    total_df['season'] = str(timeline[0])
-    for i in range(timeline[0] + 1, timeline[1] + 1):
-        year = str(i)
-        print(year)
-        website = 'https://api.collegefootballdata.com/drives?year=' + year + '&team=' + team_name
-        r = requests.get(website)
-        x = r.json()
-        new_df = pd.DataFrame(x)
-        new_df['season'] = year
-        if not new_df.empty:
-            total_df = total_df.append(new_df, ignore_index = True) 
-
-    csv_filename = team_name + "_drive_data_" + str(timeline[0]) + "-" + str(timeline[1]) + ".csv"
-    total_df.to_csv(os.path.join(data_dir,csv_filename))
-    return total_df
-
-def get_team_data(team_name, timeline=[1880, datetime.now().year - 1], data_dir = os.getcwd()):
-    #TODO: refactor to return total_df (replace get_team_drive_data) and offload analysis to team class
-    #TODO: timeline tag the files
+def get_team_data(team_name, data='games', timeline=[1880, datetime.now().year - 1], data_dir = os.getcwd()):
     #TODO: look for any file that has the data in the timeline requested
     #TODO: isolate specific ranges from the file into the dataframe
-    if os.path.isfile(os.path.join(data_dir, team_name + "_all_history.csv")):
-        total_df = pd.read_csv(os.path.join(data_dir, team_name + "_all_history.csv"))
-    else:
-        total_df = download_team_data(team_name, timeline=timeline, data_dir=data_dir)
-
-    away_games = total_df.index[total_df['away_team'] == team_name]
-    home_games = total_df.index[total_df['home_team'] == team_name]
-    games_list = away_games.tolist() + home_games.tolist()
-    games_list.sort()
-
-    games = pd.Index(games_list)
-    games_df = total_df.loc[games]
-
-    points_scored = []
-    points_allowed = []
-    point_diff = []
-    result = []
-    seasons = []
-    for row in games_df.itertuples(name='game'):
-        if row.away_team == team_name:
-            points_scored += [row.away_points]
-            points_allowed +=[row.home_points]
-            point_diff += [row.away_points - row.home_points]
-        else:
-            points_scored += [row.home_points]
-            points_allowed +=[row.away_points]
-            point_diff += [row.home_points - row.away_points]
-        if point_diff[-1] > 0:
-            result += [1]
-        else:
-            result += [0]
-        seasons += [row.season]
-    team_data = pd.DataFrame(data={'seasons': seasons, 'points_scored': points_scored, 
-                                    'points_allowed': points_allowed, 'point_diff': point_diff, 'result': result})
-    return team_data
-
-def get_team_drive_data(team_name, timeline=[datetime.now().year - 4, datetime.now().year - 1], data_dir = os.getcwd()):
-    csv_filename = team_name + "_drive_data_" + str(timeline[0]) + "-" + str(timeline[1]) + ".csv"
+    # TODO: check the string "data" for 'games' or 'drives' and disallow all other options
+    csv_filename = team_name + "_" + data + "_data_" + str(timeline[0]) + "-" + str(timeline[1]) + ".csv"
     if os.path.isfile(os.path.join(data_dir, csv_filename)):
         total_df = pd.read_csv(os.path.join(data_dir, csv_filename))
     else:
-        total_df = download_team_drive_data(team_name, timeline=timeline, data_dir=data_dir)
-
+        total_df = download_team_data(team_name, csv_filename, data=data, timeline=timeline, data_dir=data_dir)
+    
     return total_df
