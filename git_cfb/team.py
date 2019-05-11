@@ -27,14 +27,14 @@ class Team:
         if self.drive_data:
             return self.drive_data
         else:
-            self.drive_data = fetch_data.get_game_data(self.name, data='drives', timeline=timeline, data_dir=self.data_dir)
+            self.drive_data = fetch_data.get_team_data(self.name, data='drives', timeline=timeline, data_dir=self.data_dir)
             return self.drive_data
 
     def get_game_data(self, timeline=[1880, datetime.now().year - 1]):
         if self.game_data:
             return self.game_data
         else:
-            self.raw_game_data = fetch_data.get_game_data(self.name, data='games', timeline=timeline, data_dir=self.data_dir)
+            self.raw_game_data = fetch_data.get_team_data(self.name, data='games', timeline=timeline, data_dir=self.data_dir)
             self.__process_game_data()
             return self.game_data
 
@@ -66,7 +66,7 @@ class Team:
             else:
                 result += [0]
             seasons += [row.season]
-        self.game_data = pd.DataFrame(data={'seasons': seasons, 'points_scored': points_scored, 
+        self.game_data = pd.DataFrame(data={'season': seasons, 'points_scored': points_scored, 
                                         'points_allowed': points_allowed, 'point_diff': point_diff, 'result': result})
 
 

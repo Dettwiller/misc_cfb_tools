@@ -19,6 +19,7 @@ def download_game_data(csv_filename, conference=None, timeline=[2000, datetime.n
         website = 'https://api.collegefootballdata.com/games?year=' + str(timeline[0]) + '&conference=' + conference
     else:
         website = 'https://api.collegefootballdata.com/games?year=' + str(timeline[0])
+    print(timeline[0])    
     r = requests.get(website)
     x = r.json()
     total_df = pd.DataFrame(x)
@@ -46,8 +47,10 @@ def get_game_data(conference=None, timeline=[1880, datetime.now().year - 1], dat
     else:
         csv_filename = "game_data_" + str(timeline[0]) + "-" + str(timeline[1]) + ".csv"
     utility.csv_subdata_search(csv_filename, data_dir)
-    if os.path.isfile(os.path.join(data_dir, csv_filename)):
-        total_df = pd.read_csv(os.path.join(data_dir, csv_filename))
+    pathed_filename = os.path.join(data_dir, csv_filename)
+    if os.path.isfile(pathed_filename):
+        with open(pathed_filename, 'r') as cf:
+            total_df = pd.read_csv(cf)
     else:
         total_df = download_game_data(csv_filename, conference=conference, timeline=timeline, data_dir=data_dir)
     return total_df
@@ -80,8 +83,10 @@ def get_team_data(team_name, data='games', timeline=[1880, datetime.now().year -
     # TODO: check the string "data" for 'games' or 'drives' and disallow all other options
     csv_filename = team_name + "_" + data + "_data_" + str(timeline[0]) + "-" + str(timeline[1]) + ".csv"
     utility.csv_subdata_search(csv_filename, data_dir)
-    if os.path.isfile(os.path.join(data_dir, csv_filename)):
-        total_df = pd.read_csv(os.path.join(data_dir, csv_filename))
+    pathed_filename = os.path.join(data_dir, csv_filename)
+    if os.path.isfile(pathed_filename):
+        with open(pathed_filename, 'r') as cf:
+            total_df = pd.read_csv(cf)
     else:
         total_df = download_team_data(team_name, csv_filename, data=data, timeline=timeline, data_dir=data_dir)
     

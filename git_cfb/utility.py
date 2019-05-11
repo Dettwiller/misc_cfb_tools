@@ -50,6 +50,8 @@ def csv_subdata_search(csv_filename, data_dir):
         item = next(data_dir_contents, False)
         if not item:
             searching = False
+        elif item == csv_filename:
+            searching = False
         else:
             pathed_item = join(data_dir, item)
             _, extension = splitext(pathed_item)
@@ -97,15 +99,31 @@ def plt_labels(team_name, feature):
         plt_labels["image"] = team_name + "_point_diff.png"
     return plt_labels
 
-def recent_games(original_df, last_games=3):
-    #TODO: get the last 3 game ID's by looping backwards
-    #TODO: filter the dataframe for those games
-    most_recent_games = [original_df["game_id"].iloc[-1]]
-    while len(most_recent_games) < last_games:
-        for i in range(2, len(original_df)):
-            candidate_game = original_df["game_id"].iloc[-i]
-            if candidate_game != most_recent_games[-1]:
-                most_recent_games += [candidate_game]
+def drives_from_recent_games(original_df, last_games=3, predicted_game=None):
+    if predicted_game:
+        # TODO: how to handle no game?
+        df_index_predicted = original_df.loc[(original_df["game_id"] == predicted_game)].index[-1]
+        i = 1
+        searching = True
+        while searching:
+            candidate_game = original_df["game_id"].iloc[df_index_predicted - i]
+            if candidate_game != predicted_game:
+                prev_game = candidate_game
+                searching = False
+            i += 1
+        most_recent_games = [prev_game]
+        df_index = original_df.loc[(original_df["game_id"] == prev_game)].index[-1]
+    else:
+        prev_game = original_df["game_id"].iloc[-1]
+        most_recent_games = [prev_game]
+        df_index = original_df.loc[(original_df["game_id"] == prev_game)].index[-1]
+    # print(original_df[df_index])
+    i = 1
+    while len(most_recent_games) < last_games and i < len(original_df):
+        candidate_game = original_df["game_id"].iloc[df_index - i]
+        if candidate_game != most_recent_games[-1]:
+            most_recent_games += [candidate_game]
+        i += 1
     recent_game_data = original_df.loc[original_df['game_id'].isin(most_recent_games)]
 
     return recent_game_data

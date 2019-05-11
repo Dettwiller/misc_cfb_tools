@@ -74,19 +74,20 @@ class PPD_Model(Model):
         away_team_score = utility.dist_sample_mult(away_team_ppd, dpg, ns=1000000)
         return home_team_score, away_team_score
 
-    def __ppd_dists(self, team, timeline):
-        drive_data = team.get_drive_data()
+    def __ppd_dists(self, team_name, drive_data, timeline, predicted_game=None):
         seasons = []
         for i in range(timeline[0], timeline[1] + 1):
             seasons += [i]
         hist_data = drive_data.loc[drive_data['season'].isin(seasons)]
-        recent_data = drive_data.loc[drive_data['season'] == timeline[1]]
-        current_data = utility.recent_games(drive_data, last_games=3)
+        recent_data = drive_data.loc[drive_data['season'] == seasons[-1]]
+        if recent_data.empty:
+            recent_data = drive_data.loc[drive_data['season'] == seasons[-2]]            
+        current_data = utility.drives_from_recent_games(drive_data, last_games=3, predicted_game=predicted_game)
 
         drive_dists = {}
-        drive_dists['hist'] = self.__calculate_ppd(team.name, hist_data)
-        drive_dists['recent'] = self.__calculate_ppd(team.name, recent_data)
-        drive_dists['current'] = self.__calculate_ppd(team.name, current_data)
+        drive_dists['hist'] = self.__calculate_ppd(team_name, hist_data)
+        drive_dists['recent'] = self.__calculate_ppd(team_name, recent_data)
+        drive_dists['current'] = self.__calculate_ppd(team_name, current_data)
         return drive_dists
 
     def __drive_scoring(self, team_name, drive_tuple, turn_over=False):
@@ -161,7 +162,7 @@ class PPD_Model(Model):
 
         return ppd
 
-    def predict(self, home_team, away_team, timeline=[datetime.now().year - 4, datetime.now().year - 1]):
+    def predict(self, home_team, away_team, timeline=[datetime.now().year - 4, datetime.now().year - 1], predicted_game=None):
         '''
             TODO: input checking:
                 1. home_team and away_team are instinces of Team class
@@ -171,8 +172,14 @@ class PPD_Model(Model):
         self.home_team = home_team
         self.away_team = away_team
 
-        home_team_drive_dists = self.__ppd_dists(self.home_team, timeline)
-        away_team_drive_dists = self.__ppd_dists(self.away_team, timeline)
+        # self.home_team.get_drive_data(timeline=timeline)
+        self.home_team.get_drive_data(timeline=[2005, 2018]) # * for model analysis only
+
+        # self.away_team.get_drive_data(timeline=timeline)
+        self.away_team.get_drive_data(timeline=[2005, 2018]) # * for model analysis only
+
+        home_team_drive_dists = self.__ppd_dists(self.home_team.name, self.home_team.drive_data, timeline, predicted_game=predicted_game)
+        away_team_drive_dists = self.__ppd_dists(self.away_team.name, self.away_team.drive_data, timeline, predicted_game=predicted_game)
 
         home_score_hist, away_score_hist = self.__predict_score(home_team_drive_dists['hist'], away_team_drive_dists['hist'])
         home_score_recent, away_score_recent = self.__predict_score(home_team_drive_dists['recent'], away_team_drive_dists['recent'])

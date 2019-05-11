@@ -1,5 +1,6 @@
 import os
 
+from datetime import datetime
 import numpy as np
 from scipy.stats import norm
 from . import team
@@ -59,3 +60,19 @@ class Matchup:
             over_prob = 1.0 - under_prob
             print("\nover hits with p=%.4f" % over_prob)
             print("under hits with p=%.4f" % under_prob)
+
+    def predict(self, timeline=[datetime.now().year - 4, datetime.now().year - 1], predicted_game=None):
+        '''
+            TODO: get the variances of the home_team_score and away_team_score too
+        '''
+
+        total, diff = self.model.predict(self.home_team, self.away_team, timeline=timeline, predicted_game=predicted_game)
+        prob_away_win = norm.cdf(0.0, diff[0], np.sqrt(diff[1]))
+        prob_home_win = 1.0 - prob_away_win
+        if prob_home_win >= prob_away_win:
+            winner = self.home_team.name
+        else:
+            winner = self.away_team.name
+        mean_home_score = total[0] / 2.0 + diff[0]
+        mean_away_score = total[0] / 2.0 - diff[0]
+        return winner, diff, total, mean_home_score, mean_away_score

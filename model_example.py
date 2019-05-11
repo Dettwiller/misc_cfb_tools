@@ -3,7 +3,6 @@ from git_cfb import model, matchup
 
 
 data_dir = os.path.join(os.getcwd(), "data")
-image_dir = os.path.join(os.getcwd(), "images")
 away_team = "Mississippi State"
 home_team = "Ole Miss"
 
