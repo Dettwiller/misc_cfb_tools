@@ -1,3 +1,6 @@
+from os import listdir
+from os.path import isfile, join, splitext
+import csv
 import numpy as np
 from scipy.stats import norm
 import matplotlib.pyplot as plt
@@ -13,6 +16,51 @@ import matplotlib.pyplot as plt
     # plt.ylabel("f")
     # plt.xlabel("x")
     # plt.show()
+
+def csv_decomp(csv_filename):
+    csv_filename_split_list = csv_filename.split("_")
+    start_year = int(csv_filename_split_list[-1].split("-")[0])
+    end_year = int(csv_filename_split_list[-1].split("-")[-1].split(".")[0])
+    timeline = [start_year, end_year]
+    base_name = '_'.join(csv_filename_split_list[:-1])
+    return base_name, timeline
+
+def create_sub_csv(new_csv_filename, timeline, source_csv_file, data_dir):
+    new_csv = join(data_dir, new_csv_filename)
+    # output_string = ''
+    scsv = open(source_csv_file, 'r')
+    ncsv = open(new_csv, 'w+',  newline='')
+    source_reader = csv.reader(scsv, delimiter=',')
+    writer = csv.writer(ncsv, delimiter=',')
+    header = next(source_reader, None)
+    writer.writerow(header)
+    season_index = header.index('season') # * all .csv datafiles should be tagged by season
+    line = next(source_reader, False)
+    while line:
+        season = int(line[season_index])
+        if season >= timeline[0] and season <= timeline[1]:
+            writer.writerow(line)
+        line = next(source_reader, False)
+
+def csv_subdata_search(csv_filename, data_dir):
+    base_name, desired_timeline = csv_decomp(csv_filename)
+    data_dir_contents = iter(listdir(data_dir))
+    searching = True
+    while searching:
+        item = next(data_dir_contents, False)
+        if not item:
+            searching = False
+        else:
+            pathed_item = join(data_dir, item)
+            _, extension = splitext(pathed_item)
+            if isfile(pathed_item) and extension == '.csv':
+                candidate_base_name, candidate_timeline = csv_decomp(item)
+                name_match = candidate_base_name == base_name
+                left_year = candidate_timeline[0] <= desired_timeline[0]
+                right_year = candidate_timeline[1] >= desired_timeline[1]
+                if name_match and left_year and right_year:
+                    create_sub_csv(csv_filename, desired_timeline, pathed_item, data_dir)
+                    searching = False
 
 def plt_sizes(kwargs_dict):
     plt_sizes = {'labelsize': 10, 'titlesize': 12, 'ticksize': 8, 'figsize': (6.4, 4.8)}

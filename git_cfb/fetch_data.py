@@ -4,6 +4,7 @@ from datetime import datetime
 import numpy as np
 import pandas as pd
 import requests
+from . import utility
 
 # * Team example
 # r = requests.get('https://api.collegefootballdata.com/games?year=2018&team=Mississippi State')
@@ -44,6 +45,7 @@ def get_game_data(conference=None, timeline=[1880, datetime.now().year - 1], dat
         csv_filename = conference + "_game_data_" + str(timeline[0]) + "-" + str(timeline[1]) + ".csv"
     else:
         csv_filename = "game_data_" + str(timeline[0]) + "-" + str(timeline[1]) + ".csv"
+    utility.csv_subdata_search(csv_filename, data_dir)
     if os.path.isfile(os.path.join(data_dir, csv_filename)):
         total_df = pd.read_csv(os.path.join(data_dir, csv_filename))
     else:
@@ -77,6 +79,7 @@ def get_team_data(team_name, data='games', timeline=[1880, datetime.now().year -
     # TODO: isolate specific ranges from the file into the dataframe
     # TODO: check the string "data" for 'games' or 'drives' and disallow all other options
     csv_filename = team_name + "_" + data + "_data_" + str(timeline[0]) + "-" + str(timeline[1]) + ".csv"
+    utility.csv_subdata_search(csv_filename, data_dir)
     if os.path.isfile(os.path.join(data_dir, csv_filename)):
         total_df = pd.read_csv(os.path.join(data_dir, csv_filename))
     else:

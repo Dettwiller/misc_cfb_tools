@@ -1,5 +1,5 @@
 import os
-from git_cfb import model, matchup
+from git_cfb import fetch_data
 
 '''
     TODO: determine the scope of the validation effort:
@@ -21,4 +21,6 @@ from git_cfb import model, matchup
         5. drive differential and total probabilities to 0.5 (accuracy)
         6. multiobjective of 5 and 4
 '''
+data_dir = os.path.join(os.getcwd(), "data")
 
+game_data = fetch_data.get_game_data(timeline=[2008, 2018], data_dir=data_dir)
