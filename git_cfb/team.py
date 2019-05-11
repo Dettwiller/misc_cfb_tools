@@ -1,10 +1,14 @@
 import os
 import pandas as pd
+from datetime import datetime
+from . import fetch_data
 
 class Team:
     name = ''
     data_dir = os.path.join(os.getcwd(), 'data')
+    raw_game_data = None
     game_data = None
+    drive_data = None
     def __init__(self, name, data_dir=None):
         '''
             TODO: input checking:
@@ -19,14 +23,29 @@ class Team:
         if data_dir is not None:
             self.data_dir = data_dir
 
-    def process_game_data(self, games_df):
-        away_games = games_df.index[games_df['away_team'] == self.name]
-        home_games = games_df.index[games_df['home_team'] == self.name]
+    def get_drive_data(self, timeline=[datetime.now().year - 4, datetime.now().year - 1]):
+        if self.drive_data:
+            return self.drive_data
+        else:
+            self.drive_data = fetch_data.get_game_data(self.name, data='drives', timeline=timeline, data_dir=self.data_dir)
+            return self.drive_data
+
+    def get_game_data(self, timeline=[1880, datetime.now().year - 1]):
+        if self.game_data:
+            return self.game_data
+        else:
+            self.raw_game_data = fetch_data.get_game_data(self.name, data='games', timeline=timeline, data_dir=self.data_dir)
+            self.__process_game_data()
+            return self.game_data
+
+    def __process_game_data(self):
+        away_games = self.raw_game_data.index[self.raw_game_data['away_team'] == self.name]
+        home_games = self.raw_game_data.index[self.raw_game_data['home_team'] == self.name]
         games_list = away_games.tolist() + home_games.tolist()
         games_list.sort()
 
         games = pd.Index(games_list)
-        games_df = games_df.loc[games]
+        games_df = self.raw_game_data.loc[games]
 
         points_scored = []
         points_allowed = []

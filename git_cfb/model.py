@@ -1,10 +1,9 @@
-import os
 from datetime import datetime
 
 import numpy as np
 from scipy.stats import norm
 
-from . import fetch_data, utility
+from . import utility
 
 
 '''
@@ -27,15 +26,9 @@ class Model:
     total = None
     diff = None
     home_field = 0.0
-    data_dir=os.path.join(os.getcwd(), 'data')
 
-    def __init__(self, home_field = None, neutral_site=False, data_dir=None):
+    def __init__(self, home_field = None, neutral_site=False):
         '''
-            TODO: if data_dir is not None, add logic to ensure data_dir:
-                1. is a path
-                2. exists
-                3. create the passed data_dir if it doesn't exist
-                4. only assign self.data_dir if data
             TODO: if home_field is not None, add logic to ensure home_field:
                 1. is a float
                 2. is >= 0
@@ -46,20 +39,18 @@ class Model:
             self.home_field = home_field
         if neutral_site:
             self.home_field = 0.0
-        if data_dir is not None:
-            self.data_dir=data_dir
 
 
 class PPD_Model(Model):
     weights =  [0.15, 0.35, 0.5]
-    def __init__(self, weights=[], home_field=None, neutral_site=False, data_dir=None):
+    def __init__(self, weights=[], home_field=None, neutral_site=False):
         '''
             TODO: if weights, add logic to ensure weights:
                 1. is a list or numpy array like
                 2. all values >= 0.0
                 3. all values sum to 1
         '''
-        Model.__init__(self, home_field=home_field, neutral_site=neutral_site, data_dir=data_dir)
+        Model.__init__(self, home_field=home_field, neutral_site=neutral_site)
         if weights:
             self.weights = weights
 
@@ -83,8 +74,8 @@ class PPD_Model(Model):
         away_team_score = utility.dist_sample_mult(away_team_ppd, dpg, ns=1000000)
         return home_team_score, away_team_score
 
-    def __ppd_dists(self, team_name, timeline):
-        drive_data = fetch_data.get_team_drive_data(team_name, timeline=timeline, data_dir=self.data_dir)
+    def __ppd_dists(self, team, timeline):
+        drive_data = team.get_drive_data()
         seasons = []
         for i in range(timeline[0], timeline[1] + 1):
             seasons += [i]
@@ -93,9 +84,9 @@ class PPD_Model(Model):
         current_data = utility.recent_games(drive_data, last_games=3)
 
         drive_dists = {}
-        drive_dists['hist'] = self.__calculate_ppd(team_name, hist_data)
-        drive_dists['recent'] = self.__calculate_ppd(team_name, recent_data)
-        drive_dists['current'] = self.__calculate_ppd(team_name, current_data)
+        drive_dists['hist'] = self.__calculate_ppd(team.name, hist_data)
+        drive_dists['recent'] = self.__calculate_ppd(team.name, recent_data)
+        drive_dists['current'] = self.__calculate_ppd(team.name, current_data)
         return drive_dists
 
     def __drive_scoring(self, team_name, drive_tuple, turn_over=False):
@@ -180,8 +171,8 @@ class PPD_Model(Model):
         self.home_team = home_team
         self.away_team = away_team
 
-        home_team_drive_dists = self.__ppd_dists(self.home_team.name, timeline)
-        away_team_drive_dists = self.__ppd_dists(self.away_team.name, timeline)
+        home_team_drive_dists = self.__ppd_dists(self.home_team, timeline)
+        away_team_drive_dists = self.__ppd_dists(self.away_team, timeline)
 
         home_score_hist, away_score_hist = self.__predict_score(home_team_drive_dists['hist'], away_team_drive_dists['hist'])
         home_score_recent, away_score_recent = self.__predict_score(home_team_drive_dists['recent'], away_team_drive_dists['recent'])
