@@ -66,16 +66,10 @@ def validation_func(games_df):
     return correct_outcome, diff_error, total_error, home_score_error, away_score_error
 
 if __name__ == '__main__':
-    # away_team = "Mississippi State"
-    # home_team = "Ole Miss"
-
-    # ppd_model = model.PPD_Model(weights = [0.15, 0.35, 0.5], home_field=0.0)
-    # game = matchup.Matchup(home_team, away_team, ppd_model, data_dir=data_dir)
-    # game.analyze(line = 32, over_under=38)
-
     data_dir = os.path.join(os.getcwd(), "data")
     model_timeline = [2008, 2018]
     data_timeline = [2005, 2018]
+    output_csv_file = "accuracy.csv"
 
     game_data = fetch_data.get_game_data(timeline=model_timeline, data_dir=data_dir)
     model_data = model_analysis.process_game_data(game_data)
@@ -115,13 +109,7 @@ if __name__ == '__main__':
     total_error = [j for i in total_e for j in i]
     home_score_error = [j for i in home_score_e for j in i]
     away_score_error = [j for i in away_score_e for j in i]
-    # for game in model_data.itertuples(name='Game'):
-    #     outcome, diff_e, total_e, home_e, away_e = validation_func(game)
-    #     correct_outcome += [outcome]
-    #     diff_error += [diff_e]
-    #     total_error += [total_e]
-    #     home_score_error += [home_e]
-    #     away_score_error += [away_e]
+
     perc_correct = (correct_outcome.count(True) / len(correct_outcome)) * 100
     np_diff_error = np.array(diff_error)
     np_total_error = np.array(total_error)
@@ -136,6 +124,14 @@ if __name__ == '__main__':
     std_home_score_error = np.std(np_home_score_error)
     mean_away_score_error = np_away_score_error.mean()
     std_away_score_error = np.std(np_away_score_error)
+
+    csv_output_list = [perc_correct, mean_diff_error, std_diff_error, mean_total_error, std_total_error, mean_home_score_error, std_home_score_error, mean_away_score_error, std_away_score_error]
+
+    # csv_output_str = "per_corr,de_mean,de_std,tp_mean,tp_std,hpe_mean,hpe_std,ape_mean,ape_std\n"
+    # csv_output_str += ','.join(csv_output_list)
+    csv_output_str = ','.join(csv_output_list)
+    with open(output_csv_file, "a+") as ocsv:
+        ocsv.write(csv_output_str)
 
     print("%.2f percent correct" % perc_correct)
     print("differential error: %.4f mean and %.4f std dev" %(mean_diff_error, std_diff_error))
