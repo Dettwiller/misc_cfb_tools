@@ -66,7 +66,13 @@ def download_team_data(team_name, csv_filename, data='games', timeline=[1880, da
     for i in range(timeline[0] + 1, timeline[1] + 1):
         year = str(i)
         print(year)
-        website = 'https://api.collegefootballdata.com/' + data + '?year=' + year + '&team=' + team_name
+        if team_name == "Texas A&M":
+            fetch_team_name = "Texas%20A%26M"
+        elif team_name == "San José State":
+            fetch_team_name = "San%20Jos%C3%A9%20State"
+        else:
+            fetch_team_name = team_name
+        website = 'https://api.collegefootballdata.com/' + data + '?year=' + year + '&team=' + fetch_team_name
         r = requests.get(website)
         x = r.json()
         new_df = pd.DataFrame(x)
@@ -78,8 +84,6 @@ def download_team_data(team_name, csv_filename, data='games', timeline=[1880, da
     return total_df
 
 def get_team_data(team_name, data='games', timeline=[1880, datetime.now().year - 1], data_dir = os.getcwd()):
-    # TODO: look for any file that has the data in the timeline requested
-    # TODO: isolate specific ranges from the file into the dataframe
     # TODO: check the string "data" for 'games' or 'drives' and disallow all other options
     csv_filename = team_name + "_" + data + "_data_" + str(timeline[0]) + "-" + str(timeline[1]) + ".csv"
     utility.csv_subdata_search(csv_filename, data_dir)

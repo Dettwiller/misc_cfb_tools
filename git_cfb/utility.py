@@ -101,9 +101,16 @@ def plt_labels(team_name, feature):
 
 def drives_from_recent_games(original_df, last_games=3, predicted_game=None):
     if predicted_game:
-        # TODO: how to handle no game?
-        df_index_predicted = original_df.loc[(original_df["game_id"] == predicted_game)].index[-1]
-        i = 1
+        if predicted_game in original_df["game_id"].values:
+            df_index_predicted = original_df.loc[(original_df["game_id"] == predicted_game)].index[-1]
+            i = 1
+        else:
+            previous_game = 0
+            for game_id in original_df["game_id"].values:
+                if int(game_id) > previous_game and int(game_id) < predicted_game:
+                    previous_game = int(game_id)
+            df_index_predicted = original_df.loc[(original_df["game_id"] == previous_game)].index[-1]
+            i = 0
         searching = True
         while searching:
             candidate_game = original_df["game_id"].iloc[df_index_predicted - i]
