@@ -70,10 +70,16 @@ if __name__ == '__main__':
     model_timeline = [2008, 2018]
     data_timeline = [2005, 2018]
     output_csv_file = "accuracy.csv"
+    # weights = [0.15, 0.35, 0.5, 0.0]
+    # weights = [0.15, 0.35, 0.5, 3.0]
+    # weights = [0.1, 0.2, 0.7, 0.0]
+    weights = [0.0, 0.4, 0.6, 0.0]
+
 
     game_data = fetch_data.get_game_data(timeline=model_timeline, data_dir=data_dir)
     model_data = model_analysis.process_game_data(game_data)
-    ppd_model = model.PPD_Model(weights = [0.15, 0.35, 0.5], home_field=0.0)
+    ppd_model = model.PPD_Model(weights = weights[:3], home_field=weights[3])
+
 
     # ! Only uncomment to download all team drive data
     # for game in model_data.itertuples(name='Game'):
@@ -127,9 +133,9 @@ if __name__ == '__main__':
 
     csv_output_list = [perc_correct, mean_diff_error, std_diff_error, mean_total_error, std_total_error, mean_home_score_error, std_home_score_error, mean_away_score_error, std_away_score_error]
 
-    # csv_output_str = "per_corr,de_mean,de_std,tp_mean,tp_std,hpe_mean,hpe_std,ape_mean,ape_std\n"
-    # csv_output_str += ','.join(csv_output_list)
-    csv_output_str = ','.join(csv_output_list)
+    # csv_output_str = "w1,w2,w3,hf,per_corr,de_mean,de_std,tp_mean,tp_std,hpe_mean,hpe_std,ape_mean,ape_std\n"
+    # csv_output_str += ','.join([str(w) for w in weights]) + ','.join([str(o) for o in csv_output_list]) + "\n"
+    csv_output_str = ','.join([str(w) for w in weights]) + "," + ','.join([str(o) for o in csv_output_list]) + "\n"
     with open(output_csv_file, "a+") as ocsv:
         ocsv.write(csv_output_str)
 
