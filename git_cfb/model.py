@@ -4,6 +4,7 @@ import numpy as np
 from scipy.stats import norm
 
 from . import utility
+from . import team
 
 
 '''
@@ -18,47 +19,73 @@ from . import utility
 '''
 
 class Model:
-    home_team = None
-    away_team = None
+    home_team = ""
+    away_team = ""
     neutral_site = False
     dist_home_team_score = None
     dist_away_team_score = None
     total = None
     diff = None
-    home_field = 0.0
 
-    def __init__(self, home_field = None, neutral_site=False):
-        '''
-            TODO: if home_field is not None, add logic to ensure home_field:
-                1. is a float
-                2. is >= 0
-            TODO: add logic to ensure neutral_site:
-                1. is a bool
-        '''
-        if home_field is not None and not neutral_site:
-            self.home_field = home_field
+    def __init__(self, home_field = 0.0, neutral_site=False):
+        # Type and value checking for unique inputs
+        if isinstance(home_field, int):
+            home_field = float(home_field)
+        if not isinstance(home_field, float):
+            raise TypeError("home_field should be a float but is " + str(type(home_field)))
+        elif home_field < 0.0:
+            raise ValueError("home_field should be >= 0.0 but is " + str(home_field))
+        if not isinstance(neutral_site, bool):
+            raise TypeError("neutral_site should be a bool but is " + str(type(neutral_site)))
+
+        # Instance initializations and definitions
         if neutral_site:
             self.home_field = 0.0
+        else:
+            self.home_field = home_field
+
+        # Instance initializations
+        self.home_team = ""
+        self.away_team = ""
+        self.neutral_site = neutral_site
+        self.dist_away_team_score = None
+        self.dist_home_team_score = None
+        self.total = None
+        self.diff = None
 
 
 class PPD_Model(Model):
     weights =  [0.15, 0.35, 0.5]
     def __init__(self, weights=[], home_field=None, neutral_site=False):
-        '''
-            TODO: if weights, add logic to ensure weights:
-                1. is a list or numpy array like
-                2. all values >= 0.0
-                3. all values sum to 1
-        '''
+        # Type and value checking for unique inputs
+        if not (isinstance(weights, list) or isinstance(weights, np.ndarray)):
+            raise TypeError("weights must be a list or numpy array but is " + str(type(weights)))
+        weights_sum = 0.0
+        for i in range(len(weights)):
+            if isinstance(weights[i], int):
+                weights[i] = float(weights[i])
+            if not isinstance(weights[i], float):
+                raise TypeError("all members of weights must be floats but weights[" + str(i) + "] type is " + str(type(weights[i])))
+            elif weights[i] < 0.0:
+                raise ValueError("all members of weights must be >= 0.0 but weights[" + str(i) + "] is " + str(weights[i]))
+            weights_sum += weights[i]
+        if weights_sum != 1.0:
+            raise ValueError("weights should sum to 1.0, but sum to " + str(weights_sum))
+
+        # Instance initializations and definitions
+        # lean on Model to do checking on home_field and neutral_site
         Model.__init__(self, home_field=home_field, neutral_site=neutral_site)
         if weights:
             self.weights = weights
+        else:
+            self.weights = [0.15, 0.35, 0.5]
 
     def __predict_score(self, home_team_dists, away_team_dists):
         # * Rules for normal distributions
         # * N(m1, v1) + N(m2, v2) = N(m1 + m2, v1 + v2)
         # * N(m1, v1) - N(m2, v2) = N(m1 - m2, v1 - v2)
         # * a*N(m1, v1) = N( a*m1, (a^2)*v1 ) 
+
 
         home_team_ppd = ( (home_team_dists['offense'][0] + away_team_dists['defense'][0]) / 2.0, 
                                 (home_team_dists['offense'][1] + away_team_dists['defense'][1]) / 4.0 )
@@ -150,7 +177,7 @@ class PPD_Model(Model):
                 game = this_game
                 game_drives = 1
             drive_points, on_offense = self.__drive_scoring(name, drive, turn_over=turn_over)
-            if type(drive_points) == str:
+            if isinstance(drive_points, str):
                 turn_over = True
 
             elif on_offense and not turn_over:
@@ -183,12 +210,24 @@ class PPD_Model(Model):
         return ppd
 
     def predict(self, home_team, away_team, timeline=[datetime.now().year - 4, datetime.now().year - 1], predicted_game=None):
-        '''
-            TODO: input checking:
-                1. home_team and away_team are instinces of Team class
-                2. timeline is correct
-        '''
-        
+
+        # Type and value checking for unique inputs
+        if not isinstance(home_team, team.Team):
+            raise TypeError("home_team must be an instance of the Team class, but is " + str(type(home_team)))
+        if not isinstance(away_team, team.Team):
+            raise TypeError("away_team must be an instance of the Team class, but is " + str(type(away_team)))
+        if not isinstance(timeline, list):
+            raise TypeError("timeline must be a list, but is " + str(type(timeline)))
+        elif len(timeline) != 2:
+            raise ValueError("timeline must contain only 2 values, but contains " + str(len(timeline)))
+        elif not (isinstance(timeline[0], int) and isinstance(timeline[1], int)):
+            raise TypeError("values in timeline must be int, but are " + str(type(timeline[0])) + " and " + str(type(timeline[1])))
+        elif timeline[0] > timeline[1]:
+            raise ValueError("timeline[0] must be < timeline[1], but timeline[0] = " + str(timeline[0]) + " and timeline[1] = " + str(timeline[1]))
+        if predicted_game is not None and not isinstance(predicted_game, int):
+            print("NOTE: I actually have no idea what this type is supposed to be....")
+            raise TypeError("predicted_game must be int, but is " + str(type(predicted_game)))
+
         self.home_team = home_team
         self.away_team = away_team
 
