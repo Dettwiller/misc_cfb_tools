@@ -150,8 +150,18 @@ def dist_norm_mult(dist_A, dist_B):
     return result
 
 def dist_sample_mult(dist_A, dist_B, ns=50000):
-    s_A = norm.rvs(dist_A[0], np.sqrt(dist_A[1]), size=ns)
-    s_B = norm.rvs(dist_B[0], np.sqrt(dist_B[1]), size=ns)
+    if dist_A[1] <= 0 or dist_B[1] <= 0:
+        return (0, 1)
+    try:
+        s_A = norm.rvs(dist_A[0], np.sqrt(dist_A[1]), size=ns)
+    except ValueError:
+        print(dist_A)
+        return (0, 1)
+    try:
+        s_B = norm.rvs(dist_B[0], np.sqrt(dist_B[1]), size=ns)
+    except ValueError:
+        print(dist_B)
+        return (0, 1)
     s_F = s_A * s_B
     result = (np.mean(s_F), np.var(s_F))
     return result

@@ -71,9 +71,9 @@ if __name__ == '__main__':
     data_timeline = [2005, 2018]
     output_csv_file = "accuracy.csv"
     # weights = [0.15, 0.35, 0.5, 0.0]
-    # weights = [0.15, 0.35, 0.5, 3.0]
+    weights = [0.15, 0.35, 0.5, 1.0]
     # weights = [0.1, 0.2, 0.7, 0.0]
-    weights = [0.0, 0.4, 0.6, 0.0]
+    # weights = [0.15, 0.25, 0.6, 0.0]
 
 
     game_data = fetch_data.get_game_data(timeline=model_timeline, data_dir=data_dir)

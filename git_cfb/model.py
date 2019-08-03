@@ -70,18 +70,38 @@ class PPD_Model(Model):
                                 (home_team_dists['dpg'][1] + away_team_dists['dpg'][1]) / 4.0 )
 
         # * May not always be self.home_team_score, could be components
-        home_team_score = utility.dist_sample_mult(home_team_ppd, dpg, ns=1000000)
-        away_team_score = utility.dist_sample_mult(away_team_ppd, dpg, ns=1000000)
+        home_team_score = utility.dist_sample_mult(home_team_ppd, dpg, ns=100000)
+        away_team_score = utility.dist_sample_mult(away_team_ppd, dpg, ns=100000)
         return home_team_score, away_team_score
 
     def __ppd_dists(self, team_name, drive_data, timeline, predicted_game=None):
+        # TODO: with the new logic here deciding season spans, what is timeline?
+        # TODO: how should timeline be used?
+        # TODO: check to make sure timeline covers the spans considered?
         seasons = []
         for i in range(timeline[0], timeline[1] + 1):
             seasons += [i]
-        hist_data = drive_data.loc[drive_data['season'].isin(seasons)]
-        recent_data = drive_data.loc[drive_data['season'] == seasons[-1]]
+        # timeline = [2008, 2018]
+        if predicted_game:
+            if predicted_game in drive_data["game_id"].values:
+                pg_first_drive_index =  drive_data[drive_data['game_id'] == predicted_game].index[0]
+            else:
+                previous_game = 0
+                for game_id in drive_data["game_id"].values:
+                    if int(game_id) > previous_game and int(game_id) < predicted_game:
+                        previous_game = int(game_id)
+                pg_first_drive_index = drive_data[drive_data['game_id'] == previous_game].index[0]
+            # pg_first_drive_index = drive_data[drive_data['game_id'] == predicted_game].index[0]
+            current_season = int(drive_data["season"].iloc[pg_first_drive_index])
+        else:
+            current_season = seasons[-1]
+        hist_span = 5 # number of year's back to include in history
+        recent_seasons = [current_season - i for i in range(1, 1 + hist_span)]
+        hist_data = drive_data.loc[drive_data['season'].isin(recent_seasons)]
+        recent_data = drive_data.loc[drive_data['season'] == current_season]
         if recent_data.empty:
-            recent_data = drive_data.loc[drive_data['season'] == seasons[-2]]            
+            current_season -= 1
+            recent_data = drive_data.loc[drive_data['season'] == current_season]            
         current_data = utility.drives_from_recent_games(drive_data, last_games=3, predicted_game=predicted_game)
 
         drive_dists = {}

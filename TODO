@@ -1,4 +1,9 @@
 write unit tests for functions
 only import necessary parts of os or os.path
 only import necessary parts of csv in utility
-parallelize the validation script to burn through the games faster
+optimize individual functions for speed
+check out the runtime warnings and see what can be done
+add input checking to all functions
+    abuse the try and except to make sure diagnostic info is printed when inputs aren't correct
+There is a significant error hurting the analysis somewhere
+    run model_example.py for an example
