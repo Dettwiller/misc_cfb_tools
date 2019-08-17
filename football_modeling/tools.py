@@ -3,6 +3,8 @@ from os import listdir
 import requests
 from collections.abc import Iterable
 from csv import reader, writer
+from scipy.stats import norm
+import numpy as np
 
 def directory_check(directory):
     directory_file_check = isfile(directory)
@@ -91,3 +93,50 @@ def csv_subdata_search(csv_filename, data_dir):
                 if name_match and left_year and right_year:
                     create_sub_csv(csv_filename, desired_timeline, pathed_item, data_dir)
                     searching = False
+
+def average_gaussian_distributions(distributions):
+    distributions_type_check = isinstance(distributions, Iterable)
+    assert distributions_type_check, "distributions is not iterable: %r" % distributions
+    distribution_type_check = all([isinstance(distribution, Iterable) for distribution in distributions])
+    assert distribution_type_check, "all distributions in distributions are not iterable: %r" % distributions
+    distribution_len_check = all([len(distribution) == 2 for distribution in distributions])
+    assert distribution_len_check, "all distributions in distributions are not len = 2 (mean, var): %r" % distributions
+    variance_list = [distribution[1] for distribution in distributions]
+    variance_check = all([variance > 0 for variance in variance_list])
+    assert variance_check, "all variances are not > 0: %r" % variance_list
+
+    n_distributions = len(distributions)
+    mean_list = [distribution[0] for distribution in distributions]
+
+    mean_average_distribution = sum(mean_list) / n_distributions
+    variance_average_distribution = sum(variance_list) / (n_distributions ** 2)
+    return (mean_average_distribution, variance_average_distribution)
+
+def multiply_gaussians(d_a, d_b, n_samples=50000):
+    d_a_type_check = isinstance(d_a, Iterable)
+    assert d_a_type_check, "first distribution is not iterable: %r" % d_a
+    d_a_len_check = len(d_a) == 2
+    assert d_a_len_check, "first distribution does not have 2 entries (mean, variance): %r" % d_a
+    d_a_var_check = d_a[1] > 0
+    assert d_a_var_check, "first distribtution variance is not > 0: %r" % d_a[1]
+
+    d_b_type_check = isinstance(d_b, Iterable)
+    assert d_b_type_check, "second distribution is not iterable: %r" % d_b
+    d_b_len_check = len(d_b) == 2
+    assert d_b_len_check, "second distribution does not have 2 entries (mean, variance): %r" % d_b
+    d_b_var_check = d_b[1] > 0
+    assert d_b_var_check, "second distribtution variance is not > 0: %r" % d_b[1]
+
+    n_samples_type_check = isinstance(n_samples, int)
+    assert n_samples_type_check, "n_samples is not integer: %r" % type(n_samples)
+    n_samples_value_check = n_samples > 0
+    assert n_samples_value_check, "n_samples is not > 0: %r" % n_samples
+
+    sample_a = norm.rvs(d_a[0], np.sqrt(d_a[1]), size=n_samples)
+    sample_b = norm.rvs(d_b[0], np.sqrt(d_b[1]), size=n_samples)
+    sample_ab = sample_a * sample_b
+    mean_ab = np.mean(sample_ab)
+    var_ab = np.var(sample_ab)
+    assert var_ab > 0, "combined sample variance is not > 0: %r" % var_ab
+    result = (mean_ab, var_ab)
+    return result
