@@ -61,7 +61,8 @@ class Team:
             if print_progress:
                 print("returning existing drive_data")
         else:
-            self.drive_data = self.data_downloader.get_data(teams=[self.name], data_type='drives', timeline=timeline, print_progress=print_progress)
+            requested_data = self.data_downloader.get_data(teams=[self.name], data_type='drives', timeline=timeline, print_progress=print_progress)
+            self.drive_data = requested_data[self.name]
         return self.drive_data
 
     def get_game_data(self, timeline=[1880, datetime.now().year-1], print_progress=False):

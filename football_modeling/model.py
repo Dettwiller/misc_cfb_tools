@@ -93,7 +93,7 @@ class Model:
         else:
             previous_game_id = data_df['game_id'].iloc[-1]
         most_recent_games = [previous_game_id]
-        i_previous_game = data_df.loc[(data_df['game_id'] == predicted_game_id)].index[-1]
+        i_previous_game = data_df.loc[(data_df['game_id'] == previous_game_id)].index[-1]
         i = 0
         while len(most_recent_games) < self.ranges[2] and i < len(data_df):
             candidate_game = data_df['game_id'].iloc[i_previous_game - i]

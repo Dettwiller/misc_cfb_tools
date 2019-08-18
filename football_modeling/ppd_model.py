@@ -44,27 +44,40 @@ class PPDModel(Model):
             current_season = seasons[-1]
         return current_season
 
-    def __drive_scoring(self, drive, team_name, turn_over):
-        non_scoring_results = ["PUNT", "DOWNS", "END OF HALF", "END OF GAME", "END OF 4TH QUARTER"]
-        td_results = ["PASSING TD", "RUSHING TD", "TD"]
-        fg_results = ["FG GOOD", "FG"]
+    def __drive_scoring(self, drive, team_name, turnover):
+        non_scoring_results = ["PUNT", "DOWNS", "MISSED FG", "END OF HALF", "END OF GAME", "END OF 4TH QUARTER"]
+        offensive_touchdown_results = ["PASSING TD", "RUSHING TD", "TD"]
+        field_goal_results = ["FG GOOD", "FG"]
+        no_score_turnover_results = ["INT", "FUMBLE"]
+        defensive_touchdown_results = ["INT TD", "FUMBLE RETURN TD", "FUMBLE TD", "PUNT TD"] # PUNT TD most often blocked punt for defensive TD
+        special_teams_results = ["PUNT RETURN TD", "KICKOFF", "Uncategorized"] # Uncategorized appears to be kickoffs
         drive_result = getattr(drive, "drive_result")
-        if drive_result in td_results:
+
+        drive_turnover = False
+        if drive_result in offensive_touchdown_results:
             points = 7
-        elif drive_result in fg_results:
+        elif drive_result in field_goal_results:
             points = 3
         elif drive_result == "SF":
             points = -2
-        elif drive_result in non_scoring_results or turn_over:
+        elif drive_result in no_score_turnover_results:
+            points = 0
+            drive_turnover = True
+        elif drive_result in defensive_touchdown_results:
+            points = -7
+        elif drive_result in special_teams_results:
+            points = 0
+        elif drive_result in non_scoring_results or turnover:
             points = 0
         else:
             print("unknown drive result: " + drive_result)
-            points = drive_result
+            print(drive)
+            points = 0
         on_offense = getattr(drive, "offense") == team_name
-        return points, on_offense
+        return points, on_offense, drive_turnover
 
     def __calculate_ppd(self, drives_df, team_name):
-        turn_over = False
+        turnover = False
         offense_results = []
         defense_results = []
         drives_per_game = []
@@ -74,27 +87,25 @@ class PPDModel(Model):
             this_game = getattr(drive, "game_id")
             if game == this_game:
                 game_drives += 1
-            else:
+            elif game != -1:
                 drives_per_game += [game_drives]
                 game = this_game
                 game_drives = 1
-            drive_points, on_offense = self.__drive_scoring(drive, team_name, turn_over)
-            if isinstance(drive_points, str):
-                turn_over = True
-            elif on_offense and not turn_over:
+            else:
+                game = this_game
+                game_drives = 1
+            drive_points, on_offense, drive_turnover = self.__drive_scoring(drive, team_name, turnover)
+            if on_offense and not turnover:
                 offense_results += [drive_points]
-                turn_over = False
-            elif not on_offense and not turn_over:
+            elif not on_offense and not turnover:
                 defense_results += [-1 * drive_points]
-                turn_over = False
-            elif not on_offense and turn_over:
+            elif not on_offense and turnover:
                 offense_results += [-1 * drive_points]
                 defense_results += [-1 * drive_points]
-                turn_over = False
-            elif on_offense and turn_over:
+            elif on_offense and turnover:
                 defense_results += [drive_points]
                 offense_results += [drive_points]
-                turn_over = False
+            turnover = drive_turnover
         
         np_offense_results = np.array(offense_results)
         np_defense_results = np.array(defense_results)
@@ -106,24 +117,6 @@ class PPDModel(Model):
         team_ppd['dpg'] = (np.mean(np_drives_per_game), np.var(np_drives_per_game))
         return team_ppd
 
-    def __weight_ppd_dists(self, ppd_dist, weight_index):
-        weighted_ppd = {
-            'offense': (
-                self.weights[weight_index] * ppd_dist['offense'][weight_index],
-                (self.weights[weight_index] ** 2) * ppd_dist['offense'][1]
-                ),
-            'defense': (
-                self.weights[weight_index] * ppd_dist['defense'][weight_index],
-                (self.weights[weight_index] ** 2) * ppd_dist['defense'][1]
-                ),
-            'dpg': (
-                self.weights[weight_index] * ppd_dist['dpg'][weight_index],
-                (self.weights[weight_index] ** 2) * ppd_dist['dpg'][1]
-                )
-        }
-        return weighted_ppd
-
-
     def __ppd_dists(self, team_drive_data, team_name, timeline, predicted_game_id):
         current_season = self.__get_current_season(team_drive_data, timeline, predicted_game_id)
         hist_data = self._get_historical_data(current_season, team_drive_data)
@@ -134,30 +127,26 @@ class PPDModel(Model):
         recent_ppd = self.__calculate_ppd(recent_data, team_name)
         current_ppd = self.__calculate_ppd(current_data, team_name)
 
-        weighted_hist_ppd = self.__weight_ppd_dists(hist_ppd, 0)
-        weighted_recent_ppd = self.__weight_ppd_dists(recent_ppd, 1)
-        weighted_current_ppd = self.__weight_ppd_dists(current_ppd, 2)
+        offense_ppd = [hist_ppd['offense'], recent_ppd['offense'], current_ppd['offense']]
+        defense_ppd = [hist_ppd['defense'], recent_ppd['defense'], current_ppd['defense']]
+        dpg = [hist_ppd['dpg'], recent_ppd['dpg'], current_ppd['dpg']]
 
-        offense_ppd = [weighted_hist_ppd['offense'], weighted_recent_ppd['offense'], weighted_current_ppd['offense']]
-        defense_ppd = [weighted_hist_ppd['defense'], weighted_recent_ppd['defense'], weighted_current_ppd['defense']]
-        dpg = [weighted_hist_ppd['dpg'], weighted_recent_ppd['dpg'], weighted_current_ppd['dpg']]
-
-        average_offense_ppd = tools.average_gaussian_distributions(offense_ppd)
-        average_defense_ppd = tools.average_gaussian_distributions(defense_ppd)
-        average_dpg = tools.average_gaussian_distributions(dpg)
+        average_offense_ppd = tools.weighted_average_gaussian_distributions(offense_ppd, self.weights)
+        average_defense_ppd = tools.weighted_average_gaussian_distributions(defense_ppd, self.weights)
+        average_dpg = tools.weighted_average_gaussian_distributions(dpg, self.weights)
 
         ppd_dists = {'offense': average_offense_ppd, 'defense': average_defense_ppd, 'dpg': average_dpg}
         return ppd_dists
 
     def __score_dists(self, home_team_drive_dists, away_team_drive_dists):
-        # TODO MOve the ppd into __ppd function and then break up __ppd function into components
-        # TODO or not and just rename the __ppd function appropriately
-        home_ppd = tools.average_gaussian_distributions(
-            [home_team_drive_dists['offense'], away_team_drive_dists['defense']]
+        home_ppd = (
+            home_team_drive_dists['offense'][0] - away_team_drive_dists['defense'][0],
+            home_team_drive_dists['offense'][1] + away_team_drive_dists['defense'][1]
         )
 
-        away_ppd = tools.average_gaussian_distributions(
-            [away_team_drive_dists['offense'], home_team_drive_dists['defense']]
+        away_ppd = (
+            away_team_drive_dists['offense'][0] - home_team_drive_dists['defense'][0],
+            away_team_drive_dists['offense'][1] + home_team_drive_dists['defense'][1]
         )
 
         dpg = tools.average_gaussian_distributions(
@@ -166,7 +155,6 @@ class PPDModel(Model):
 
         home_points = tools.multiply_gaussians(home_ppd, dpg)
         away_points = tools.multiply_gaussians(away_ppd, dpg)
-        # TODO: you just finished this function
         return home_points, away_points
 
     def predict(self, home_team, away_team, timeline=[datetime.now().year-4, datetime.now().year-1], predicted_game_id=0, neutral_site=False, print_progress=False):
@@ -188,6 +176,16 @@ class PPDModel(Model):
         home_team_drive_dists = self.__ppd_dists(home_team_drive_data, home_team.name, timeline, predicted_game_id)
         away_team_drive_dists = self.__ppd_dists(away_team_drive_data, away_team.name, timeline, predicted_game_id) 
 
-        home_team_score_dists, away_team_score_dists = self.__score_dists(home_team_drive_dists, away_team_drive_dists)
+        home_team_score_dist, away_team_score_dist = self.__score_dists(home_team_drive_dists, away_team_drive_dists)
 
-        # TODO: Finish predictions based on score_dists
+        total_points_dist = (
+            home_team_score_dist[0] + away_team_score_dist[0],
+            home_team_score_dist[1] + away_team_score_dist[1]
+        )
+
+        spread_dist = (
+            home_team_score_dist[0] + self.home_field_advantage - away_team_score_dist[0],
+            home_team_score_dist[1] + away_team_score_dist[1]
+        )
+
+        return total_points_dist, spread_dist

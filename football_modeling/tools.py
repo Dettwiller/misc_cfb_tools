@@ -94,6 +94,31 @@ def csv_subdata_search(csv_filename, data_dir):
                     create_sub_csv(csv_filename, desired_timeline, pathed_item, data_dir)
                     searching = False
 
+def weighted_average_gaussian_distributions(distributions, weights):
+    distributions_type_check = isinstance(distributions, Iterable)
+    assert distributions_type_check, "distributions is not iterable: %r" % distributions
+    distribution_type_check = all([isinstance(distribution, Iterable) for distribution in distributions])
+    assert distribution_type_check, "all distributions in distributions are not iterable: %r" % distributions
+    distribution_len_check = all([len(distribution) == 2 for distribution in distributions])
+    assert distribution_len_check, "all distributions in distributions are not len = 2 (mean, var): %r" % distributions
+    variance_list = [distribution[1] for distribution in distributions]
+    variance_check = all([variance > 0 for variance in variance_list])
+    assert variance_check, "all variances are not > 0: %r" % variance_list
+    weights_type_check = isinstance(weights, Iterable)
+    assert weights_type_check, "weights is not iterable: %r" % weights
+    weights_distribution_len_check = len(distributions) == len(weights)
+    assert weights_distribution_len_check, "weights and distributions are not the same length"
+
+    mean_list = [distribution[0] for distribution in distributions]
+    mean_average_distribution = 0.0
+    variance_average_distribution = 0.0
+    for i in range(len(mean_list)):
+        mean_average_distribution += weights[i] * mean_list[i]
+        variance_average_distribution += weights[i] ** 2.0 * variance_list[i]
+    mean_average_distribution = mean_average_distribution / sum(weights)
+    variance_average_distribution = variance_average_distribution / (sum(weights) ** 2)
+    return (mean_average_distribution, variance_average_distribution)
+
 def average_gaussian_distributions(distributions):
     distributions_type_check = isinstance(distributions, Iterable)
     assert distributions_type_check, "distributions is not iterable: %r" % distributions
