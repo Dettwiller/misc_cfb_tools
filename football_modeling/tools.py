@@ -1,10 +1,12 @@
-from os.path import isfile, exists, join, splitext
-from os import listdir
-import requests
 from collections.abc import Iterable
 from csv import reader, writer
-from scipy.stats import norm
+from os import listdir
+from os.path import exists, isfile, join, splitext
+
 import numpy as np
+import requests
+from scipy.stats import norm
+
 
 def directory_check(directory):
     directory_file_check = isfile(directory)

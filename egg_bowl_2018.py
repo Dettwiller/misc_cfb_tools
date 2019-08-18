@@ -1,9 +1,10 @@
 import os
+
+import numpy as np
+from scipy.stats import norm
+
 from football_modeling import ppd_model as ppdm
 from football_modeling import team
-from scipy.stats import norm
-import numpy as np
-
 
 data_dir = os.path.join(os.getcwd(), "data")
 away_team_name = "Mississippi State"
@@ -36,4 +37,3 @@ print("Probability of actual total (38pts) = %.4f" % prob_actual_total)
 print("Probability of actual spread (32pts) = %.4f" % prob_actual_spread)
 
 # game.analyze(line = 32, over_under=38)
-

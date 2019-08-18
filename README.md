@@ -1,4 +1,5 @@
 # cfb_tools
+OUTDATED
 Collection of visualization and analysis tools for college football data
 
 Contents:

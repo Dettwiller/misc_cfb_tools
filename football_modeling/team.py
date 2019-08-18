@@ -1,7 +1,10 @@
-from os import getcwd
-from football_modeling import tools, fetch_data
 from datetime import datetime
+from os import getcwd
+
 import pandas as pd
+
+from football_modeling import fetch_data, tools
+
 
 def team(name, data_dir=getcwd()):
     team_ = Team(name, data_dir=data_dir)

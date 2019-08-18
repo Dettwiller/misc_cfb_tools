@@ -1,10 +1,13 @@
-import requests
-from os import getcwd
-from os.path import join, isfile
-from football_modeling import tools
-import pandas as pd
-from datetime import datetime
 from collections.abc import Iterable
+from datetime import datetime
+from os import getcwd
+from os.path import isfile, join
+
+import pandas as pd
+import requests
+
+from football_modeling import tools
+
 
 def data_downloader(website_api="https://api.collegefootballdata.com", data_dir=getcwd()):
     downloader = DataDownloader(website_api=website_api, data_dir=data_dir)

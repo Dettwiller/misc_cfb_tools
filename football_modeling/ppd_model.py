@@ -1,9 +1,12 @@
-from football_modeling.model import Model
-import numpy as np
 from collections.abc import Iterable
-from football_modeling.team import Team
 from datetime import datetime
+
+import numpy as np
+
 from football_modeling import tools
+from football_modeling.model import Model
+from football_modeling.team import Team
+
 
 def ppd_model(weights, ranges, home_field_advantage=0.0):
     model = PPDModel(weights, ranges, home_field_advantage=home_field_advantage)
