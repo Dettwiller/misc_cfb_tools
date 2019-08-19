@@ -1,3 +1,4 @@
+import multiprocessing
 from collections.abc import Iterable
 from datetime import datetime
 from os import getcwd
@@ -7,6 +8,22 @@ import pandas as pd
 import requests
 
 from football_modeling import tools
+
+def _parallel_download_function(downloader_obj, team_name, data_type, timeline, print_progress):
+    csv_filename = team_name + "_" + data_type + "_data_" + str(timeline[0]) + "-" + str(timeline[1]) + ".csv"
+    tools.csv_subdata_search(csv_filename, downloader_obj.data_dir)
+    csv_file = join(downloader_obj.data_dir, csv_filename)
+    if isfile(csv_file):
+        if print_progress:
+            status = 'creating ' + team_name + ' ' + data_type + ' '
+            status += str(timeline[0]) + "-" + str(timeline[1]) + ' data from existing .csv'
+            print(status)
+    else:
+        if print_progress:
+            status = 'downloading ' + team_name + ' ' + data_type + ' '
+            status += str(timeline[0]) + "-" + str(timeline[1]) + ' data'
+            print(status)
+        _ = downloader_obj._download_data(csv_filename, data_type, 'teams', [team_name], timeline, print_progress)
 
 
 def data_downloader(website_api="https://api.collegefootballdata.com", data_dir=getcwd()):
@@ -21,16 +38,11 @@ class DataDownloader():
         self.website_api = website_api
         self.data_dir = data_dir
         self.problem_teams = {"Texas A&M": "Texas%20A%26M", "San José State": "San%20Jos%C3%A9%20State"}
+        self.acceptable_data_types = ['games', 'drives']
 
-    def __print_download_progress(self, years, i_year, entities, i_entity):
-        n_entities = len(entities)
-        if i_entity >= n_entities:
-            i_entity = 0
-            i_year += 1
-        status = str(years[i_year]) + " " + entities[i_entity]
-        print(status)
-        i_entity += 1
-        return i_year, i_entity
+    def change_download_directory(self, data_dir):
+        tools.directory_check(data_dir)
+        self.data_dir = data_dir
 
     def __define_queries(self, data_type, entity_type, entities, timeline):
         base_query = self.website_api + "/" + data_type + "?"
@@ -50,28 +62,33 @@ class DataDownloader():
         query_df = pd.DataFrame(query_json)
         if data_type == 'drives':
             query_df['season'] = str(year)
-        if target_df:
-            if not query_df.empty:
-                target_df = target_df.append(query_df, ignore_index=True)
+        if not query_df.empty:
+            target_df = target_df.append(query_df, ignore_index=True)
             final_df = target_df
         else:
             final_df = query_df
         return final_df
 
     def __download_queries(self, queries, data_type, entity_type, entities, timeline, print_progress):
-        years = range(timeline[0], timeline[1])
+        years = range(timeline[0], timeline[1] + 1)
         i_year = 0
         i_entity = 0
         if print_progress:
-            i_year, i_entity = self.__print_download_progress(years, i_year, entities, i_entity)
-        data_df = self.__download_query(queries[0], data_type, years[0], False)
+            print(str(years[i_year]) + " " + entities[i_entity])
+        data_df = self.__download_query(queries[0], data_type, years[i_year], pd.DataFrame())
+        n_entities = len(entities)
         for query in queries[1:]:
-            data_df = self.__download_query(query, data_type, years[i_year], data_df)
+            if i_entity >= n_entities - 1:
+                i_entity = 0
+                i_year += 1
+            else:
+                i_entity += 1
             if print_progress:
-                i_year, i_entity = self.__print_download_progress(years, i_year, entities, i_entity)
+                print(str(years[i_year]) + " " + entities[i_entity])
+            data_df = self.__download_query(query, data_type, years[i_year], data_df)
         return data_df
 
-    def __download_data(self, csv_filename, data_type, entity_type, entities, timeline, print_progress):
+    def _download_data(self, csv_filename, data_type, entity_type, entities, timeline, print_progress):
         queries = self.__define_queries(data_type, entity_type, entities, timeline)
         assert queries, "queries is empty %r" % str(queries)
 
@@ -90,9 +107,8 @@ class DataDownloader():
         assert conference_type_check, "conference names in conferences are not all strings: %r" % conferences
         data_types_type_check = isinstance(data_type, str)
         assert data_types_type_check, "data_type is not string: %r" % type(data_type)
-        acceptable_data_types = ['games', 'drives']
-        data_types_value_check = data_type in acceptable_data_types
-        assert data_types_value_check, "data_type (" + data_type + ") must be one of: %r" % acceptable_data_types
+        data_types_value_check = data_type in self.acceptable_data_types
+        assert data_types_value_check, "data_type (" + data_type + ") must be one of: %r" % self.acceptable_data_types
         tools.timeline_check(timeline)
         print_progress_type_check = isinstance(print_progress, bool)
         assert print_progress_type_check, "print_progress is not bool: %r" % type(print_progress)
@@ -117,9 +133,57 @@ class DataDownloader():
             tools.csv_subdata_search(csv_filename, self.data_dir)
             csv_file = join(self.data_dir, csv_filename)
             if isfile(csv_file):
+                if print_progress:
+                    print('returning data from .csv')
                 with open(csv_file, 'r', encoding='utf-8') as csvf:
                     entity_df = pd.read_csv(csvf)
             else:
-                entity_df = self.__download_data(csv_filename, data_type, entity_type, entities, timeline, print_progress)
+                if print_progress:
+                    print('downloading data')
+                entity_df = self._download_data(csv_filename, data_type, entity_type, entities, timeline, print_progress)
             requested_data_frames[entity] = entity_df.copy(deep=True)
         return requested_data_frames
+
+    def __parallel_download_function(self, team_name, data_type, timeline, print_progress):
+        csv_filename = team_name + "_" + data_type + "_data_" + str(timeline[0]) + "-" + str(timeline[1]) + ".csv"
+        tools.csv_subdata_search(csv_filename, self.data_dir)
+        csv_file = join(self.data_dir, csv_filename)
+        if isfile(csv_file):
+            if print_progress:
+                status = 'creating ' + team_name + ' ' + data_type + ' '
+                status += str(timeline[0]) + "-" + str(timeline[1]) + ' data from existing .csv'
+                print(status)
+        else:
+            if print_progress:
+                status = 'downloading ' + team_name + ' ' + data_type + ' '
+                status += str(timeline[0]) + "-" + str(timeline[1]) + ' data'
+                print(status)
+            _ = self._download_data(csv_filename, data_type, 'teams', [team_name], timeline, print_progress)
+
+    def get_all_fbs_teams(self):
+        all_teams_query = self.website_api + "/teams"
+        teams_df = self.__download_query(all_teams_query, '', None, pd.DataFrame())
+        fbs_teams_df = teams_df[teams_df['conference'].notnull()]
+        return fbs_teams_df
+
+    def parallel_download_all_team_data(self, data_type='drives', timeline=[2000, datetime.now().year-1], print_progress=False):
+            data_types_type_check = isinstance(data_type, str)
+            assert data_types_type_check, "data_type is not string: %r" % type(data_type)
+            data_types_value_check = data_type in self.acceptable_data_types
+            assert data_types_value_check, "data_type (" + data_type + ") must be one of: %r" % self.acceptable_data_types
+            tools.timeline_check(timeline)
+            print_progress_type_check = isinstance(print_progress, bool)
+            assert print_progress_type_check, "print_progress is not bool: %r" % type(print_progress)
+
+            # all_teams_query = self.website_api + "/teams"
+            # teams_df = self.__download_query(all_teams_query, data_type, None, pd.DataFrame())
+            fbs_teams_df = self.get_all_fbs_teams()
+
+            parallel_jobs = []
+            for row in fbs_teams_df.itertuples(index=False):
+                parallel_jobs += [(self, row.school, data_type, timeline, print_progress)]
+
+            with multiprocessing.Pool(processes=multiprocessing.cpu_count()) as pool:
+                pool.starmap(_parallel_download_function, parallel_jobs)
+
+

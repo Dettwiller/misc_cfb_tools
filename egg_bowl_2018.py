@@ -1,4 +1,5 @@
-import os
+from os.path import join
+from os import getcwd
 
 import numpy as np
 from scipy.stats import norm
@@ -6,12 +7,15 @@ from scipy.stats import norm
 from football_modeling import ppd_model as ppdm
 from football_modeling import team
 
-data_dir = os.path.join(os.getcwd(), "data")
+data_dir = join(getcwd(), "validation_data")
+drives_dir = join(getcwd(), "drives_data")
+games_dir = join(getcwd(), "games_data")
+
 away_team_name = "Mississippi State"
 home_team_name = "Ole Miss"
 
-away_team = team.team(away_team_name, data_dir=data_dir)
-home_team = team.team(home_team_name, data_dir=data_dir)
+away_team = team.team(away_team_name, data_dir=data_dir, games_dir=games_dir, drives_dir=drives_dir)
+home_team = team.team(home_team_name, data_dir=data_dir, games_dir=games_dir, drives_dir=drives_dir)
 
 weights = [0.025, 0.125, 0.85]
 ranges = [5, 1, 3]
@@ -19,7 +23,7 @@ hfa = 0.0
 timeline = [2013, 2018]
 
 ppd_model = ppdm.ppd_model(weights, ranges, home_field_advantage=hfa)
-total_dist, spread_dist = ppd_model.predict(home_team, away_team, timeline=timeline, predicted_game_id=401012349, print_progress=True) # TODO: do more with print_progress
+total_dist, spread_dist = ppd_model.predict(home_team, away_team, timeline=timeline, predicted_game_id=401012349, print_progress=True) 
 
 prob_away_win = norm.cdf(0.0, spread_dist[0], np.sqrt(spread_dist[1]))
 prob_home_win = 1.0 - prob_away_win

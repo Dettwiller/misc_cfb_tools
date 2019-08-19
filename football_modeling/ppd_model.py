@@ -48,11 +48,11 @@ class PPDModel(Model):
         return current_season
 
     def __drive_scoring(self, drive, team_name, turnover):
-        non_scoring_results = ["PUNT", "DOWNS", "MISSED FG", "END OF HALF", "END OF GAME", "END OF 4TH QUARTER"]
-        offensive_touchdown_results = ["PASSING TD", "RUSHING TD", "TD"]
+        non_scoring_results = ["PUNT", "DOWNS", "TURNOVER ON DOWNS", "MISSED FG", "FG MISSED", "END OF HALF", "END OF GAME", "END OF 4TH QUARTER"]
+        offensive_touchdown_results = ["PASSING TD", "RUSHING TD", "TD", "END OF HALF TD"]
         field_goal_results = ["FG GOOD", "FG"]
         no_score_turnover_results = ["INT", "FUMBLE"]
-        defensive_touchdown_results = ["INT TD", "FUMBLE RETURN TD", "FUMBLE TD", "PUNT TD"] # PUNT TD most often blocked punt for defensive TD
+        defensive_touchdown_results = ["INT TD", "FUMBLE RETURN TD", "INT RETURN TOUCH", "FUMBLE TD", "PUNT TD"] # PUNT TD most often blocked punt for defensive TD
         special_teams_results = ["PUNT RETURN TD", "KICKOFF", "Uncategorized"] # Uncategorized appears to be kickoffs
         drive_result = getattr(drive, "drive_result")
 
@@ -133,7 +133,7 @@ class PPDModel(Model):
         offense_ppd = [hist_ppd['offense'], recent_ppd['offense'], current_ppd['offense']]
         defense_ppd = [hist_ppd['defense'], recent_ppd['defense'], current_ppd['defense']]
         dpg = [hist_ppd['dpg'], recent_ppd['dpg'], current_ppd['dpg']]
-
+    
         average_offense_ppd = tools.weighted_average_gaussian_distributions(offense_ppd, self.weights)
         average_defense_ppd = tools.weighted_average_gaussian_distributions(defense_ppd, self.weights)
         average_dpg = tools.weighted_average_gaussian_distributions(dpg, self.weights)
@@ -173,8 +173,8 @@ class PPDModel(Model):
         print_progress_type_check = isinstance(print_progress, bool)
         assert print_progress_type_check, "print_progress is not bool: %r" % type(print_progress)
 
-        home_team_drive_data = home_team.get_drive_data(timeline=timeline, print_progress=print_progress)
-        away_team_drive_data = away_team.get_drive_data(timeline=timeline, print_progress=print_progress)
+        home_team_drive_data = home_team.get_data(timeline, data_type='drives', print_progress=print_progress)
+        away_team_drive_data = away_team.get_data(timeline, data_type='drives', print_progress=print_progress)
 
         home_team_drive_dists = self.__ppd_dists(home_team_drive_data, home_team.name, timeline, predicted_game_id)
         away_team_drive_dists = self.__ppd_dists(away_team_drive_data, away_team.name, timeline, predicted_game_id) 
