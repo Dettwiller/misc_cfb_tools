@@ -20,6 +20,7 @@ hfa = 0.0
 ppd_model = ppdm.ppd_model(weights, ranges, home_field_advantage=hfa)
 total_dist, spread_dist = ppd_model.predict(home_team, away_team, predicted_game_id=401012349, print_progress=True) # TODO: do more with print_progress
 
+# ! NOTE: This file has likely fallen out of date, see egg_bowl_2018.py
 prob_away_win = norm.cdf(0.0, spread_dist[0], np.sqrt(spread_dist[1]))
 prob_home_win = 1.0 - prob_away_win
 mean_home_score = (total_dist[0] + spread_dist[0]) / 2

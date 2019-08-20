@@ -3,13 +3,15 @@ from collections.abc import Iterable
 from datetime import datetime
 from os import getcwd
 from os.path import isfile, join
+from warnings import warn
 
 import pandas as pd
 import requests
 
 from football_modeling import tools
 
-def _parallel_download_function(downloader_obj, team_name, data_type, timeline, print_progress):
+def _parallel_download_function(team_name, data_dir, data_type, timeline, print_progress):
+    downloader_obj = data_downloader(data_dir=data_dir)
     csv_filename = team_name + "_" + data_type + "_data_" + str(timeline[0]) + "-" + str(timeline[1]) + ".csv"
     tools.csv_subdata_search(csv_filename, downloader_obj.data_dir)
     csv_file = join(downloader_obj.data_dir, csv_filename)
@@ -24,6 +26,28 @@ def _parallel_download_function(downloader_obj, team_name, data_type, timeline, 
             status += str(timeline[0]) + "-" + str(timeline[1]) + ' data'
             print(status)
         _ = downloader_obj._download_data(csv_filename, data_type, 'teams', [team_name], timeline, print_progress)
+
+def parallel_download_all_team_data(data_dir=getcwd(), data_type='drives', timeline=[2000, datetime.now().year-1], print_progress=False):
+            tools.directory_check(data_dir)
+            dummy_downloader = data_downloader()
+            data_types_type_check = isinstance(data_type, str)
+            assert data_types_type_check, "data_type is not string: %r" % type(data_type)
+            data_types_value_check = data_type in dummy_downloader.acceptable_data_types
+            assert data_types_value_check, "data_type (" + data_type + ") must be one of: %r" % dummy_downloader.acceptable_data_types
+            tools.timeline_check(timeline)
+            print_progress_type_check = isinstance(print_progress, bool)
+            assert print_progress_type_check, "print_progress is not bool: %r" % type(print_progress)
+
+            # all_teams_query = self.website_api + "/teams"
+            # teams_df = self.__download_query(all_teams_query, data_type, None, pd.DataFrame())
+            fbs_teams_df = dummy_downloader.get_all_fbs_teams()
+
+            parallel_jobs = []
+            for row in fbs_teams_df.itertuples(index=False):
+                parallel_jobs += [(row.school, data_dir, data_type, timeline, print_progress)]
+
+            with multiprocessing.Pool(processes=multiprocessing.cpu_count()) as pool:
+                pool.starmap(_parallel_download_function, parallel_jobs)
 
 
 def data_downloader(website_api="https://api.collegefootballdata.com", data_dir=getcwd()):
@@ -115,7 +139,7 @@ class DataDownloader():
         validity_check = conferences or teams
         assert validity_check, "teams and conferences are both False (empty)"
         if conferences and teams:
-            raise Warning("teams query(ies) will be masked by conference query(ies)")
+            warn("teams query(ies) will be masked by conference query(ies)")
 
     def get_data(self, teams=[], conferences=[], data_type='games', timeline=[1800, datetime.now().year-1], print_progress=False):
         self.__get_data_input_checking(teams, conferences, data_type, timeline, print_progress)
@@ -165,25 +189,3 @@ class DataDownloader():
         teams_df = self.__download_query(all_teams_query, '', None, pd.DataFrame())
         fbs_teams_df = teams_df[teams_df['conference'].notnull()]
         return fbs_teams_df
-
-    def parallel_download_all_team_data(self, data_type='drives', timeline=[2000, datetime.now().year-1], print_progress=False):
-            data_types_type_check = isinstance(data_type, str)
-            assert data_types_type_check, "data_type is not string: %r" % type(data_type)
-            data_types_value_check = data_type in self.acceptable_data_types
-            assert data_types_value_check, "data_type (" + data_type + ") must be one of: %r" % self.acceptable_data_types
-            tools.timeline_check(timeline)
-            print_progress_type_check = isinstance(print_progress, bool)
-            assert print_progress_type_check, "print_progress is not bool: %r" % type(print_progress)
-
-            # all_teams_query = self.website_api + "/teams"
-            # teams_df = self.__download_query(all_teams_query, data_type, None, pd.DataFrame())
-            fbs_teams_df = self.get_all_fbs_teams()
-
-            parallel_jobs = []
-            for row in fbs_teams_df.itertuples(index=False):
-                parallel_jobs += [(self, row.school, data_type, timeline, print_progress)]
-
-            with multiprocessing.Pool(processes=multiprocessing.cpu_count()) as pool:
-                pool.starmap(_parallel_download_function, parallel_jobs)
-
-

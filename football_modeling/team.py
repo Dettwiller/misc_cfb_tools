@@ -26,8 +26,8 @@ class Team:
         self.games_dir = games_dir
         self.drives_dir = drives_dir
         self.data_downloader = fetch_data.data_downloader(data_dir=self.data_dir)
-        self.drive_data = False
-        self.game_data = False
+        self.drive_data = pd.DataFrame()
+        self.game_data = pd.DataFrame()
 
     def __process_game_data(self, raw_game_data):
         away_games = raw_game_data.index[raw_game_data['away_team'] == self.name]
@@ -57,8 +57,8 @@ class Team:
             else:
                 result += [0]
             seasons += [row.season]
-        game_data = pd.DataFrame(data={'season': seasons, 'points_scored': points_scored, 
-                                        'points_allowed': points_allowed, 
+        game_data = pd.DataFrame(data={'season': seasons, 'points_scored': points_scored,
+                                        'points_allowed': points_allowed,
                                         'point_diff': point_diff, 'result': result})
         return game_data
 
@@ -71,21 +71,21 @@ class Team:
         print_progress_type_check = isinstance(print_progress, bool)
         assert print_progress_type_check, "print_progress is not bool: %r" % type(print_progress)
 
-        if data_type == 'games' and self.game_data:
+        if data_type == 'games' and not self.game_data.empty:
             self.data_downloader.change_download_directory(self.games_dir)
             if print_progress: print("returning existing game_data")
             return_data =  self.game_data
-        elif data_type == 'games' and not self.game_data:
+        elif data_type == 'games' and self.game_data.empty:
             if print_progress: print("downloading game_data")
             self.data_downloader.change_download_directory(self.games_dir)
             raw_game_data = self.data_downloader.get_data(teams=[self.name], data_type='games', timeline=timeline, print_progress=print_progress)
             self.game_data = self.__process_game_data(raw_game_data[self.name])
             return_data =  self.game_data
-        elif data_type == 'drives' and self.drive_data:
+        elif data_type == 'drives' and not self.drive_data.empty:
             self.data_downloader.change_download_directory(self.drives_dir)
             if print_progress: print("returning existing drive_data")
             return_data = self.drive_data
-        elif data_type == 'drives' and not self.drive_data:
+        elif data_type == 'drives' and self.drive_data.empty:
             self.data_downloader.change_download_directory(self.drives_dir)
             requested_data = self.data_downloader.get_data(teams=[self.name], data_type='drives', timeline=timeline, print_progress=print_progress)
             self.drive_data = requested_data[self.name]

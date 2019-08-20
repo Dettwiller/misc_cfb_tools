@@ -139,7 +139,7 @@ def average_gaussian_distributions(distributions):
     variance_average_distribution = sum(variance_list) / (n_distributions ** 2)
     return (mean_average_distribution, variance_average_distribution)
 
-def multiply_gaussians(d_a, d_b, n_samples=1.0e5):
+def multiply_gaussians(d_a, d_b, n_samples=int(1e5)):
     d_a_type_check = isinstance(d_a, Iterable)
     assert d_a_type_check, "first distribution is not iterable: %r" % d_a
     d_a_len_check = len(d_a) == 2
