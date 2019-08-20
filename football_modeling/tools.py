@@ -178,6 +178,12 @@ def new_fbs_schools_check(game_tuple):
     app_state_season_check = int(game_tuple.season) < 2015
     coastal_carolina_name_check = "Coastal Carolina" in game_teams
     coastal_carolina_season_check = int(game_tuple.season) < 2018
+    uab_name_check = "UAB" in game_teams
+    uab_season_check = int(game_tuple.season) < 2018
+    liberty_name_check = "Liberty" in game_teams
+    liberty_season_check = int(game_tuple.season) < 2018
+    umass_name_check = "UMass" in game_teams
+    umass_season_check = int(game_tuple.season) < 2013
 
     valid_game = True
     if georgia_state_name_check and georgia_state_season_check:
@@ -187,5 +193,11 @@ def new_fbs_schools_check(game_tuple):
     elif app_state_name_check and app_state_season_check:
         valid_game = False
     elif coastal_carolina_name_check and coastal_carolina_season_check:
+        valid_game = False
+    elif uab_name_check and uab_season_check:
+        valid_game = False
+    elif liberty_name_check and liberty_season_check:
+        valid_game = False
+    elif umass_name_check and umass_season_check:
         valid_game = False
     return valid_game

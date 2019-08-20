@@ -140,9 +140,9 @@ class Evaluator:
         else:
             prob_spread = (1.0 - norm.cdf(true_spread, spread_dist[0], np.sqrt(spread_dist[1]))) * 2.0
 
-        self.running_spread_prob = self.running_spread_prob * self.running_pred_num + prob_spread / (self.running_pred_num + 1.0)
-        self.running_total_prob = self.running_total_prob * self.running_pred_num + prob_total / (self.running_pred_num + 1.0)
-        self.running_win_prob = self.running_win_prob * self.running_pred_num + prob_winner / (self.running_pred_num + 1.0)
+        self.running_spread_prob = (self.running_spread_prob * self.running_pred_num + prob_spread) / (self.running_pred_num + 1.0)
+        self.running_total_prob = (self.running_total_prob * self.running_pred_num + prob_total) / (self.running_pred_num + 1.0)
+        self.running_win_prob = (self.running_win_prob * self.running_pred_num + prob_winner) / (self.running_pred_num + 1.0)
         self.running_pred_num += 1.0
 
         eval_list = [

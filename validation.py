@@ -10,7 +10,7 @@ if __name__ == '__main__':
     games_dir = join(getcwd(), "games_data")
     model_timeline = [2008, 2018]
     data_timeline = [2005, 2018]
-    weights = [0.025, 0.125, 0.85]
+    weights = [0.01, 0.14, 0.85]
     ranges = [3, 1, 3]
     hfa = 0.0
 
