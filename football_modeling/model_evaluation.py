@@ -38,6 +38,11 @@ class Evaluator:
 
         self.model_data_type = ""
 
+        self.running_win_prob = 0.0
+        self.running_spread_prob = 0.0
+        self.running_total_prob = 0.0
+        self.running_pred_num = 0
+
     def __update_timeline(self, timeline_type, new_timeline):
         if timeline_type is 'model' and new_timeline is not None:
             tools.timeline_check(new_timeline)
@@ -64,11 +69,6 @@ class Evaluator:
     def __get_full_game_list(self, team_names):
         desired_data = ["id", "away_team", "away_points", "home_team", "home_points", "neutral_site", "season"]
         Game = namedtuple('Game', 'id away_team away_points home_team home_points neutral_site season')
-        banned_teams = [
-            "Northeastern", "Indiana State", "Eastern Illinois", "Eastern Kentucky", "Hofstra", "Jacksonville State",
-            "Austin Peay", "Belmont", "Morehead State", "Murray State", "Southeast Missouri State", "Southern Illinois",
-            "Tennessee State", "UT Martin"
-        ]
         full_game_list = []
         for team_name in team_names:
             csv_filename = team_name + "_games_data_" + str(self.model_timeline[0]) + "-" + str(self.model_timeline[1]) + ".csv"
@@ -83,8 +83,10 @@ class Evaluator:
                     if game[away_conference_i] is not None and game[home_conference_i] is not None:
                         temp_game_list = [game[val] for val in desired_indices]
                         temp_game_tuple = Game(*temp_game_list)
-                        if temp_game_tuple.away_team not in banned_teams and temp_game_tuple.home_team not in banned_teams:
+                        if temp_game_tuple.away_team in team_names and temp_game_tuple.home_team in team_names:
                             full_game_list += [temp_game_tuple]
+                        # else:
+                        #     print("banned " + temp_game_tuple.season + " " + temp_game_tuple.away_team + " @ " + temp_game_tuple.home_team)
                     #     else:
                     #         print("banned " + temp_game_tuple.season + " " + temp_game_tuple.away_team + " @ " + temp_game_tuple.home_team)
                     # else:
@@ -138,6 +140,11 @@ class Evaluator:
         else:
             prob_spread = (1.0 - norm.cdf(true_spread, spread_dist[0], np.sqrt(spread_dist[1]))) * 2.0
 
+        self.running_spread_prob = self.running_spread_prob * self.running_pred_num + prob_spread / (self.running_pred_num + 1.0)
+        self.running_total_prob = self.running_total_prob * self.running_pred_num + prob_total / (self.running_pred_num + 1.0)
+        self.running_win_prob = self.running_win_prob * self.running_pred_num + prob_winner / (self.running_pred_num + 1.0)
+        self.running_pred_num += 1.0
+
         eval_list = [
             game_tuple.season, game_tuple.id, game_tuple.home_team, game_tuple.away_team,
             game_tuple.neutral_site, game_tuple.home_points, game_tuple.away_points, pred_home_points,
@@ -149,30 +156,34 @@ class Evaluator:
                 eval_list_str += [str("{0:.4f}".format(val))]
             else:
                 eval_list_str += [str(val)]
-        # eval_file_header = "season,game_id,home_team,away_team,neutral_site,home_score,away_score,"
-        # eval_file_header += "prob_winner,prob_spread,prob_total,total_error,spread_error,home_error,away_error"
+        # eval_file_header = "season,game_id,home_team,away_team,neutral_site,home_score,away_score,pred_home_score,pred_away_score"
+        # eval_file_header += "prob_winner,prob_spread,prob_total,total_error,spread_error,home_error,away_error\n"
         eval_str = ','.join(eval_list_str) + "\n"
+        output_str = "mean spread prob = " + str(self.running_spread_prob) + "\n"
+        output_str += "mean total prob = " + str(self.running_total_prob) + "\n"
+        output_str += "mean win prob = " + str(self.running_win_prob) + "\n"
         with open(self.eval_file, "a", encoding='utf-8') as ef:
             ef.write(eval_str)
         if print_progress:
             print(eval_str)
+            print(output_str)
 
-    def download_game_data(self, model_timeline=None, print_progress=False):
-        self.__update_timeline('model', model_timeline)
-        print_progress_type_check = isinstance(print_progress, bool)
-        assert print_progress_type_check, "print_progress is not bool: %r" % type(print_progress)
+    # def download_game_data(self, model_timeline=None, print_progress=False):
+    #     self.__update_timeline('model', model_timeline)
+    #     print_progress_type_check = isinstance(print_progress, bool)
+    #     assert print_progress_type_check, "print_progress is not bool: %r" % type(print_progress)
 
-        self.data_downloader.change_download_directory(self.games_dir)
-        self.data_downloader.parallel_download_all_team_data(data_type='games', timeline=model_timeline, print_progress=print_progress)
+    #     self.data_downloader.change_download_directory(self.games_dir)
+    #     self.data_downloader.parallel_download_all_team_data(data_type='games', timeline=model_timeline, print_progress=print_progress)
 
-    def download_model_data(self, data_timeline=None, data_type='drives', print_progress=False):
-        self.__update_timeline('data', data_timeline)
-        self.__check_data_type(data_type)
-        print_progress_type_check = isinstance(print_progress, bool)
-        assert print_progress_type_check, "print_progress is not bool: %r" % type(print_progress)
+    # def download_model_data(self, data_timeline=None, data_type='drives', print_progress=False):
+    #     self.__update_timeline('data', data_timeline)
+    #     self.__check_data_type(data_type)
+    #     print_progress_type_check = isinstance(print_progress, bool)
+    #     assert print_progress_type_check, "print_progress is not bool: %r" % type(print_progress)
 
-        self.data_downloader.change_download_directory(self.modeling_data_dir)
-        self.data_downloader.parallel_download_all_team_data(data_type=self.model_data_type, timeline=data_timeline, print_progress=True)
+    #     self.data_downloader.change_download_directory(self.modeling_data_dir)
+    #     self.data_downloader.parallel_download_all_team_data(data_type=self.model_data_type, timeline=data_timeline, print_progress=True)
 
     def evaluate_model(self, eval_model, model_timeline=None, data_timeline=None, data_type='drives', print_progress=False):
         self.__update_timeline('model', model_timeline)
@@ -202,14 +213,15 @@ class Evaluator:
         # ("id", "away_team", "away_points", "home_team", "home_points", "neutral_site", "season")
         full_game_list = self.__get_full_game_list(fbs_teams_list)
 
-        eval_file_header = "season,game_id,home_team,away_team,neutral_site,home_score,away_score,pred_home_score,pred_away_score"
+        eval_file_header = "season,game_id,home_team,away_team,neutral_site,home_score,away_score,pred_home_score,pred_away_score,"
         eval_file_header += "prob_winner,prob_spread,prob_total,total_error,spread_error,home_error,away_error\n"
         with open(self.eval_file, "w+", encoding='utf-8') as ef:
             ef.write(eval_file_header)
 
         # TODO create a function to take a tuple from full_game_list and the teams (from team_dict)
         for game in full_game_list:
-            self.__predict_game(game, teams_dict[game.home_team], teams_dict[game.away_team], eval_model, print_progress)
+            if tools.new_fbs_schools_check(game):
+                self.__predict_game(game, teams_dict[game.home_team], teams_dict[game.away_team], eval_model, print_progress)
         # TODO and predict each game, then analyze the prediction
         # TODO parallelize that analysis
 

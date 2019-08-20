@@ -15,9 +15,13 @@ if __name__ == '__main__':
     hfa = 0.0
 
     # data_downloader = fetch_data.data_downloader(data_dir=drives_dir)
-    fetch_data.parallel_download_all_team_data(data_dir=drives_dir, data_type='drives', timeline=data_timeline, print_progress=True)
+    # fbs_teams = data_downloader.get_all_fbs_teams()
+    # fbs_teams_list = fbs_teams['school'].tolist()
+    # data_downloader.get_data(teams=fbs_teams_list, data_type='drives', timeline=data_timeline, print_progress=True)
+    # * fetch_data.parallel_download_all_team_data(data_dir=drives_dir, data_type='drives', timeline=data_timeline, print_progress=False)
     # data_downloader.change_download_directory(games_dir)
-    fetch_data.parallel_download_all_team_data(data_dir=games_dir, data_type='games', timeline=model_timeline, print_progress=True)
+    # data_downloader.get_data(teams=fbs_teams_list, data_type='games', timeline=model_timeline, print_progress=True)
+    # * fetch_data.parallel_download_all_team_data(data_dir=games_dir, data_type='games', timeline=model_timeline, print_progress=True)
 
     model_evaluator = model_evaluation.evaluator(model_timeline, data_timeline, data_dir=data_dir, games_dir=games_dir, modeling_data_dir=drives_dir)
     # model_evaluator.download_game_data(model_timeline, print_progress=True)

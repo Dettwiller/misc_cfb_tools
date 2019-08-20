@@ -104,7 +104,7 @@ def weighted_average_gaussian_distributions(distributions, weights):
     distribution_len_check = all([len(distribution) == 2 for distribution in distributions])
     assert distribution_len_check, "all distributions in distributions are not len = 2 (mean, var): %r" % distributions
     variance_list = [distribution[1] for distribution in distributions]
-    variance_check = all([variance > 0 for variance in variance_list])
+    variance_check = all([variance >= 0 for variance in variance_list]) # probably should be > 0.0
     assert variance_check, "all variances are not > 0: %r" % variance_list
     weights_type_check = isinstance(weights, Iterable)
     assert weights_type_check, "weights is not iterable: %r" % weights
@@ -167,3 +167,25 @@ def multiply_gaussians(d_a, d_b, n_samples=int(1e5)):
     assert var_ab > 0, "combined sample variance is not > 0: %r" % var_ab
     result = (mean_ab, var_ab)
     return result
+
+def new_fbs_schools_check(game_tuple):
+    game_teams = [game_tuple.home_team, game_tuple.away_team]
+    georgia_state_name_check = "Georgia State" in game_teams
+    georgia_state_season_check = int(game_tuple.season) < 2014
+    georgia_southern_name_check = "Georgia Southern" in game_teams
+    georgia_southern_season_check = int(game_tuple.season) < 2015
+    app_state_name_check = "Appalachian State" in game_teams
+    app_state_season_check = int(game_tuple.season) < 2015
+    coastal_carolina_name_check = "Coastal Carolina" in game_teams
+    coastal_carolina_season_check = int(game_tuple.season) < 2018
+
+    valid_game = True
+    if georgia_state_name_check and georgia_state_season_check:
+        valid_game = False
+    elif georgia_southern_name_check and georgia_southern_season_check:
+        valid_game = False
+    elif app_state_name_check and app_state_season_check:
+        valid_game = False
+    elif coastal_carolina_name_check and coastal_carolina_season_check:
+        valid_game = False
+    return valid_game

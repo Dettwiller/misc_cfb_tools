@@ -61,7 +61,7 @@ class DataDownloader():
 
         self.website_api = website_api
         self.data_dir = data_dir
-        self.problem_teams = {"Texas A&M": "Texas%20A%26M", "San José State": "San%20Jos%C3%A9%20State"}
+        self.problem_teams = {"Texas A&M": "Texas%20A%26M", "San José State": "San%20Jos%C3%A9%20State"} # encoding bullshit
         self.acceptable_data_types = ['games', 'drives']
 
     def change_download_directory(self, data_dir):
@@ -71,14 +71,21 @@ class DataDownloader():
     def __define_queries(self, data_type, entity_type, entities, timeline):
         base_query = self.website_api + "/" + data_type + "?"
         queries = []
-        for year_int in range(timeline[0], timeline[1]+1):
-            year_query = base_query
-            year_str = str(year_int)
-            year_query += "year=" + year_str
-            for entity in entities:
-                entity_query = year_query
-                entity_query += "&" + entity_type + "=" + entity
+        for entity in entities:
+            if entity in self.problem_teams.keys():
+                entity = self.problem_teams[entity]
+            for year_int in range(timeline[0], timeline[1]+1):
+                year_query = base_query + "year=" + str(year_int)
+                entity_query = year_query + "&" + entity_type + "=" + entity
                 queries += [entity_query]
+        # for year_int in range(timeline[0], timeline[1]+1):
+        #     year_query = base_query
+        #     year_str = str(year_int)
+        #     year_query += "year=" + year_str
+        #     for entity in entities:
+        #         entity_query = year_query
+        #         entity_query += "&" + entity_type + "=" + entity
+        #         queries += [entity_query]
         return queries
 
     def __download_query(self, query, data_type, year, target_df):
@@ -93,31 +100,39 @@ class DataDownloader():
             final_df = query_df
         return final_df
 
-    def __download_queries(self, queries, data_type, entity_type, entities, timeline, print_progress):
+    def __download_queries(self, queries, csv_filename, data_type, entity_type, entities, timeline, print_progress):
         years = range(timeline[0], timeline[1] + 1)
         i_year = 0
         i_entity = 0
         if print_progress:
             print(str(years[i_year]) + " " + entities[i_entity])
-        data_df = self.__download_query(queries[0], data_type, years[i_year], pd.DataFrame())
-        n_entities = len(entities)
-        for query in queries[1:]:
-            if i_entity >= n_entities - 1:
-                i_entity = 0
-                i_year += 1
-            else:
-                i_entity += 1
+        entity_df = pd.DataFrame()
+        total_df = pd.DataFrame()
+        n_years = len(years)
+        for query in queries:
             if print_progress:
                 print(str(years[i_year]) + " " + entities[i_entity])
-            data_df = self.__download_query(query, data_type, years[i_year], data_df)
-        return data_df
+            entity_df = self.__download_query(query, data_type, years[i_year], entity_df)
+            if i_year >= n_years-1:
+                i_year = 0
+                i_entity += 1
+                entity_df.to_csv(join(self.data_dir, csv_filename))
+                total_df = total_df.append(entity_df, ignore_index=True)
+                entity_df = pd.DataFrame()
+            else:
+                i_year += 1
+            # if i_entity >= n_entities - 1:
+            #     i_entity = 0
+            #     i_year += 1
+            # else:
+            #     i_entity += 1
+        return total_df
 
     def _download_data(self, csv_filename, data_type, entity_type, entities, timeline, print_progress):
         queries = self.__define_queries(data_type, entity_type, entities, timeline)
         assert queries, "queries is empty %r" % str(queries)
 
-        data_df = self.__download_queries(queries, data_type, entity_type, entities, timeline, print_progress)
-        data_df.to_csv(join(self.data_dir, csv_filename))
+        data_df = self.__download_queries(queries, csv_filename, data_type, entity_type, entities, timeline, print_progress)
         return data_df
 
     def __get_data_input_checking(self, teams, conferences, data_type, timeline, print_progress):
@@ -164,7 +179,7 @@ class DataDownloader():
             else:
                 if print_progress:
                     print('downloading data')
-                entity_df = self._download_data(csv_filename, data_type, entity_type, entities, timeline, print_progress)
+                entity_df = self._download_data(csv_filename, data_type, entity_type, [entity], timeline, print_progress)
             requested_data_frames[entity] = entity_df.copy(deep=True)
         return requested_data_frames
 

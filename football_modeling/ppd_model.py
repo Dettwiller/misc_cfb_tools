@@ -52,8 +52,8 @@ class PPDModel(Model):
         offensive_touchdown_results = ["PASSING TD", "RUSHING TD", "TD", "END OF HALF TD"]
         field_goal_results = ["FG GOOD", "FG"]
         no_score_turnover_results = ["INT", "FUMBLE"]
-        defensive_touchdown_results = ["INT TD", "FUMBLE RETURN TD", "INT RETURN TOUCH", "FUMBLE TD", "PUNT TD"] # PUNT TD most often blocked punt for defensive TD
-        special_teams_results = ["PUNT RETURN TD", "KICKOFF", "Uncategorized", "KICKOFF RETURN TD"] # Uncategorized appears to be kickoffs
+        defensive_touchdown_results = ["INT TD", "FUMBLE RETURN TD", "INT RETURN TOUCH", "FUMBLE TD", "PUNT TD", "TURNOVER ON DOWNS TD"] # PUNT TD most often blocked punt for defensive TD
+        special_teams_results = ["PUNT RETURN TD", "KICKOFF", "Uncategorized", "KICKOFF RETURN TD", "FG MISSED TD"] # Uncategorized appears to be kickoffs
         drive_result = getattr(drive, "drive_result")
 
         drive_turnover = False
@@ -142,14 +142,15 @@ class PPDModel(Model):
         return ppd_dists
 
     def __score_dists(self, home_team_drive_dists, away_team_drive_dists):
+        # full games points accounted for in both offense and defense, so divide by two
         home_ppd = (
-            home_team_drive_dists['offense'][0] - away_team_drive_dists['defense'][0],
-            home_team_drive_dists['offense'][1] + away_team_drive_dists['defense'][1]
+            (home_team_drive_dists['offense'][0] - away_team_drive_dists['defense'][0]) / 2.0,
+            (home_team_drive_dists['offense'][1] + away_team_drive_dists['defense'][1]) / 4.0 # 2.0^2
         )
 
         away_ppd = (
-            away_team_drive_dists['offense'][0] - home_team_drive_dists['defense'][0],
-            away_team_drive_dists['offense'][1] + home_team_drive_dists['defense'][1]
+            (away_team_drive_dists['offense'][0] - home_team_drive_dists['defense'][0]) / 2.0,
+            (away_team_drive_dists['offense'][1] + home_team_drive_dists['defense'][1]) / 4.0 # 2.0^2
         )
 
         dpg = tools.average_gaussian_distributions(

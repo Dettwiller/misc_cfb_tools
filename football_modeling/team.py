@@ -20,7 +20,11 @@ class Team:
         tools.directory_check(data_dir)
         tools.directory_check(games_dir)
         tools.directory_check(drives_dir)
-
+        self.problem_teams = {"Texas%20A%26M":"Texas A&M", "San%20Jos%C3%A9%20State":"San José State"} # encoding bullshit
+        # if name in problem_teams.keys():
+            # self.name = problem_teams[name]
+        # else:
+            # self.name = name
         self.name = name
         self.data_dir = data_dir
         self.games_dir = games_dir
