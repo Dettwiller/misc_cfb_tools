@@ -169,39 +169,17 @@ def multiply_gaussians(d_a, d_b, n_samples=int(1e5)):
     return result
 
 def new_fbs_schools_check(game_tuple):
-    game_teams = [game_tuple.home_team, game_tuple.away_team]
-    georgia_state_name_check = "Georgia State" in game_teams
-    georgia_state_season_check = int(game_tuple.season) < 2014
-    georgia_southern_name_check = "Georgia Southern" in game_teams
-    georgia_southern_season_check = int(game_tuple.season) < 2015
-    app_state_name_check = "Appalachian State" in game_teams
-    app_state_season_check = int(game_tuple.season) < 2015
-    coastal_carolina_name_check = "Coastal Carolina" in game_teams
-    coastal_carolina_season_check = int(game_tuple.season) < 2018
-    uab_name_check = "UAB" in game_teams
-    uab_season_check = int(game_tuple.season) < 2018
-    liberty_name_check = "Liberty" in game_teams
-    liberty_season_check = int(game_tuple.season) < 2018
-    umass_name_check = "UMass" in game_teams
-    umass_season_check = int(game_tuple.season) < 2013
-    charlotte_name_check = "Charlotte" in game_teams
-    charlotte_season_check = int(game_tuple.season) < 2017
-
+    new_teams = {
+        "Georgia State": 2014, "Georgia Southern": 2015,
+        "Appalachian State": 2015, "Coastal Carolina": 2018,
+        "UAB": 2018, "Liberty": 2018, "UMass": 2013,
+        "Charlotte": 2017, "Old Dominion": 2015
+        }
     valid_game = True
-    if georgia_state_name_check and georgia_state_season_check:
-        valid_game = False
-    elif georgia_southern_name_check and georgia_southern_season_check:
-        valid_game = False
-    elif app_state_name_check and app_state_season_check:
-        valid_game = False
-    elif coastal_carolina_name_check and coastal_carolina_season_check:
-        valid_game = False
-    elif uab_name_check and uab_season_check:
-        valid_game = False
-    elif liberty_name_check and liberty_season_check:
-        valid_game = False
-    elif umass_name_check and umass_season_check:
-        valid_game = False
-    elif charlotte_name_check and charlotte_season_check:
-        valid_game = False
+    if game_tuple.home_team in new_teams.keys():
+        if int(game_tuple.season) < new_teams[game_tuple.home_team]:
+            valid_game = False
+    elif game_tuple.away_team in new_teams.keys():
+        if int(game_tuple.season) < new_teams[game_tuple.away_team]:
+            valid_game = False
     return valid_game
