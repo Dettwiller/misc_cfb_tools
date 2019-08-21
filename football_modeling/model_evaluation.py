@@ -6,6 +6,7 @@ from os.path import join
 from warnings import warn
 
 import numpy as np
+from matplotlib import pyplot as plt
 from scipy.stats import norm
 
 from football_modeling import fetch_data, model, team, tools
@@ -35,10 +36,11 @@ class Evaluator:
         self.modeling_data_dir = modeling_data_dir
         self.data_downloader = fetch_data.data_downloader(data_dir=data_dir)
         self.eval_file = join(self.data_dir, "eval.csv")
+        self.results_file = join(self.data_dir, "results.csv")
 
         self.model_data_type = ""
 
-        self.running_win_prob = 0.0
+        self.running_wins = 0.0
         self.running_spread_prob = 0.0
         self.running_total_prob = 0.0
         self.running_pred_num = 0
@@ -142,8 +144,10 @@ class Evaluator:
 
         self.running_spread_prob = (self.running_spread_prob * self.running_pred_num + prob_spread) / (self.running_pred_num + 1.0)
         self.running_total_prob = (self.running_total_prob * self.running_pred_num + prob_total) / (self.running_pred_num + 1.0)
-        self.running_win_prob = (self.running_win_prob * self.running_pred_num + prob_winner) / (self.running_pred_num + 1.0)
         self.running_pred_num += 1.0
+        if prob_winner > 0.5:
+            self.running_wins += 1
+        running_win_perc = float(self.running_wins / float(self.running_pred_num))
 
         eval_list = [
             game_tuple.season, game_tuple.id, game_tuple.home_team, game_tuple.away_team,
@@ -161,9 +165,9 @@ class Evaluator:
         eval_str = ','.join(eval_list_str) + "\n"
         output_str = "mean spread prob = " + str(self.running_spread_prob) + "\n"
         output_str += "mean total prob = " + str(self.running_total_prob) + "\n"
-        output_str += "mean win prob = " + str(self.running_win_prob) + "\n"
-        with open(self.eval_file, "a", encoding='utf-8') as ef:
-            ef.write(eval_str)
+        output_str += "running win per = " + str(running_win_perc) + "\n"
+        with open(self.results_file, "a", encoding='utf-8') as rf:
+            rf.write(eval_str)
         if print_progress:
             print(eval_str)
             print(output_str)
@@ -185,6 +189,108 @@ class Evaluator:
     #     self.data_downloader.change_download_directory(self.modeling_data_dir)
     #     self.data_downloader.parallel_download_all_team_data(data_type=self.model_data_type, timeline=data_timeline, print_progress=True)
 
+    def __visualize_results(self, np_spread_errors, np_total_errors, np_prob_spread, np_prob_total, np_win_win_probs, np_loss_win_probs):
+        plt.hist(np_spread_errors)
+        plt.title("Spread Errors")
+        plt.savefig(join(self.data_dir, "spread_errors"))
+        plt.clf()
+        
+        plt.hist(np_total_errors)
+        plt.title("Total Errors")
+        plt.savefig(join(self.data_dir, "total_errors"))
+        plt.clf()
+
+        plt.hist(np_prob_spread)
+        plt.title("Spread Probabilities")
+        plt.savefig(join(self.data_dir, "prob_spread"))
+        plt.clf()
+
+        plt.hist(np_prob_total)
+        plt.title("Total Probabilities")
+        plt.savefig(join(self.data_dir, "prob_total"))
+        plt.clf()
+
+        plt.hist(np_win_win_probs)
+        plt.title("Win Probabilities of Wins")
+        plt.savefig(join(self.data_dir, "win_win_prob"))
+        plt.clf()
+
+        plt.hist(np_loss_win_probs)
+        plt.title("Win Probabilities of Losses")
+        plt.savefig(join(self.data_dir, "loss_win_prob"))
+        plt.clf()
+
+        plt.hist(np_win_win_probs)
+        plt.hist(np_loss_win_probs)
+        plt.title("Win Probabilities of Wins and Losses")
+        plt.savefig(join(self.data_dir, "win_probs_overlay"))
+        plt.clf()
+
+    def __evaluate_csv(self):
+        spread_errors = []
+        total_errors = []
+        correct_pred_wins = 0.0
+        games = 0.0
+        win_win_probs = []
+        loss_win_probs = []
+        prob_spread = []
+        prob_total = []
+        with open(self.results_file, "r", encoding='utf-8') as rf:
+            line = rf.readline() # header
+            # season, game_id, home_team, away_team, neutral_site, home_score, away_score, pred_home_score, pred_away_score,
+            # prob_winner, prob_spread, prob_total, total_error, spread_error, home_error, away_error
+            line = rf.readline() # content
+            while line:
+                list_line = line.strip().split(',')
+
+                spread_errors += [float(list_line[13])]
+                total_errors += [float(list_line[12])]
+                prob_spread += [float(list_line[10])]
+                prob_total += [float(list_line[11])]
+                if float(list_line[9]) > 0.5:
+                    win_win_probs += [float(list_line[9])]
+                    correct_pred_wins += 1.0
+                else:
+                    loss_win_probs += [1.0 - float(list_line[9])]
+                line = rf.readline() # content
+                games += 1.0
+        np_spread_errors = np.array(spread_errors)
+        np_total_errors = np.array(total_errors)
+        np_prob_spread = np.array(prob_spread)
+        np_prob_total = np.array(prob_total)
+        np_win_win_probs = np.array(win_win_probs)
+        np_loss_win_probs = np.array(loss_win_probs)
+
+        rmse_spread = np.sqrt(np.mean(np_spread_errors ** 2.0))
+        rmse_total = np.sqrt(np.mean(np_total_errors ** 2.0))
+        win_perc = float(correct_pred_wins / games )
+        spread_prob_mean = np.mean(np_prob_spread)
+        spread_prob_sigma = np.std(np_prob_spread)
+        total_prob_mean = np.mean(np_prob_total)
+        total_prob_sigma = np.std(np_prob_total)
+        win_win_prob_mean = np.mean(np_win_win_probs)
+        win_win_prob_sigma = np.std(np_win_win_probs)
+        loss_win_prob_mean = np.mean(np_loss_win_probs)
+        loss_win_prob_sigma = np.std(np_loss_win_probs)
+        self.__visualize_results(np_spread_errors, np_total_errors, np_prob_spread, np_prob_total, np_win_win_probs, np_loss_win_probs)
+
+        results = [
+            rmse_spread, rmse_total, spread_prob_mean, spread_prob_sigma,
+            total_prob_mean, total_prob_sigma, win_perc, win_win_prob_mean,
+            win_win_prob_sigma, loss_win_prob_mean, loss_win_prob_sigma
+            ]
+
+        str_results = [str("{0:.4f}".format(val)) for val in results]
+
+        results_header = "RMSE spread,RMSE total,spread prob mean,spread prob sigma,total prob mean,total prob sigma,"
+        results_header += "win perc,correct winner win prob mean,correct winner win prob sigma,"
+        results_header += "incorrect winner win prob mean,incorrect winner win prob sigma\n"
+
+        results_line = ','.join(str_results)
+        with open(self.eval_file, "w+", encoding='utf-8') as ef:
+            ef.write(results_header)
+            ef.write(results_line)
+
     def evaluate_model(self, eval_model, model_timeline=None, data_timeline=None, data_type='drives', print_progress=False):
         self.__update_timeline('model', model_timeline)
         self.__update_timeline('data', data_timeline)
@@ -202,28 +308,25 @@ class Evaluator:
         else:
             drives_dir = getcwd()
 
-        teams_dict = {}
-        for fbs_team in fbs_teams_list:
-            teams_dict[fbs_team] = team.team(fbs_team, data_dir=self.data_dir, games_dir=self.games_dir, drives_dir=drives_dir)
-            # teams_dict[fbs_team].get_data(data_timeline, data_type='drives', print_progress=print_progress)
-            # teams_dict[fbs_team].get_data(model_timeline, data_type='games', print_progress=print_progress)
-            teams_dict[fbs_team].get_data(data_timeline, data_type='drives', print_progress=False)
-            teams_dict[fbs_team].get_data(model_timeline, data_type='games', print_progress=False)
+        # teams_dict = {}
+        # for fbs_team in fbs_teams_list:
+        #     teams_dict[fbs_team] = team.team(fbs_team, data_dir=self.data_dir, games_dir=self.games_dir, drives_dir=drives_dir)
+        #     # *teams_dict[fbs_team].get_data(data_timeline, data_type='drives', print_progress=print_progress)
+        #     # *teams_dict[fbs_team].get_data(model_timeline, data_type='games', print_progress=print_progress)
+        #     teams_dict[fbs_team].get_data(data_timeline, data_type='drives', print_progress=False)
+        #     teams_dict[fbs_team].get_data(model_timeline, data_type='games', print_progress=False)
 
         # ("id", "away_team", "away_points", "home_team", "home_points", "neutral_site", "season")
-        full_game_list = self.__get_full_game_list(fbs_teams_list)
+        # full_game_list = self.__get_full_game_list(fbs_teams_list)
 
-        eval_file_header = "season,game_id,home_team,away_team,neutral_site,home_score,away_score,pred_home_score,pred_away_score,"
-        eval_file_header += "prob_winner,prob_spread,prob_total,total_error,spread_error,home_error,away_error\n"
-        with open(self.eval_file, "w+", encoding='utf-8') as ef:
-            ef.write(eval_file_header)
+        # results_file_header = "season,game_id,home_team,away_team,neutral_site,home_score,away_score,pred_home_score,pred_away_score,"
+        # results_file_header += "prob_winner,prob_spread,prob_total,total_error,spread_error,home_error,away_error\n"
+        # with open(self.results_file, "w+", encoding='utf-8') as rf:
+        #     rf.write(results_file_header)
 
-        # TODO create a function to take a tuple from full_game_list and the teams (from team_dict)
-        for game in full_game_list:
-            if tools.new_fbs_schools_check(game):
-                self.__predict_game(game, teams_dict[game.home_team], teams_dict[game.away_team], eval_model, print_progress)
-        # TODO and predict each game, then analyze the prediction
-        # TODO parallelize that analysis
 
-        # TODO calculate useful values like RMSE
-        # TODO output results to csv
+        # for game in full_game_list:
+        #     if tools.new_fbs_schools_check(game):
+        #         self.__predict_game(game, teams_dict[game.home_team], teams_dict[game.away_team], eval_model, print_progress)
+
+        self.__evaluate_csv()

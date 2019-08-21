@@ -10,7 +10,7 @@ if __name__ == '__main__':
     games_dir = join(getcwd(), "games_data")
     model_timeline = [2008, 2018]
     data_timeline = [2005, 2018]
-    weights = [0.01, 0.14, 0.85]
+    weights = [0.01, 0.09, 0.9]
     ranges = [3, 1, 3]
     hfa = 0.0
 
@@ -30,4 +30,3 @@ if __name__ == '__main__':
     model_ppd = ppd_model.ppd_model(weights, ranges, home_field_advantage=hfa)
 
     model_evaluator.evaluate_model(model_ppd, model_timeline, data_timeline, data_type='drives', print_progress=True) # TODO finish this function
-    # TODO build model_evaluator.parallel_evaluate_model()

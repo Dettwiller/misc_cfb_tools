@@ -48,12 +48,12 @@ class PPDModel(Model):
         return current_season
 
     def __drive_scoring(self, drive, team_name, turnover):
-        non_scoring_results = ["PUNT", "DOWNS", "TURNOVER ON DOWNS", "MISSED FG", "FG MISSED", "END OF HALF", "END OF GAME", "END OF 4TH QUARTER"]
-        offensive_touchdown_results = ["PASSING TD", "RUSHING TD", "TD", "END OF HALF TD"]
+        non_scoring_results = ["PUNT", "DOWNS", "TURNOVER ON DOWNS", "MISSED FG", "FG MISSED", "END OF HALF", "END OF GAME", "END OF 4TH QUARTER", "POSSISSION (FOR OT DRIVES)"]
+        offensive_touchdown_results = ["PASSING TD", "RUSHING TD", "TD", "END OF HALF TD", "END OF GAME TD"]
         field_goal_results = ["FG GOOD", "FG"]
         no_score_turnover_results = ["INT", "FUMBLE"]
         defensive_touchdown_results = ["INT TD", "FUMBLE RETURN TD", "INT RETURN TOUCH", "FUMBLE TD", "PUNT TD", "TURNOVER ON DOWNS TD"] # PUNT TD most often blocked punt for defensive TD
-        special_teams_results = ["PUNT RETURN TD", "KICKOFF", "Uncategorized", "KICKOFF RETURN TD", "FG MISSED TD"] # Uncategorized appears to be kickoffs
+        special_teams_results = ["PUNT RETURN TD", "KICKOFF", "Uncategorized", "KICKOFF RETURN TD", "FG MISSED TD", "MISSED FG TD"] # Uncategorized appears to be kickoffs
         drive_result = getattr(drive, "drive_result")
 
         drive_turnover = False

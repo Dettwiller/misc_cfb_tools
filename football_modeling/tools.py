@@ -173,13 +173,15 @@ def new_fbs_schools_check(game_tuple):
         "Georgia State": 2014, "Georgia Southern": 2015,
         "Appalachian State": 2015, "Coastal Carolina": 2018,
         "UAB": 2018, "Liberty": 2018, "UMass": 2013,
-        "Charlotte": 2017, "Old Dominion": 2015
+        "Charlotte": 2016, "Old Dominion": 2015,
+        "Texas State": 2013, "South Alabama": 2013,
+        "UT San Antonio": 2013, "Western Kentucky": 2010
         }
     valid_game = True
     if game_tuple.home_team in new_teams.keys():
         if int(game_tuple.season) < new_teams[game_tuple.home_team]:
             valid_game = False
-    elif game_tuple.away_team in new_teams.keys():
+    if game_tuple.away_team in new_teams.keys():
         if int(game_tuple.season) < new_teams[game_tuple.away_team]:
             valid_game = False
     return valid_game
