@@ -1,5 +1,6 @@
 from collections.abc import Iterable
 from datetime import datetime
+from warnings import warn
 
 import numpy as np
 
@@ -27,12 +28,17 @@ class PPDModel(Model):
     '''
     def __init__(self, weights, ranges, home_field_advantage=0.0):
         Model.__init__(self, weights, ranges, home_field_advantage=home_field_advantage)
+        self.timeline = [datetime.now().year - ranges[0], datetime.now().year]
 
-    def __get_current_season(self, data_df, timeline, predicted_game_id):
+    def __timeline_check(self, timeline):
+        if timeline is not None:
+            tools.timeline_check(timeline)
+            if timeline[0] != self.timeline[0] or timeline[1] != self.timeline[1]:
+                warn("new timeline does not match stored timeline, updating stored timeline...")
+                self.timeline = timeline
+
+    def __get_current_season(self, data_df, predicted_game_id):
         # * candidate for moving to model.Model
-        seasons = []
-        for i in range(timeline[0], timeline[1] + 1):
-            seasons += [i]
         if predicted_game_id:
             if predicted_game_id in data_df["game_id"].values:
                 i_predicted_game_first_drive = data_df[data_df["game_id"] == predicted_game_id].index[0]
@@ -44,16 +50,27 @@ class PPDModel(Model):
                 i_predicted_game_first_drive = data_df[data_df['game_id'] == previous_game_id].index[0]
             current_season = int(data_df["season"].iloc[i_predicted_game_first_drive])
         else:
-            current_season = seasons[-1]
+            current_season = self.timeline[-1]
         return current_season
 
     def __drive_scoring(self, drive, team_name, turnover):
-        non_scoring_results = ["PUNT", "DOWNS", "TURNOVER ON DOWNS", "MISSED FG", "FG MISSED", "END OF HALF", "END OF GAME", "END OF 4TH QUARTER", "POSSISSION (FOR OT DRIVES)"]
-        offensive_touchdown_results = ["PASSING TD", "RUSHING TD", "TD", "END OF HALF TD", "END OF GAME TD"]
+        non_scoring_results = [
+            "PUNT", "DOWNS", "TURNOVER ON DOWNS", "MISSED FG", "FG MISSED",
+            "END OF HALF", "END OF GAME", "END OF 4TH QUARTER", "POSSESSION (FOR OT DRIVES)"
+            ]
+        offensive_touchdown_results = [
+            "PASSING TD", "RUSHING TD", "TD", "END OF HALF TD", "END OF GAME TD"
+            ]
         field_goal_results = ["FG GOOD", "FG"]
         no_score_turnover_results = ["INT", "FUMBLE"]
-        defensive_touchdown_results = ["INT TD", "FUMBLE RETURN TD", "INT RETURN TOUCH", "FUMBLE TD", "PUNT TD", "TURNOVER ON DOWNS TD"] # PUNT TD most often blocked punt for defensive TD
-        special_teams_results = ["PUNT RETURN TD", "KICKOFF", "Uncategorized", "KICKOFF RETURN TD", "FG MISSED TD", "MISSED FG TD"] # Uncategorized appears to be kickoffs
+        defensive_touchdown_results = [
+            "INT TD", "FUMBLE RETURN TD", "INT RETURN TOUCH", "FUMBLE TD",
+            "PUNT TD", "TURNOVER ON DOWNS TD"
+            ] # PUNT TD most often blocked punt for defensive TD
+        special_teams_results = [
+            "PUNT RETURN TD", "KICKOFF", "Uncategorized", "KICKOFF RETURN TD",
+            "FG MISSED TD", "MISSED FG TD"
+            ] # Uncategorized appears to be kickoffs
         drive_result = getattr(drive, "drive_result")
 
         drive_turnover = False
@@ -120,8 +137,8 @@ class PPDModel(Model):
         team_ppd['dpg'] = (np.mean(np_drives_per_game), np.var(np_drives_per_game))
         return team_ppd
 
-    def __ppd_dists(self, team_drive_data, team_name, timeline, predicted_game_id):
-        current_season = self.__get_current_season(team_drive_data, timeline, predicted_game_id)
+    def __ppd_dists(self, team_drive_data, team_name, predicted_game_id):
+        current_season = self.__get_current_season(team_drive_data, predicted_game_id)
         hist_data = self._get_historical_data(current_season, team_drive_data)
         recent_data = self._get_recent_data(current_season, team_drive_data)
         current_data = self._get_current_data(team_drive_data, predicted_game_id)
@@ -161,12 +178,12 @@ class PPDModel(Model):
         away_points = tools.multiply_gaussians(away_ppd, dpg)
         return home_points, away_points
 
-    def predict(self, home_team, away_team, timeline=[datetime.now().year-4, datetime.now().year-1], predicted_game_id=0, neutral_site=False, print_progress=False):
+    def predict(self, home_team, away_team, timeline=None, predicted_game_id=0, neutral_site=False, print_progress=False):
         home_team_type_check = isinstance(home_team, Team)
         assert home_team_type_check, "home_team is not an instance of football_modeling.team.Team: %r" % type(home_team)
         away_team_type_check = isinstance(away_team, Team)
         assert away_team_type_check, "away_team is not an instance of football_modeling.team.Team: %r" % type(away_team)
-        tools.timeline_check(timeline)
+        self.__timeline_check(timeline)
         predicted_game_id_check = isinstance(predicted_game_id, int)
         assert predicted_game_id_check, "predicted_game_id is not an integer: %r" % type(predicted_game_id)
         neutral_site_type_check = isinstance(neutral_site, bool)
@@ -174,11 +191,11 @@ class PPDModel(Model):
         print_progress_type_check = isinstance(print_progress, bool)
         assert print_progress_type_check, "print_progress is not bool: %r" % type(print_progress)
 
-        home_team_drive_data = home_team.get_data(timeline, data_type='drives', print_progress=print_progress)
-        away_team_drive_data = away_team.get_data(timeline, data_type='drives', print_progress=print_progress)
+        home_team_drive_data = home_team.get_data(self.timeline, data_type='drives', print_progress=print_progress)
+        away_team_drive_data = away_team.get_data(self.timeline, data_type='drives', print_progress=print_progress)
 
-        home_team_drive_dists = self.__ppd_dists(home_team_drive_data, home_team.name, timeline, predicted_game_id)
-        away_team_drive_dists = self.__ppd_dists(away_team_drive_data, away_team.name, timeline, predicted_game_id)
+        home_team_drive_dists = self.__ppd_dists(home_team_drive_data, home_team.name, predicted_game_id)
+        away_team_drive_dists = self.__ppd_dists(away_team_drive_data, away_team.name, predicted_game_id)
 
         home_team_score_dist, away_team_score_dist = self.__score_dists(home_team_drive_dists, away_team_drive_dists)
 

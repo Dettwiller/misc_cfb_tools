@@ -117,10 +117,10 @@ class Evaluator:
         pred_home_points = (total_dist[0] + spread_dist[0]) / 2
         pred_away_points = (total_dist[0] - spread_dist[0]) / 2
 
-        total_error = abs(true_total - pred_total)
-        spread_error = abs(true_spread - pred_spread)
-        home_error = abs(pred_home_points - float(game_tuple.home_points))
-        away_error = abs(pred_away_points -float(game_tuple.away_points))
+        total_error = pred_total - true_total
+        spread_error = pred_spread - true_spread
+        home_error = pred_home_points - float(game_tuple.home_points)
+        away_error = pred_away_points -float(game_tuple.away_points)
 
         prob_away_win = norm.cdf(0.0, spread_dist[0], np.sqrt(spread_dist[1]))
         prob_home_win = 1.0 - prob_away_win
@@ -194,7 +194,7 @@ class Evaluator:
         plt.title("Spread Errors")
         plt.savefig(join(self.data_dir, "spread_errors"))
         plt.clf()
-        
+
         plt.hist(np_total_errors)
         plt.title("Total Errors")
         plt.savefig(join(self.data_dir, "total_errors"))
@@ -308,25 +308,25 @@ class Evaluator:
         else:
             drives_dir = getcwd()
 
-        # teams_dict = {}
-        # for fbs_team in fbs_teams_list:
-        #     teams_dict[fbs_team] = team.team(fbs_team, data_dir=self.data_dir, games_dir=self.games_dir, drives_dir=drives_dir)
-        #     # *teams_dict[fbs_team].get_data(data_timeline, data_type='drives', print_progress=print_progress)
-        #     # *teams_dict[fbs_team].get_data(model_timeline, data_type='games', print_progress=print_progress)
-        #     teams_dict[fbs_team].get_data(data_timeline, data_type='drives', print_progress=False)
-        #     teams_dict[fbs_team].get_data(model_timeline, data_type='games', print_progress=False)
+        teams_dict = {}
+        for fbs_team in fbs_teams_list:
+            teams_dict[fbs_team] = team.team(fbs_team, data_dir=self.data_dir, games_dir=self.games_dir, drives_dir=drives_dir)
+            # *teams_dict[fbs_team].get_data(data_timeline, data_type='drives', print_progress=print_progress)
+            # *teams_dict[fbs_team].get_data(model_timeline, data_type='games', print_progress=print_progress)
+            teams_dict[fbs_team].get_data(data_timeline, data_type='drives', print_progress=False)
+            teams_dict[fbs_team].get_data(model_timeline, data_type='games', print_progress=False)
 
-        # ("id", "away_team", "away_points", "home_team", "home_points", "neutral_site", "season")
-        # full_game_list = self.__get_full_game_list(fbs_teams_list)
+        ("id", "away_team", "away_points", "home_team", "home_points", "neutral_site", "season")
+        full_game_list = self.__get_full_game_list(fbs_teams_list)
 
-        # results_file_header = "season,game_id,home_team,away_team,neutral_site,home_score,away_score,pred_home_score,pred_away_score,"
-        # results_file_header += "prob_winner,prob_spread,prob_total,total_error,spread_error,home_error,away_error\n"
-        # with open(self.results_file, "w+", encoding='utf-8') as rf:
-        #     rf.write(results_file_header)
+        results_file_header = "season,game_id,home_team,away_team,neutral_site,home_score,away_score,pred_home_score,pred_away_score,"
+        results_file_header += "prob_winner,prob_spread,prob_total,total_error,spread_error,home_error,away_error\n"
+        with open(self.results_file, "w+", encoding='utf-8') as rf:
+            rf.write(results_file_header)
 
 
-        # for game in full_game_list:
-        #     if tools.new_fbs_schools_check(game):
-        #         self.__predict_game(game, teams_dict[game.home_team], teams_dict[game.away_team], eval_model, print_progress)
+        for game in full_game_list:
+            if tools.new_fbs_schools_check(game):
+                self.__predict_game(game, teams_dict[game.home_team], teams_dict[game.away_team], eval_model, print_progress)
 
-        self.__evaluate_csv()
+        # self.__evaluate_csv()

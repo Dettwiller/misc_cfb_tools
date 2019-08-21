@@ -29,4 +29,4 @@ if __name__ == '__main__':
 
     model_ppd = ppd_model.ppd_model(weights, ranges, home_field_advantage=hfa)
 
-    model_evaluator.evaluate_model(model_ppd, model_timeline, data_timeline, data_type='drives', print_progress=True) # TODO finish this function
+    model_evaluator.evaluate_model(model_ppd, model_timeline, data_timeline, data_type='drives', print_progress=True)

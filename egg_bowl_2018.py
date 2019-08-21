@@ -23,7 +23,9 @@ hfa = 0.0
 timeline = [2013, 2018]
 
 ppd_model = ppdm.ppd_model(weights, ranges, home_field_advantage=hfa)
-total_dist, spread_dist = ppd_model.predict(home_team, away_team, timeline=timeline, predicted_game_id=401012349, print_progress=True) 
+total_dist, spread_dist = ppd_model.predict(home_team, away_team, timeline=timeline, predicted_game_id=401012349, print_progress=True)
+# total_dist, spread_dist = ppd_model.predict(home_team, away_team, timeline=timeline, print_progress=True)
+
 
 prob_away_win = norm.cdf(0.0, spread_dist[0], np.sqrt(spread_dist[1]))
 prob_home_win = 1.0 - prob_away_win

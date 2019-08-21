@@ -7,7 +7,7 @@ def generic_model(weights, ranges, home_field_advantage=0.0):
 class Model:
     '''
     Class for creating "generic" models
-    
+
     Args:
         ranges: iterable of 3 entries corresoponding to:
                 [years of historical data, seasons of recent data, and games of current data]
@@ -63,7 +63,7 @@ class Model:
         hist_seasons = [current_season - i for i in range(1, 1+self.ranges[0])]
         hist_data = data_df.loc[data_df['season'].isin(hist_seasons)]
         return hist_data
-    
+
     def _get_recent_data(self, current_season, data_df):
         recent_data = data_df.loc[data_df['season'] == current_season]
         if recent_data.empty: # TODO: if the current season contains less than self.ranges[2] games
@@ -91,7 +91,8 @@ class Model:
                     searching = False
                 i_offset += 1
         else:
-            previous_game_id = data_df['game_id'].iloc[-1]
+            # previous_game_id = data_df['game_id'].iloc[-1]
+            previous_game_id = data_df.game_id.iat[-1]
         most_recent_games = [previous_game_id]
         i_previous_game = data_df.loc[(data_df['game_id'] == previous_game_id)].index[-1]
         i = 0

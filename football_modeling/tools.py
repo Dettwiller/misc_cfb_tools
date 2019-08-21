@@ -104,7 +104,7 @@ def weighted_average_gaussian_distributions(distributions, weights):
     distribution_len_check = all([len(distribution) == 2 for distribution in distributions])
     assert distribution_len_check, "all distributions in distributions are not len = 2 (mean, var): %r" % distributions
     variance_list = [distribution[1] for distribution in distributions]
-    variance_check = all([variance >= 0 for variance in variance_list]) # probably should be > 0.0
+    variance_check = all([variance > 0 for variance in variance_list]) # probably should be > 0.0
     assert variance_check, "all variances are not > 0: %r" % variance_list
     weights_type_check = isinstance(weights, Iterable)
     assert weights_type_check, "weights is not iterable: %r" % weights

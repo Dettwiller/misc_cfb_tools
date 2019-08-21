@@ -95,10 +95,7 @@ class DataDownloader():
             query_df['season'] = str(year)
         if not query_df.empty:
             target_df = target_df.append(query_df, ignore_index=True)
-            final_df = target_df
-        else:
-            final_df = query_df
-        return final_df
+        return target_df
 
     def __download_queries(self, queries, csv_filename, data_type, entity_type, entities, timeline, print_progress):
         years = range(timeline[0], timeline[1] + 1)
