@@ -65,7 +65,7 @@ class PPDModel(Model):
         no_score_turnover_results = ["INT", "FUMBLE"]
         defensive_touchdown_results = [
             "INT TD", "FUMBLE RETURN TD", "INT RETURN TOUCH", "FUMBLE TD",
-            "PUNT TD", "TURNOVER ON DOWNS TD"
+            "PUNT TD", "TURNOVER ON DOWNS TD", "DOWNS TD"
             ] # PUNT TD most often blocked punt for defensive TD
         special_teams_results = [
             "PUNT RETURN TD", "KICKOFF", "Uncategorized", "KICKOFF RETURN TD",

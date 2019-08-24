@@ -10,44 +10,44 @@ import requests
 
 from football_modeling import tools
 
-def _parallel_download_function(team_name, data_dir, data_type, timeline, print_progress):
-    downloader_obj = data_downloader(data_dir=data_dir)
-    csv_filename = team_name + "_" + data_type + "_data_" + str(timeline[0]) + "-" + str(timeline[1]) + ".csv"
-    tools.csv_subdata_search(csv_filename, downloader_obj.data_dir)
-    csv_file = join(downloader_obj.data_dir, csv_filename)
-    if isfile(csv_file):
-        if print_progress:
-            status = 'creating ' + team_name + ' ' + data_type + ' '
-            status += str(timeline[0]) + "-" + str(timeline[1]) + ' data from existing .csv'
-            print(status)
-    else:
-        if print_progress:
-            status = 'downloading ' + team_name + ' ' + data_type + ' '
-            status += str(timeline[0]) + "-" + str(timeline[1]) + ' data'
-            print(status)
-        _ = downloader_obj._download_data(csv_filename, data_type, 'teams', [team_name], timeline, print_progress)
+# def _parallel_download_function(team_name, data_dir, data_type, timeline, print_progress):
+#     downloader_obj = data_downloader(data_dir=data_dir)
+#     csv_filename = team_name + "_" + data_type + "_data_" + str(timeline[0]) + "-" + str(timeline[1]) + ".csv"
+#     tools.csv_subdata_search(csv_filename, downloader_obj.data_dir)
+#     csv_file = join(downloader_obj.data_dir, csv_filename)
+#     if isfile(csv_file):
+#         if print_progress:
+#             status = 'creating ' + team_name + ' ' + data_type + ' '
+#             status += str(timeline[0]) + "-" + str(timeline[1]) + ' data from existing .csv'
+#             print(status)
+#     else:
+#         if print_progress:
+#             status = 'downloading ' + team_name + ' ' + data_type + ' '
+#             status += str(timeline[0]) + "-" + str(timeline[1]) + ' data'
+#             print(status)
+#         _ = downloader_obj._download_data(csv_filename, data_type, 'teams', [team_name], timeline, print_progress)
 
-def parallel_download_all_team_data(data_dir=getcwd(), data_type='drives', timeline=[2000, datetime.now().year-1], print_progress=False):
-            tools.directory_check(data_dir)
-            dummy_downloader = data_downloader()
-            data_types_type_check = isinstance(data_type, str)
-            assert data_types_type_check, "data_type is not string: %r" % type(data_type)
-            data_types_value_check = data_type in dummy_downloader.acceptable_data_types
-            assert data_types_value_check, "data_type (" + data_type + ") must be one of: %r" % dummy_downloader.acceptable_data_types
-            tools.timeline_check(timeline)
-            print_progress_type_check = isinstance(print_progress, bool)
-            assert print_progress_type_check, "print_progress is not bool: %r" % type(print_progress)
+# def parallel_download_all_team_data(data_dir=getcwd(), data_type='drives', timeline=[2000, datetime.now().year-1], print_progress=False):
+#             tools.directory_check(data_dir)
+#             dummy_downloader = data_downloader()
+#             data_types_type_check = isinstance(data_type, str)
+#             assert data_types_type_check, "data_type is not string: %r" % type(data_type)
+#             data_types_value_check = data_type in dummy_downloader.acceptable_data_types
+#             assert data_types_value_check, "data_type (" + data_type + ") must be one of: %r" % dummy_downloader.acceptable_data_types
+#             tools.timeline_check(timeline)
+#             print_progress_type_check = isinstance(print_progress, bool)
+#             assert print_progress_type_check, "print_progress is not bool: %r" % type(print_progress)
 
-            # all_teams_query = self.website_api + "/teams"
-            # teams_df = self.__download_query(all_teams_query, data_type, None, pd.DataFrame())
-            fbs_teams_df = dummy_downloader.get_all_fbs_teams()
+#             # all_teams_query = self.website_api + "/teams"
+#             # teams_df = self.__download_query(all_teams_query, data_type, None, pd.DataFrame())
+#             fbs_teams_df = dummy_downloader.get_all_fbs_teams()
 
-            parallel_jobs = []
-            for row in fbs_teams_df.itertuples(index=False):
-                parallel_jobs += [(row.school, data_dir, data_type, timeline, print_progress)]
+#             parallel_jobs = []
+#             for row in fbs_teams_df.itertuples(index=False):
+#                 parallel_jobs += [(row.school, data_dir, data_type, timeline, print_progress)]
 
-            with multiprocessing.Pool(processes=multiprocessing.cpu_count()) as pool:
-                pool.starmap(_parallel_download_function, parallel_jobs)
+#             with multiprocessing.Pool(processes=multiprocessing.cpu_count()) as pool:
+#                 pool.starmap(_parallel_download_function, parallel_jobs)
 
 
 def data_downloader(website_api="https://api.collegefootballdata.com", data_dir=getcwd()):
