@@ -66,7 +66,10 @@ class Model:
 
     def _get_recent_data(self, current_season, data_df):
         recent_data = data_df.loc[data_df['season'] == current_season]
-        if recent_data.empty: # TODO: if the current season contains less than self.ranges[2] games
+        games_in_season = recent_data.game_id.nunique()
+        # print(games_in_season)
+        # if recent_data.empty: # TODO: if the current season contains less than self.ranges[2] games
+        if games_in_season <= self.ranges[2]:
             current_season -=1
             recent_data = data_df.loc[data_df['season'] == current_season]
         return recent_data

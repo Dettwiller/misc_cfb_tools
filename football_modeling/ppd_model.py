@@ -18,7 +18,7 @@ class PPDModel(Model):
     Class for creating a points per drive based model
 
     Args:
-        ranges: iterable of 3 entries corresoponding to:
+        ranges: iterable of 3 entries corresponding to:
                 [years of historical data, seasons of recent data, and games of current data]
 
         weights: iterable of 3 entries corresponding to the weight given to each range:
@@ -126,7 +126,10 @@ class PPDModel(Model):
                 defense_results += [drive_points]
                 offense_results += [drive_points]
             turnover = drive_turnover
-
+        drives_per_game += [game_drives]
+        assert len(offense_results) > 0, "no offense results for " + team_name
+        assert len(defense_results) > 0, "no defense results for " + team_name
+        assert len(drives_per_game) > 0, "no drives per game results for " + team_name
         np_offense_results = np.array(offense_results)
         np_defense_results = np.array(defense_results)
         np_drives_per_game = np.array(drives_per_game)
@@ -139,21 +142,30 @@ class PPDModel(Model):
 
     def __ppd_dists(self, team_drive_data, team_name, predicted_game_id):
         current_season = self.__get_current_season(team_drive_data, predicted_game_id)
+        # print("        got current season") #DEBUG
         hist_data = self._get_historical_data(current_season, team_drive_data)
+        # print("        got historical data") #DEBUG
         recent_data = self._get_recent_data(current_season, team_drive_data)
+        # print("        got recent data") #DEBUG
         current_data = self._get_current_data(team_drive_data, predicted_game_id)
-
+        # print("        got current data") #DEBUG
         hist_ppd = self.__calculate_ppd(hist_data, team_name)
+        # print("        got hist ppd") #DEBUG
         recent_ppd = self.__calculate_ppd(recent_data, team_name)
+        # print("        got recent ppd") #DEBUG
         current_ppd = self.__calculate_ppd(current_data, team_name)
+        # print("        got current ppd") #DEBUG
 
         offense_ppd = [hist_ppd['offense'], recent_ppd['offense'], current_ppd['offense']]
         defense_ppd = [hist_ppd['defense'], recent_ppd['defense'], current_ppd['defense']]
         dpg = [hist_ppd['dpg'], recent_ppd['dpg'], current_ppd['dpg']]
 
         average_offense_ppd = tools.weighted_average_gaussian_distributions(offense_ppd, self.weights)
+        # print("        got weighted average offense") #DEBUG
         average_defense_ppd = tools.weighted_average_gaussian_distributions(defense_ppd, self.weights)
+        # print("        got weighted average defense") #DEBUG
         average_dpg = tools.weighted_average_gaussian_distributions(dpg, self.weights)
+        # print("        got weighted average dpg") #DEBUG
 
         ppd_dists = {'offense': average_offense_ppd, 'defense': average_defense_ppd, 'dpg': average_dpg}
         return ppd_dists
@@ -193,16 +205,17 @@ class PPDModel(Model):
 
         home_team_drive_data = home_team.get_data(self.timeline, data_type='drives', print_progress=print_progress)
         away_team_drive_data = away_team.get_data(self.timeline, data_type='drives', print_progress=print_progress)
-
+        # print("    got data") #DEBUG
         home_team_drive_dists = self.__ppd_dists(home_team_drive_data, home_team.name, predicted_game_id)
         away_team_drive_dists = self.__ppd_dists(away_team_drive_data, away_team.name, predicted_game_id)
+        # print("    got dists") #DEBUG
 
         home_team_score_dist, away_team_score_dist = self.__score_dists(home_team_drive_dists, away_team_drive_dists)
-
+        # print("    got scores") #DEBUG
         total_points_dist = (
-            home_team_score_dist[0] + away_team_score_dist[0],
+            home_team_score_dist[0] + away_team_score_dist[0] + 14.85,
             home_team_score_dist[1] + away_team_score_dist[1]
-        )
+        ) # 14.85 = average underprediction in week 1
 
         spread_dist = (
             home_team_score_dist[0] + self.home_field_advantage - away_team_score_dist[0],

@@ -10,7 +10,7 @@ from scipy.stats import norm
 from football_modeling import ppd_model, team, tools, fetch_data
 
 def prediction_analysis(total_dist, spread_dist, total, spread, home_win_odds, model_results_dir):
-    Prediction = namedtuple("Prediction", "difference probability confidence ts_confidence")
+    Prediction = namedtuple("Prediction", "prediction difference probability confidence ts_confidence")
     pred_spread = spread_dist[0]
     pred_total = total_dist[0]
     # pred_home_points = (total_dist[0] + spread_dist[0]) / 2
@@ -42,14 +42,18 @@ def prediction_analysis(total_dist, spread_dist, total, spread, home_win_odds, m
 
 
     if total <= total_dist[0]:
-        prob_total = norm.cdf(total, total_dist[0], np.sqrt(total_dist[1])) * 2.0
+        # prob_total = norm.cdf(total, total_dist[0], np.sqrt(total_dist[1])) * 2.0 # 2 sided probability of score
+        prob_total = 1.0 - norm.cdf(spread, spread_dist[0], np.sqrt(spread_dist[1])) # probability of bet win
     else:
-        prob_total = (1.0 - norm.cdf(total, total_dist[0], np.sqrt(total_dist[1]))) * 2.0
+        # prob_total = (1.0 - norm.cdf(total, total_dist[0], np.sqrt(total_dist[1]))) * 2.0 # 2 sided probability of score
+         prob_total = norm.cdf(spread, spread_dist[0], np.sqrt(spread_dist[1])) # probability of bet win
 
     if spread <= spread_dist[0]:
-        prob_spread = norm.cdf(spread, spread_dist[0], np.sqrt(spread_dist[1])) * 2.0
+        # prob_spread = norm.cdf(spread, spread_dist[0], np.sqrt(spread_dist[1])) * 2.0 # 2 sided probability of score
+        prob_spread = 1.0 - norm.cdf(spread, spread_dist[0], np.sqrt(spread_dist[1])) # probability of bet win
     else:
-        prob_spread = (1.0 - norm.cdf(spread, spread_dist[0], np.sqrt(spread_dist[1]))) * 2.0
+        # prob_spread = (1.0 - norm.cdf(spread, spread_dist[0], np.sqrt(spread_dist[1]))) * 2.0 # 2 sided probability of score
+        prob_spread = norm.cdf(spread, spread_dist[0], np.sqrt(spread_dist[1])) # probability of bet win
 
     n_games = 0
     win_successes = 0
@@ -96,10 +100,10 @@ def prediction_analysis(total_dist, spread_dist, total, spread, home_win_odds, m
     two_sided_spread_confidence = 100 * float(ts_spread_successes) / float(n_games)
     two_sided_total_confidence = 100 * float(ts_total_successes) / float(n_games)
 
-    spread_predictions = Prediction(spread_diff, prob_spread, spread_confidence, two_sided_spread_confidence)
-    total_predictions = Prediction(total_diff, prob_total, total_confidence, two_sided_total_confidence)
-    win_predictions = Prediction(win_diff, winner_prob, win_confidence, 0)  # win_diff 1 = disagree with odds in favor of home team
-                                                                            # win_diff -1 = disagree with odds in favor of away team
+    spread_predictions = Prediction(spread_dist[0], spread_diff, prob_spread, spread_confidence, two_sided_spread_confidence)
+    total_predictions = Prediction(total_dist[0], total_diff, prob_total, total_confidence, two_sided_total_confidence)
+    win_predictions = Prediction(winner_prob, win_diff, winner_prob, win_confidence, 0)  # win_diff 1 = disagree with odds in favor of home team
+                                                                                         # win_diff -1 = disagree with odds in favor of away team
     return spread_predictions, total_predictions, win_predictions
 
 def analyze_matchup(game, eval_model, data_dir, model_results_dir, spread_file, total_file, win_file):
@@ -107,29 +111,31 @@ def analyze_matchup(game, eval_model, data_dir, model_results_dir, spread_file, 
     # 'home_spread_odds' 'away_win_odds' 'home_win_odds' 'total' 'over_odds' 'under_odds'
     away_team = team.team(game.away_team, drives_dir=data_dir)
     home_team = team.team(game.home_team, drives_dir=data_dir)
+    # print("got teams") #DEBUG
     # total_dist, spread_dist = eval_model.predict(home_team, away_team, neutral_site=game.neutral_site, print_progress=True)
     total_dist, spread_dist = eval_model.predict(home_team, away_team, neutral_site=game.neutral_site)
+    # print("got dists") #DEBUG
     spread, total, win = prediction_analysis(total_dist, spread_dist, game.total, game.home_spread, game.home_win_odds, model_results_dir)
-
+    # print("analyzed pred") #DEBUG
     # spread_header = "matchup,date,home line,home odds,away odds,diff (pos = home bet, neg = away bet),probability,confidence\n"
     spread_line_list = [
         game.away_team + " @ " + game.home_team, game.date.strftime("%m/%d/%Y"),
         str(game.home_spread), str(game.home_spread_odds), str(game.away_spread_odds),
-        str(spread.difference), str(spread.probability), str(spread.confidence),
+        str(-spread.prediction), str(spread.probability), str(spread.confidence),
         str(spread.ts_confidence)
     ]
     # total_header = "matchup,date,O/U,over odds,under odds,diff (pos = over bet, neg = under bet),probability,confidence\n"
     total_line_list = [
         game.away_team + " @ " + game.home_team, game.date.strftime("%m/%d/%Y"),
         str(game.total), str(game.over_odds), str(game.under_odds),
-        str(total.difference), str(total.probability), str(total.confidence),
+        str(total.prediction), str(total.probability), str(total.confidence),
         str(total.ts_confidence)
     ]
     # win_header = "matchup,date,home odds,away odds,diff (1 = favor home, -1 = favor away, 0 = agree),probability,confidence\n"
     win_line_list = [
         game.away_team + " @ " + game.home_team, game.date.strftime("%m/%d/%Y"),
         str(game.home_win_odds), str(game.away_win_odds),
-        str(win.difference), str(win.probability), str(win.confidence)
+        str(win.difference), str(win.prediction), str(win.confidence)
     ]
 
     with open(spread_file, 'a', encoding='utf-8') as sf:
@@ -155,8 +161,8 @@ if __name__ == "__main__":
     drives_dir = join(getcwd(), 'drives_data')
     model_results_dir = join(getcwd(), 'validation_data')
 
-    spread_header = "matchup,date,home line,home odds,away odds,diff (pos = away bet | neg = home bet),probability,confidence,2s confidence\n"
-    total_header = "matchup,date,O/U,over odds,under odds,diff (pos = over bet | neg = under bet),probability,confidence,2s confidence\n"
+    spread_header = "matchup,date,home line,home odds,away odds,predicted,probability,confidence,2s confidence\n"
+    total_header = "matchup,date,O/U,over odds,under odds,predicted,probability,confidence,2s confidence\n"
     win_header = "matchup,date,home odds,away odds,diff (1 = favor home | -1 = favor away | 0 = agree),probability,confidence\n"
 
     spread_file = join(prediction_dir, spread_filename)
@@ -175,7 +181,6 @@ if __name__ == "__main__":
         with open(win_file, 'w+', encoding='utf-8') as wf:
             wf.write(win_header)
 
-    # TODO get each game and odds on bovada
     # Matchup = namedtuple('Matchup', 'date neutral_site away_team home_team home_spread away_spread_odds home_spread_odds away_win_odds home_win_odds total over_odds under_odds')
     # game_1 = Matchup(datetime(2019, 8, 24), True, 'Florida', 'Miami', 7.5, -115, -105, -290, 240, 47, -110, -110)
     # game_2 = Matchup(datetime(2019, 8, 24), False, 'Arizona', "Hawai'i", 11, -110, -110, -420, 310, 74, -110, -110)
@@ -189,15 +194,19 @@ if __name__ == "__main__":
     eval_model = ppd_model.ppd_model(weights, ranges, home_field_advantage=hfa)
 
     for game in available_games:
+    # for game in [available_games[0]]:
+        # analyze_matchup(game, eval_model, drives_dir, model_results_dir, spread_file, total_file, win_file)
         trying = True
         while trying:
+            print("attempting " + game.away_team + " @ " + game.home_team)
             try:
                 analyze_matchup(game, eval_model, drives_dir, model_results_dir, spread_file, total_file, win_file)
+                print("    accomplished " + game.away_team + " @ " + game.home_team)
                 trying = False
-                # print("accomplished " + game.away_team + " @ " + game.home_team)
-            except:
-                trying = True
-                # print("failed " + game.away_team + " @ " + game.home_team)
+            except Exception as ex:
+                print("    failed " + game.away_team + " @ " + game.home_team)
+                print(ex)
+                trying = False
 
     # TODO execute ppd model on each matchup
     # TODO calculate any helpful probabilities (prob_spread, prob_total, and percentiles of those probabilities (model is rarely this wrong sort of thing))

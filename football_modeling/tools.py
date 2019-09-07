@@ -142,7 +142,7 @@ def average_gaussian_distributions(distributions):
     variance_average_distribution = sum(variance_list) / (n_distributions ** 2)
     return (mean_average_distribution, variance_average_distribution)
 
-def multiply_gaussians(d_a, d_b, n_samples=int(1e5)):
+def multiply_gaussians(d_a, d_b, n_samples=int(1e6)):
     d_a_type_check = isinstance(d_a, Iterable)
     assert d_a_type_check, "first distribution is not iterable: %r" % d_a
     d_a_len_check = len(d_a) == 2
@@ -199,12 +199,21 @@ def bovada_names_translator(team_name):
         'Mississippi': 'Ole Miss',
         'Louisiana-Lafayette': 'Louisiana',
         'Miami Ohio': 'Miami (OH)',
-        'Middle Tennessee State': 'Middle Tennessee'
+        'Middle Tennessee State': 'Middle Tennessee',
+        "Cincinnati U": "Cincinnati",
+        "South Florida Bulls": "South Florida",
+        "Texas-San Antonio": "UT San Antonio",
+        "UL Monroe": "Louisiana Monroe",
+        "Central Florida": "UCF",
+        "Buffalo U": "Buffalo",
+        "San Jose State": "San José State",
+        "Washington U": "Washington"
     }
     if team_name in translator_bovada_cfb_data.keys():
         cfb_data_team_name = translator_bovada_cfb_data[team_name]
     else:
         cfb_data_team_name = team_name
+    # print(team_name + " translated to " + cfb_data_team_name)
     return cfb_data_team_name
 
 def _bovada_team_names(bovada_event):
@@ -231,8 +240,8 @@ def _bovada_team_names(bovada_event):
 
 def _bovada_odds_team_names(bovada_team_name):
     problem_names = {
-        "Michigan State": "Michigan ST Spartans"
-    }
+        # "Michigan State": "Michigan ST Spartans"
+    } # Apparently this is only sometimes a problem
     if bovada_team_name in problem_names.keys():
         bovada_odds_team_name = problem_names[bovada_team_name]
     else:
@@ -246,8 +255,8 @@ def get_cfb_odds(fbs_team_list):
         source = requests.get("https://www.bovada.lv/services/sports/event/v2/events/A/description/football/college-football").json()
     except:
         raise ConnectionError("url is likely not responding")
-    # with open("example_odds_data.txt", "w+", encoding='utf-8', errors='ignore') as eodf:
-    #     eodf.write(json.dumps(source, indent=4, sort_keys=True))
+    with open("odds_data.txt", "w+", encoding='utf-8', errors='ignore') as eodf:
+        eodf.write(json.dumps(source, indent=4, sort_keys=True))
 
     games = []
     for event in source[0]['events']:
@@ -262,19 +271,34 @@ def get_cfb_odds(fbs_team_list):
                 if line['description'] == 'Moneyline' and line['period']['description'] == 'Match':
                     for moneyline_outcome in line['outcomes']:
                         if moneyline_outcome['description'].strip().split("#")[0].strip() == bovada_odds_home_team_name:
-                            home_win_odds = int(moneyline_outcome["price"]["american"])
+                            if moneyline_outcome["price"]["american"] == 'EVEN':
+                                home_win_odds = 100
+                            else:
+                                home_win_odds = int(moneyline_outcome["price"]["american"])
                         elif moneyline_outcome['description'].strip().split("#")[0].strip() == bovada_odds_away_team_name:
-                            away_win_odds = int(moneyline_outcome["price"]["american"])
+                            if moneyline_outcome["price"]["american"] == 'EVEN':
+                                away_win_odds = 100
+                            else:
+                                away_win_odds = int(moneyline_outcome["price"]["american"])
                         else:
+                            print("moneyline error: " + moneyline_outcome['description'].strip().split("#")[0].strip())
+                            print(bovada_odds_home_team_name)
+                            print(bovada_odds_away_team_name)
                             print("moneyline error: " + str(moneyline_outcome['description']) + " " + str(type(moneyline_outcome['description'])))
                 elif line['description'] == 'Point Spread' and line['period']['description'] == 'Match':
                     neutral_site = bool(line['notes'])
                     for spread_outcome in line['outcomes']:
                         if spread_outcome['description'].strip().split("#")[0].strip() == bovada_odds_home_team_name:
-                            home_spread_odds = int(spread_outcome["price"]["american"])
+                            if spread_outcome["price"]["american"] == 'EVEN':
+                                home_spread_odds = 100
+                            else:
+                                home_spread_odds = int(spread_outcome["price"]["american"])
                             home_spread = float(spread_outcome["price"]["handicap"])
                         elif spread_outcome['description'].strip().split("#")[0].strip() == bovada_odds_away_team_name:
-                            away_spread_odds = int(spread_outcome["price"]["american"])
+                            if spread_outcome["price"]["american"] == 'EVEN':
+                                away_spread_odds = 100
+                            else:
+                                away_spread_odds = int(spread_outcome["price"]["american"])
                         else:
                             print("point spread error: " + str(spread_outcome['description']) + " " + str(type(spread_outcome['description'])))
                 elif line['description'] == 'Total' and line['period']['description'] == 'Match':
