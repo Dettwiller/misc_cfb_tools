@@ -43,10 +43,10 @@ def prediction_analysis(total_dist, spread_dist, total, spread, home_win_odds, m
 
     if total <= total_dist[0]:
         # prob_total = norm.cdf(total, total_dist[0], np.sqrt(total_dist[1])) * 2.0 # 2 sided probability of score
-        prob_total = 1.0 - norm.cdf(spread, spread_dist[0], np.sqrt(spread_dist[1])) # probability of bet win
+        prob_total = 1.0 - norm.cdf(total, total_dist[0], np.sqrt(total_dist[1])) # probability of bet win
     else:
         # prob_total = (1.0 - norm.cdf(total, total_dist[0], np.sqrt(total_dist[1]))) * 2.0 # 2 sided probability of score
-         prob_total = norm.cdf(spread, spread_dist[0], np.sqrt(spread_dist[1])) # probability of bet win
+         prob_total = norm.cdf(total, total_dist[0], np.sqrt(total_dist[1])) # probability of bet win
 
     if spread <= spread_dist[0]:
         # prob_spread = norm.cdf(spread, spread_dist[0], np.sqrt(spread_dist[1])) * 2.0 # 2 sided probability of score
@@ -106,11 +106,11 @@ def prediction_analysis(total_dist, spread_dist, total, spread, home_win_odds, m
                                                                                          # win_diff -1 = disagree with odds in favor of away team
     return spread_predictions, total_predictions, win_predictions
 
-def analyze_matchup(game, eval_model, data_dir, model_results_dir, spread_file, total_file, win_file):
+def analyze_matchup(game, eval_model, data_dir, model_results_dir, recruiting_dir, spread_file, total_file, win_file):
     # 'date' 'neutral_site' 'away_team' 'home_team' 'home_spread' 'away_spread_odds'
     # 'home_spread_odds' 'away_win_odds' 'home_win_odds' 'total' 'over_odds' 'under_odds'
-    away_team = team.team(game.away_team, drives_dir=data_dir)
-    home_team = team.team(game.home_team, drives_dir=data_dir)
+    away_team = team.team(game.away_team, drives_dir=data_dir, recruiting_dir=recruiting_dir)
+    home_team = team.team(game.home_team, drives_dir=data_dir, recruiting_dir=recruiting_dir)
     # print("got teams") #DEBUG
     # total_dist, spread_dist = eval_model.predict(home_team, away_team, neutral_site=game.neutral_site, print_progress=True)
     total_dist, spread_dist = eval_model.predict(home_team, away_team, neutral_site=game.neutral_site)
@@ -159,6 +159,7 @@ if __name__ == "__main__":
 
     prediction_dir = join(getcwd(), 'prediction_data')
     drives_dir = join(getcwd(), 'drives_data')
+    recruiting_dir = join(getcwd(), 'recruiting_data')
     model_results_dir = join(getcwd(), 'validation_data')
 
     spread_header = "matchup,date,home line,home odds,away odds,predicted,probability,confidence,2s confidence\n"
@@ -200,7 +201,7 @@ if __name__ == "__main__":
         while trying:
             print("attempting " + game.away_team + " @ " + game.home_team)
             try:
-                analyze_matchup(game, eval_model, drives_dir, model_results_dir, spread_file, total_file, win_file)
+                analyze_matchup(game, eval_model, drives_dir, model_results_dir, recruiting_dir, spread_file, total_file, win_file)
                 print("    accomplished " + game.away_team + " @ " + game.home_team)
                 trying = False
             except Exception as ex:

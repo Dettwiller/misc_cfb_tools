@@ -28,6 +28,7 @@ class PPDModel(Model):
     '''
     def __init__(self, weights, ranges, home_field_advantage=0.0):
         Model.__init__(self, weights, ranges, home_field_advantage=home_field_advantage)
+        self.total_adjust = 12.29
         self.timeline = [datetime.now().year - ranges[0], datetime.now().year]
 
     def __timeline_check(self, timeline):
@@ -170,24 +171,24 @@ class PPDModel(Model):
         ppd_dists = {'offense': average_offense_ppd, 'defense': average_defense_ppd, 'dpg': average_dpg}
         return ppd_dists
 
-    def __score_dists(self, home_team_drive_dists, away_team_drive_dists):
+    def __score_dists(self, away_team_drive_dists, home_team_drive_dists, away_talent_portion, home_talent_portion):
         # full games points accounted for in both offense and defense, so divide by two
-        home_ppd = (
-            (home_team_drive_dists['offense'][0] - away_team_drive_dists['defense'][0]) / 2.0,
-            (home_team_drive_dists['offense'][1] + away_team_drive_dists['defense'][1]) / 4.0 # 2.0^2
-        )
-
         away_ppd = (
             (away_team_drive_dists['offense'][0] - home_team_drive_dists['defense'][0]) / 2.0,
             (away_team_drive_dists['offense'][1] + home_team_drive_dists['defense'][1]) / 4.0 # 2.0^2
+        )
+
+        home_ppd = (
+            (home_team_drive_dists['offense'][0] - away_team_drive_dists['defense'][0]) / 2.0,
+            (home_team_drive_dists['offense'][1] + away_team_drive_dists['defense'][1]) / 4.0 # 2.0^2
         )
 
         dpg = tools.average_gaussian_distributions(
             [home_team_drive_dists['dpg'], away_team_drive_dists['dpg']]
         )
 
-        home_points = tools.multiply_gaussians(home_ppd, dpg)
-        away_points = tools.multiply_gaussians(away_ppd, dpg)
+        away_points = tools.multiply_gaussians(away_ppd, dpg) + away_talent_portion * self.total_adjust
+        home_points = tools.multiply_gaussians(home_ppd, dpg) + home_talent_portion * self.total_adjust
         return home_points, away_points
 
     def predict(self, home_team, away_team, timeline=None, predicted_game_id=0, neutral_site=False, print_progress=False):
@@ -210,12 +211,16 @@ class PPDModel(Model):
         away_team_drive_dists = self.__ppd_dists(away_team_drive_data, away_team.name, predicted_game_id)
         # print("    got dists") #DEBUG
 
-        home_team_score_dist, away_team_score_dist = self.__score_dists(home_team_drive_dists, away_team_drive_dists)
+        away_talent_df = away_team.get_data([datetime.now().year-3, datetime.now().year], data_type='recruiting', print_progress=False)
+        home_talent_df = home_team.get_data([datetime.now().year-3, datetime.now().year], data_type='recruiting', print_progress=False)
+        away_talent_portion, home_talent_portion = tools.calculate_talent_portion(away_talent_df, home_talent_df)
+
+        home_team_score_dist, away_team_score_dist = self.__score_dists(away_team_drive_dists, home_team_drive_dists, away_talent_portion, home_talent_portion)
         # print("    got scores") #DEBUG
         total_points_dist = (
-            home_team_score_dist[0] + away_team_score_dist[0] + 14.85,
+            home_team_score_dist[0] + away_team_score_dist[0],
             home_team_score_dist[1] + away_team_score_dist[1]
-        ) # 14.85 = average underprediction in week 1
+        ) # 12.29 = average underprediction in week 1 and 2
 
         spread_dist = (
             home_team_score_dist[0] + self.home_field_advantage - away_team_score_dist[0],

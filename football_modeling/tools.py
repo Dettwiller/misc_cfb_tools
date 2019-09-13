@@ -200,6 +200,7 @@ def bovada_names_translator(team_name):
         'Louisiana-Lafayette': 'Louisiana',
         'Miami Ohio': 'Miami (OH)',
         'Middle Tennessee State': 'Middle Tennessee',
+        'Middle Tenn State': 'Middle Tennessee',
         "Cincinnati U": "Cincinnati",
         "South Florida Bulls": "South Florida",
         "Texas-San Antonio": "UT San Antonio",
@@ -223,13 +224,13 @@ def _bovada_team_names(bovada_event):
     bovada_away_team_name = ""
     for team in bovada_event['competitors']:
         if team["home"]:
-            bovada_home_team_name = team["name"].split('#')[0].strip()
+            bovada_home_team_name = _clean_bovada_team_name(team["name"])
             home_teamname = bovada_names_translator(bovada_home_team_name)
             if not home_teamname:
                 print("home team name error: " + str(team["name"]) + ", type = " + str(type(team["name"])))
                 print(bovada_home_team_name)
         elif not team["home"]:
-            bovada_away_team_name = team["name"].split('#')[0].strip()
+            bovada_away_team_name = _clean_bovada_team_name(team["name"])
             away_teamname = bovada_names_translator(bovada_away_team_name)
             if not away_teamname:
                 print("away team name error: " + str(team["name"]) + ", type = " + str(type(team["name"])))
@@ -240,13 +241,20 @@ def _bovada_team_names(bovada_event):
 
 def _bovada_odds_team_names(bovada_team_name):
     problem_names = {
-        # "Michigan State": "Michigan ST Spartans"
+        "Michigan State": "Michigan ST Spartans"
     } # Apparently this is only sometimes a problem
     if bovada_team_name in problem_names.keys():
         bovada_odds_team_name = problem_names[bovada_team_name]
     else:
         bovada_odds_team_name = bovada_team_name
     return bovada_odds_team_name
+
+def _clean_bovada_team_name(dirty_team_name):
+    if '(OH)' not in dirty_team_name:
+        clean_name = dirty_team_name.split('#')[0].strip().split('(')[0].strip()
+    else:
+        clean_name = "Miami (OH)"
+    return clean_name
 
 def get_cfb_odds(fbs_team_list):
     # TODO: input checking
@@ -270,31 +278,31 @@ def get_cfb_odds(fbs_team_list):
             for line in event["displayGroups"][0]['markets']:
                 if line['description'] == 'Moneyline' and line['period']['description'] == 'Match':
                     for moneyline_outcome in line['outcomes']:
-                        if moneyline_outcome['description'].strip().split("#")[0].strip() == bovada_odds_home_team_name:
+                        if _clean_bovada_team_name(moneyline_outcome['description']) == bovada_odds_home_team_name:
                             if moneyline_outcome["price"]["american"] == 'EVEN':
                                 home_win_odds = 100
                             else:
                                 home_win_odds = int(moneyline_outcome["price"]["american"])
-                        elif moneyline_outcome['description'].strip().split("#")[0].strip() == bovada_odds_away_team_name:
+                        elif _clean_bovada_team_name(moneyline_outcome['description'])  == bovada_odds_away_team_name:
                             if moneyline_outcome["price"]["american"] == 'EVEN':
                                 away_win_odds = 100
                             else:
                                 away_win_odds = int(moneyline_outcome["price"]["american"])
                         else:
-                            print("moneyline error: " + moneyline_outcome['description'].strip().split("#")[0].strip())
+                            print("moneyline error: " + _clean_bovada_team_name(moneyline_outcome['description']))
                             print(bovada_odds_home_team_name)
                             print(bovada_odds_away_team_name)
                             print("moneyline error: " + str(moneyline_outcome['description']) + " " + str(type(moneyline_outcome['description'])))
                 elif line['description'] == 'Point Spread' and line['period']['description'] == 'Match':
                     neutral_site = bool(line['notes'])
                     for spread_outcome in line['outcomes']:
-                        if spread_outcome['description'].strip().split("#")[0].strip() == bovada_odds_home_team_name:
+                        if _clean_bovada_team_name(spread_outcome['description']) == bovada_odds_home_team_name:
                             if spread_outcome["price"]["american"] == 'EVEN':
                                 home_spread_odds = 100
                             else:
                                 home_spread_odds = int(spread_outcome["price"]["american"])
                             home_spread = float(spread_outcome["price"]["handicap"])
-                        elif spread_outcome['description'].strip().split("#")[0].strip() == bovada_odds_away_team_name:
+                        elif _clean_bovada_team_name(spread_outcome['description']) == bovada_odds_away_team_name:
                             if spread_outcome["price"]["american"] == 'EVEN':
                                 away_spread_odds = 100
                             else:
@@ -320,3 +328,21 @@ def get_cfb_odds(fbs_team_list):
         #     print('competitors error: ' + str(event['competitors']) + " " + str(type(event['competitors'])))
 
     return games
+
+def calculate_talent_portion(away_talent_df, home_talent_df):
+    # TODO input checking
+    # away_point_mean = np.mean(away_talent_df['points'])
+    # home_point_mean = np.mean(home_talent_df['points'])
+
+    # total_points = away_point_mean + home_point_mean
+
+    # away_point_prop = away_point_mean / total_points
+    # home_point_prop = home_point_mean / total_points
+
+    away_rank_mean = np.mean(away_talent_df['rank'])
+    home_rank_mean = np.mean(home_talent_df['rank'])
+    total_rank = away_rank_mean + home_rank_mean
+
+    away_rank_prop = 1.0 - away_rank_mean /total_rank
+    home_rank_prop = 1.0 - home_rank_mean /total_rank
+    return away_rank_prop, home_rank_prop

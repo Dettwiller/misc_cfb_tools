@@ -6,20 +6,21 @@ import pandas as pd
 from football_modeling import fetch_data, tools
 
 
-def team(name, data_dir=getcwd(), games_dir=getcwd(), drives_dir=getcwd()):
+def team(name, data_dir=getcwd(), games_dir=getcwd(), drives_dir=getcwd(), recruiting_dir=getcwd()):
 # def team(name, data_dir=getcwd()):
-    team_ = Team(name, data_dir=data_dir, games_dir=games_dir, drives_dir=drives_dir)
+    team_ = Team(name, data_dir=data_dir, games_dir=games_dir, drives_dir=drives_dir, recruiting_dir=recruiting_dir)
     # team_ = Team(name, data_dir=data_dir)
     return team_
 
 class Team:
-    def __init__(self, name, data_dir=getcwd(), games_dir=getcwd(), drives_dir=getcwd()):
+    def __init__(self, name, data_dir=getcwd(), games_dir=getcwd(), drives_dir=getcwd(), recruiting_dir=getcwd()):
     # def __init__(self, name, data_dir=getcwd()):
         name_type_check = isinstance(name, str)
         assert name_type_check, "name is not a string: %r" % type(name)
         tools.directory_check(data_dir)
         tools.directory_check(games_dir)
         tools.directory_check(drives_dir)
+        tools.directory_check(recruiting_dir)
         self.problem_teams = {"Texas%20A%26M":"Texas A&M", "San%20Jos%C3%A9%20State":"San José State"} # encoding bullshit
         # if name in problem_teams.keys():
             # self.name = problem_teams[name]
@@ -29,9 +30,11 @@ class Team:
         self.data_dir = data_dir
         self.games_dir = games_dir
         self.drives_dir = drives_dir
+        self.recruiting_dir = recruiting_dir
         self.data_downloader = fetch_data.data_downloader(data_dir=self.data_dir)
         self.drive_data = pd.DataFrame()
         self.game_data = pd.DataFrame()
+        self.recruiting_data = pd.DataFrame()
 
     def __process_game_data(self, raw_game_data):
         away_games = raw_game_data.index[raw_game_data['away_team'] == self.name]
@@ -94,4 +97,13 @@ class Team:
             requested_data = self.data_downloader.get_data(teams=[self.name], data_type='drives', timeline=timeline, print_progress=print_progress)
             self.drive_data = requested_data[self.name]
             return_data = self.drive_data
+        elif data_type == 'recruiting' and not self.recruiting_data.empty:
+            self.data_downloader.change_download_directory(self.recruiting_dir)
+            if print_progress: print("returning existing recruiting_data")
+            return_data = self.recruiting_data
+        elif data_type == 'recruiting' and self.recruiting_data.empty:
+            self.data_downloader.change_download_directory(self.recruiting_dir)
+            requested_data = self.data_downloader.get_recruiting_data(self.name, timeline=timeline, print_progress=print_progress)
+            self.recruiting_data = requested_data
+            return_data = self.recruiting_data
         return return_data

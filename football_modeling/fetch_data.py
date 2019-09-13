@@ -62,7 +62,7 @@ class DataDownloader():
         self.website_api = website_api
         self.data_dir = data_dir
         self.problem_teams = {"Texas A&M": "Texas%20A%26M", "San José State": "San%20Jos%C3%A9%20State"} # encoding bullshit
-        self.acceptable_data_types = ['games', 'drives']
+        self.acceptable_data_types = ['games', 'drives', 'recruiting']
 
     def change_download_directory(self, data_dir):
         tools.directory_check(data_dir)
@@ -179,6 +179,17 @@ class DataDownloader():
                 entity_df = self._download_data(csv_filename, data_type, entity_type, [entity], timeline, print_progress)
             requested_data_frames[entity] = entity_df.copy(deep=True)
         return requested_data_frames
+
+    def get_recruiting_data(self, team_name, timeline=[datetime.now().year-3, datetime.now().year], print_progress=False):
+        self.__get_data_input_checking([team_name], [], 'recruiting', timeline, print_progress)
+        csv_filename = team_name + "_recruiting_data_" + str(timeline[0]) + "-" + str(timeline[1]) + ".csv"
+        base_query = self.website_api + "/recruiting/teams?"
+        years = [str(year) for year in range(timeline[0], timeline[1] + 1)]
+        queries = []
+        for year in years:
+            queries += [base_query + "year=" + year + "&team=" + team_name]
+        recruiting_df = self.__download_queries(queries, csv_filename, 'recruiting', 'team', [team_name], timeline, print_progress)
+        return recruiting_df
 
     def __parallel_download_function(self, team_name, data_type, timeline, print_progress):
         csv_filename = team_name + "_" + data_type + "_data_" + str(timeline[0]) + "-" + str(timeline[1]) + ".csv"
